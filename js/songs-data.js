@@ -1006,6 +1006,542 @@
       sources: [
         { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi24060438/" }
       ]
+    },
+    {
+      id: "siriusu-no-shinzou",
+      title: "シリウスの心臓",
+      romajiTitle: "Siriusu no Shinzou",
+      artist: "ヰ世界情緒",
+      producer: "傘村トータ（作詞・作曲・編曲）",
+      year: 2020,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "歌を歌うのは 寂しいから 目を閉じるのは 聞きたいから", zh: "唱歌是因为寂寞；闭上眼睛是因为想要聆听" },
+        { ja: "明かりになったあなたへ 空を飛べるまで待っていて", zh: "致化作光明的你，在能飞向宇宙之前，请等等我" },
+        { ja: "明かりになったあなたの 心臓は点滅するかしら", zh: "化作光明的你的那颗心脏，还在忽明忽暗地闪烁吗" },
+        { ja: "明かりになったあなたの 心臓は赤く光るかしら", zh: "化作光明的你的那颗心脏，还泛着红色的光吗" }
+      ],
+      points: [
+        { ja: "歌を歌うのは 寂しいから", zh: "唱歌是因为寂寞", note: "「寂しい」= 寂寞；「〜のは〜から」解释行为的原因，开篇几段都是这个句式。", wordId: "sabishii" },
+        { ja: "明かりになったあなた", zh: "化作光明的你", note: "明かり= 光、灯火；「〜になる」表示变化。歌名里的「シリウス」（天狼星）正是夜空中最亮的星。", wordId: "hoshi" },
+        { ja: "心臓は点滅するかしら", zh: "心脏会忽明忽暗地闪烁吗", note: "点滅（てんめつ）= 灯光的闪烁明灭；「かしら」是偏女性语气的自问句尾。", wordId: "kokoro" }
+      ],
+      words: ["sabishii", "kokoro", "hoshi", "sora"],
+      sources: [
+        { label: "amll-ttml-db Issue #235（网易云中日逐行歌词）", url: "https://github.com/amll-dev/amll-ttml-db/issues/235" },
+        { label: "萌娘百科（歌曲信息）", url: "https://zh.moegirl.tw/シリウスの心臓" }
+      ]
+    },
+    {
+      id: "naraku",
+      title: "奈落",
+      romajiTitle: "Naraku",
+      artist: "裏命（RIME）",
+      producer: "みきとP（作詞・作曲・編曲）",
+      year: 2022,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "人の目を気にして 生きるのが当たり前", zh: "在意着他人的眼光而活着，是理所当然的" },
+        { ja: "自己否定 染み付いてる 全部 親のせい", zh: "根深蒂固的自我否定，全都是父母的错" },
+        { ja: "逃げろ すぐに逃げろ 壊れてしまう前に", zh: "逃跑吧，赶紧逃跑吧，在崩坏之前" },
+        { ja: "誰にも届かぬメロディ 奈落の底で歌え", zh: "无法传达给任何人的旋律，在深渊的最深处歌唱" }
+      ],
+      points: [
+        { ja: "人の目を気にして", zh: "在意别人的眼光", note: "目= 眼睛，也指目光；「気にする」= 在意、介意。", wordId: "miru" },
+        { ja: "全部 親のせい", zh: "全都是父母的错", note: "「〜のせい」把原因归咎于…；与「〜のお陰」（多亏…）正好相反。", wordId: "okaasan" },
+        { ja: "奈落の底で歌え", zh: "在深渊的最深处歌唱", note: "奈落（ならく）原指佛教中的「地狱」；「底（そこ）」= 底部，引申为最深处。", wordId: "sabishii" }
+      ],
+      words: ["miru", "sabishii", "kokoro"],
+      sources: [
+        { label: "VocaWiki（中日歌词）", url: "https://voca.wiki/奈落" },
+        { label: "网易云音乐（日文原文+中文翻译）", url: "https://music.163.com/#/song?id=2048604691" }
+      ]
+    },
+    {
+      id: "eien-kashii-moimi",
+      title: "永遠",
+      romajiTitle: "Eien",
+      artist: "裏命",
+      producer: "香椎モイミ（作詞・作曲）",
+      year: 2022,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "もしも触れたものが全て いつか消える運命ならば", zh: "如果所有碰触过的一切，都是终将消失的命运" },
+        { ja: "どこに真実はあるの", zh: "那到底哪里才有真实呢" },
+        { ja: "真っ白な鳥のように 日々生まれ変わる罪よ", zh: "如同纯白的鸟儿，日复一日重生的罪啊" },
+        { ja: "「永遠」の願いが今！ もう一度", zh: "「永远」的愿望，就在此刻！再一次" }
+      ],
+      points: [
+        { ja: "もしも触れたものが全て", zh: "如果所有触碰过的一切", note: "もしも= 假如；「〜ならば」是「〜なら」的书面强调形式。", wordId: "utsukushii" },
+        { ja: "真っ白な鳥のように", zh: "像纯白的鸟儿一样", note: "真っ白（まっしろ）= 纯白；「〜のように」= 像…一样。", wordId: "sora" },
+        { ja: "生まれ変わる罪", zh: "重生的罪", note: "生まれ変わる= 转生、重生；罪（つみ）在这里是一种自我厌弃的意象。", wordId: "kokoro" }
+      ],
+      words: ["kokoro", "sora", "utsukushii"],
+      sources: [
+        { label: "萌娘百科（中日歌词）", url: "https://zh.moegirl.tw/永遠(Kashii_Moimi)" }
+      ]
+    },
+    {
+      id: "sayonara-wa-iwanai-de-sa",
+      title: "サヨナラは言わないでさ",
+      romajiTitle: "Sayonara wa Iwanai de sa",
+      artist: "可不（KAFU）",
+      producer: "MIMI（作詞・作曲）",
+      year: 2023,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "ずっとここで探してる もうこれ以上苦しまない方法を", zh: "一直在这里寻找，不用再如此痛苦下去的方法" },
+        { ja: "サヨナラは言わないでさ 吸ってはいてそれだけで良い", zh: "先不要说再见啊，吸气、呼气，这样就足够了" },
+        { ja: "愛を知ってみたいんだ 少しだけ生きていたい", zh: "真想体会什么是爱啊，稍微有点想继续活下去" },
+        { ja: "ねぇ、変わらず雨降った 心に傘を差そう 濡れぬ様に", zh: "呐，雨还是一如既往地下着，在心里撑起伞吧，别让它淋湿" }
+      ],
+      points: [
+        { ja: "サヨナラは言わないでさ", zh: "先不要说再见啊", note: "サヨナラ= 再见；「言わないで」= 请不要说；句尾「さ」让请求显得随意又恳切。", wordId: "sayounara" },
+        { ja: "吸ってはいてそれだけで良い", zh: "吸气、呼气，这样就足够了", note: "吸う/吐く= 吸/呼；「〜ては〜て」列举反复的动作；「それだけで良い」= 仅此就够。", wordId: "kokoro" },
+        { ja: "心に傘を差そう", zh: "在心里撑起伞", note: "傘（かさ）= 伞；「差す」= 撑（伞）。在心里撑伞，是防止心被淋湿的意象。", wordId: "yume" }
+      ],
+      words: ["sayounara", "kokoro", "yume"],
+      sources: [
+        { label: "萌娘百科（中日歌词）", url: "https://zh.moegirl.tw/不要说再见" }
+      ]
+    },
+    {
+      id: "kokorogoshi",
+      title: "心做し",
+      romajiTitle: "Kokorogoshi（中文名：心理作用）",
+      artist: "GUMI（一之瀬ユウ）",
+      producer: "蝶々P（作詞・作曲）",
+      year: 2014,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "ねぇ、もしも全て投げ捨てられたら 笑って生きることが楽になるの？", zh: "呐，如果能把一切都舍弃的话，笑着活下去就会变得轻松吗？" },
+        { ja: "君にどれだけ近づいても 僕の心臓は一つだけ", zh: "无论多么接近你，我的心跳都只有这一颗" },
+        { ja: "酷いよ 酷いよ、もういっそ僕の体を 壊して 引き裂いて 好きなようにしてよ", zh: "太残酷了，太残酷了，干脆把我的身体破坏掉、撕裂开，随你喜欢地处置吧" },
+        { ja: "少し微笑んで君が言う「それはね、ここにあるよ」", zh: "你微微一笑说：「那个啊，就在这里哦」" }
+      ],
+      points: [
+        { ja: "もしも全て投げ捨てられたら", zh: "如果能把一切都舍弃的话", note: "投げ捨てる= 扔掉、抛弃；「〜られたら」是可能的假定。", wordId: "kokoro" },
+        { ja: "酷いよ 酷いよ", zh: "太残酷了 太残酷了", note: "酷い（ひどい）= 过分、残酷；重复两次，情绪层层叠加。", wordId: "setsunai" },
+        { ja: "僕の心臓は一つだけ", zh: "我的心跳是独一无二的", note: "心臓（しんぞう）= 心脏；「一つだけ」= 仅此一颗。标题「心做し」常被汉译为「心理作用」。", wordId: "kokoro" }
+      ],
+      words: ["kokoro", "setsunai", "hanasu"],
+      sources: [
+        { label: "萌娘百科（中日歌词）", url: "https://zh.moegirl.tw/心做し" },
+        { label: "网易云音乐（原曲）", url: "https://music.163.com/#/song?id=28370757" }
+      ]
+    },
+    {
+      id: "soshite-hana-ni-naru",
+      title: "そして花になる",
+      romajiTitle: "Soshite Hana ni Naru",
+      artist: "花譜",
+      producer: "カンザキイオリ（作詞・作曲）",
+      year: 2020,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "排気口から香るラーメンの匂い 学校帰りによる駄菓子屋", zh: "排气口飘来拉面的香气，放学路上常去的小零食店" },
+        { ja: "大層な風景はない 私は普通の人", zh: "没有什么了不起的风景，我只是个普通人" },
+        { ja: "春風巡る 私の歌が誰かの風になる", zh: "春风流转，我的歌会化作某人的风" },
+        { ja: "誰かの風景を塗り替える それが嬉しかった", zh: "为某人的风景重新上色，那让我很高兴" }
+      ],
+      points: [
+        { ja: "排気口から香るラーメンの匂い", zh: "排气口飘来拉面的香气", note: "香る（かおる）= 飘香；「〜から香る」表示气味从某处飘来。", wordId: "ramen" },
+        { ja: "大層な風景はない", zh: "没有什么了不起的风景", note: "大層（たいそう）= 了不起、夸张；否定后表达「平凡」。", wordId: "natsukashii" },
+        { ja: "春風巡る", zh: "春风流转", note: "巡る（めぐる）= 循环、流转；季节周而复始是这首歌的时间轴。", wordId: "kaze" }
+      ],
+      words: ["ramen", "kaze", "natsukashii"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/sa19120578/" },
+        { label: "官方 MV（bilibili）", url: "https://www.bilibili.com/video/BV1Va411b7VU/" }
+      ]
+    },
+    {
+      id: "gunjo-sanka",
+      title: "群青讃歌",
+      romajiTitle: "Gunjou Sanka",
+      artist: "Eve（feat. 初音ミク）",
+      producer: "Eve（作詞・作曲）",
+      year: 2021,
+      project: "SEKAI",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "繋がっていたいって 信じられる言葉", zh: "「想和你紧紧相连」——这是我能相信的话语" },
+        { ja: "だってもう昨日の僕らにおさらば", zh: "因为我们已经向昨天的自己道别" },
+        { ja: "走れ その歩幅で 走れ 声 轟かせてくれ", zh: "奔跑吧，以你的步伐；奔跑吧，让声音轰鸣起来" },
+        { ja: "期待と不安を同じくらい抱きしめて 君と今を紡ぐ未来照らして", zh: "将期待与不安同样地拥抱，照亮你与此刻编织出的未来" }
+      ],
+      points: [
+        { ja: "繋がっていたい", zh: "想（和某人）紧紧相连", note: "繋がる（つながる）= 相连；「〜ていたい」表示希望持续保持那种状态。", wordId: "tomodachi" },
+        { ja: "昨日の僕らにおさらば", zh: "向昨天的我们告别", note: "おさらば是「告别、永别」的口语说法，比さよなら更轻松。", wordId: "sayounara" },
+        { ja: "声 轟かせてくれ", zh: "让声音轰鸣起来吧", note: "轟く（とどろく）= 轰鸣、响彻；「〜てくれ」是带有力度的请求。", wordId: "kiku" }
+      ],
+      words: ["tomodachi", "sayounara", "yume"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/nm21092701/" },
+        { label: "MARUMARU（日文歌词）", url: "https://www.marumaru-x.com/japanese-song/play-lkrz5lq4re" }
+      ]
+    },
+    {
+      id: "airhead-garando",
+      title: "ガランド（Airhead）",
+      romajiTitle: "Garando (Airhead)",
+      artist: "初音ミク",
+      producer: "ピコン（作詞・作曲）",
+      year: 2018,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "阿呆を見るランデブー ボビデバビデンベッデボン", zh: "与愚者相会的约会，bobide babiden bbedebon" },
+        { ja: "散々淡々と暮らしていて 乾涸びた脳みそ", zh: "浑浑噩噩、平平淡淡地活着，干涸的脑浆" },
+        { ja: "思い出して何、泣いてんだ 今 さよならに慣れてしまってんだ", zh: "因回忆而落泪啊，此刻，已经习惯了告别" },
+        { ja: "明日って何度言う？", zh: "「明天」到底说了多少次呢？" }
+      ],
+      points: [
+        { ja: "散々淡々と暮らしていて", zh: "狼狈又平淡地活着", note: "散々（さんざん）= 狼狈、彻底；淡々（たんたん）= 淡然。两个拟态词叠出倦怠感。", wordId: "natsukashii" },
+        { ja: "さよならに慣れてしまってんだ", zh: "已经习惯了告别", note: "慣れる（なれる）= 习惯；「〜てしまう」带有无奈、无可挽回的语感。", wordId: "sayounara" },
+        { ja: "明日って何度言う？", zh: "「明天」说了多少次？", note: "「って」口语引用前文；这句话在自嘲总把希望寄托给明天。", wordId: "ashita" }
+      ],
+      words: ["sayounara", "natsukashii", "ashita"],
+      sources: [
+        { label: "萌娘百科（中日歌词）", url: "https://zh.moegirl.tw/Airhead" }
+      ]
+    },
+    {
+      id: "natsurenbo",
+      title: "夏恋慕",
+      romajiTitle: "Natsurenbo",
+      artist: "春茶（feat. kobasolo）",
+      producer: "kobasolo（作詞・作曲）",
+      year: 2019,
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "君が好きって分かっちゃうな 水色に溶けた空", zh: "你好像已经发现我喜欢你了，在溶入水蓝色的天空下" },
+        { ja: "落ち着かない僕を知られたくない 少し後ろを歩く", zh: "不想让你看到我坐立不安的样子，稍稍走在后面" },
+        { ja: "ゆらりゆらり揺れる水面に 僕は君の隣で いいの", zh: "在微波荡漾的水面上，我可以站在你身边吗" },
+        { ja: "君に好きって言えないな 景色は滲んでまた", zh: "我说不出喜欢你啊，景色又模糊了起来" }
+      ],
+      points: [
+        { ja: "好きって分かっちゃうな", zh: "喜欢这件事会被看穿啊", note: "「分かっちゃう」= 分かってしまう的口语，表示「（秘密）会暴露」。", wordId: "kokoro" },
+        { ja: "落ち着かない僕", zh: "无法平静的我", note: "落ち着く（おちつく）= 镇定、平静；「落ち着かない」= 坐立不安。", wordId: "shizuka" },
+        { ja: "僕は君の隣で いいの", zh: "我可以待在你身边吗", note: "「〜でいいの」是「这样也可以吗」的试探语气，和整首歌的暗恋心境呼应。", wordId: "tomodachi" }
+      ],
+      words: ["sora", "umi", "tomodachi"],
+      sources: [
+        { label: "歌曲翻译（中日对照）", url: "https://gequfanyi.com/23721455" }
+      ]
+    },
+    {
+      id: "alpha-you",
+      title: "あるふぁYOU",
+      romajiTitle: "Arufa YOU",
+      artist: "花譜 × EMA",
+      producer: "カンザキイオリ（作詞・作曲）",
+      year: 2023,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "さよならも悲しみも 蝉時雨と同じ 命の限り叫んで 消えゆくだけ", zh: "再见与悲伤，都和蝉鸣阵雨一样，拼尽全力呐喊后，只是消逝" },
+        { ja: "ずっとずっと歩いた 君を探して何千年", zh: "一直一直走下去，寻找你已数千年" },
+        { ja: "言葉なんていらないって もっともっともっと（君は言った）", zh: "「话语什么的不需要」——（你这样说着）越来越、越来越" },
+        { ja: "それでもただ叫んでる ここはもう音がしない まだ温さが残る", zh: "即便如此仍在呐喊，这里已经不再有声音，却还残留着温度" }
+      ],
+      points: [
+        { ja: "蝉時雨と同じ", zh: "与蝉鸣阵雨相同", note: "蝉時雨（せみしぐれ）= 夏日群蝉齐鸣、如骤雨般的意象；「〜と同じ」= 与…相同。", wordId: "natsukashii" },
+        { ja: "命の限り叫んで", zh: "拼尽生命地呐喊", note: "限り（かぎり）= 极限；「〜の限り」= 尽…所能。", wordId: "kokoro" },
+        { ja: "まだ温さが残る", zh: "还残留着温暖", note: "温さ（ぬくもさ）＝温かさ的变体；残る（のこる）= 残留。废墟里余温尚存。", wordId: "sora" }
+      ],
+      words: ["natsukashii", "sora", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/ym23031023/" },
+        { label: "官方 MV（bilibili 中文字幕）", url: "https://www.bilibili.com/video/BV1Lk4y147a6/" }
+      ]
+    },
+    {
+      id: "hatsukoi-nikki",
+      title: "初恋日記",
+      romajiTitle: "Hatsukoi Nikki",
+      artist: "音街ウナ",
+      producer: "香椎モイミ（作詞・作曲・編曲）",
+      year: 2022,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "君をきっと嫌いになれっこない 繰り返す自制は機能しない", zh: "我绝对不会讨厌你，反复的自制根本不奏效" },
+        { ja: "思い出してばっかり 二人だけの秘密のこと", zh: "总是想起只属于我们两人的秘密" },
+        { ja: "気持ちロックしないといけないの？", zh: "难道必须把心情锁起来才行吗？" },
+        { ja: "「会いたい」が傷付く合図でも 強がったあと一人泣くのもう嫌なんだ", zh: "即使「想见你」是受伤的信号，逞强之后独自哭泣这种事，我已经受够了" }
+      ],
+      points: [
+        { ja: "嫌いになれっこない", zh: "绝对不可能变得讨厌", note: "「っこない」是口语强否定，表示「绝不可能」，比「はずがない」更强烈。", wordId: "setsunai" },
+        { ja: "思い出してばっかり", zh: "光是在回忆", note: "「〜てばっかり（ばかり）」= 总是、光是（做某事）。", wordId: "natsukashii" },
+        { ja: "強がったあと一人泣く", zh: "逞强之后独自哭泣", note: "強がる（つよがる）= 逞强；「〜たあと」= 在…之后。", wordId: "kokoro" }
+      ],
+      words: ["natsukashii", "setsunai", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi22092031/" },
+        { label: "VocaWiki（歌曲信息）", url: "https://voca.wiki/初恋日記" }
+      ]
+    },
+    {
+      id: "ano-natsu-ga-houwasuru",
+      title: "あの夏が飽和する。",
+      romajiTitle: "Ano Natsu ga Houwasuru.",
+      artist: "カンザキイオリ（feat. 鏡音レン・鏡音リン）",
+      producer: "カンザキイオリ（作詞・作曲）",
+      year: 2019,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "「昨日人を殺したんだ」 君はそう言っていた。", zh: "「我昨天杀了人。」你这样说着。" },
+        { ja: "梅雨時ずぶ濡れのまんま、部屋の前で泣いていた。", zh: "梅雨时节浑身湿透，在房门前哭着。" },
+        { ja: "夏が始まったばかりというのに、君はひどく震えていた。", zh: "明明夏天才刚刚开始，你却剧烈地颤抖着。" },
+        { ja: "「それじゃ僕も連れてって」", zh: "「那就把我也一起带走吧。」" }
+      ],
+      points: [
+        { ja: "ずぶ濡れのまんま", zh: "浑身湿透的样子", note: "ずぶ濡れ（ずぶぬれ）= 浑身湿透；「まんま」是「まま」的口语形式，表示维持原状。", wordId: "ame" },
+        { ja: "夏が始まったばかり", zh: "夏天才刚刚开始", note: "「〜たばかり」= 刚刚做完某事；与后文的「のに」形成转折。", wordId: "natsukashii" },
+        { ja: "連れてって", zh: "带我走", note: "連れて行く（つれていく）的口语缩略，= 带着（我）去。", wordId: "iku" }
+      ],
+      words: ["ame", "iku", "sora"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/ma19051710/" }
+      ]
+    },
+    {
+      id: "shokuchuu-shokubutsu",
+      title: "食虫植物",
+      romajiTitle: "Shokuchuu Shokubutsu",
+      artist: "理芽",
+      producer: "カンザキイオリ（作詞・作曲）",
+      year: 2020,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "食べなくちゃ 食べなくちゃ 嫌なこと 忘れさせて？", zh: "得吃掉啊，得吃掉啊，能把讨厌的事都忘掉吗？" },
+        { ja: "いかないで、ねぇいかないで？ 君の体温と、心臓。", zh: "不要走，呐，不要走好吗？你的体温，和心脏。" },
+        { ja: "満たされない、満たされない 満たされない、のは、フィーリング", zh: "无法被满足，无法被满足，无法被满足的是这份感觉" },
+        { ja: "愛されたい、愛されたい 愛されたいのは機密事項！", zh: "想要被爱，想要被爱，想要被爱这件事是机密事项！" }
+      ],
+      points: [
+        { ja: "食べなくちゃ", zh: "不吃不行", note: "食べなくては（いけない）的口语缩略，表示「不得不吃」。", wordId: "taberu" },
+        { ja: "忘れさせて？", zh: "能让我忘掉吗？", note: "忘れる的使役形忘れさせる= 让我忘记；疑问语气里带着乞求。", wordId: "natsukashii" },
+        { ja: "満たされない", zh: "无法被满足", note: "満たす（みたす）= 填满、满足；被动否定形式表示「再怎么也不够」。", wordId: "yume" }
+      ],
+      words: ["taberu", "natsukashii", "yume"],
+      sources: [
+        { label: "萌娘百科（中日歌词）", url: "https://zh.moegirl.tw/食虫植物(歌曲)" }
+      ]
+    },
+    {
+      id: "maid-no-kokoroha",
+      title: "メイドノココロハ アヤツリドール",
+      romajiTitle: "Maid no Kokoro wa Ayatsuri Doll",
+      artist: "森羅万象（歌：あよ）",
+      producer: "ACTRock（作詞）・ZUN（作曲）・kaztora（編曲）",
+      year: 2018,
+      project: "同人音乐",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "あなたにとって私の存在必要 そう見えないけれど", zh: "对你来说我的存在是必要的，虽然看起来并非如此" },
+        { ja: "どこまでだっていつまでだって 付いていっても「いいのかなぁ」", zh: "无论到多远、到何时，跟随你「可以吗」" },
+        { ja: "それがメイドのオキテ きっとね綺麗が決め手", zh: "那就是女仆的规矩，没错，美丽才是决胜点" },
+        { ja: "タイムストッパー メイドのお出ましだ", zh: "Time Stopper，女仆登场" }
+      ],
+      points: [
+        { ja: "メイドのオキテ", zh: "女仆的规矩", note: "オキテ即「おきて」（规矩、戒律）的片假名写法，读起来更有俏皮感。", wordId: "kokoro" },
+        { ja: "どこまでだっていつまでだって", zh: "无论多远、无论多久", note: "「〜だって」列举强调，表示「无论…都…」；两句连用加强跟随的决心。", wordId: "iku" },
+        { ja: "綺麗が決め手", zh: "美丽是决胜关键", note: "決め手（きめて）= 决定性的手段；「綺麗」这里指女仆的仪容。", wordId: "utsukushii" }
+      ],
+      words: ["utsukushii", "iku", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi24021551/" },
+        { label: "Touhou Wiki（英文翻译）", url: "https://en.touhouwiki.net/wiki/%E3%83%A1%E3%82%A4%E3%83%89%E3%83%8E%E3%82%B3%E3%82%B3%E3%83%AD%E3%83%8F_%E3%82%A2%E3%83%A4%E3%83%84%E3%83%AA%E3%83%89%E3%83%BC%E3%83%AB" }
+      ]
+    },
+    {
+      id: "sayonara-mata-itsuka",
+      title: "さよーならまたいつか！",
+      romajiTitle: "Sayonara Mata Itsuka!",
+      artist: "米津玄師",
+      producer: "米津玄師（作詞・作曲）",
+      year: 2024,
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "どこから春が巡り来るのか 知らず知らず大人になった", zh: "春天从何处流转而来，不知不觉间我已长大成人" },
+        { ja: "さよなら100年先でまた会いましょう 心配しないで", zh: "再见，百年之后我们还会重逢的，别担心" },
+        { ja: "瞬け羽を広げ 気儘に飛べ どこまでもゆけ", zh: "闪耀吧，展开翅膀，随心所欲地飞，去往任何地方" },
+        { ja: "100年先も憶えてるかな 知らねえけれど さよーならまたいつか!", zh: "百年之后还会记得吗，虽然我不知道——再见，后会有期！" }
+      ],
+      points: [
+        { ja: "知らず知らず大人になった", zh: "不知不觉间长大成人", note: "知らず知らず（しらずしらず）= 不知不觉；重复「知らず」强调未经察觉。", wordId: "ashita" },
+        { ja: "また会いましょう", zh: "我们还会再见的", note: "「また会う」+ ましょう的邀请/约定语气，比直接道别更温柔。", wordId: "sayounara" },
+        { ja: "気儘に飛べ", zh: "随心所欲地飞吧", note: "気儘（きまま）= 任性、随性；「飛べ」是「飛ぶ」的命令形，是放手的祝福。", wordId: "sora" }
+      ],
+      words: ["sayounara", "sora", "ashita"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/hw24011801/" }
+      ]
+    },
+    {
+      id: "totemo-itai-itagaritai",
+      title: "とても痛い痛がりたい",
+      romajiTitle: "Totemo Itai Itagaritai",
+      artist: "VY2・VY1",
+      producer: "EZFG（作詞・作曲・編曲）",
+      year: 2012,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "何が痛い 何で痛い どうしてこんなにとても痛い", zh: "有什么在作痛，为何在作痛，到底为什么这么痛" },
+        { ja: "もー痛い とても痛い どうしてこんなにとても痛い", zh: "真是的——好痛，非常痛，到底为什么这么痛" },
+        { ja: "あー痛い キミに伝えたい キミにだけは伝えておきたい", zh: "啊——好痛，我想告诉你，就只想告诉你" },
+        { ja: "会いたいキミに会いたい 胸のこの辺がとても痛い", zh: "想见你，想要见到你，心口这一带隐隐作痛" }
+      ],
+      points: [
+        { ja: "とても痛い痛がりたい", zh: "好痛，却渴望着痛", note: "痛がる（いたがる）= 觉得痛、表现出痛；标题把「痛い」和「痛がりたい」叠在一起，是这首歌的招牌文字游戏。", wordId: "setsunai" },
+        { ja: "キミに伝えたい", zh: "想传达给你", note: "伝える（つたえる）= 传达；「〜たい」表示愿望，反复出现在副歌。", wordId: "hanasu" },
+        { ja: "胸のこの辺", zh: "心口这一带", note: "胸（むね）= 胸口；「この辺」= 这一带，用手指向心口的说法。", wordId: "kokoro" }
+      ],
+      words: ["setsunai", "kokoro", "hanasu"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/jb51304120/" },
+        { label: "Vocaloid 中文歌词维基（中文翻译）", url: "https://w.atwiki.jp/vocaloidchly/pages/4071.html" }
+      ]
+    },
+    {
+      id: "mai-guiano",
+      title: "舞",
+      romajiTitle: "Mai",
+      artist: "理芽",
+      producer: "Guiano（作詞・作曲）",
+      year: 2022,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "桜の匂いがします 私は旅へ発ちます", zh: "空气里飘着樱花的香气，我踏上了旅程" },
+        { ja: "今日この日を思えば いつかの今日も生きてゆけるのです", zh: "只要记得今天，某一天的今天我也能活下去" },
+        { ja: "こんな こんな こんな 私も生きていいの？ 世界", zh: "这样的、这样的、这样的我，活着也可以吗？世界" },
+        { ja: "ただ踊って 踊って 踊っていたい あなたとこの場所で 花びら散る前に", zh: "只是想起舞、起舞、一直起舞，和你在这里，在花瓣飘散之前" }
+      ],
+      points: [
+        { ja: "旅へ発ちます", zh: "踏上旅途", note: "発つ（たつ）= 出发；「旅へ発つ」是书面感较强的说法。", wordId: "iku" },
+        { ja: "生きていいの？", zh: "可以活下去吗？", note: "「〜ていい」表示被允许；疑问句里是自我怀疑的语气。", wordId: "yume" },
+        { ja: "花びら散る前に", zh: "在花瓣飘散之前", note: "花びら（はなびら）= 花瓣；散る（ちる）= 飘落；「〜前に」= 在…之前。", wordId: "hana" }
+      ],
+      words: ["hana", "iku", "yume"],
+      sources: [
+        { label: "巴哈姆特创作大厅（kiru 中日歌词）", url: "https://gamer.kfc.gold/creationDetail.php?sn=5406363" }
+      ]
+    },
+    {
+      id: "chicchana-watashi",
+      title: "ちっちゃな私",
+      romajiTitle: "Chicchana Watashi",
+      artist: "重音テト",
+      producer: "マサラダ（作詞・作曲）",
+      year: 2023,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "ずっと前の気持ち 捨て切れなくて 心が足りない いくつになってもね", zh: "很久以前的心情怎么也丢不掉，心总是不够，无论长到多大" },
+        { ja: "ほら見てごらん でかい空 もう落ちてきちゃいそうで", zh: "你看啊，好大的天空，好像马上就要压下来似的" },
+        { ja: "見ないフリしても 忘れようとしても とんがった痛みが いつまでもついてまわる", zh: "即使装作没看见，即使想要忘记，尖锐的疼痛也总是如影随形" },
+        { ja: "ちっちゃな私がさ あーあ あーあ あー繰り返す", zh: "小小的我啊，啊—啊—啊—，不断重复着" }
+      ],
+      points: [
+        { ja: "捨て切れなくて", zh: "怎么也丢不掉", note: "捨てる（すてる）= 丢弃；「〜切れない」表示无法完全做到。", wordId: "kokoro" },
+        { ja: "でかい空", zh: "好大的天空", note: "でかい是「大きい」的粗俗口语；天空大到像要压下来，是小孩子视角的比喻。", wordId: "sora" },
+        { ja: "ついてまわる", zh: "如影随形", note: "付いて回る（ついてまわる）= 一直跟着、摆脱不掉。", wordId: "sabishii" }
+      ],
+      words: ["sora", "sabishii", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi23081033/" }
+      ]
+    },
+    {
+      id: "shindeshimattanda",
+      title: "死んでしまったんだ",
+      romajiTitle: "Shinde Shimattanda",
+      artist: "可不・結月ゆかり",
+      producer: "椎乃味醂（作詞・作曲）",
+      year: 2022,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "往々にし取々見かけを嗅ぎ分け、甘味に溺れ痛い話には耳も傾けない", zh: "动不动就嗅着外表的好坏，沉溺于甘甜，对痛苦的故事充耳不闻" },
+        { ja: "君にとってはこれが「本当」で、他は嘘ですか。", zh: "对你来说这才是「真实」，其他都是谎言吗？" },
+        { ja: "だけれど、どこまでいってもそれは君の、吸い上げた記号でできた物語", zh: "但无论走到哪里，那都是你用吸来的符号拼成的故事" },
+        { ja: "君の君による君のための詞書。", zh: "由你写就、为你而写的说明书。" }
+      ],
+      points: [
+        { ja: "見かけを嗅ぎ分け", zh: "嗅出外表的好坏", note: "嗅ぎ分ける（かぎわける）= 凭嗅觉分辨；用来讽刺只看表面的人。", wordId: "miru" },
+        { ja: "耳も傾けない", zh: "充耳不闻", note: "耳を傾ける（みみをかたむける）= 倾听；否定形表示完全不听。", wordId: "kiku" },
+        { ja: "君の君による君のための詞書", zh: "由你、为你而写的说明书", note: "仿「人民の人民による人民のための政治」句式，讽刺自我中心的话语。", wordId: "hanasu" }
+      ],
+      words: ["miru", "kiku", "hanasu"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi22042526/" },
+        { label: "网易云音乐（原曲）", url: "https://music.163.com/#/song?id=1944863562" }
+      ]
+    },
+    {
+      id: "kuu-ni-naru",
+      title: "くうになる",
+      romajiTitle: "Kuuninaru",
+      artist: "初音ミク・可不",
+      producer: "MIMI（作詞・作曲）",
+      year: 2022,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "嗚呼何も分からないから 憂いを数えている", zh: "啊啊，因为什么都不懂，所以数着忧愁" },
+        { ja: "嗚呼寂しいから連れ出して また月明かりの信号", zh: "啊啊，因为寂寞，带我出去吧，又是月光的信号" },
+        { ja: "じゃあねそして会えた時には 手を繋いで踊りましょ", zh: "再见，等我们重逢的时候，牵着手跳舞吧" },
+        { ja: "空っぽになる心の裏が チクリチクリ 痛いの明日も", zh: "变得空空如也的心的背面，明天也依旧隐隐作痛" }
+      ],
+      points: [
+        { ja: "憂いを数えている", zh: "数着忧愁", note: "憂い（うれい）= 忧愁；「数える」在这里是把心事一件件清点的意象。", wordId: "sabishii" },
+        { ja: "連れ出して", zh: "带我出去", note: "連れ出す（つれだす）= 带（某人）出去；「〜して」是请求语气。", wordId: "tomodachi" },
+        { ja: "空っぽになる心", zh: "变得空空如也的心", note: "空っぽ（からっぽ）= 空荡荡；和歌名「くうになる」（成为空）呼应。", wordId: "kokoro" }
+      ],
+      words: ["sabishii", "tomodachi", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi22011815/" }
+      ]
+    },
+    {
+      id: "bokuga-shinou-to-omotta",
+      title: "僕が死のうと思ったのは",
+      romajiTitle: "Boku ga Shinou to Omotta no wa",
+      artist: "中島美嘉",
+      producer: "秋田ひろむ（作詞・作曲）",
+      year: 2013,
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "僕が死のうと思ったのは ウミネコが桟橋で鳴いたから", zh: "我曾经想死，是因为海鸥在栈桥上鸣叫" },
+        { ja: "今日はまるで昨日みたいだ 明日を変えるなら今日を変えなきゃ", zh: "今天简直就像昨天，要改变明天，就必须先改变今天" },
+        { ja: "僕が死のうと思ったのは 心が空っぽになったから", zh: "我曾经想死，是因为心变得空空如也" },
+        { ja: "満たされないと泣いているのは きっと満たされたいと願うから", zh: "哭着说无法满足，一定是因为渴望着被满足" }
+      ],
+      points: [
+        { ja: "死のうと思った", zh: "想过要死", note: "「〜（よ）うと思う」表示打算做某事；整句以「〜のは〜から」解释原因。", wordId: "kokoro" },
+        { ja: "まるで昨日みたいだ", zh: "简直就像昨天", note: "まるで〜みたい= 简直像…一样；用于比喻的常见搭配。", wordId: "kinou" },
+        { ja: "明日を変えるなら今日を変えなきゃ", zh: "要改变明天的话，就必须改变今天", note: "「〜なら」表条件；「〜なきゃ」= なければ（いけない）的口语缩略。", wordId: "ashita" }
+      ],
+      words: ["kokoro", "kinou", "ashita"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/jb71308139/" },
+        { label: "豆瓣乐评（中文翻译）", url: "https://music.douban.com/review/7593383/" }
+      ]
     }
   ];
 
