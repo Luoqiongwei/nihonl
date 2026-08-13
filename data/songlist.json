@@ -1,0 +1,2579 @@
+{
+  "generatedAt": "2026-08-13",
+  "source": "C:/Users/kjldp/Desktop/thinking/py/dynamic_analysis/titles.txt",
+  "counts": {
+    "total": 285,
+    "jp": 142,
+    "zh": 96,
+    "mixed": 16,
+    "other": 31,
+    "nonSong": 11
+  },
+  "items": [
+    {
+      "no": 1,
+      "raw": "【初音ミクAppend】 カミノコトバ",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "カミノコトバ",
+      "sub": ""
+    },
+    {
+      "no": 2,
+      "raw": "【官方投稿】合成するミライ / 初音ミク（Synthesize You）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "合成するミライ / 初音ミク（Synthesize You）",
+      "sub": ""
+    },
+    {
+      "no": 3,
+      "raw": "【原创术力口】苍白雪 “请你别让我哭。”【诗岸/洛天依】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "苍白雪 “请你别让我哭。”",
+      "sub": ""
+    },
+    {
+      "no": 4,
+      "raw": "【洛天依原创】哭哭歌",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "哭哭歌",
+      "sub": ""
+    },
+    {
+      "no": 5,
+      "raw": "【原创PV】奈落 feat.里命【MikitoP】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "奈落",
+      "sub": ""
+    },
+    {
+      "no": 6,
+      "raw": "【星尘×海伊原创曲】Talking to the Rain『森罗万象Kaleido』专辑收录曲",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "Talking to the Rain『森罗万象Kaleido』专辑收录曲",
+      "sub": ""
+    },
+    {
+      "no": 7,
+      "raw": "【音阙诗听/王梓钰】四美系列收官——《羞花》",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "羞花",
+      "sub": ""
+    },
+    {
+      "no": 8,
+      "raw": "heat waves 日文版",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "heat waves 日文版",
+      "sub": ""
+    },
+    {
+      "no": 9,
+      "raw": "【maimai でらっくす】真空都市 / ナナツカゼ【11/7(金)登場！】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "真空都市",
+      "sub": ""
+    },
+    {
+      "no": 10,
+      "raw": "【BrownYOLO】原创「ダスト」feat.可不",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "ダスト",
+      "sub": ""
+    },
+    {
+      "no": 11,
+      "raw": "【豆沙×理想放逐/原创曲】「ギターと六月の花束（吉他与六月花）」 HB to 茶玖",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ギターと六月の花束",
+      "sub": ""
+    },
+    {
+      "no": 12,
+      "raw": "【《恩怨消散再见面吧》供销社乐队】有些话还没说完 希望下次继续",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "有些话还没说完 希望下次继续",
+      "sub": ""
+    },
+    {
+      "no": 13,
+      "raw": "【初音ミクDark】angelite【narry】(搬运)",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "angelite",
+      "sub": ""
+    },
+    {
+      "no": 14,
+      "raw": "【東方】明日なき暴走！クラウンピースを追い詰めろ【IOSYS】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "明日なき暴走！クラウンピースを追い詰めろ",
+      "sub": ""
+    },
+    {
+      "no": 15,
+      "raw": "【本家投稿】 消えてゆけ、迷いの果て / 音街ウナSV【namaniental】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "消えてゆけ、迷いの果て",
+      "sub": ""
+    },
+    {
+      "no": 16,
+      "raw": "“仅仅向前方看去  一切都会好的吧”！Sea Of Stars",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "“仅仅向前方看去 一切都会好的吧”！Sea Of Stars",
+      "sub": ""
+    },
+    {
+      "no": 17,
+      "raw": "【东方栀子Nectar原创曲】『情痴』|“红线缚，情海难渡”【ACE Studio】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "『情痴』|“红线缚，情海难渡”",
+      "sub": ""
+    },
+    {
+      "no": 18,
+      "raw": "【告别作】“你逃向死亡，我逃向遗忘。”【诗岸原创】《春死诀》",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "春死诀",
+      "sub": ""
+    },
+    {
+      "no": 19,
+      "raw": "「光さす方へ。」【星尘2024诞生日/情绪摇滚】無限迷路【PV付】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "無限迷路",
+      "sub": ""
+    },
+    {
+      "no": 20,
+      "raw": "【赤羽原创曲】胚芽 | “唱吧、唱吧 幸福的咒语”",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "胚芽 | “唱吧、唱吧 幸福的咒语”",
+      "sub": ""
+    },
+    {
+      "no": 21,
+      "raw": "【初音ミク】Bright【Wonder-K】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Bright",
+      "sub": ""
+    },
+    {
+      "no": 22,
+      "raw": "【洛天依原创曲】正传颂的未来【HB to 天依2025】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "正传颂的未来",
+      "sub": ""
+    },
+    {
+      "no": 23,
+      "raw": "太阳是什么颜色【2026乐正绫官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "太阳是什么颜色",
+      "sub": ""
+    },
+    {
+      "no": 24,
+      "raw": "【乐正绫原创】只等春来报",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "只等春来报",
+      "sub": ""
+    },
+    {
+      "no": 25,
+      "raw": "【初音ミク】Light Falls【yuxuki waga】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Light Falls",
+      "sub": ""
+    },
+    {
+      "no": 26,
+      "raw": "L∧NNDØ - sasalasa",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "sasalasa",
+      "sub": ""
+    },
+    {
+      "no": 27,
+      "raw": "【初音ミクDark】alternate【keeno】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "alternate",
+      "sub": ""
+    },
+    {
+      "no": 28,
+      "raw": "milet「Parachute」",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Parachute",
+      "sub": ""
+    },
+    {
+      "no": 29,
+      "raw": "【初音ミク】「Little Traveler」PV【水彩】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Little Traveler",
+      "sub": ""
+    },
+    {
+      "no": 30,
+      "raw": "【くろくも】☁余命3日少女",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "余命3日少女",
+      "sub": ""
+    },
+    {
+      "no": 31,
+      "raw": "【MV】Instant Love / La prière",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Instant Love",
+      "sub": ""
+    },
+    {
+      "no": 32,
+      "raw": "× / 平葵",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "× / 平葵",
+      "sub": ""
+    },
+    {
+      "no": 33,
+      "raw": "【洛天依原创曲】空气凝结  - “消逝的花开的季节”",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "空气凝结 - “消逝的花开的季节”",
+      "sub": ""
+    },
+    {
+      "no": 34,
+      "raw": "WHITE & BLUE",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "WHITE & BLUE",
+      "sub": ""
+    },
+    {
+      "no": 35,
+      "raw": "【初音未来情人节特供】——巧克力",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "巧克力",
+      "sub": ""
+    },
+    {
+      "no": 36,
+      "raw": "【洛天依原创/情绪摇滚】《空之下》PV",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "空之下",
+      "sub": ""
+    },
+    {
+      "no": 37,
+      "raw": "【花谱】#91 「それを世界と言うんだね/那称之为世界」原创歌曲",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "それを世界と言うんだね",
+      "sub": ""
+    },
+    {
+      "no": 38,
+      "raw": "【初音ミクV4X】Telomere【regulus】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Telomere",
+      "sub": ""
+    },
+    {
+      "no": 39,
+      "raw": "【乐正绫原创】圣代【乐正绫九周年生贺】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "圣代",
+      "sub": ""
+    },
+    {
+      "no": 40,
+      "raw": "【知声】我那被毁掉的人生【くつう_Kutsuu】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "我那被毁掉的人生",
+      "sub": ""
+    },
+    {
+      "no": 41,
+      "raw": "【洛天依原创曲】你的心愿——她踏上了他曾梦过的旅程。",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "你的心愿——她踏上了他曾梦过的旅程。",
+      "sub": ""
+    },
+    {
+      "no": 42,
+      "raw": "STARTEND / 诗岸、ナースロボ＿タイプＴ【-物理】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "诗岸、ナースロボ＿タイプＴ",
+      "sub": ""
+    },
+    {
+      "no": 43,
+      "raw": "【播放器样式】∞ / HACHI【原创曲中字】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "∞",
+      "sub": "中字"
+    },
+    {
+      "no": 44,
+      "raw": "【歌爱ユキ】falling down【201.】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "falling down",
+      "sub": ""
+    },
+    {
+      "no": 45,
+      "raw": "【星尘、乐正绫原创】雨边",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "雨边",
+      "sub": ""
+    },
+    {
+      "no": 46,
+      "raw": "【歌愛ユキ】鳳仙花【cillia】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "鳳仙花",
+      "sub": ""
+    },
+    {
+      "no": 47,
+      "raw": "MMM071-マジックナイト（feat.鏡音リン）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "マジックナイト",
+      "sub": ""
+    },
+    {
+      "no": 48,
+      "raw": "【重音テト】帽子を被っている魚【ンバヂ】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "帽子を被っている魚",
+      "sub": ""
+    },
+    {
+      "no": 49,
+      "raw": "花譜　#27 「そして花になる」【オリジナルMV】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "そして花になる",
+      "sub": ""
+    },
+    {
+      "no": 50,
+      "raw": "【重音テト/中译/搬运】Doomer【東京真中】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Doomer",
+      "sub": "中译"
+    },
+    {
+      "no": 51,
+      "raw": "【洛天依原创曲/MMD】❀限定花期❀【素问天依下凡】【生日快乐】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "限定花期❀",
+      "sub": ""
+    },
+    {
+      "no": 52,
+      "raw": "【初音ミク】夏日透明【Twinfield】【中文CC字幕】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "夏日透明",
+      "sub": "中文CC字幕"
+    },
+    {
+      "no": 53,
+      "raw": "【星尘/海伊原创】海与光的边缘【2025虚拟歌手夏浪派对】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "海与光的边缘",
+      "sub": ""
+    },
+    {
+      "no": 54,
+      "raw": "【洛天依原创曲】“我会每天和你说晚安。”《午夜格式化指南》【PoKeR】【3DPV付】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "午夜格式化指南",
+      "sub": ""
+    },
+    {
+      "no": 55,
+      "raw": "【洛天依原创/沉浸电音】当生命剩下无限循环",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "当生命剩下无限循环",
+      "sub": ""
+    },
+    {
+      "no": 56,
+      "raw": "【NS】「魔法少女的魔女审判 」原声集专辑",
+      "lang": "other",
+      "project": "其他",
+      "kind": "album/event",
+      "title": "魔法少女的魔女审判",
+      "sub": ""
+    },
+    {
+      "no": 57,
+      "raw": "明透 Op.3 - ソラゴト / 虚言【原创歌曲MV】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "ソラゴト",
+      "sub": ""
+    },
+    {
+      "no": 58,
+      "raw": "【初音ミクV4X】Deep In The Night【regulus】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Deep In The Night",
+      "sub": ""
+    },
+    {
+      "no": 59,
+      "raw": "【Hi-Res】「アイノシズク」- KARAKURI 2039",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "アイノシズク",
+      "sub": ""
+    },
+    {
+      "no": 60,
+      "raw": "PIKASONIC - ColorCode-F (feat. Felt)",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ColorCode-F",
+      "sub": ""
+    },
+    {
+      "no": 61,
+      "raw": "【洛天依·言和原创】起来！（我特么不想起床啊啊啊啊）（PV付）",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "起来！（我特么不想起床啊啊啊啊）",
+      "sub": ""
+    },
+    {
+      "no": 62,
+      "raw": "【春猿火】#24 《テラ/TERRA》 原创歌曲MV",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "テラ/TERRA",
+      "sub": ""
+    },
+    {
+      "no": 63,
+      "raw": "「言和AI」小半 / ACE COVER",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "",
+      "sub": ""
+    },
+    {
+      "no": 64,
+      "raw": "【洛天依】乌有〖原创电音/EDM PROG〗",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "乌有〖原创电音/EDM PROG〗",
+      "sub": ""
+    },
+    {
+      "no": 65,
+      "raw": "【心华原创曲】心的痕迹【PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "心的痕迹",
+      "sub": ""
+    },
+    {
+      "no": 66,
+      "raw": "【中文CC字幕】【共20人】群青赞歌【2DMV／『剧场版世界计划』剧中版】",
+      "lang": "jp",
+      "project": "SEKAI",
+      "kind": "song",
+      "title": "群青赞歌",
+      "sub": "中文CC字幕"
+    },
+    {
+      "no": 67,
+      "raw": "雨部冷キザミ - Night chirps littlebird",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "雨部冷キザミ - Night chirps littlebird",
+      "sub": ""
+    },
+    {
+      "no": 68,
+      "raw": "【歌愛ユキ/诗岸】無/立入禁止",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "無/立入禁止",
+      "sub": ""
+    },
+    {
+      "no": 69,
+      "raw": "ガランド (Airhead) 东云彰人 青柳冬弥 鏡音レン SEKAI ver. 【Project SEKAI】",
+      "lang": "jp",
+      "project": "SEKAI",
+      "kind": "song",
+      "title": "ガランド (Airhead) 东云彰人 青柳冬弥 鏡音レン SEKAI",
+      "sub": ""
+    },
+    {
+      "no": 70,
+      "raw": "「好听的日语音乐」- FROZEN QUALIA - 在処",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "好听的日语音乐",
+      "sub": ""
+    },
+    {
+      "no": 71,
+      "raw": "【n-buna】神話の原点「拿不拿第一首术曲」【初音ミク】アリストラスト【オリジナル】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "神話の原点",
+      "sub": ""
+    },
+    {
+      "no": 72,
+      "raw": "【诗岸】如同那个回不去的盛夏",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "如同那个回不去的盛夏",
+      "sub": ""
+    },
+    {
+      "no": 73,
+      "raw": "you are my curse",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "you are my curse",
+      "sub": ""
+    },
+    {
+      "no": 74,
+      "raw": "【诗岸】错",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "错",
+      "sub": ""
+    },
+    {
+      "no": 75,
+      "raw": "【初音ミク】Beautiful Day【Mwk】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Beautiful Day",
+      "sub": ""
+    },
+    {
+      "no": 76,
+      "raw": "【初音ミク】合成的未来【阿修】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "合成的未来",
+      "sub": ""
+    },
+    {
+      "no": 77,
+      "raw": "【春茶 & kobasolo】夏恋慕 中日字幕 1080p+",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "夏恋慕",
+      "sub": "中日字幕"
+    },
+    {
+      "no": 78,
+      "raw": "【诗岸原创】鬼臉",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "鬼臉",
+      "sub": ""
+    },
+    {
+      "no": 79,
+      "raw": "空の涙。",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "空の涙。",
+      "sub": ""
+    },
+    {
+      "no": 80,
+      "raw": "[中字] 中田ヤスタカ - ぴこぴこ東京 (feat. 眞白桃々)【中日字幕/RCN放送中心制作】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "album/event",
+      "title": "中田ヤスタカ - ぴこぴこ東京",
+      "sub": "中日字幕、中字"
+    },
+    {
+      "no": 81,
+      "raw": "【正式】【とあ】『13』【初音ミク】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "『13』",
+      "sub": ""
+    },
+    {
+      "no": 82,
+      "raw": "ヒロイン (nakotanmaru ver.) /PIKASONIC",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ヒロイン",
+      "sub": ""
+    },
+    {
+      "no": 83,
+      "raw": "【中文字幕】【25時、ナイトコードで。】そこに在る、光。（光芒，就在那里。）【2DMV／『世界计划 多彩舞台』剧场版主题原创曲】",
+      "lang": "jp",
+      "project": "SEKAI",
+      "kind": "song",
+      "title": "そこに在る、光。",
+      "sub": "中文字幕"
+    },
+    {
+      "no": 84,
+      "raw": "【裏命】永遠【香椎モイミ】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "永遠",
+      "sub": ""
+    },
+    {
+      "no": 85,
+      "raw": "百分之一的爱 ／ すりぃ feat.初音ミク",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "百分之一的爱 ／ すりぃ",
+      "sub": ""
+    },
+    {
+      "no": 86,
+      "raw": "【乐正绫原创】我们会在阳光下再次相拥",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "我们会在阳光下再次相拥",
+      "sub": ""
+    },
+    {
+      "no": 87,
+      "raw": "【Official Music Video】エガクミライ（描绘未来）/ MyGO!!!!!【原创歌曲】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "エガクミライ",
+      "sub": ""
+    },
+    {
+      "no": 88,
+      "raw": "【鏡音レン 鏡音リン】Where shall we go【めろくる】【授权转载】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Where shall we go",
+      "sub": ""
+    },
+    {
+      "no": 89,
+      "raw": "【原创音乐】《除夕》A-SOUL全新团曲MV【2022拜年纪单品】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "除夕",
+      "sub": ""
+    },
+    {
+      "no": 90,
+      "raw": "【原创音乐】《超级敏感》A-SOUL全新团曲MV",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "超级敏感",
+      "sub": ""
+    },
+    {
+      "no": 91,
+      "raw": "【星界】エリカの憂い/埃里卡的哀愁【香椎モイミ】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "エリカの憂い",
+      "sub": ""
+    },
+    {
+      "no": 92,
+      "raw": "【乐歌】✥塞壬之歌✥【原创编舞】生日作➢2p纯舞蹈版付",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "塞壬之歌✥ 生日作➢2p纯舞蹈版付",
+      "sub": ""
+    },
+    {
+      "no": 93,
+      "raw": "【洛天依原创】三秒之愿",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "三秒之愿",
+      "sub": ""
+    },
+    {
+      "no": 94,
+      "raw": "【α5·塔与少女系列曲】无重力少女【墨清弦】【霾AXIS】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "无重力少女",
+      "sub": ""
+    },
+    {
+      "no": 95,
+      "raw": "【洛天依原创曲】愚弄者x愚弄者 （桑葚上的猴子）【一图pv付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "愚弄者x愚弄者",
+      "sub": ""
+    },
+    {
+      "no": 96,
+      "raw": "【先收藏、再聆听！】《黄河大合唱》完整版（国家大剧院2021年演出实况）",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "黄河大合唱",
+      "sub": ""
+    },
+    {
+      "no": 97,
+      "raw": "【空气凝，AlexYHX】彼岸【洛天依，言和，心华，乐正绫】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "彼岸",
+      "sub": ""
+    },
+    {
+      "no": 98,
+      "raw": "【洛天依原创】举头三尺【pv付】【超语速系列】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "举头三尺",
+      "sub": ""
+    },
+    {
+      "no": 99,
+      "raw": "4K HDR「CHEER UP! HEARTS UP!」(SHS 天海春香SSR special appeal) 【偶像大师百万现场 MLTD MV】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "K",
+      "sub": ""
+    },
+    {
+      "no": 100,
+      "raw": "存在？生物【F.M.H-13】【洛天依诗岸原创】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "存在？生物",
+      "sub": ""
+    },
+    {
+      "no": 101,
+      "raw": "【桃音モモ】　GPS　【ナカノは4番】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "GPS",
+      "sub": ""
+    },
+    {
+      "no": 102,
+      "raw": "【巡音ルカ】Sweet Time",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Sweet Time",
+      "sub": ""
+    },
+    {
+      "no": 103,
+      "raw": "【散る散る満ちる(散落飘零)】(Hi-Res|4k60帧) - 伶（鹫尾伶菜/Washio Reina）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "散る散る満ちる(散落飘零)",
+      "sub": ""
+    },
+    {
+      "no": 104,
+      "raw": "在世界趋于毁灭（when the world verge to relic）【星尘infinity】[原创曲]",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "在世界趋于毁灭（when the world verge to relic）",
+      "sub": ""
+    },
+    {
+      "no": 105,
+      "raw": "【BanG Dream！】完整版MV【Ringing Bloom】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "完整版",
+      "sub": ""
+    },
+    {
+      "no": 106,
+      "raw": "【徵羽摩柯AI原创曲】寄予你的歌【2024官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "寄予你的歌",
+      "sub": ""
+    },
+    {
+      "no": 107,
+      "raw": "逃 ❗️",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "逃 ❗️",
+      "sub": ""
+    },
+    {
+      "no": 108,
+      "raw": "【原创国风电音】千里邀月×乐正绫（超电出品）",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "千里邀月×乐正绫",
+      "sub": ""
+    },
+    {
+      "no": 109,
+      "raw": "【中日字幕/はるな。】我想死去的今天或许是别人渴望活下去的明天/私が死にたかった今日は誰かが生きたかった明日らしい - feat. 初音ミク & 海恋",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "私が死にたかった今日は誰かが生きたかった明日らしい",
+      "sub": "中日字幕"
+    },
+    {
+      "no": 110,
+      "raw": "【2017元宵】【心华乐正绫洛天依言和原创】镜花水月【砖厂浪人/幻月音乐团】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "镜花水月",
+      "sub": ""
+    },
+    {
+      "no": 111,
+      "raw": "【Underverse OST】Overwrite[String Quintet Remix]",
+      "lang": "other",
+      "project": "其他",
+      "kind": "album/event",
+      "title": "Overwrite",
+      "sub": ""
+    },
+    {
+      "no": 112,
+      "raw": "【花谱】死んでしまったのだろうか(2nd.ver)/已经死掉了",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "死んでしまったのだろうか(2nd.ver)",
+      "sub": ""
+    },
+    {
+      "no": 113,
+      "raw": "【中日字幕/謎J】オーバーキル！/Over kill！ - feat.鏡音リン",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "オーバーキル！/Over kill！",
+      "sub": "中日字幕"
+    },
+    {
+      "no": 114,
+      "raw": "【中文字幕】バスタイムプラネタリウム(星象浴)/HACHI【Official MV/4K】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "バスタイムプラネタリウム",
+      "sub": "中文字幕"
+    },
+    {
+      "no": 115,
+      "raw": "SPLIT / 裂 feat. 重音テトSV & 初音ミク",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "裂",
+      "sub": ""
+    },
+    {
+      "no": 116,
+      "raw": "【洛天依，乐正绫原创曲】泡沫舞厅【KoiNs】——我们都幻想爬上通天塔",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "泡沫舞厅 ——我们都幻想爬上通天塔",
+      "sub": ""
+    },
+    {
+      "no": 117,
+      "raw": "用葱卡贝拉打开像神一样呐",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "用葱卡贝拉打开像神一样呐",
+      "sub": ""
+    },
+    {
+      "no": 118,
+      "raw": "【乐正绫原创•十周年生贺】山路从此不遥远",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "山路从此不遥远",
+      "sub": ""
+    },
+    {
+      "no": 119,
+      "raw": "【重音テト】小小的我【マサラダ】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "小小的我",
+      "sub": ""
+    },
+    {
+      "no": 120,
+      "raw": "【洛天依×乐正绫】挚【电子原创/PV付/轩辕同人社】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "挚",
+      "sub": ""
+    },
+    {
+      "no": 121,
+      "raw": "【洛天依/原创摇滚】于是我举起了枪",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "于是我举起了枪",
+      "sub": ""
+    },
+    {
+      "no": 122,
+      "raw": "【乐正绫原创】Bird Cage【UtopiA】【Coin原创音乐工作室】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Bird Cage",
+      "sub": ""
+    },
+    {
+      "no": 123,
+      "raw": "【原创曲】星之旅【乐正绫/付PV】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "星之旅",
+      "sub": ""
+    },
+    {
+      "no": 124,
+      "raw": "【洛天依/乐正绫原创】她的歌【PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "她的歌",
+      "sub": ""
+    },
+    {
+      "no": 125,
+      "raw": "【 GUMI/堀江晶太/MV/中译版】白鼠希冀/ラットホープ/Rat Hope（BY：kemu）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ラットホープ",
+      "sub": "中译"
+    },
+    {
+      "no": 126,
+      "raw": "夏天还不算开始/洛天依",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "夏天还不算开始",
+      "sub": ""
+    },
+    {
+      "no": 127,
+      "raw": "【言和Ft.星尘原创】票根【Kevinz/渊鲤/Funi】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "票根",
+      "sub": ""
+    },
+    {
+      "no": 128,
+      "raw": "【IA】Uz【Orangestar】【授权转载】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Uz",
+      "sub": ""
+    },
+    {
+      "no": 129,
+      "raw": "【SoundHorizon】射殺戀人之日【320k高音質】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "射殺戀人之日",
+      "sub": ""
+    },
+    {
+      "no": 130,
+      "raw": "【初音未來Dark】心拍数♯0822【蝶蝶P】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "心拍数♯0822",
+      "sub": ""
+    },
+    {
+      "no": 131,
+      "raw": "好轻盈的声音 感觉自己飞的好高好高 要摘到星星了！宙でおやすみ（在天空晚安）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "好轻盈的声音 感觉自己飞的好高好高 要摘到星星了！宙でおやすみ",
+      "sub": ""
+    },
+    {
+      "no": 132,
+      "raw": "【洛天依原创】月亮的价格是九镑十五便士",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "月亮的价格是九镑十五便士",
+      "sub": ""
+    },
+    {
+      "no": 133,
+      "raw": "《请问您今天要来点兔子吗？》千夜角色歌第2期(生日系列)(お月見数え唄/赏月的数数歌)（中/日文字幕）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "请问您今天要来点兔子吗？",
+      "sub": ""
+    },
+    {
+      "no": 134,
+      "raw": "Aiobahn/YUC'e - 永久の宴",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "YUC'e - 永久の宴",
+      "sub": ""
+    },
+    {
+      "no": 135,
+      "raw": "【中文字幕】HoneyComeBear - 十夏の花 (Official Music Video) 10.夏天的十日之花",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "十夏の花 (Official Music Video) 10.夏天的十日之花",
+      "sub": "中文字幕"
+    },
+    {
+      "no": 136,
+      "raw": "【花谱】あるふぁYOU/Alpha YOU",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "あるふぁYOU",
+      "sub": ""
+    },
+    {
+      "no": 137,
+      "raw": "【洛天依言和AI原创曲】《未命名》——“前路看不到尽头 回忆被刻意做旧”丨《未Ⅰ》【洛言】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "未命名",
+      "sub": ""
+    },
+    {
+      "no": 138,
+      "raw": "Toge（Vo:あよ）/森羅万象 【Music Video】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Toge",
+      "sub": ""
+    },
+    {
+      "no": 139,
+      "raw": "春を待つ / Islet feat.倚水",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "春を待つ",
+      "sub": ""
+    },
+    {
+      "no": 140,
+      "raw": "【电音】Aiobahn - 過ぎゆく日と君へ (feat. nayuta)",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "過ぎゆく日と君へ",
+      "sub": ""
+    },
+    {
+      "no": 141,
+      "raw": "【洛天依&言和原创曲】沐雨",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "沐雨",
+      "sub": ""
+    },
+    {
+      "no": 142,
+      "raw": "【GUMI・初音ミク・巡音ルカ】在庭園中。【acane_madder】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "在庭園中。",
+      "sub": ""
+    },
+    {
+      "no": 143,
+      "raw": "【*Luna feat.ねんね】メタフィクション (Metafiction)",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "メタフィクション (Metafiction)",
+      "sub": ""
+    },
+    {
+      "no": 144,
+      "raw": "天球(そら)のMúsica（Musica Caelestis）（TV动画「BanG Dream! Ave Mujica」#13 插曲）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "天球(そら)のMúsica（Musica Caelestis）",
+      "sub": ""
+    },
+    {
+      "no": 145,
+      "raw": "【Hi-res】Memento Mori爱沐尔角色曲「Étoile」",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "Memento Mori爱沐尔角色曲",
+      "sub": ""
+    },
+    {
+      "no": 146,
+      "raw": "【Fine Day】【メメントモリ(memento mori)】4K HDR",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "メメントモリ(memento mori)",
+      "sub": ""
+    },
+    {
+      "no": 147,
+      "raw": "KizunaAI「かもね」（也许吧）Official Music Video",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "かもね",
+      "sub": ""
+    },
+    {
+      "no": 148,
+      "raw": "【洛天依原创】镜的绮想【洛天依11周年诞生祭】【静夜社】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "镜的绮想",
+      "sub": ""
+    },
+    {
+      "no": 149,
+      "raw": "枝垂桜 - Anna",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "枝垂桜 - Anna",
+      "sub": ""
+    },
+    {
+      "no": 150,
+      "raw": "【中文字幕】花铗镜- paradøx【MV】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "花铗镜- paradøx",
+      "sub": "中文字幕"
+    },
+    {
+      "no": 151,
+      "raw": "【ナツノセ】新曲「透明な、あまりにも透明な」",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "透明な、あまりにも透明な",
+      "sub": ""
+    },
+    {
+      "no": 152,
+      "raw": "「ナツノセ」ほうれん草にバンバンジー feat.冬【MV】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ほうれん草にバンバンジー",
+      "sub": ""
+    },
+    {
+      "no": 153,
+      "raw": "【初音ミク】amaryllis「Luna & Liz. & Guiano & tama」@狗粉丝字幕组",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "amaryllis",
+      "sub": ""
+    },
+    {
+      "no": 154,
+      "raw": "「ナツノセ」アノマリー　feat.沖石",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "アノマリー",
+      "sub": ""
+    },
+    {
+      "no": 155,
+      "raw": "夢遊 · tayori",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "夢遊 · tayori",
+      "sub": ""
+    },
+    {
+      "no": 156,
+      "raw": "tayori-ユートピア/Utopia",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ユートピア",
+      "sub": ""
+    },
+    {
+      "no": 157,
+      "raw": "【洛天依原创】-独行·Travel Alone-【PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "独行·Travel Alone",
+      "sub": ""
+    },
+    {
+      "no": 158,
+      "raw": "【中文字幕】八月の蛍(八月萤火)/HACHI",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "八月の蛍",
+      "sub": "中文字幕"
+    },
+    {
+      "no": 159,
+      "raw": "【乐正绫原创】吹梦落空山  |“曲过浮生叹，归来是少年”",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "吹梦落空山 |“曲过浮生叹，归来是少年”",
+      "sub": ""
+    },
+    {
+      "no": 160,
+      "raw": "【中文还原字幕】まなざし(眸光) / HACHI 【Official MV】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "まなざし",
+      "sub": "中文还原字幕"
+    },
+    {
+      "no": 161,
+      "raw": "【11th】夏灯篭(晚夏流灯)/HACHI【Official MV】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "夏灯篭",
+      "sub": ""
+    },
+    {
+      "no": 162,
+      "raw": "【洛天依原创曲】夜行者们【原创PV付】【闹闹丶】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "夜行者们",
+      "sub": ""
+    },
+    {
+      "no": 163,
+      "raw": "【2nd】Rainy proof / HACHI 【Official MV】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Rainy proof",
+      "sub": ""
+    },
+    {
+      "no": 164,
+      "raw": "【可不･結月ゆかり】已经死掉了【椎乃味醂】【中文CC字幕】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "已经死掉了",
+      "sub": "中文CC字幕"
+    },
+    {
+      "no": 165,
+      "raw": "【心华原创】冻夏【PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "冻夏",
+      "sub": ""
+    },
+    {
+      "no": 166,
+      "raw": "【异世界情绪】#10《シリウスの心臓/天狼星的心脏》",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "シリウスの心臓/天狼星的心脏",
+      "sub": ""
+    },
+    {
+      "no": 167,
+      "raw": "【音街ウナ】初恋日記【香椎モイミ】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "初恋日記",
+      "sub": ""
+    },
+    {
+      "no": 168,
+      "raw": "【4K60帧/Hires无损音质】甘美な無法/甜蜜的无理取闹 - 理芽【Live ver./中文字幕】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "甘美な無法",
+      "sub": "中文字幕"
+    },
+    {
+      "no": 169,
+      "raw": "Toa - Stained Nocturne - ft.镜音铃, 初音未来",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Stained Nocturne",
+      "sub": ""
+    },
+    {
+      "no": 170,
+      "raw": "「HiRes」あの夏が飽和する（feat.花谱）- カンザキイオリ （96Khz高保真无损音频）",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "あの夏が飽和する",
+      "sub": ""
+    },
+    {
+      "no": 171,
+      "raw": "【鏡音レン・リン】那个夏日已然饱和。【カンザキイオリ】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "那个夏日已然饱和。",
+      "sub": ""
+    },
+    {
+      "no": 172,
+      "raw": "水星 · Orangestar【feat.IA】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "水星 · Orangestar",
+      "sub": ""
+    },
+    {
+      "no": 173,
+      "raw": "【初音未来】カラバコにアイ【MIMI】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "カラバコにアイ",
+      "sub": ""
+    },
+    {
+      "no": 174,
+      "raw": "【初音ミク】スリークイーンズ ～吸血女王伝～【いーえるP】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "スリークイーンズ ～吸血女王伝～",
+      "sub": ""
+    },
+    {
+      "no": 175,
+      "raw": "【初音ミクEnglish】Propaganda!【Crusher-P】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Propaganda!",
+      "sub": ""
+    },
+    {
+      "no": 176,
+      "raw": "【重音テト】 禁断の理は絶望の吐息の中に【いーえるP】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "禁断の理は絶望の吐息の中に",
+      "sub": ""
+    },
+    {
+      "no": 177,
+      "raw": "【正式】【とあ】恋爱的才能【初音ミク】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "恋爱的才能",
+      "sub": ""
+    },
+    {
+      "no": 178,
+      "raw": "my sweet HDD -chip tune edit.- (feat. Kagamine Rin 【含cc字幕】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "my sweet HDD -chip tune edit.",
+      "sub": ""
+    },
+    {
+      "no": 179,
+      "raw": "「鏡音RIN」 Ur-Style 「DATEKEN」PV",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Ur-Style",
+      "sub": ""
+    },
+    {
+      "no": 180,
+      "raw": "【洛天依原创 】被嘲讽者的复仇",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "被嘲讽者的复仇",
+      "sub": ""
+    },
+    {
+      "no": 181,
+      "raw": "【可不】不要说再见【MIMI】【授权转载】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "不要说再见",
+      "sub": ""
+    },
+    {
+      "no": 182,
+      "raw": "【初音ミク＆可不】フィオーレ【MIMI】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "フィオーレ",
+      "sub": ""
+    },
+    {
+      "no": 183,
+      "raw": "【洛天依原创】平庸者的自白",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "平庸者的自白",
+      "sub": ""
+    },
+    {
+      "no": 184,
+      "raw": "【中日字幕/MIMI】解答 - feat.わん子",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "解答",
+      "sub": "中日字幕"
+    },
+    {
+      "no": 185,
+      "raw": "【洛天依AI乐正绫V5原创】巷花【致终会长大的朋友与曾经莽撞的自己】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "巷花",
+      "sub": ""
+    },
+    {
+      "no": 186,
+      "raw": "プリズムキューブ-立方棱镜",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "プリズムキューブ-立方棱镜",
+      "sub": ""
+    },
+    {
+      "no": 187,
+      "raw": "【极致电音】【初音未来10th】Wisp X,初音ミク - Alone",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Wisp X,初音ミク - Alone",
+      "sub": ""
+    },
+    {
+      "no": 188,
+      "raw": "可不 / 食虫植物 / 自调Cover",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "/ 食虫植物 / 自调",
+      "sub": ""
+    },
+    {
+      "no": 189,
+      "raw": "【洛天依原创曲】我属于火山口【PV付/洛卷卷·黑洛】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "我属于火山口",
+      "sub": ""
+    },
+    {
+      "no": 190,
+      "raw": "「歌声软件」林籁 & 韵泉 x Synthesizer V AI《闪烁最美的光》2023 Ver. 中文童声歌声测试曲「专业人声软音源」",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "闪烁最美的光",
+      "sub": ""
+    },
+    {
+      "no": 191,
+      "raw": "【闇音レンリ】回避暧昧【ポリスピカデリー】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "回避暧昧",
+      "sub": ""
+    },
+    {
+      "no": 192,
+      "raw": "Orangestar - 超次元愛歌",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "超次元愛歌",
+      "sub": ""
+    },
+    {
+      "no": 193,
+      "raw": "【Yunomi】インドア系ならトラックメイカー【MV】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "インドア系ならトラックメイカー",
+      "sub": ""
+    },
+    {
+      "no": 194,
+      "raw": "【とらこかお】讯息接收器诶？【初音ミク】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "讯息接收器诶？",
+      "sub": ""
+    },
+    {
+      "no": 195,
+      "raw": "【初音ミク】僕らのつづき",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "僕らのつづき",
+      "sub": ""
+    },
+    {
+      "no": 196,
+      "raw": "【重音テト】沒有反省，也沒有後悔【青谷】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "沒有反省，也沒有後悔",
+      "sub": ""
+    },
+    {
+      "no": 197,
+      "raw": "ディープスタリア・エニグマティカ / UTAUcover",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ディープスタリア・エニグマティカ",
+      "sub": ""
+    },
+    {
+      "no": 198,
+      "raw": "【中日双语完整版|Girls Band Cry】无刺有刺新曲「最期の禱り」（最后的祈祷）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "最期の禱り",
+      "sub": ""
+    },
+    {
+      "no": 199,
+      "raw": "【日推歌单】“这是真的是真的真实的吗”《本当だよ》",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "本当だよ",
+      "sub": ""
+    },
+    {
+      "no": 200,
+      "raw": "【初音ミク＆可不】妄想哀歌【MIMI】【授权转载】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "妄想哀歌",
+      "sub": ""
+    },
+    {
+      "no": 201,
+      "raw": "【ニコカラ】白猫海賊船 - 日南結里 feat. Yunomi",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "白猫海賊船 - 日南結里",
+      "sub": ""
+    },
+    {
+      "no": 202,
+      "raw": "【星尘原创】彼方【乌龟Sui】【PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "彼方",
+      "sub": ""
+    },
+    {
+      "no": 203,
+      "raw": "【Clesss】SIMON",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "SIMON",
+      "sub": ""
+    },
+    {
+      "no": 204,
+      "raw": "綿飴(季節P)—桜色キャンバス（vocal：结月ゆかり、IA、初音ミク）",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "綿飴(季節P)—桜色キャンバス",
+      "sub": ""
+    },
+    {
+      "no": 205,
+      "raw": "东方音乐推荐：メイドノココロハ アヤツリドール (Maid heart is a puppet)",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "メイドノココロハ アヤツリドール (Maid heart is a puppet)",
+      "sub": ""
+    },
+    {
+      "no": 206,
+      "raw": "【鎖那】【中文字幕】オオカミと少女  狼与少女",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "オオカミと少女 狼与少女",
+      "sub": "中文字幕"
+    },
+    {
+      "no": 207,
+      "raw": "【洛天依原创】镜面交换【Sya】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "镜面交换",
+      "sub": ""
+    },
+    {
+      "no": 208,
+      "raw": "赤羽原创电音（平凡的世界昨天和你）Synthesizer V原创曲 （附走带纯音乐版本）",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "赤羽原创电音（平凡的世界昨天和你）Synthesizer V原创曲",
+      "sub": ""
+    },
+    {
+      "no": 209,
+      "raw": "开口心动！「彼女は旅に出る」1207冰龙生日纪念曲",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "彼女は旅に出る",
+      "sub": ""
+    },
+    {
+      "no": 210,
+      "raw": "“我不要你走，我不想放手。”【翻唱/如果这就是爱情】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "“我不要你走，我不想放手。”",
+      "sub": ""
+    },
+    {
+      "no": 211,
+      "raw": "【洛天依原创曲】再声 Recall【2024官方十二周年生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "再声 Recall",
+      "sub": ""
+    },
+    {
+      "no": 212,
+      "raw": "【洛天依AI原创】因你而盛开的花【手书pv/HB to COP】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "因你而盛开的花",
+      "sub": ""
+    },
+    {
+      "no": 213,
+      "raw": "【米津玄师】さよーならまたいつか Hi-Res 中日字幕",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "さよーならまたいつか",
+      "sub": "中日字幕"
+    },
+    {
+      "no": 214,
+      "raw": "【初音】戯言Speaker",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "戯言Speaker",
+      "sub": ""
+    },
+    {
+      "no": 215,
+      "raw": "零ノ花 / flower , 足立レイ",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "零ノ花",
+      "sub": ""
+    },
+    {
+      "no": 216,
+      "raw": "【 初音ミク 】大切な人たちへ【 傘村トータ 】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "大切な人たちへ",
+      "sub": ""
+    },
+    {
+      "no": 217,
+      "raw": "Alice in 冷凍庫 / Orangestar feat.IA 「授权搬运」",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Alice in 冷凍庫",
+      "sub": ""
+    },
+    {
+      "no": 218,
+      "raw": "【Guiano feat. 理芽】舞【MV】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "舞",
+      "sub": ""
+    },
+    {
+      "no": 219,
+      "raw": "【Album XFD】冬のライラ (Lyra of Winter)/ *Luna & Liz. & Guiano & いいづか",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "album/event",
+      "title": "冬のライラ (Lyra of Winter)",
+      "sub": ""
+    },
+    {
+      "no": 220,
+      "raw": "【Ado】 桜日和とタイムマシン / 樱日和与时间机器 with 初音未来",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "桜日和とタイムマシン",
+      "sub": ""
+    },
+    {
+      "no": 221,
+      "raw": "【Ado】踊 (Odo)/起舞",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "踊 (Odo)/起舞",
+      "sub": ""
+    },
+    {
+      "no": 222,
+      "raw": "“但我讨厌摇滚乐”/洛天依原创",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "“但我讨厌摇滚乐”/洛天依原创",
+      "sub": ""
+    },
+    {
+      "no": 223,
+      "raw": "【初音ミク ＆ 可不】成为空【MIMI】",
+      "lang": "jp",
+      "project": "神椿",
+      "kind": "song",
+      "title": "成为空",
+      "sub": ""
+    },
+    {
+      "no": 224,
+      "raw": "【洛天依原创】平行线",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "平行线",
+      "sub": ""
+    },
+    {
+      "no": 225,
+      "raw": "【プロセカ】とても痛い痛がりたい 朝比奈まふゆ、初音ミク、東雲絵名 ver.",
+      "lang": "jp",
+      "project": "SEKAI",
+      "kind": "song",
+      "title": "とても痛い痛がりたい 朝比奈まふゆ、初音ミク、東雲絵名",
+      "sub": ""
+    },
+    {
+      "no": 226,
+      "raw": "《横冲直撞 我们的城市》",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "横冲直撞 我们的城市",
+      "sub": ""
+    },
+    {
+      "no": 227,
+      "raw": "“救世主华丽登场！”《シヴァ》丨日推歌单",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "シヴァ",
+      "sub": ""
+    },
+    {
+      "no": 228,
+      "raw": "ハレハレヤ / flower",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "ハレハレヤ",
+      "sub": ""
+    },
+    {
+      "no": 229,
+      "raw": "【洛天依原创】为了你唱下去【PV付】【HB to 天依】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "为了你唱下去",
+      "sub": ""
+    },
+    {
+      "no": 230,
+      "raw": "【心华乐正绫】渺小的producer【原创曲pv付·Sodatune】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "渺小的producer",
+      "sub": ""
+    },
+    {
+      "no": 231,
+      "raw": "【洛天依原创曲】一点一点【异托邦LOVETOPIA】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "一点一点",
+      "sub": ""
+    },
+    {
+      "no": 232,
+      "raw": "【GUMI】心理作用【蝶々P】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "心理作用",
+      "sub": ""
+    },
+    {
+      "no": 233,
+      "raw": "【MV】茶太 -团子大家族  CLANNAD ED 中日字幕",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "茶太 -团子大家族 CLANNAD ED",
+      "sub": "中日字幕"
+    },
+    {
+      "no": 234,
+      "raw": "【游戏化】哭泣少女乐队 Girls Band Cry 手机游戏制作决定【MCE汉化组】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "album/event",
+      "title": "哭泣少女乐队 Girls Band Cry 手机游戏制作决定",
+      "sub": ""
+    },
+    {
+      "no": 235,
+      "raw": "【言和】我从人间走过（倘若某天我也悄无声息，死在了无人关注的角落里）【我从人间走过】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "我从人间走过",
+      "sub": ""
+    },
+    {
+      "no": 236,
+      "raw": "【葱包】はいよろこんで☆乐意效劳",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "はいよろこんで☆乐意效劳",
+      "sub": ""
+    },
+    {
+      "no": 237,
+      "raw": "【洛天依原创曲】女装少年",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "女装少年",
+      "sub": ""
+    },
+    {
+      "no": 238,
+      "raw": "【洛天依原创曲】又一个夜晚【十二周年官方生贺曲舞台版】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "又一个夜晚",
+      "sub": ""
+    },
+    {
+      "no": 239,
+      "raw": "冠世一战【2019拜年祭单品】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "冠世一战",
+      "sub": ""
+    },
+    {
+      "no": 240,
+      "raw": "【忘川风华录·刘秀】拜云台【乐正绫原创】 “二十八宿列阵扶圣明，汉家再兴！”",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "拜云台 “二十八宿列阵扶圣明，汉家再兴！”",
+      "sub": ""
+    },
+    {
+      "no": 241,
+      "raw": "“在你眼中我是谁，你想我代替谁。”【翻唱/谁】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "“在你眼中我是谁，你想我代替谁。”",
+      "sub": ""
+    },
+    {
+      "no": 242,
+      "raw": "“相思若好不了只能怪我找不到解药。”【翻唱/那么骄傲】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "“相思若好不了只能怪我找不到解药。”",
+      "sub": ""
+    },
+    {
+      "no": 243,
+      "raw": "【墨清弦AI原创曲】绝对占有【2024官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "绝对占有",
+      "sub": ""
+    },
+    {
+      "no": 244,
+      "raw": "【乐正绫/洛天依】夜蝶【百合向】【溱绫/ACE】【翻唱曲/pv付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "夜蝶",
+      "sub": ""
+    },
+    {
+      "no": 245,
+      "raw": "【洛天依原创】淋完这场雨就忘记你吧😭😭😭",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "淋完这场雨就忘记你吧😭😭😭",
+      "sub": ""
+    },
+    {
+      "no": 246,
+      "raw": "洛天依，言和原创《普通DISCO》",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "普通DISCO",
+      "sub": ""
+    },
+    {
+      "no": 247,
+      "raw": "大哉乾元【2024拜年纪单品】",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "大哉乾元",
+      "sub": ""
+    },
+    {
+      "no": 248,
+      "raw": "洛天依，言和原创《乾中和》【ilem六周年投稿祭单品】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "乾中和",
+      "sub": ""
+    },
+    {
+      "no": 249,
+      "raw": "【忘川风华录·墨子】墨隐侠声【乐正龙牙原创】 “赴火蹈刃去 纵死不折腰”",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "墨隐侠声 “赴火蹈刃去 纵死不折腰”",
+      "sub": ""
+    },
+    {
+      "no": 250,
+      "raw": "【初音ミク】Damnation【Mwk 】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Damnation",
+      "sub": ""
+    },
+    {
+      "no": 251,
+      "raw": "洛天依X索尼音乐原创EP单曲《登陆宇宙》MV首发【冰火秋日游】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "登陆宇宙",
+      "sub": ""
+    },
+    {
+      "no": 252,
+      "raw": "初音未来 Happy 16th Birthday ‐Dear Creators‐ Trailer",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "album/event",
+      "title": "初音未来 Happy 16th Birthday ‐Dear Creators‐ Trailer",
+      "sub": ""
+    },
+    {
+      "no": 253,
+      "raw": "来吧，献上你的“爱”《二十三》【洛天依11周年生日会】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "album/event",
+      "title": "二十三",
+      "sub": ""
+    },
+    {
+      "no": 254,
+      "raw": "【洛天依原创曲】月华舞【2023官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "月华舞",
+      "sub": ""
+    },
+    {
+      "no": 255,
+      "raw": "【言和原创曲】听我一言【2023言和十周年官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "听我一言",
+      "sub": ""
+    },
+    {
+      "no": 256,
+      "raw": "【洛天依古风原创曲】权御天下【原创PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "权御天下",
+      "sub": ""
+    },
+    {
+      "no": 257,
+      "raw": "墨清弦五周年纪念EP《梦舞心弦》试听PV",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "album/event",
+      "title": "梦舞心弦",
+      "sub": ""
+    },
+    {
+      "no": 258,
+      "raw": "【徵羽摩柯原创曲】凌晨五点半【PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "凌晨五点半",
+      "sub": ""
+    },
+    {
+      "no": 259,
+      "raw": "【星火行动】朝汐【洛天依原创曲】【神华社】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "朝汐",
+      "sub": ""
+    },
+    {
+      "no": 260,
+      "raw": "为高考应援！15位虚拟歌姬合唱《和你一样》，一起去全力以赴追逐我们的梦想吧！",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "和你一样",
+      "sub": ""
+    },
+    {
+      "no": 261,
+      "raw": "【洛天依】中华少女•终 2.0【原创曲PV付】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "中华少女•终 2.0",
+      "sub": ""
+    },
+    {
+      "no": 262,
+      "raw": "【转载MMD/珐露珊】拼凑的断音",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "拼凑的断音",
+      "sub": ""
+    },
+    {
+      "no": 263,
+      "raw": "Vsinger全员新专《喧闹世界》试听PV",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "album/event",
+      "title": "喧闹世界",
+      "sub": ""
+    },
+    {
+      "no": 264,
+      "raw": "【洛天依ai】天方夜谭漫游指南【异域风原创曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "天方夜谭漫游指南",
+      "sub": ""
+    },
+    {
+      "no": 265,
+      "raw": "【泠鸢×嘉然】合作单曲《我们快出发》元气上线（欢迎二创）",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "我们快出发",
+      "sub": ""
+    },
+    {
+      "no": 266,
+      "raw": "【言和原创曲】心音盒【2022官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "心音盒",
+      "sub": ""
+    },
+    {
+      "no": 267,
+      "raw": "【翻唱】キャットラビング 【神楽七奈】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "キャットラビング",
+      "sub": ""
+    },
+    {
+      "no": 268,
+      "raw": "【乐正绫原创】艳兽【2022乐正绫七周年生贺】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "艳兽",
+      "sub": ""
+    },
+    {
+      "no": 269,
+      "raw": "【初音ミク】Darling Dance【かいりきベア】",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "Darling Dance",
+      "sub": ""
+    },
+    {
+      "no": 270,
+      "raw": "【洛天依原创曲】别害怕了 - “等待花开”",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "别害怕了 - “等待花开”",
+      "sub": ""
+    },
+    {
+      "no": 271,
+      "raw": "【乐正绫原创曲】未知旅行FM【2022官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "未知旅行FM",
+      "sub": ""
+    },
+    {
+      "no": 272,
+      "raw": "【鹿乃】翻唱《曾经我也想过一了百了》",
+      "lang": "jp",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "曾经我也想过一了百了",
+      "sub": ""
+    },
+    {
+      "no": 273,
+      "raw": "洛天依，原创《勾指起誓》",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "勾指起誓",
+      "sub": ""
+    },
+    {
+      "no": 274,
+      "raw": "【洛天依】2021.7.12洛天依生日会",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "album/event",
+      "title": ".7.12洛天依生日会",
+      "sub": ""
+    },
+    {
+      "no": 275,
+      "raw": "【言和原创曲】折光【2021官方生贺曲】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "折光",
+      "sub": ""
+    },
+    {
+      "no": 276,
+      "raw": "与洛天依的《美好生活上买单吧》，就差你了",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "美好生活上买单吧",
+      "sub": ""
+    },
+    {
+      "no": 277,
+      "raw": "【洛天依·言和原创曲】双向幸福【PV付/周黑亚】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "双向幸福",
+      "sub": ""
+    },
+    {
+      "no": 278,
+      "raw": "【Vsinger】2021BW会场限定应援专辑《Color Flow》试听PV",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "album/event",
+      "title": "Color Flow",
+      "sub": ""
+    },
+    {
+      "no": 279,
+      "raw": "【中V全员/原创毕业歌/催泪警告】那个班级",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "那个班级",
+      "sub": ""
+    },
+    {
+      "no": 280,
+      "raw": "坠落之章·三",
+      "lang": "other",
+      "project": "其他",
+      "kind": "song",
+      "title": "坠落之章·三",
+      "sub": ""
+    },
+    {
+      "no": 281,
+      "raw": "乐正绫 原创《傲娇系男孩的告白日》（专辑《绫》收录）",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "傲娇系男孩的告白日",
+      "sub": ""
+    },
+    {
+      "no": 282,
+      "raw": "【言和原创曲/双向系列角色歌】正向欺骗【PV付/周黑亚】",
+      "lang": "mixed",
+      "project": "VOCALOID/术力口",
+      "kind": "song",
+      "title": "正向欺骗",
+      "sub": ""
+    },
+    {
+      "no": 283,
+      "raw": "洛天依 原创《保卫罗德岛》",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "保卫罗德岛",
+      "sub": ""
+    },
+    {
+      "no": 284,
+      "raw": "【2016拜年祭单品】九九八十一【乐正绫 feat.洛天依】",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "九九八十一",
+      "sub": ""
+    },
+    {
+      "no": 285,
+      "raw": "【游九州】赤壁沧浪曲-洛天依原创曲",
+      "lang": "zh",
+      "project": "中V",
+      "kind": "song",
+      "title": "赤壁沧浪曲-洛天依原创曲",
+      "sub": ""
+    }
+  ]
+}

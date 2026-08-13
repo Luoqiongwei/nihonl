@@ -1,16 +1,20 @@
 /* 音楽：J-POP / J-Rock / VOCALOID / 神椿 歌曲 × 词汇学习 */
 
 Nihonl.views.music = {
-  state: { project: "all" },
+  state: { project: "all", q: "" },
 
   render() {
     const chips = `<button class="chip ${this.state.project === "all" ? "active" : ""}" data-project="all">全部</button>` +
       NihonlData.songProjects().map((p) =>
         `<button class="chip ${this.state.project === p ? "active" : ""}" data-project="${Nihonl.esc(p)}">${Nihonl.esc(p)}</button>`).join("");
 
-    const songs = this.state.project === "all"
-      ? NihonlData.songs
-      : NihonlData.songs.filter((s) => s.project === this.state.project);
+    const q = this.state.q.trim().toLowerCase();
+    const songs = NihonlData.songs.filter((s) => {
+      if (this.state.project !== "all" && s.project !== this.state.project) return false;
+      if (!q) return true;
+      const hay = `${s.title} ${s.romajiTitle || ""} ${s.artist} ${s.producer || ""} ${s.project || ""} ${s.summary.zh}`.toLowerCase();
+      return hay.includes(q);
+    });
 
     return `
       <div class="page-head">
@@ -23,6 +27,9 @@ Nihonl.views.music = {
         <b>版权说明</b>　本站只摘录少量歌词句子用于学习讲解，不提供整首歌词；歌曲版权归原作者 / 唱片公司所有，点击卡片内的来源链接可查看完整歌词与官方页面。
       </div>
 
+      <div class="toolbar">
+        <input class="search" id="music-search" type="search" placeholder="搜索歌名 / 歌手 / 企划…" value="${Nihonl.esc(this.state.q)}">
+      </div>
       <div class="chip-row" style="margin:1rem 0">${chips}</div>
 
       <div class="grid grid-2">
@@ -53,6 +60,15 @@ Nihonl.views.music = {
   },
 
   mount(el) {
+    const search = el.querySelector("#music-search");
+    if (search) {
+      search.addEventListener("input", () => {
+        this.state.q = search.value;
+        const app = document.getElementById("app");
+        app.innerHTML = this.render();
+        this.mount(app);
+      });
+    }
     el.querySelectorAll(".chip[data-project]").forEach((chip) => {
       chip.addEventListener("click", () => {
         this.state.project = chip.dataset.project;
@@ -127,7 +143,9 @@ Nihonl.views.musicDetail = {
       <div class="card" style="margin-top:1rem">
         <h3>来源</h3>
         <ul class="source-list">
-          ${s.sources.map((src) => `<li><a href="${Nihonl.esc(src.url)}" target="_blank" rel="noopener noreferrer">${Nihonl.esc(src.label)}</a></li>`).join("")}
+          ${s.sources.map((src) => src.url
+            ? `<li><a href="${Nihonl.esc(src.url)}" target="_blank" rel="noopener noreferrer">${Nihonl.esc(src.label)}</a></li>`
+            : `<li>${Nihonl.esc(src.label)}</li>`).join("")}
         </ul>
         <p class="muted" style="font-size:0.85rem">歌词节选仅用于学习讲解，完整歌词与版权归原作者所有。</p>
       </div>
