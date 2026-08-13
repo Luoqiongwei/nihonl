@@ -1542,6 +1542,157 @@
         { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/jb71308139/" },
         { label: "豆瓣乐评（中文翻译）", url: "https://music.douban.com/review/7593383/" }
       ]
+    },
+    {
+      id: "alternate-keeno",
+      title: "alternate",
+      romajiTitle: "alternate",
+      artist: "初音ミク（Dark）",
+      producer: "keeno（作詞・作曲）",
+      year: 2015,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "気づかないふり繰り返す私は 割れる心の音も聞こえないまま", zh: "不断假装没察觉的我，连心碎的声音也听不见" },
+        { ja: "繋がったふりぎこちない笑顔で 君の隣に居場所を探すけど", zh: "假装和你相连，用笨拙的笑容，在你身边寻找栖身之处" },
+        { ja: "ねえ。どうしようもなく好きなんでしょ？ 私の涙も見えないくらいに", zh: "呐，你其实喜欢得无可救药吧？喜欢到看不见我的眼泪" },
+        { ja: "狂おしいほど何度も叫んでいるのに 届かないから私といるの？ ずるいよ", zh: "明明无数次发狂般地呐喊，却因为传不到才和我在一起吗？真狡猾啊" }
+      ],
+      points: [
+        { ja: "気づかないふり", zh: "假装没察觉", note: "ふり= 装作…的样子；「気づかないふりをする」是装傻的固定说法。", wordId: "miru" },
+        { ja: "割れる心の音", zh: "心碎的声音", note: "割れる（われる）= 破裂；「心が割れる」比喻心碎。", wordId: "kokoro" },
+        { ja: "どうしようもなく好き", zh: "喜欢得无可救药", note: "どうしようもない= 无可奈何；接「好き」表示程度深到无法控制。", wordId: "setsunai" }
+      ],
+      words: ["miru", "kokoro", "setsunai"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mo15031725/" }
+      ]
+    },
+    {
+      id: "ainoshizuku",
+      title: "アイノシズク",
+      romajiTitle: "Ainoshizuku",
+      artist: "初音ミク（Vi-Res 收录）",
+      producer: "KARAKURI 2039（作詞・作曲）",
+      year: 2020,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "物憂げな冬の惑星で 靴下も持たず生まれたよ", zh: "在阴郁的冬日星球上，我连袜子都没穿就出生了" },
+        { ja: "寒空に僕ら凍えて 少し痩せたまあるいイノチ", zh: "我们在寒空中冻僵，微微消瘦的圆圆的性命" },
+        { ja: "正しくありたいと胸を焦がす されど知る あれない自分", zh: "渴望着成为正确的人而心焦，却知晓无法成为的自己" },
+        { ja: "それでもあなたの頬を落ちる シズクだけが僕の理由", zh: "即便如此，从你脸颊滑落的泪滴，才是我存在的理由" }
+      ],
+      points: [
+        { ja: "物憂げな冬の惑星", zh: "阴郁的冬日星球", note: "物憂げ（ものうげ）= 无精打采、倦怠；惑星（わくせい）= 行星。", wordId: "tsuki" },
+        { ja: "胸を焦がす", zh: "心焦、渴望", note: "焦がす（こがす）本义是烧焦，引申为焦急思慕；「胸を焦がす」是惯用表达。", wordId: "kokoro" },
+        { ja: "シズクだけが僕の理由", zh: "只有泪滴是我的理由", note: "シズク即「雫」（しずく）= 水滴、泪滴；片假名写法让歌名更有意象感。", wordId: "ame" }
+      ],
+      words: ["tsuki", "kokoro", "ame"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/qk20022107/" }
+      ]
+    },
+    {
+      id: "egakumirai",
+      title: "エガクミライ",
+      romajiTitle: "Egakumirai",
+      artist: "MyGO!!!!!",
+      producer: "MyGO!!!!!（原创歌曲）",
+      year: 2025,
+      project: "SEKAI",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "行方不明の本音を探して 迷うからジグザグに降る雨", zh: "寻找着下落不明的真心，所以雨水也曲折地洒落" },
+        { ja: "希望に似た何かを 勇気に似た何かを 見つけられたらきっと なんて夢見て", zh: "幻想着只要能找到近似希望、近似勇气的东西，就一定能…" },
+        { ja: "足が震えるほど 勇気を奮う事はもう 恥ずかしい事じゃないのに", zh: "即使害怕到双腿发抖，鼓起勇气这件事，明明早已不再丢人" },
+        { ja: "描く未来 広がる世界 約束の花は散れども 僕らはきっと 大丈夫だよ", zh: "描绘的未来、展开的世界，约定的花即使凋零，我们也一定会没事的" }
+      ],
+      points: [
+        { ja: "本音を探して", zh: "寻找真心话", note: "本音（ほんね）= 真实的心里话；与「建前」（场面话）相对。", wordId: "hanasu" },
+        { ja: "勇気を奮う", zh: "鼓起勇气", note: "奮う（ふるう）= 振奋、鼓足；「勇気を奮う」是鼓起勇气的惯用说法。", wordId: "yume" },
+        { ja: "約束の花は散れども", zh: "约定的花即使凋零", note: "散れども是「散っても」的文语形式；「ども」表逆接，语气坚定。", wordId: "hana" }
+      ],
+      words: ["hana", "yume", "hanasu"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/qa51158001/" }
+      ]
+    },
+    {
+      id: "sweet-time-luka",
+      title: "Sweet Time",
+      romajiTitle: "Sweet Time（スウィートタイム）",
+      artist: "巡音ルカ",
+      producer: "EasyPop（BETTI）（作詞・作曲）",
+      year: 2012,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "さっきまでずっと一緒に いたはずなのに", zh: "明明刚才还一直黏在一起的" },
+        { ja: "すぐに愛しくなる その声 自分でもわからない 甘いせつなさ", zh: "却马上变得如此想念的你的声音，连自己也不明白的甜美苦涩" },
+        { ja: "あの日のキスがずっと アタマとココロうめつくして 身動きなんて とれない", zh: "那天的吻一直填满身心，让人动弹不得" },
+        { ja: "キミの全てがもっと 私の中を染めてく", zh: "你的所有一切，逐渐沾染我的内心" }
+      ],
+      points: [
+        { ja: "いたはずなのに", zh: "明明（刚才）还在的", note: "「〜はずなのに」= 按理应该…却…，带着不解和失落。", wordId: "setsunai" },
+        { ja: "甘いせつなさ", zh: "甜美的苦涩", note: "甘い（あまい）= 甜；せつなさ= 揪心感。甜与苦并置是恋爱歌的经典写法。", wordId: "setsunai" },
+        { ja: "うめつくして", zh: "填满", note: "埋め尽くす（うめつくす）= 完全填满；「アタマとココロ」= 头脑与心灵。", wordId: "kokoro" }
+      ],
+      words: ["setsunai", "kokoro", "tanoshii"],
+      sources: [
+        { label: "萌娘百科（中日歌词）", url: "https://zh.moegirl.tw/Sweet_Time" }
+      ]
+    },
+    {
+      id: "toge-shinra",
+      title: "Toge",
+      romajiTitle: "Toge",
+      artist: "森羅万象（歌：あよ）",
+      producer: "みゅい（作詞）・kaztora（作曲）",
+      year: 2021,
+      project: "同人音乐",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "さあ 繋ぐ讃歌で 小さい安泰なアンパイへinvitation", zh: "来吧，用相连的赞歌，向渺小的安稳发出邀请" },
+        { ja: "そう「こうあるべき」だ なんてほら縛りつけ また自分も納得したいだけ", zh: "是啊，被「理应如此」束缚着，只是想要说服自己罢了" },
+        { ja: "Hey ジーザス 勇敢に満ちた声で 可憐に響いたトゲで", zh: "嘿，神明啊，用满怀勇气的声音、可怜回响的尖刺" },
+        { ja: "夕立の後に rainbow 「君らしく」でいいんじゃないの", zh: "阵雨过后是彩虹，「做你自己」不就好了吗" }
+      ],
+      points: [
+        { ja: "繋ぐ讃歌", zh: "相连的赞歌", note: "讃歌（さんか）= 赞歌；「繋ぐ」= 连接，暗示人与人之间的共鸣。", wordId: "kiku" },
+        { ja: "「こうあるべき」", zh: "「理应如此」", note: "べき= 应该（文语）；歌里批判被「应该怎样」的社会规训束缚。", wordId: "hanasu" },
+        { ja: "夕立の後に rainbow", zh: "阵雨之后是彩虹", note: "夕立（ゆうだち）= 傍晚的骤雨；「〜の後に」= 在…之后。", wordId: "ame" }
+      ],
+      words: ["kiku", "ame", "hanasu"],
+      sources: [
+        { label: "拾音人音乐网（中日歌词）", url: "https://www.shiyinren.net/song/1126329.html" },
+        { label: "官方 MV（bilibili）", url: "https://www.bilibili.com/video/BV1Wr4y1y7qk/" }
+      ]
+    },
+    {
+      id: "parachute-milet",
+      title: "Parachute",
+      romajiTitle: "Parachute",
+      artist: "milet",
+      producer: "milet・Ryosuke Shigenaga（作詞・作曲）",
+      year: 2020,
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "Will you save me, parachute? Can I just fall into you? If you love me", zh: "你会救我吗，降落伞？我可以就这样坠入你怀中吗？如果你爱我" },
+        { ja: "手を伸ばしても届かない 着地点は it's not the end", zh: "伸出手也够不到，落点并不是终点" },
+        { ja: "Parachute you can't save me, so I will do", zh: "降落伞，你救不了我，所以我自己来" },
+        { ja: "堕ちていってもかまわない あなたがいれば it'll all be fine", zh: "坠落下去也没关系，只要有你在，一切都会好" }
+      ],
+      points: [
+        { ja: "手を伸ばしても届かない", zh: "伸出手也够不到", note: "届く（とどく）= 够到、到达；「〜ても〜ない」= 即使…也（不）…。", wordId: "yume" },
+        { ja: "堕ちていってもかまわない", zh: "坠落下去也没关系", note: "堕ちる（おちる）= 坠落；「かまわない」= 无所谓、没关系。", wordId: "sora" },
+        { ja: "あなたがいれば", zh: "只要有你在", note: "「いれば」是「いる」的假定形；「〜がいれば」= 只要有…在（就安心）。", wordId: "tomodachi" }
+      ],
+      words: ["sora", "yume", "tomodachi"],
+      sources: [
+        { label: "歌ネット（歌词页）", url: "https://www.uta-net.com/song/286017/" }
+      ]
     }
   ];
 

@@ -47,7 +47,8 @@ function Get-CandidateLinks([string]$title) {
   $t = [uri]::EscapeDataString($title)
   $html = Get-Page "https://utaten.com/lyric/search?title=$t&sort=popular_sort_asc&show_artists=1"
   if ($null -eq $html) { return $null }
-  $links = @([regex]::Matches($html, 'href="(/lyric/mi\d+/)"') | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique | Where-Object { $_ })
+  # utaten 歌词页链接前缀不固定（mi/jb/hw/sa/ym/ma/nm/ay/qk 等），统一取 /lyric/<字母><数字>/
+  $links = @([regex]::Matches($html, 'href="(/lyric/[a-z]+\d+/)"') | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique | Where-Object { $_ })
   return $links
 }
 
