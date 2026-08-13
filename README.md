@@ -13,6 +13,21 @@ python -m http.server 8080
 
 然后浏览器访问 `http://localhost:8080`。
 
+## 部署到 GitHub Pages
+
+仓库已内置 GitHub Actions 工作流（`.github/workflows/deploy.yml`）：推送到 `main` 后会自动跑冒烟测试并把站点发布到
+
+<https://luoqiongwei.github.io/nihonl/>
+
+首次部署需要两步设置（之后推送即自动发布）：
+
+1. **公开仓库**：GitHub Pages 在免费方案下只支持公开仓库。到仓库 Settings → General → Danger Zone → Change repository visibility 改为 Public。
+2. **开启 Pages**：Settings → Pages → Source 选择 **GitHub Actions** → Save。
+
+然后到 Actions 页面手动 Run workflow 一次（或再推送一次代码），等待绿色勾号后即可访问上面的地址。
+
+> 站点使用相对路径与 hash 路由，无需修改代码就能在 `/nihonl/` 子路径下运行。
+
 ## 功能
 
 - **五十音**：平假名 / 片假名清音、浊音、拗音表
