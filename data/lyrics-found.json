@@ -1973,7 +1973,7 @@
     "raw": "「HiRes」あの夏が飽和する（feat.花谱）- カンザキイオリ （96Khz高保真无损音频）",
     "project": "神椿",
     "sub": "",
-    "found": true,
+    "found": false,
     "page": "あの夏が飽和する。 (Ano Natsu ga Houwa Suru.) (album)",
     "url": "https://vocaloidlyrics.miraheze.org/wiki/あの夏が飽和する。_(Ano_Natsu_ga_Houwa_Suru.)_(album)",
     "lines": [
@@ -1985,7 +1985,7 @@
       "tr5 = 人生はコメディ (Jinsei wa Comedy)",
       "tr6 = 死ぬとき死ねばいい (Shinu Toki Shineba Ii)"
     ],
-    "reason": "",
+    "reason": "album-page-not-lyrics",
     "candidates": [
       "あの夏が飽和する。 (Ano Natsu ga Houwa Suru.) (album)",
       "あの夏が飽和する。 (Ano Natsu ga Houwa Suru.)",
