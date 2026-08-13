@@ -6,6 +6,7 @@ Nihonl.navItems = [
   { href: "#/vocab", label: "词汇" },
   { href: "#/study", label: "背单词" },
   { href: "#/culture", label: "文化" },
+  { href: "#/music", label: "音楽" },
   { href: "#/stats", label: "进度" }
 ];
 

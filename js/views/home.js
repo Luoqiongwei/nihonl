@@ -6,6 +6,7 @@ Nihonl.views.home = {
     const goalPct = Math.min(100, Math.round((s.reviewedToday / s.dailyGoal) * 100));
     const spotlight = NihonlData.culture[Math.floor(Math.random() * NihonlData.culture.length)];
     const spotWords = NihonlData.wordsForCulture(spotlight.id).slice(0, 3);
+    const song = NihonlData.songs[Math.floor(Math.random() * NihonlData.songs.length)];
 
     return `
       <section class="hero">
@@ -65,6 +66,21 @@ Nihonl.views.home = {
         <div class="c-words">
           ${spotWords.map((w) => `<span class="tag ghost">${Nihonl.esc(w.kana)}</span>`).join("")}
           <span class="muted" style="font-size:0.82rem">关联词汇 · 点击阅读 →</span>
+        </div>
+      </a>
+
+      <div class="section-title">
+        <h2>今日一曲</h2>
+        <span class="ja-sub">きょうのうた</span>
+      </div>
+      <a class="card song-card" href="#/music/${encodeURIComponent(song.id)}" style="display:block">
+        <div class="song-ja">${Nihonl.esc(song.title)}<span class="song-romaji" style="margin-left:0.5rem">${Nihonl.esc(song.romajiTitle || "")}</span></div>
+        <div class="song-meta">${Nihonl.esc(song.artist)}${song.year ? ` · ${song.year}` : ""}</div>
+        <div class="song-summary">${Nihonl.esc(song.summary.zh)}</div>
+        <div class="song-tags">
+          <span class="tag">${Nihonl.esc(song.project || "其他")}</span>
+          ${song.lyricsStatus === "complete" ? `<span class="tag green">歌词节选</span>` : `<span class="tag gold">歌词待补</span>`}
+          <span class="muted" style="font-size:0.82rem">边听歌边学词 →</span>
         </div>
       </a>
     `;

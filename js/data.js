@@ -15,6 +15,15 @@
  *   mnemonic 中文联想记忆（可关联动漫/文化）
  *
  * 新增词汇：直接在 words 数组末尾追加对象即可。
+ *
+ * 歌曲字段说明（songs 数组）：
+ *   id / title / romajiTitle / artist / producer / year / project
+ *   summary   { ja, zh } 歌曲简介
+ *   excerpt   歌词节选 [{ ja, zh }]（版权考虑：只摘录数句）
+ *   points    学习点 [{ ja, zh, note, wordId? }]
+ *   words     关联词汇 id 数组
+ *   sources   来源链接 [{ label, url }]
+ *   lyricsStatus "complete" | "missing"（固定查证流程走完仍未找到则 missing）
  * ============================================================ */
 
 window.NihonlData = {
@@ -330,7 +339,201 @@ window.NihonlData = {
         ["ピャ","pya"],["ピュ","pyu"],["ピョ","pyo"]
       ]
     }
-  }
+  },
+
+  songs: [
+    {
+      id: "soko-ni-aru-hikari",
+      title: "そこに在る、光。",
+      romajiTitle: "Soko ni Aru, Hikari.",
+      artist: "25時、ナイトコードで。",
+      producer: "DECO*27（作詞・作曲）",
+      year: 2025,
+      project: "Project SEKAI",
+      lyricsStatus: "complete",
+      summary: {
+        ja: "劇場版『プロジェクトセカイ』のために書き下ろされた楽曲。眠れない夜を抱えた少女たちが、それでも「光」を探して歌う、DECO*27らしい切なくも前向きなナンバー。",
+        zh: "为剧场版《Project SEKAI》创作的新曲。怀抱不眠之夜的少女们，仍然一边寻找着「光」一边歌唱，是充满 DECO*27 风格、既揪心又向前的作品。"
+      },
+      excerpt: [
+        { ja: "光って 光って 眠らない25時", zh: "闪耀吧、闪耀吧，不眠的 25 点" },
+        { ja: "消えたいと叫んだら「叶えたい」に気付いたよ", zh: "当喊出「好想消失」时，才发觉其实是「好想实现」" },
+        { ja: "最低だって言われてもきっと出会えるから", zh: "就算被说「最差劲了」，也一定还能与你相遇" }
+      ],
+      points: [
+        { ja: "光って 光って", zh: "闪耀吧、闪耀吧", note: "光る（发光）的て形重复使用，表示动作反复并加以强调，是歌词里常见的强调手法。", wordId: "yume" },
+        { ja: "眠らない25時", zh: "不眠的 25 点", note: "眠らない是动词眠る的否定式作连体修饰；25時是剧中的「虚拟时间」——早已过了零点，却依然睡不着。", wordId: "nemuru" },
+        { ja: "消えたいと叫んだら「叶えたい」に気付いたよ", zh: "当喊出「好想消失」时，才发觉其实是「好想实现」", note: "「〜たい」表示愿望；気付く（察觉）是常用动词，这里与「叶えたい」（想实现愿望）形成反转，把绝望唱成了渴望。", wordId: "kokoro" }
+      ],
+      words: ["yume", "nemuru", "kokoro"],
+      sources: [
+        { label: "Sekaipedia（完整歌词）", url: "https://www.sekaipedia.org/wiki/Soko_ni_Aru,_Hikari." },
+        { label: "中文歌词翻译", url: "https://ttiqa817.hatenablog.com/entry/2025/01/28/000833" }
+      ]
+    },
+    {
+      id: "angelite",
+      title: "angelite",
+      romajiTitle: "angelite",
+      artist: "初音ミク（Dark）",
+      producer: "narry（作詞・作曲・編曲）",
+      year: 2013,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      summary: {
+        ja: "narry による初音ミク Append（Dark）のダークポップ。静かに諦めていく恋心を、透明な歌声で歌い上げる。",
+        zh: "narry 为初音ミク Append（Dark）创作的暗色流行曲，用透明感的歌声唱出悄然放弃的恋心。"
+      },
+      excerpt: [
+        { ja: "聞こえないフリをして遠ざけていた", zh: "假装听不见，一直把这份心意推远" },
+        { ja: "どうしてあなたのことを今になって愛しはじめてしまったのかな", zh: "为什么偏偏到了现在，我才开始爱上你呢" },
+        { ja: "もう届かないと分かってるのに想いがあふれていくの", zh: "明明知道已经传不到了，思念却不断满溢" }
+      ],
+      points: [
+        { ja: "聞こえないフリ", zh: "假装听不见", note: "聞こえる（听得见）的否定＋フリ（装作…的样子）。「〜ふりをする」是常用表达，歌词里常把する省掉。", wordId: "kiku" },
+        { ja: "愛しはじめてしまった", zh: "开始爱上（无法挽回）", note: "「〜はじめる」表示开始，「〜てしまう」表示遗憾、无法挽回。两个语法叠用，把「迟来的心动」唱得很揪心。", wordId: "setsunai" },
+        { ja: "想いがあふれていく", zh: "思念不断满溢", note: "想い（思い）=思念、心意；あふれる=满溢。整首歌都是「切ない」（揪心）的心情。", wordId: "setsunai" }
+      ],
+      words: ["kiku", "setsunai", "kokoro"],
+      sources: [
+        { label: "Vocaloid Lyrics Wiki", url: "https://vocaloidlyrics.miraheze.org/wiki/Angelite" },
+        { label: "VocaDB", url: "https://vocadb.net/S/35316" }
+      ]
+    },
+    {
+      id: "telomere",
+      title: "Telomere",
+      romajiTitle: "Telomere",
+      artist: "初音ミク V4X",
+      producer: "regulus（作詞・作曲）",
+      year: 2018,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      summary: {
+        ja: "regulus によるエモーショナルなロックチューン。「生きている実感」を求めて叫ぶ歌詞が、多くのリスナーの心を掴んだ。",
+        zh: "regulus 的情感系摇滚曲。歌词里呼喊「想要活着的实感」，抓住了许多听众的心。"
+      },
+      excerpt: [
+        { ja: "行かないでよ 此処にいてよ", zh: "别走啊，留在这里啊" },
+        { ja: "もういっそ僕を壊してよ", zh: "干脆把我毁掉吧" },
+        { ja: "生きていると感じたいの", zh: "我想真切地感受到自己活着" },
+        { ja: "あと少しの命ならばねえどれくらい良かっただろう", zh: "如果生命还剩一点点的话，那该有多好" }
+      ],
+      points: [
+        { ja: "行かないでよ 此処にいてよ", zh: "别走啊，留在这里啊", note: "「〜ないで」=请不要…；「いて」是いる的て形，よ是带感情的助词。请求、挽留时的经典句式。", wordId: "iku" },
+        { ja: "僕を壊してよ", zh: "把我毁掉吧", note: "壊す=破坏（他动词），与壊れる（自动词）相对。歌词用「破坏」来表达想打破外壳、真切感受活着。", wordId: "kokoro" },
+        { ja: "生きていると感じたい", zh: "想感受到活着", note: "「〜たい」表愿望；生きる=活着，感じる=感觉。句尾的の是口语化的语气，比はるか说「のです」更贴近日常。", wordId: "kokoro" },
+        { ja: "あと少しの命ならば", zh: "如果只剩下一点点生命", note: "ならば=如果…的话（书面语/歌词用语）；あと少し=再一点。假设＋愿望是歌词里很常见的句式。", wordId: "yume" }
+      ],
+      words: ["iku", "kokoro", "yume"],
+      sources: [
+        { label: "Vocaloid Lyrics Wiki", url: "https://vocaloidlyrics.miraheze.org/wiki/Telomere" }
+      ]
+    },
+    {
+      id: "falling-down",
+      title: "falling down",
+      romajiTitle: "falling down",
+      artist: "歌愛ユキ",
+      producer: "201（作詞・作曲）",
+      year: 2023,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      summary: {
+        ja: "201 による歌愛ユキのエレクトロポップ。落ちていく夜に「それでも」と踏みとどまる、救いを求める歌。",
+        zh: "201 为歌愛ユキ 创作的电子流行曲。在坠落的夜里依然「撑住」，是一首渴望被拯救的歌。"
+      },
+      excerpt: [
+        { ja: "falling downしても hold outしてよ", zh: "就算正在坠落，也请撑住啊" },
+        { ja: "関係ない嘘も興味ないから", zh: "与我无关的谎言，我也毫不关心" },
+        { ja: "愛されたいのに愛されない日に", zh: "在明明渴望被爱、却得不到爱的日子里" },
+        { ja: "でも本当はあなたに救われたいんだ", zh: "但其实我真正想要的，是被你拯救" }
+      ],
+      points: [
+        { ja: "falling downしても hold outしてよ", zh: "就算在坠落，也请撑住", note: "「〜しても」=即使…也；falling down、hold out 都是英语外来语，用「する」动词化。日式英语混搭是 J-pop 歌词常态。", wordId: "sabishii" },
+        { ja: "愛されたいのに愛されない", zh: "明明想被爱，却得不到爱", note: "愛される=被爱（受身）；「〜たいのに」=明明想…却…，表达事与愿违的遗憾，是情歌高频句式。", wordId: "sabishii" },
+        { ja: "あなたに救われたいんだ", zh: "我想被你拯救", note: "救う=拯救，救われる=被拯救（受身）；「〜たいんだ」=想要…（んだ用于强调心情/理由）。", wordId: "kokoro" }
+      ],
+      words: ["sabishii", "kokoro"],
+      sources: [
+        { label: "Vocaloid Lyrics Wiki", url: "https://vocaloidlyrics.miraheze.org/wiki/Falling_down/201" },
+        { label: "VocaDB（单曲页）", url: "https://beta.vocadb.net/Al/36206" }
+      ]
+    },
+    {
+      id: "soragoto",
+      title: "ソラゴト / 虚言",
+      romajiTitle: "Soragoto / Kyogen",
+      artist: "明透",
+      producer: "ポリスピカデリー（作詞・作曲・編曲）",
+      year: 2022,
+      project: "神椿",
+      lyricsStatus: "complete",
+      summary: {
+        ja: "明透の Op.3。ポリスピカデリーの叙情的なサウンドに乗せて、儚い「空言（そらごと）」の世界を歌う。",
+        zh: "明透的第 3 首原创单曲（Op.3）。在ポリスピカデリー 抒情的声音之上，唱出缥缈的「空言（谎言）」世界。"
+      },
+      excerpt: [
+        { ja: "淡い光に欺かれる", zh: "被淡淡的光芒所欺骗" },
+        { ja: "風に抱かれ砂に溶け", zh: "被风拥抱，溶入沙中" },
+        { ja: "満たされるまでここに居よう", zh: "在满足之前，就留在这里吧" },
+        { ja: "痛みに似た足りないもの", zh: "那像疼痛一样、永远不够的东西" }
+      ],
+      points: [
+        { ja: "空言（そらごと）", zh: "谎言；空话", note: "字面是「空中的话」，指不真实、如空中楼阁般的话语，与「虚言」同义。标题玩了一个双关：空（そら）也指天空。", wordId: "sora" },
+        { ja: "風に抱かれ砂に溶け", zh: "被风拥抱，溶入沙中", note: "抱かれる=被拥抱（受身），溶ける=溶解。受身＋自然意象，是歌词里营造「无力又唯美」氛围的典型写法。", wordId: "kaze" },
+        { ja: "満たされるまでここに居よう", zh: "在满足之前就留在这里吧", note: "満たされる=被填满、得到满足；「〜まで」=直到…为止；「〜よう」=意志形，表示「…吧」。", wordId: "kokoro" },
+        { ja: "痛みに似た足りないもの", zh: "像疼痛一样、永远欠缺的东西", note: "似た=相似的；足りない=不足的。用定语连用修饰名词，歌词里常用这种抽象留白。", wordId: "setsunai" }
+      ],
+      words: ["sora", "kaze", "kokoro", "setsunai"],
+      sources: [
+        { label: "shiyinren（中日双语歌词）", url: "https://www.shiyinren.net/song/946646.html" },
+        { label: "萌娘百科（歌曲信息）", url: "https://mzh.moegirl.org.cn/虚言(明透)" }
+      ]
+    },
+    {
+      id: "arika",
+      title: "在処",
+      romajiTitle: "Arika",
+      artist: "FROZEN QUALIA",
+      producer: "kazuki（作詞・作曲）",
+      year: 2019,
+      project: "同人音乐",
+      lyricsStatus: "missing",
+      summary: {
+        ja: "FROZEN QUALIA による幻想的な楽曲。2019年秋のミニアルバムに収録。Vo. は夢乃ゆきと nini。現時点では完全な歌詞を確認できていない。",
+        zh: "FROZEN QUALIA 的幻想系乐曲，收录于 2019 年秋的迷你专辑，演唱为夢乃ゆき 与 nini。目前尚未找到完整歌词。"
+      },
+      excerpt: [],
+      points: [],
+      words: [],
+      sources: [
+        { label: "OTOTOY（专辑页）", url: "https://ototoy.jp/_/default/p/456802" },
+        { label: "虾米音乐存档", url: "https://xiapi.quotsoft.net/album/yh/yhZWMbe15c1/" }
+      ]
+    },
+    {
+      id: "terra",
+      title: "テラ / TERRA",
+      romajiTitle: "Tera / TERRA",
+      artist: "春猿火",
+      producer: "たかやん（作詞・作曲）・安宅秀紀（編曲）",
+      year: 2022,
+      project: "神椿",
+      lyricsStatus: "missing",
+      summary: {
+        ja: "春猿火の「#24」として2022年9月21日に公開された楽曲。大地（テラ）の光と闇を歌い上げる。歌詞は現在確認中。",
+        zh: "春猿火 于 2022 年 9 月 21 日发布的「#24」乐曲，唱出大地（Terra）的光与暗。歌词目前待补。"
+      },
+      excerpt: [],
+      points: [],
+      words: [],
+      sources: [
+        { label: "萌娘百科（歌曲信息）", url: "https://mzh.moegirl.org.cn/春猿火" },
+        { label: "官方 MV（bilibili）", url: "https://www.bilibili.com/video/BV1wN4y1K7dv" }
+      ]
+    }
+  ]
 };
 
 /* ---------- 数据辅助函数 ---------- */
@@ -358,4 +561,23 @@ NihonlData.cultureForWord = function (wordId) {
   const w = this.getWord(wordId);
   if (!w || !w.culture) return [];
   return w.culture.map((id) => this.getCulture(id)).filter(Boolean);
+};
+
+NihonlData.getSong = function (id) {
+  return this.songs.find((s) => s.id === id);
+};
+
+NihonlData.songsForWord = function (wordId) {
+  return this.songs.filter((s) =>
+    (s.words || []).includes(wordId) ||
+    (s.points || []).some((p) => p.wordId === wordId)
+  );
+};
+
+NihonlData.songProjects = function () {
+  const seen = [];
+  for (const s of this.songs) {
+    if (s.project && !seen.includes(s.project)) seen.push(s.project);
+  }
+  return seen;
 };

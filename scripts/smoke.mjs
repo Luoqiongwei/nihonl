@@ -49,7 +49,7 @@ globalThis.SpeechSynthesisUtterance = function (t) { this.text = t; };
 const files = [
   "js/core.js", "js/data.js", "js/store.js",
   "js/views/home.js", "js/views/kana.js", "js/views/vocab.js",
-  "js/views/study.js", "js/views/culture.js", "js/views/stats.js",
+  "js/views/study.js", "js/views/culture.js", "js/views/music.js", "js/views/stats.js",
   "js/router.js", "js/app.js"
 ];
 for (const f of files) {
@@ -71,9 +71,23 @@ check("词汇条数 >= 40", NihonlData.words.length >= 40);
 check("文化词条 >= 8", NihonlData.culture.length >= 8);
 check("词汇 id 唯一", new Set(NihonlData.words.map((w) => w.id)).size === NihonlData.words.length);
 check("文化 id 唯一", new Set(NihonlData.culture.map((c) => c.id)).size === NihonlData.culture.length);
+check("歌曲条数 >= 5", NihonlData.songs.length >= 5);
+check("歌曲 id 唯一", new Set(NihonlData.songs.map((s) => s.id)).size === NihonlData.songs.length);
 for (const w of NihonlData.words) {
   check(`词 ${w.id} 字段完整`, w.kana && w.romaji && w.meaning && w.example?.ja && w.example?.zh && w.mnemonic);
   for (const cid of w.culture) check(`词 ${w.id} 文化标签存在`, !!NihonlData.getCulture(cid));
+}
+for (const s of NihonlData.songs) {
+  check(`歌 ${s.id} 字段完整`, s.title && s.artist && s.summary?.ja && s.summary?.zh && s.sources?.length);
+  check(`歌 ${s.id} 歌词状态合法`, s.lyricsStatus === "complete" || s.lyricsStatus === "missing");
+  if (s.lyricsStatus === "complete") {
+    check(`歌 ${s.id} 有歌词节选`, s.excerpt.length >= 2 && s.excerpt.every((e) => e.ja && e.zh));
+    check(`歌 ${s.id} 有学习点`, s.points.length >= 2 && s.points.every((p) => p.ja && p.zh && p.note));
+  }
+  for (const wid of s.words || []) check(`歌 ${s.id} 关联词存在`, !!NihonlData.getWord(wid));
+  for (const p of s.points || []) {
+    if (p.wordId) check(`歌 ${s.id} 学习点词存在`, !!NihonlData.getWord(p.wordId));
+  }
 }
 const kanaCount = NihonlData.kana.hiragana.seion.length;
 check("平假名清音 46 个", kanaCount === 46);
@@ -85,13 +99,19 @@ check("路由 #/culture/moe → cultureDetail",
   Nihonl.router.match(["culture", "moe"]).view === "cultureDetail");
 check("路由 #/culture → culture",
   Nihonl.router.match(["culture"]).view === "culture");
+check("路由 #/music → music",
+  Nihonl.router.match(["music"]).view === "music");
+check("路由 #/music/soragoto → musicDetail",
+  Nihonl.router.match(["music", "soragoto"]).view === "musicDetail");
 check("路由未知 → home", Nihonl.router.match(["nope"]).view === "home");
 
 /* ---------- 视图渲染 + 挂载 ---------- */
 
 const cases = [
   ["home", {}], ["kana", {}], ["vocab", {}], ["study", {}],
-  ["culture", {}], ["cultureDetail", { id: "moe" }], ["cultureDetail", { id: "不存在" }], ["stats", {}]
+  ["culture", {}], ["cultureDetail", { id: "moe" }], ["cultureDetail", { id: "不存在" }],
+  ["music", {}], ["musicDetail", { id: "soragoto" }], ["musicDetail", { id: "不存在" }],
+  ["stats", {}]
 ];
 for (const [name, params] of cases) {
   const view = Nihonl.views[name];

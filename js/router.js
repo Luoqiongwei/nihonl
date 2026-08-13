@@ -8,6 +8,8 @@ Nihonl.router = {
     { pattern: "/study", view: "study" },
     { pattern: "/culture", view: "culture" },
     { pattern: "/culture/:id", view: "cultureDetail" },
+    { pattern: "/music", view: "music" },
+    { pattern: "/music/:id", view: "musicDetail" },
     { pattern: "/stats", view: "stats" }
   ],
 

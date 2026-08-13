@@ -76,6 +76,7 @@ Nihonl.views.vocab = {
 
   detailHtml(w) {
     const cultures = NihonlData.cultureForWord(w.id);
+    const songs = NihonlData.songsForWord(w.id);
     return `
       <div class="word-detail" data-id="${w.id}">
         <dl>
@@ -93,6 +94,11 @@ Nihonl.views.vocab = {
           <div class="culture-links">
             ${cultures.map((c) => `<a class="tag" href="#/culture/${encodeURIComponent(c.id)}">${Nihonl.esc(c.zh)}</a>`).join("")}
             <span class="muted" style="font-size:0.8rem">点击进入文化词条</span>
+          </div>` : ""}
+        ${songs.length ? `
+          <div class="culture-links">
+            ${songs.map((s) => `<a class="tag gold" href="#/music/${encodeURIComponent(s.id)}">♪ ${Nihonl.esc(s.title)}</a>`).join("")}
+            <span class="muted" style="font-size:0.8rem">出自歌曲</span>
           </div>` : ""}
       </div>
     `;

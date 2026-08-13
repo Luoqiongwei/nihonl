@@ -452,6 +452,50 @@ input:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px r
   font-family: var(--serif);
 }
 
+/* ---------- 音楽 ---------- */
+
+.note {
+  border-left: 4px solid var(--gold);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+.note b { color: var(--warn); }
+
+.song-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 0.14s ease, box-shadow 0.14s ease;
+}
+.song-card:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(44,42,38,0.12); text-decoration: none; color: inherit; }
+.song-ja { font-family: var(--serif); font-size: 1.35rem; font-weight: 700; color: var(--accent); line-height: 1.35; }
+.song-romaji { font-size: 0.82rem; color: var(--ink-soft); letter-spacing: 0.1em; }
+.song-meta { font-size: 0.88rem; color: var(--ink-soft); }
+.song-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+.song-tags .tag { margin-right: 0; }
+.song-summary { font-size: 0.92rem; color: var(--ink); }
+
+.lyric-box .lyric-item { padding: 0.5rem 0; border-bottom: 1px dashed var(--line); }
+.lyric-box .lyric-item:last-child { border-bottom: none; }
+.lyric-item .ja { font-family: var(--serif); font-weight: 600; }
+.lyric-item .muted { font-size: 0.9rem; }
+.song-preview { padding: 0.65rem 0.9rem; background: var(--paper); border: 1px dashed var(--line); border-radius: 10px; }
+.song-preview .lyric-line { font-family: var(--serif); font-size: 0.95rem; color: var(--ink-soft); }
+
+.song-hero { padding: 1.6rem 1.7rem; }
+.song-hero .song-ja { font-size: clamp(1.5rem, 4vw, 2rem); }
+
+.point-item { padding: 0.75rem 0; border-bottom: 1px dashed var(--line); }
+.point-item:last-child { border-bottom: none; }
+.point-item .ja { font-family: var(--serif); font-weight: 600; }
+.point-item .note-text { margin: 0.35rem 0 0; font-size: 0.92rem; color: var(--ink-soft); }
+
+.warn-box { border: 1px dashed rgba(176, 107, 31, 0.5); background: var(--warn-soft); }
+.warn-box h3 { color: var(--warn); }
+
+.source-list { margin: 0.4rem 0; padding-left: 1.2rem; }
+.source-list li { margin: 0.25rem 0; font-size: 0.95rem; }
+
 /* ---------- 进度 ---------- */
 
 .progress-bar { display: flex; align-items: center; gap: 0.6rem; margin: 0.35rem 0; }
