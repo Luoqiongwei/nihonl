@@ -45,14 +45,29 @@ nihonl/
 ├── css/style.css       # 全局样式（和风配色）
 ├── js/
 │   ├── data.js         # 数据：词汇、文化词条、五十音（新增内容改这里）
+│   ├── songs-data.js   # 歌曲库扩展：批量收录的歌曲（歌词节选 + 学习点）
 │   ├── store.js        # localStorage 进度与间隔复习逻辑
 │   ├── router.js       # hash 路由
 │   ├── app.js          # 启动与导航
 │   └── views/          # 各页面视图
 │       ├── home.js  kana.js  vocab.js
 │       ├── study.js  culture.js  stats.js
-└── scripts/serve.js    # 简易静态服务器
+└── scripts/
+    ├── serve.js            # 简易静态服务器
+    ├── analyze_songlist.mjs # 曲目清单解析（B站标题 → 分类队列 data/songlist.json）
+    └── lookup_lyrics.ps1    # 批量歌词查证（Vocaloid Lyrics Wiki API → data/lyrics-found.json）
 ```
+
+## 曲目批量查证
+
+把 B 站收藏标题存成文本后：
+
+```powershell
+node scripts/analyze_songlist.mjs 你的清单.txt
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/lookup_lyrics.ps1
+```
+
+查证流程：Vocaloid Lyrics Wiki → marumaru → uta-net/utaten → shiyinren → 官方 MV/其他；全部失败则标记「歌词待补」。找到歌词的歌曲经人工确认后加入 `js/songs-data.js`。
 
 ## 扩展词汇
 

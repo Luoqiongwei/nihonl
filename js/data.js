@@ -351,10 +351,6 @@ window.NihonlData = {
       year: 2025,
       project: "Project SEKAI",
       lyricsStatus: "complete",
-      summary: {
-        ja: "劇場版『プロジェクトセカイ』のために書き下ろされた楽曲。眠れない夜を抱えた少女たちが、それでも「光」を探して歌う、DECO*27らしい切なくも前向きなナンバー。",
-        zh: "为剧场版《Project SEKAI》创作的新曲。怀抱不眠之夜的少女们，仍然一边寻找着「光」一边歌唱，是充满 DECO*27 风格、既揪心又向前的作品。"
-      },
       excerpt: [
         { ja: "光って 光って 眠らない25時", zh: "闪耀吧、闪耀吧，不眠的 25 点" },
         { ja: "消えたいと叫んだら「叶えたい」に気付いたよ", zh: "当喊出「好想消失」时，才发觉其实是「好想实现」" },
@@ -380,10 +376,6 @@ window.NihonlData = {
       year: 2013,
       project: "VOCALOID",
       lyricsStatus: "complete",
-      summary: {
-        ja: "narry による初音ミク Append（Dark）のダークポップ。静かに諦めていく恋心を、透明な歌声で歌い上げる。",
-        zh: "narry 为初音ミク Append（Dark）创作的暗色流行曲，用透明感的歌声唱出悄然放弃的恋心。"
-      },
       excerpt: [
         { ja: "聞こえないフリをして遠ざけていた", zh: "假装听不见，一直把这份心意推远" },
         { ja: "どうしてあなたのことを今になって愛しはじめてしまったのかな", zh: "为什么偏偏到了现在，我才开始爱上你呢" },
@@ -409,10 +401,6 @@ window.NihonlData = {
       year: 2018,
       project: "VOCALOID",
       lyricsStatus: "complete",
-      summary: {
-        ja: "regulus によるエモーショナルなロックチューン。「生きている実感」を求めて叫ぶ歌詞が、多くのリスナーの心を掴んだ。",
-        zh: "regulus 的情感系摇滚曲。歌词里呼喊「想要活着的实感」，抓住了许多听众的心。"
-      },
       excerpt: [
         { ja: "行かないでよ 此処にいてよ", zh: "别走啊，留在这里啊" },
         { ja: "もういっそ僕を壊してよ", zh: "干脆把我毁掉吧" },
@@ -439,10 +427,6 @@ window.NihonlData = {
       year: 2023,
       project: "VOCALOID",
       lyricsStatus: "complete",
-      summary: {
-        ja: "201 による歌愛ユキのエレクトロポップ。落ちていく夜に「それでも」と踏みとどまる、救いを求める歌。",
-        zh: "201 为歌愛ユキ 创作的电子流行曲。在坠落的夜里依然「撑住」，是一首渴望被拯救的歌。"
-      },
       excerpt: [
         { ja: "falling downしても hold outしてよ", zh: "就算正在坠落，也请撑住啊" },
         { ja: "関係ない嘘も興味ないから", zh: "与我无关的谎言，我也毫不关心" },
@@ -469,10 +453,6 @@ window.NihonlData = {
       year: 2022,
       project: "神椿",
       lyricsStatus: "complete",
-      summary: {
-        ja: "明透の Op.3。ポリスピカデリーの叙情的なサウンドに乗せて、儚い「空言（そらごと）」の世界を歌う。",
-        zh: "明透的第 3 首原创单曲（Op.3）。在ポリスピカデリー 抒情的声音之上，唱出缥缈的「空言（谎言）」世界。"
-      },
       excerpt: [
         { ja: "淡い光に欺かれる", zh: "被淡淡的光芒所欺骗" },
         { ja: "風に抱かれ砂に溶け", zh: "被风拥抱，溶入沙中" },
@@ -500,10 +480,6 @@ window.NihonlData = {
       year: 2019,
       project: "同人音乐",
       lyricsStatus: "missing",
-      summary: {
-        ja: "FROZEN QUALIA による幻想的な楽曲。2019年秋のミニアルバムに収録。Vo. は夢乃ゆきと nini。現時点では完全な歌詞を確認できていない。",
-        zh: "FROZEN QUALIA 的幻想系乐曲，收录于 2019 年秋的迷你专辑，演唱为夢乃ゆき 与 nini。目前尚未找到完整歌词。"
-      },
       excerpt: [],
       points: [],
       words: [],
@@ -521,10 +497,6 @@ window.NihonlData = {
       year: 2022,
       project: "神椿",
       lyricsStatus: "complete",
-      summary: {
-        ja: "春猿火の「#24」として2022年9月21日に公開された楽曲。後悔も希望も抱えたまま、大地（テラ）の上を走り続ける。たかやんの疾走感ある歌詞が特徴。",
-        zh: "春猿火 于 2022 年 9 月 21 日发布的「#24」乐曲，怀抱后悔与希望、在大地（Terra）上继续奔跑。たかやん 的歌词充满疾走感。"
-      },
       excerpt: [
         { ja: "後悔なんて一切無い 希望は懲りない 虚無と飛び出して", zh: "后悔什么的完全没有；希望不知悔改，与虚无一同冲出" },
         { ja: "此処を通じて君と出会えた 君のお陰でより好きになれた", zh: "经由这里与你相遇，托你的福，我变得更喜欢了" },

@@ -12,7 +12,7 @@ Nihonl.views.music = {
     const songs = NihonlData.songs.filter((s) => {
       if (this.state.project !== "all" && s.project !== this.state.project) return false;
       if (!q) return true;
-      const hay = `${s.title} ${s.romajiTitle || ""} ${s.artist} ${s.producer || ""} ${s.project || ""} ${s.summary.zh}`.toLowerCase();
+      const hay = `${s.title} ${s.romajiTitle || ""} ${s.artist} ${s.producer || ""} ${s.project || ""}`.toLowerCase();
       return hay.includes(q);
     });
 
@@ -52,7 +52,6 @@ Nihonl.views.music = {
         </div>
         <div class="song-meta">${Nihonl.esc(s.artist)}${s.year ? ` · ${s.year}` : ""}</div>
         <div class="song-tags"><span class="tag">${Nihonl.esc(s.project || "其他")}</span>${status}</div>
-        <div class="song-summary">${Nihonl.esc(s.summary.zh)}</div>
         ${preview ? `<div class="lyric-box song-preview">${preview}</div>` : ""}
         <div class="muted" style="font-size:0.85rem">查看歌词节选与词汇讲解 →</div>
       </a>
@@ -101,12 +100,6 @@ Nihonl.views.musicDetail = {
         </div>
         <div class="song-meta" style="margin-top:0.35rem">${Nihonl.esc(s.artist)}${s.year ? ` · ${s.year}` : ""}${s.producer ? ` · ${Nihonl.esc(s.producer)}` : ""}</div>
         <div class="song-tags" style="margin-top:0.5rem"><span class="tag">${Nihonl.esc(s.project || "其他")}</span>${status}</div>
-      </div>
-
-      <div class="card" style="margin-top:1rem">
-        <h3>关于这首歌</h3>
-        <p>${Nihonl.esc(s.summary.ja)}</p>
-        <p class="muted">${Nihonl.esc(s.summary.zh)}</p>
       </div>
 
       ${s.lyricsStatus === "complete" ? `

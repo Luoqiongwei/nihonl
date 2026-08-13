@@ -47,7 +47,7 @@ globalThis.SpeechSynthesisUtterance = function (t) { this.text = t; };
 /* ---------- 加载源码 ---------- */
 
 const files = [
-  "js/core.js", "js/data.js", "js/store.js",
+  "js/core.js", "js/data.js", "js/songs-data.js", "js/store.js",
   "js/views/home.js", "js/views/kana.js", "js/views/vocab.js",
   "js/views/study.js", "js/views/culture.js", "js/views/music.js", "js/views/stats.js",
   "js/router.js", "js/app.js"
@@ -78,7 +78,7 @@ for (const w of NihonlData.words) {
   for (const cid of w.culture) check(`词 ${w.id} 文化标签存在`, !!NihonlData.getCulture(cid));
 }
 for (const s of NihonlData.songs) {
-  check(`歌 ${s.id} 字段完整`, s.title && s.artist && s.summary?.ja && s.summary?.zh && s.sources?.length);
+  check(`歌 ${s.id} 字段完整`, s.title && s.artist && s.sources?.length);
   check(`歌 ${s.id} 歌词状态合法`, s.lyricsStatus === "complete" || s.lyricsStatus === "missing");
   if (s.lyricsStatus === "complete") {
     check(`歌 ${s.id} 有歌词节选`, s.excerpt.length >= 2 && s.excerpt.every((e) => e.ja && e.zh));

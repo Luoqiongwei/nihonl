@@ -76,7 +76,6 @@ Nihonl.views.home = {
       <a class="card song-card" href="#/music/${encodeURIComponent(song.id)}" style="display:block">
         <div class="song-ja">${Nihonl.esc(song.title)}<span class="song-romaji" style="margin-left:0.5rem">${Nihonl.esc(song.romajiTitle || "")}</span></div>
         <div class="song-meta">${Nihonl.esc(song.artist)}${song.year ? ` · ${song.year}` : ""}</div>
-        <div class="song-summary">${Nihonl.esc(song.summary.zh)}</div>
         <div class="song-tags">
           <span class="tag">${Nihonl.esc(song.project || "其他")}</span>
           ${song.lyricsStatus === "complete" ? `<span class="tag green">歌词节选</span>` : `<span class="tag gold">歌词待补</span>`}
