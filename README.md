@@ -67,7 +67,7 @@ node scripts/analyze_songlist.mjs 你的清单.txt
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/lookup_lyrics.ps1
 ```
 
-查证流程：Vocaloid Lyrics Wiki → marumaru → uta-net/utaten → shiyinren → 官方 MV/其他；全部失败则标记「歌词待补」。找到歌词的歌曲经人工确认后加入 `js/songs-data.js`。
+查证流程：Vocaloid Lyrics Wiki（脚本化）→ utaten（脚本化）→ shiyinren / 官方 MV / 其他（逐首人工）；全部失败则标记「歌词待补」。找到歌词的歌曲经人工核对歌手后加入 `js/songs-data.js`。
 
 ## 扩展词汇
 

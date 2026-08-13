@@ -761,6 +761,251 @@
       sources: [
         { label: "Vocaloid Lyrics Wiki", url: "https://vocaloidlyrics.miraheze.org/wiki/%E3%83%80%E3%83%BC%E3%83%AA%E3%83%B3%E3%83%80%E3%83%B3%E3%82%B9_(Darling_Dance)" }
       ]
+    },
+    {
+      id: "sore-o-sekai-to-iundayne",
+      title: "それを世界と言うんだね",
+      romajiTitle: "Sore o Sekai to Iundayne",
+      artist: "花譜",
+      producer: "カンザキイオリ（作詞・作曲）",
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "もしも僕が主人公なら 僕は人の心が見えて", zh: "如果我是主角，我就能看见人心" },
+        { ja: "君の狭く脆い世界を救う 僕を救ったように", zh: "去拯救你狭小而脆弱的世界，就像你拯救了我那样" },
+        { ja: "勇気を出して", zh: "拿出勇气来" }
+      ],
+      points: [
+        { ja: "もしも〜なら", zh: "如果…的话", note: "もしも强调假设；「〜なら」= 如果。", wordId: "yume" },
+        { ja: "〜たように", zh: "就像…那样", note: "「僕を救ったように」= 就像（你）拯救了我那样，表比喻。", wordId: "kiseki" },
+        { ja: "勇気を出す", zh: "鼓起勇气", note: "勇気（勇气）＋出す，固定搭配。", wordId: "kokoro" }
+      ],
+      words: ["yume", "kiseki", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi21121309/" }
+      ]
+    },
+    {
+      id: "bathtime-planetarium",
+      title: "バスタイムプラネタリウム",
+      romajiTitle: "Bathtime Planetarium",
+      artist: "HACHI",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "浴槽から溢れてった 涙とか弱音なんかが", zh: "从浴缸里溢出来的，是眼泪和丧气话" },
+        { ja: "バスタイム リラックスタイム", zh: "沐浴时间，放松时间" },
+        { ja: "でも嘘みたいに仄暗いまま", zh: "却像谎言一样，仍旧昏暗" },
+        { ja: "ニセモノ天の川", zh: "假的天河" }
+      ],
+      points: [
+        { ja: "溢れてった", zh: "溢了出来", note: "溢れる的口语缩略（溢れていった），歌词里常见。", wordId: "kokoro" },
+        { ja: "弱音", zh: "丧气话；泄气话", note: "弱（よわ）＋音（ね），指软弱的话语。", wordId: "sabishii" },
+        { ja: "ニセモノ天の川", zh: "假的天河", note: "ニセモノ=赝品；天の川=银河，与歌名「浴室天文馆」呼应。", wordId: "hoshi" }
+      ],
+      words: ["kokoro", "sabishii", "hoshi"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi22091047/" }
+      ]
+    },
+    {
+      id: "haru-o-matsu",
+      title: "春を待つ",
+      romajiTitle: "Haru o Matsu",
+      artist: "Islet feat. 倚水",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "僅かな命だと話す あなたの目が揺らいだ", zh: "你说着“所剩无几的生命”，你的眼神动摇了" },
+        { ja: "明日が見えなくたって 僕が照らすからまだ消えないでよ", zh: "就算看不见明天，我也会照亮你，所以别消失" },
+        { ja: "春を待つ声がひらひら響いて 虚空を舞ってる", zh: "等待春天的声音轻轻回响，在虚空中起舞" }
+      ],
+      points: [
+        { ja: "僅かな命", zh: "微少的生命", note: "僅か=一点点、微少；命=生命。", wordId: "yume" },
+        { ja: "〜なくたって", zh: "就算不…", note: "「なくても」的口语缩略，表让步。", wordId: "ashita" },
+        { ja: "虚空を舞ってる", zh: "在虚空中飞舞", note: "虚空=虚空；舞う=飞舞。", wordId: "sora" }
+      ],
+      words: ["ashita", "sora", "yume"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi22032220/" }
+      ]
+    },
+    {
+      id: "kamone",
+      title: "かもね",
+      romajiTitle: "Kamo ne",
+      artist: "KizunaAI",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "目覚めて 散らばった光が もう一度 君のものになった", zh: "醒来时，散落的光再一次属于了你" },
+        { ja: "離さないで ただ待っていたんだ", zh: "不要放手，我一直等待着" },
+        { ja: "長いことずっと夢見てたみたいだね", zh: "好像做了很久很久的梦呢" }
+      ],
+      points: [
+        { ja: "目覚めて", zh: "醒来", note: "目覚める=醒来、觉醒。", wordId: "yume" },
+        { ja: "離さないで", zh: "不要放开", note: "離す（放开）的否定＋て（不要…）。", wordId: "tomodachi" },
+        { ja: "かもね", zh: "也许吧", note: "「かもしれない」的口语，语气轻轻地带点不确定。", wordId: "yume" }
+      ],
+      words: ["yume", "tomodachi"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi25021834/" }
+      ]
+    },
+    {
+      id: "toumei-na",
+      title: "透明な、あまりにも透明な",
+      romajiTitle: "Toumei na, Amari ni mo Toumei na",
+      artist: "ナツノセ",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "息をする事も慣れてしまった", zh: "连呼吸这件事也习惯了" },
+        { ja: "あの日々の声は透明だ", zh: "那些日子的声音是透明的" },
+        { ja: "君が いなくなるなら それでもいいやと思えたから", zh: "如果你会消失，我也觉得那样也无所谓了" }
+      ],
+      points: [
+        { ja: "慣れてしまった", zh: "已经习惯了", note: "慣れる＋てしまう，带「不知不觉、无可奈何」的语感。", wordId: "natsukashii" },
+        { ja: "いなくなるなら", zh: "如果你会消失", note: "いなくなる=不在、消失；「なら」= 如果。", wordId: "sabishii" },
+        { ja: "それでもいいや", zh: "那样也无所谓", note: "いいや=随它吧，口语中表示放弃、不在意。", wordId: "setsunai" }
+      ],
+      words: ["sabishii", "setsunai", "natsukashii"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi24021537/" }
+      ]
+    },
+    {
+      id: "hourensou-ni-bangbangji",
+      title: "ほうれん草にバンバンジー",
+      romajiTitle: "Hourensou ni Bangbangji",
+      artist: "ナツノセ",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "ほうれん草にバンバンジー 今はまだ嫌いだけど", zh: "菠菜和棒棒鸡，现在还讨厌着" },
+        { ja: "食べられるような大人になれたら良いのにな", zh: "如果能变成吃得下的大人就好了" },
+        { ja: "学校の給食でも正直食べられないんだよ", zh: "学校的营养午餐，说实话也吃不下" }
+      ],
+      points: [
+        { ja: "ほうれん草", zh: "菠菜", note: "外来语＋汉字组合的蔬菜名。", wordId: "taberu" },
+        { ja: "〜になれたら良いのにな", zh: "如果能…就好了", note: "「なれたらいいな」的愿望句式，句尾な带感叹。", wordId: "taberu" },
+        { ja: "食べられない", zh: "吃不下", note: "食べる的可能形否定（不能吃）。", wordId: "taberu" }
+      ],
+      words: ["taberu"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi24021531/" }
+      ]
+    },
+    {
+      id: "anomaly",
+      title: "アノマリー",
+      romajiTitle: "Anomaly",
+      artist: "ナツノセ feat. 沖石",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "もうずっとずっとずっと ここにいようか", zh: "就一直一直一直，待在这里吧" },
+        { ja: "もうどこにも行きたくはないんだよ", zh: "已经哪里都不想去了" },
+        { ja: "あの時の空のことを思い出す", zh: "想起那个时候的天空" }
+      ],
+      points: [
+        { ja: "ずっとずっとずっと", zh: "一直一直一直", note: "重复强调「永远」的感觉。", wordId: "sora" },
+        { ja: "どこにも行きたくない", zh: "哪里都不想去", note: "どこにも＋否定，表示「哪儿也（不）…」。", wordId: "iku" },
+        { ja: "思い出す", zh: "想起来", note: "回忆、回想起过去。", wordId: "natsukashii" }
+      ],
+      words: ["iku", "natsukashii", "sora"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi22103149/" }
+      ]
+    },
+    {
+      id: "manazashi",
+      title: "まなざし",
+      romajiTitle: "Manazashi",
+      artist: "HACHI",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "届かない理想から遠すぎた足元", zh: "从够不着的理想来看，脚下太远了" },
+        { ja: "寄り添ってくれたのは間違いなくあなただった", zh: "一直陪在我身边的，毫无疑问是你" },
+        { ja: "あなたがくれたまなざしが生きている", zh: "你给我的目光，还活着" }
+      ],
+      points: [
+        { ja: "届かない理想", zh: "够不着的理想", note: "届かない=传达不到、够不着；理想=理想。", wordId: "yume" },
+        { ja: "寄り添ってくれた", zh: "陪伴着我", note: "寄り添う=靠近、陪伴；「てくれる」表示对方为我做。", wordId: "tomodachi" },
+        { ja: "まなざし", zh: "目光；眼神", note: "与「見る」同源，指看人的神情。", wordId: "miru" }
+      ],
+      words: ["yume", "tomodachi", "miru"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi25041547/" }
+      ]
+    },
+    {
+      id: "fiore",
+      title: "フィオーレ",
+      romajiTitle: "Fiore",
+      artist: "初音ミク・可不",
+      producer: "MIMI（作詞・作曲）",
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "僕はさ今日もさなんでか涙が 零れて零れて眠るの", zh: "我啊今天也莫名地，眼泪流了又流地入睡" },
+        { ja: "生きるのが辛い なんてさ妄想ばっかり", zh: "“活着好痛苦”什么的，全是妄想" },
+        { ja: "本当は生きていたいから 人並みに笑いたいから", zh: "因为其实我想活下去，想和普通人一样笑" }
+      ],
+      points: [
+        { ja: "零れて零れて", zh: "流了又流", note: "零れる（洒落、溢出）重复使用，强调不停掉落。", wordId: "setsunai" },
+        { ja: "生きるのが辛い", zh: "活着很痛苦", note: "辛い=痛苦的；「のが」把动词短语名词化。", wordId: "kokoro" },
+        { ja: "人並みに", zh: "和普通人一样", note: "人並み=普通水准、和大家一样。", wordId: "yume" }
+      ],
+      words: ["setsunai", "kokoro", "yume"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi23083145/" }
+      ]
+    },
+    {
+      id: "saigo-no-inori",
+      title: "最期の禱り",
+      romajiTitle: "Saigo no Inori",
+      artist: "トゲナシトゲアリ",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "握りしめて 崩れ落ちた 明日を辿っていた祈り", zh: "紧握着、却崩落的，追寻明天的祈祷" },
+        { ja: "正しさすら溶けていった", zh: "连正确本身都溶解了" },
+        { ja: "ああ どんな言葉を 君に言えばいいのだろう", zh: "啊，要对你说什么话才好呢" }
+      ],
+      points: [
+        { ja: "握りしめて", zh: "紧紧握住", note: "握る＋しめる（用力），强调握紧不放。", wordId: "kokoro" },
+        { ja: "辿っていた", zh: "一路追寻着", note: "辿る=沿着（路径）追寻，过去进行时。", wordId: "ashita" },
+        { ja: "〜すら", zh: "连…都", note: "「正しさすら溶けた」= 连正确都融化了，表极端强调。", wordId: "setsunai" }
+      ],
+      words: ["kokoro", "ashita", "setsunai"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi25110706/" }
+      ]
+    },
+    {
+      id: "hontou-dayo",
+      title: "本当だよ",
+      romajiTitle: "Hontou dayo",
+      artist: "ナツノセ",
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "ただ本当の本当の本当だよ 嘘に聞こえるのかもしれないけど", zh: "只是真的、真的、是真的哦，虽然听起来可能像谎话" },
+        { ja: "君がいてくれるならそれでいいの", zh: "只要有你在，就足够了" },
+        { ja: "誰か助けてくれないか", zh: "有没有谁来救救我" }
+      ],
+      points: [
+        { ja: "本当の本当の本当", zh: "真的真的真的", note: "重复「本当」加强真实感，是歌名与副歌的招牌。", wordId: "hanasu" },
+        { ja: "いてくれるなら", zh: "如果（你）在", note: "いてくれる=（你）在（为我）；「なら」= 如果。", wordId: "tomodachi" },
+        { ja: "助けてくれないか", zh: "能帮帮我吗", note: "「〜てくれないか」是恳求对方帮忙的说法。", wordId: "kokoro" }
+      ],
+      words: ["tomodachi", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi24060438/" }
+      ]
     }
   ];
 
