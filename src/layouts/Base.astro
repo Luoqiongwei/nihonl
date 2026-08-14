@@ -1,0 +1,62 @@
+---
+import '../styles/global.css';
+import { link } from '../lib/helpers.js';
+
+const { title = 'NIHONL · 日语入门', description = '面向中文母语者的日语入门词汇记忆与文化学习网站', active = '' } = Astro.props;
+
+const navItems = [
+  { key: '', href: link(''), label: '首页' },
+  { key: 'kana', href: link('kana'), label: '五十音' },
+  { key: 'vocab', href: link('vocab'), label: '词汇' },
+  { key: 'study', href: link('study'), label: '背单词' },
+  { key: 'culture', href: link('culture'), label: '文化' },
+  { key: 'music', href: link('music'), label: '音楽' },
+  { key: 'stats', href: link('stats'), label: '进度' }
+];
+
+const base = import.meta.env.BASE_URL;
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="nihonl-base" content={base} />
+    <title>{title}</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23fffdf8'/%3E%3Ccircle cx='50' cy='50' r='25' fill='%23c43d2f'/%3E%3C/svg%3E" />
+    <script is:inline>
+      /* 旧版 hash 链接（#/music/xxx）自动重定向到真实路径 */
+      (function () {
+        var h = location.hash;
+        if (h && h.indexOf('#/') === 0) {
+          var base = document.querySelector('meta[name="nihonl-base"]').getAttribute('content');
+          location.replace(base.replace(/\/$/, '') + h.slice(1));
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href={link('')}>
+        <span class="brand-mark">日</span>
+        <span class="brand-name">NIHONL<em>日本語の入り口</em></span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        {navItems.map((item) => (
+          <a href={item.href} class:list={[item.key === active && 'active']} aria-current={item.key === active ? 'page' : undefined}>{item.label}</a>
+        ))}
+      </nav>
+    </header>
+
+    <main id="app" class="app" tabindex="-1">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <p>NIHONL · ひとつずつ、ゆっくりと —— 一天一个词，慢慢来。</p>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

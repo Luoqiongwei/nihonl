@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import { culture, getWord } from '../data/index.js';
+import { esc, link } from '../lib/helpers.js';
+
+const cards = culture.map((c) => {
+  const words = (c.words || []).map((id) => getWord(id)).filter(Boolean).slice(0, 3);
+  return `
+    <a class="card culture-card" href="${link(`culture/${encodeURIComponent(c.id)}`)}">
+      <div>
+        <span class="c-ja">${esc(c.ja)}</span>
+        <span class="c-zh">${esc(c.zh)}</span>
+      </div>
+      <div class="c-tagline">${esc(c.tagline)}</div>
+      <div class="c-meta"><span class="tag">${esc(c.kind)}</span><span class="tag ghost">关联 ${c.words.length} 词</span></div>
+      <div class="c-words">
+        ${words.map((w) => `<span class="tag gold">${esc(w.kana)}</span>`).join('')}
+      </div>
+    </a>`;
+}).join('');
+---
+<Base title="文化 · NIHONL" active="culture" description="新生代二次元文化与日本美学词条。">
+  <div class="page-head">
+    <span class="kicker">ぶんか</span>
+    <h1>文化引申</h1>
+    <p class="lead">新生代二次元文化与日本美学，既是背景知识，也是记忆词汇的「挂钩」——先读懂文化，再记单词会容易得多。</p>
+  </div>
+  <div class="grid grid-2" set:html={cards}></div>
+</Base>

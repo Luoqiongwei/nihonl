@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import { songs, getSong, getWord } from '../../data/index.js';
+import { esc, link } from '../../lib/helpers.js';
+
+export function getStaticPaths() {
+  return songs.map((s) => ({ params: { id: s.id } }));
+}
+
+const { id } = Astro.params;
+const s = getSong(id);
+if (!s) {
+  return new Response(null, { status: 404 });
+}
+
+const status = s.lyricsStatus === 'complete'
+  ? '<span class="tag green">歌词已收录</span>'
+  : '<span class="tag gold">歌词待补</span>';
+const words = (s.words || []).map((wid) => getWord(wid)).filter(Boolean);
+---
+<Base title={`${s.title} · NIHONL`} active="music">
+  <a class="back-link" href={link('music')}>← 返回音乐列表</a>
+
+  <div class="card song-hero">
+    <div class="song-ja">{s.title}
+      {s.romajiTitle && <span class="song-romaji" style="margin-left:0.6rem">{s.romajiTitle}</span>}
+    </div>
+    <div class="song-meta" style="margin-top:0.35rem">{s.artist}{s.year && ` · ${s.year}`}{s.producer && ` · ${s.producer}`}</div>
+    <div class="song-tags" style="margin-top:0.5rem"><span class="tag">{s.project || '其他'}</span><Fragment set:html={status} /></div>
+  </div>
+
+  {s.lyricsStatus === 'complete' ? (
+    <>
+      <div class="card lyric-box" style="margin-top:1rem">
+        <h3>歌词节选</h3>
+        {s.excerpt.map((e) => (
+          <div class="lyric-item">
+            <div class="ja">{e.ja}</div>
+            <div class="muted">{e.zh}</div>
+          </div>
+        ))}
+      </div>
+
+      <div class="card song-points" style="margin-top:1rem">
+        <h3>词汇与表达</h3>
+        {s.points.map((p) => {
+          const w = p.wordId ? getWord(p.wordId) : null;
+          return (
+            <div class="point-item">
+              <div class="ja">{p.ja}<span class="muted" style="margin-left:0.5rem;font-weight:400">{p.zh}</span></div>
+              <p class="note-text">{p.note}
+                {w && <a class="tag" href={link('vocab')}>关联词：{w.kana}</a>}
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </>
+  ) : (
+    <div class="card warn-box" style="margin-top:1rem">
+      <h3>歌词待补</h3>
+      <p>按固定查证流程（Vocaloid Lyrics Wiki → marumaru → uta-net / utaten → shiyinren → 官方 MV / 其他）仍没有找到这首的完整歌词。先保留歌曲信息，找到后会补上节选与讲解。</p>
+    </div>
+  )}
+
+  {words.length > 0 && (
+    <div class="card" style="margin-top:1rem">
+      <h3>关联词汇</h3>
+      <p>{words.map((w) => <a class="tag" href={link('vocab')}>{w.kana} {w.meaning}</a>)}</p>
+    </div>
+  )}
+
+  <div class="card" style="margin-top:1rem">
+    <h3>来源</h3>
+    <ul class="source-list">
+      {s.sources.map((src) => src.url
+        ? <li><a href={src.url} target="_blank" rel="noopener noreferrer">{src.label}</a></li>
+        : <li>{src.label}</li>)}
+    </ul>
+    <p class="muted" style="font-size:0.85rem">歌词节选仅用于学习讲解，完整歌词与版权归原作者所有。</p>
+  </div>
+</Base>

@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import { culture, getWord } from '../../data/index.js';
+import { esc, link } from '../../lib/helpers.js';
+
+export function getStaticPaths() {
+  return culture.map((c) => ({ params: { id: c.id } }));
+}
+
+const { id } = Astro.params;
+const c = culture.find((x) => x.id === id);
+if (!c) {
+  return new Response(null, { status: 404 });
+}
+const words = (c.words || []).map((wid) => getWord(wid)).filter(Boolean);
+---
+<Base title={`${c.zh} · NIHONL`} active="culture">
+  <a class="back-link" href={link('culture')}>← 返回文化列表</a>
+  <div class="card culture-hero">
+    <div class="c-ja">{c.ja}<span style="font-size:1.1rem;color:var(--ink-soft);margin-left:0.6rem">{c.zh}</span></div>
+    <div class="c-tagline" style="margin-top:0.4rem">{c.tagline}</div>
+    <div style="margin-top:0.5rem"><span class="tag">{c.kind}</span></div>
+  </div>
+
+  <div class="card culture-body" style="margin-top:1rem">
+    <h3>是什么</h3>
+    <p>{c.summary}</p>
+    {c.quote && <div class="quote">{c.quote}</div>}
+    <h3>引申</h3>
+    <p>{c.extra}</p>
+    <h3>关联词汇</h3>
+    <ul class="c-words" style="padding-left:1.1rem;margin:0.4rem 0">
+      {words.map((w) => (
+        <li>
+          <span class="ja" style="font-weight:600">{w.kana}</span>
+          <span class="muted">{w.romaji} · {w.meaning}</span>
+          <a class="tag" href={link('vocab')} style="margin-left:0.4rem">去背</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Base>

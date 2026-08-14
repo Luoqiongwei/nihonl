@@ -1,0 +1,15 @@
+{
+  "name": "nihonl",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import { categories } from '../data/index.js';
+import { esc, link } from '../lib/helpers.js';
+
+const catChips = `<button class="chip active" data-cat="all">全部</button>` +
+  categories.map((c) => `<button class="chip" data-cat="${esc(c.id)}">${esc(c.label)}</button>`).join('');
+---
+<Base title="词汇 · NIHONL" active="vocab" description="入门词条：假名、释义、例句与文化联想。">
+  <div class="page-head">
+    <span class="kicker">ことば</span>
+    <h1>词汇库</h1>
+    <p class="lead">入门词条示例，每条都带例句与文化联想。点击词条展开详情。</p>
+  </div>
+
+  <div class="toolbar">
+    <input class="search" id="vocab-search" type="search" placeholder="搜索假名 / 汉字 / 中文释义…">
+    <select id="vocab-status">
+      <option value="all">全部状态</option>
+      <option value="new">未学</option>
+      <option value="learning">学习中</option>
+      <option value="mastered">已掌握</option>
+    </select>
+  </div>
+  <div class="chip-row" style="margin-bottom:1rem" set:html={catChips}></div>
+
+  <div class="card flat" id="vocab-list" style="padding:0"></div>
+
+  <script>
+    import '../scripts/vocab.js';
+  </script>
+</Base>

@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import { songs, songProjects } from '../data/index.js';
+import { esc, link } from '../lib/helpers.js';
+
+const projects = songProjects();
+
+const cardHtml = (s) => {
+  const preview = (s.excerpt || []).slice(0, 2)
+    .map((e) => `<div class="lyric-line">${esc(e.ja)}</div>`).join('');
+  const status = s.lyricsStatus === 'complete'
+    ? '<span class="tag green">歌词已收录</span>'
+    : '<span class="tag gold">歌词待补</span>';
+  const hay = `${s.title} ${s.romajiTitle || ''} ${s.artist} ${s.producer || ''} ${s.project || ''}`.toLowerCase();
+  return `
+    <a class="card song-card" href="${link(`music/${encodeURIComponent(s.id)}`)}"
+       data-project="${esc(s.project || '其他')}" data-hay="${esc(hay)}">
+      <div class="song-head">
+        <div class="song-ja">${esc(s.title)}</div>
+        ${s.romajiTitle ? `<div class="song-romaji">${esc(s.romajiTitle)}</div>` : ''}
+      </div>
+      <div class="song-meta">${esc(s.artist)}${s.year ? ` · ${s.year}` : ''}</div>
+      <div class="song-tags"><span class="tag">${esc(s.project || '其他')}</span>${status}</div>
+      ${preview ? `<div class="lyric-box song-preview">${preview}</div>` : ''}
+      <div class="muted" style="font-size:0.85rem">查看歌词节选与词汇讲解 →</div>
+    </a>`;
+};
+
+const chips = `<button class="chip active" data-project="all">全部</button>` +
+  projects.map((p) => `<button class="chip" data-project="${esc(p)}">${esc(p)}</button>`).join('');
+---
+<Base title="音楽 · NIHONL" active="music" description="用 J-POP / J-Rock / VOCALOID / 神椿 歌曲记词汇。">
+  <div class="page-head">
+    <span class="kicker">うた</span>
+    <h1>音楽</h1>
+    <p class="lead">用喜欢的 J-POP / J-Rock / VOCALOID / 神椿 歌曲记词汇：每首摘录几句歌词，讲解里面的单词与表达。点击卡片查看节选与讲解。</p>
+  </div>
+
+  <div class="card note">
+    <b>版权说明</b>　本站只摘录少量歌词句子用于学习讲解，不提供整首歌词；歌曲版权归原作者 / 唱片公司所有，点击卡片内的来源链接可查看完整歌词与官方页面。
+  </div>
+
+  <div class="toolbar">
+    <input class="search" id="music-search" type="search" placeholder="搜索歌名 / 歌手 / 企划…">
+  </div>
+  <div class="chip-row" style="margin:1rem 0" set:html={chips}></div>
+
+  <div class="grid grid-2" id="song-grid" set:html={songs.map(cardHtml).join('')}></div>
+
+  <script>
+    import '../scripts/music.js';
+  </script>
+</Base>

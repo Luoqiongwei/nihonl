@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import { kana } from '../data/index.js';
+
+const block = (title, sub, set, extraClass = '') => `
+  <div class="kana-block">
+    <h2>${title}<small>${sub}</small></h2>
+    <div class="kana-grid">
+      ${set.map(([ch, r]) => `
+        <button class="kana-cell ${extraClass}" data-kana="${ch}">
+          <span class="k">${ch}</span>
+          <span class="r">${r}</span>
+        </button>`).join('')}
+    </div>
+  </div>`;
+---
+<Base title="五十音 · NIHONL" active="kana" description="平假名与片假名清音、浊音、拗音表，点击可试发音。">
+  <div class="page-head">
+    <span class="kicker">五十音</span>
+    <h1>假名入门</h1>
+    <p class="lead">日语假名分为平假名（圆润，用于和语）与片假名（方正，用于外来语）。点击任意假名可试发音（需系统支持日语语音）。</p>
+  </div>
+
+  <Fragment set:html={block('平假名 ひらがな', '清音', kana.hiragana.seion)} />
+  <Fragment set:html={block('平假名 浊音・半浊音', 'がぎぐげご…', [...kana.hiragana.dakuon, ...kana.hiragana.handakuon], 'dakuon')} />
+  <Fragment set:html={block('平假名 拗音', 'きゃ・しゅ・ちょ…', kana.hiragana.youon, 'yoon')} />
+
+  <Fragment set:html={block('片假名 カタカナ', '清音', kana.katakana.seion)} />
+  <Fragment set:html={block('片假名 浊音・半浊音', 'ガギグゲゴ…', [...kana.katakana.dakuon, ...kana.katakana.handakuon], 'dakuon')} />
+  <Fragment set:html={block('片假名 拗音', 'キャ・シュ・チョ…', kana.katakana.youon, 'yoon')} />
+
+  <div class="card flat" style="margin-top:1rem">
+    <h3 style="margin-top:0">小贴士</h3>
+    <p class="muted">先认「清音」，再认浊音和拗音。片假名主要拼写外来语，比如 ラーメン（拉面）、アニメ（动画）。背单词时多用「看假名 → 想读音」的方式自测。</p>
+  </div>
+
+  <script>
+    import '../scripts/kana.js';
+  </script>
+</Base>

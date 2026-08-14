@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="背单词 · NIHONL" active="study" description="卡片式间隔复习：看假名回忆意思，按记忆程度打分。">
+  <div class="page-head" style="text-align:center">
+    <span class="kicker">おぼえる</span>
+    <h1>背单词</h1>
+    <p class="lead">看假名回忆意思；记得不好也没关系，系统会帮你安排下一次复习。</p>
+  </div>
+  <div class="study-wrap">
+    <div class="study-settings">
+      <button class="chip active" data-filter="all">全部</button>
+      <button class="chip" data-filter="new">只看新词</button>
+      <button class="chip" data-filter="review">只复习</button>
+      <span class="muted" style="font-size:0.82rem">忘了 → 10 分钟后 · 模糊 → 明天 · 记得/很熟 → 间隔拉长</span>
+    </div>
+    <div id="study-stage"></div>
+  </div>
+
+  <script>
+    import '../scripts/study.js';
+  </script>
+</Base>
