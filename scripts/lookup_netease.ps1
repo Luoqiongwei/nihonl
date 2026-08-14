@@ -39,8 +39,71 @@ $titleMap = @{
   '成为空' = 'くうになる'
   '群青赞歌' = '群青讃歌'
   '回避暧昧' = '曖昧回避'
-  '小小的我' = 'ちいさなわたし'
-  '已经死掉了' = 'もう死んでる'
+  '小小的我' = 'ちっちゃな私'
+  '已经死掉了' = '死んでしまったんだ'
+  '请问您今天要来点兔子吗？' = 'お月見数え唄'
+  '合成的未来' = '合成するミライ'
+  '恋爱的才能' = '恋愛の才能'
+}
+
+# 手动精选：网易云查询串（标题过短/过泛时给出更精确的搜索词）
+$queryMap = @{
+  2 = '合成するミライ'
+  9 = '真空都市 ナナツカゼ'
+  10 = 'ダスト 可不'
+  14 = '明日なき暴走 クラウンピースを追い詰めろ'
+  15 = '消えてゆけ、迷いの果て'
+  21 = 'Bright Wonder-K'
+  26 = 'sasalasa'
+  31 = 'Instant Love La prière'
+  43 = '∞ HACHI'
+  47 = 'マジックナイト'
+  48 = '帽子を被っている魚'
+  52 = '夏日透明'
+  60 = 'ColorCode-F PIKASONIC'
+  67 = '雨部冷キザミ'
+  70 = '在処 FROZEN QUALIA'
+  71 = '神話の原点'
+  79 = '空の涙'
+  82 = 'ヒロイン PIKASONIC'
+  103 = '散る散る満ちる'
+  109 = '私が死にたかった今日は誰かが生きたかった明日らしい'
+  112 = '死んでしまったのだろうか 花譜'
+  113 = 'オーバーキル'
+  115 = '裂 重音テト'
+  131 = '宙でおやすみ'
+  133 = 'お月見数え唄'
+  134 = '永久の宴 Aiobahn'
+  135 = '十夏の花'
+  140 = '過ぎゆく日と君へ'
+  142 = '在庭園中'
+  149 = '枝垂桜'
+  150 = '花鋏鏡'
+  155 = '夢遊 tayori'
+  156 = 'ユートピア tayori'
+  158 = '八月の蛍 HACHI'
+  161 = '夏灯篭 HACHI'
+  163 = 'Rainy proof HACHI'
+  172 = '水星 Orangestar'
+  174 = 'スリークイーンズ 吸血女王伝'
+  175 = 'Propaganda Crusher-P'
+  177 = '恋愛の才能'
+  184 = '解答'
+  186 = 'プリズムキューブ'
+  187 = 'Alone Wisp X'
+  191 = '曖昧回避'
+  193 = 'インドア系ならトラックメイカー'
+  195 = '僕らのつづき'
+  197 = 'ディープスタリア・エニグマティカ'
+  201 = '白猫海賊船 Yunomi'
+  203 = 'SIMON Clesss'
+  204 = '桜色キャンバス'
+  206 = 'オオカミと少女'
+  209 = '彼女は旅に出る'
+  214 = '戯言Speaker'
+  221 = '踊 Ado'
+  227 = 'シヴァ'
+  236 = 'はいよろこんで'
 }
 
 # 从 raw 标题里提取「歌手/制作人」提示（片假名/平假名 token，过滤常见非人名）
@@ -72,8 +135,9 @@ function Get-SearchTitle([string]$title) {
   # 丢弃「、」分隔的人名/版本后缀（如「とても痛い痛がりたい 朝比奈まふゆ、初音ミク…」）
   $parts = $t -split '\s+'
   $keep = @()
-  foreach ($p in $parts) {
-    if ($p -match '、' -or $p -match '^(SEKAI|ver\.?|V\.?)$' -or $p -in @('ver','Ver','SEKAI')) { break }
+  for ($pi = 0; $pi -lt $parts.Count; $pi++) {
+    $p = $parts[$pi]
+    if (($pi -gt 0 -and $p -match '、') -or $p -match '^(SEKAI|ver\.?|V\.?)$' -or $p -in @('ver','Ver','SEKAI')) { break }
     $keep += $p
   }
   return (($keep -join ' ').Trim())
@@ -170,7 +234,7 @@ foreach ($item in $items) {
     $rec = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $false; reason = 'skip-no-kana-title' }
     Write-Host "  #$no [$($item.project)] $title → 跳过（标题为空，需日文原名）"
   } else {
-    $query = $st
+    $query = if ($queryMap.ContainsKey($no)) { $queryMap[$no] } else { $st }
     $songs = Get-SearchResults $query
     if ($songs.Count -eq 0) {
       $rec = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $false; reason = 'netease-no-result'; query = $query }
@@ -196,7 +260,9 @@ foreach ($item in $items) {
       } else {
         $best = $scored | Sort-Object score -Descending | Select-Object -First 1
         $pairs = Get-LyricPair $best.s.id
-        if ($null -eq $pairs -or $pairs.Count -eq 0) {
+        $hasKana = $false
+        if ($null -ne $pairs) { $hasKana = @($pairs | Where-Object { $_.ja -match '[\u3040-\u30ff]' }).Count -gt 0 }
+        if ($null -eq $pairs -or $pairs.Count -eq 0 -or -not $hasKana) {
           $rec = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $false; reason = 'netease-no-lyric'; songId = $best.s.id; songName = $best.s.name; artists = @($best.s.artists | ForEach-Object { $_.name }); candidates = @($scored | Select-Object -First 6 | ForEach-Object { "$($_.s.name) / $(($_.s.artists | ForEach-Object { $_.name }) -join '/') (id=$($_.s.id))" }) }
           Write-Host "  #$no [$($item.project)] $title → ✗ 无歌词（$($best.s.name) / $(($best.s.artists | ForEach-Object { $_.name }) -join '/'))"
         } else {

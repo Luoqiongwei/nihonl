@@ -919,9 +919,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -930,18 +930,18 @@
         "project":  "VOCALOID/术力口",
         "found":  true,
         "source":  "utaten",
-        "page":  "https://utaten.com/lyric/mi25041547/",
+        "page":  "https://utaten.com/lyric/ks25070903/",
         "lines":  [
-                      "涙滴る間 情けない感情が巡った",
-                      "どこかに芽生えてた小さな子供みたいな強がりから",
-                      "届かない理想から遠すぎた足元",
-                      "寄り添ってくれたのは間違いなくあなただった",
-                      "I know you\u0027re 心の耳澄ませば聞こえてくるの たったひとつの",
-                      "I know you\u0027re 願いが叶うなら またその鼓動を感じていたい",
-                      "あなたがくれたまなざしが生きている",
-                      "心騒つく夜に 懐かしい日々達が浮かんだ",
-                      "微かに覚えてた 大きなあの雲のように進みながら",
-                      "あの頃に抱いてた 曇りのない気持ちに"
+                      "雨降り、小さな傘に身を隠す僕に",
+                      "薄明かりがひとすじ",
+                      "またひとつ諦める、身体は軽くなる",
+                      "足元に引いた線の向こうから手を振る人",
+                      "きみが笑うだけでどうしてこんなにも",
+                      "過去の自分がほどかれるのだろう",
+                      "この感情には名前があるらしい",
+                      "心臓がうるさい",
+                      "きみと目があうたび、指が触れあうたび",
+                      "僕の奥の奥まで見つけてもらえたような気がした"
                   ]
     },
     {
@@ -958,9 +958,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -977,9 +977,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -993,8 +993,21 @@
         "no":  170,
         "title":  "あの夏が飽和する",
         "project":  "神椿",
-        "found":  false,
-        "reason":  "utaten-api-error"
+        "found":  true,
+        "source":  "utaten",
+        "page":  "https://utaten.com/lyric/ma19051710/",
+        "lines":  [
+                      "「昨日人を殺したんだ」",
+                      "君はそう言っていた。",
+                      "梅雨時ずぶ濡れのまんま、",
+                      "部屋の前で泣いていた。",
+                      "夏が始まったばかりというのに、",
+                      "君はひどく震えていた。",
+                      "そんな話で始まる、あの夏の日の記憶だ。",
+                      "「殺したのは隣の席の、いつも虐めてくるアイツ。",
+                      "もう嫌になって、肩を突き飛ばして、",
+                      "打ち所が悪かったんだ。"
+                  ]
     },
     {
         "no":  171,
@@ -1010,9 +1023,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1022,9 +1035,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1032,7 +1045,10 @@
         "title":  "Propaganda!",
         "project":  "VOCALOID/术力口",
         "found":  false,
-        "reason":  "utaten-api-error"
+        "reason":  "utaten-no-match",
+        "candidates":  [
+                           "/lyric/tu19090623/"
+                       ]
     },
     {
         "no":  177,
@@ -1082,9 +1098,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1094,9 +1110,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1120,9 +1136,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1139,9 +1155,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1158,9 +1174,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1214,22 +1230,21 @@
         "no":  203,
         "title":  "SIMON",
         "project":  "VOCALOID/术力口",
-        "found":  false,
+        "found":  true,
         "source":  "utaten",
-        "page":  "https://utaten.com/lyric/mi23082242/",
+        "page":  "https://utaten.com/lyric/mo16062015/",
         "lines":  [
-                      "この街並みを見る",
-                      "ただただ流れる世を見る",
-                      "今夜のフロアを眺める",
-                      "誰も居ないように見える一見",
-                      "でもあのコーナーの影にはバビロンが",
-                      "直進ならまだRed light",
-                      "だが左に回れば青信号",
-                      "金が無ければ始まらないこの世界",
-                      "時間はRap が上手く出来ても戻せない",
-                      "登るマンションの屋上"
-                  ],
-        "reason":  "wrong-artist-match"
+                      "オレ等のSquad",
+                      "くすんだ世界を変えてく",
+                      "想定外 足並み揃えて止まらなーい",
+                      "システムオレ等に照準",
+                      "前例無いから測れなーい",
+                      "思考に無いこの現状維持",
+                      "考えだけなら相当easy",
+                      "実力無いなら到底ムリ",
+                      "Easy ムリ Do it! move it!",
+                      "CRAZYなfamily"
+                  ]
     },
     {
         "no":  204,
@@ -1238,9 +1253,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1250,9 +1265,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1262,9 +1277,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1278,15 +1293,41 @@
         "no":  209,
         "title":  "彼女は旅に出る",
         "project":  "VOCALOID/术力口",
-        "found":  false,
-        "reason":  "utaten-api-error"
+        "found":  true,
+        "source":  "utaten",
+        "page":  "https://utaten.com/lyric/rq20041502/",
+        "lines":  [
+                      "白昼夢繋いでいて",
+                      "優しいの冷たいの",
+                      "最終章詰め込んでね",
+                      "どこへいこうどこへいこう",
+                      "あたしの黒猫はしゃべらないままだ",
+                      "ママホウキの乗り方も教えてくれな",
+                      "かった",
+                      "飛び出していった",
+                      "きみは帰らない重ねた手と",
+                      "手掛け違えたボタンも"
+                  ]
     },
     {
         "no":  213,
         "title":  "さよーならまたいつか",
         "project":  "VOCALOID/术力口",
-        "found":  false,
-        "reason":  "utaten-api-error"
+        "found":  true,
+        "source":  "utaten",
+        "page":  "https://utaten.com/lyric/hw24011801/",
+        "lines":  [
+                      "どこから春が巡り来るのか 知らず知らず大人になった",
+                      "見上げた先には燕が飛んでいた 気のない顔で",
+                      "もしもわたしに翼があれば 願う度に悲しみに暮れた",
+                      "さよなら100年先でまた会いましょう 心配しないで",
+                      "いつの間にか 花が落ちた 誰かがわたしに嘘をついた",
+                      "土砂降りでも構わず飛んでいく その力が欲しかった",
+                      "誰かと恋に落ちて また砕けて やがて離れ離れ",
+                      "口の中はたと血が滲んで 空に唾を吐く",
+                      "瞬け羽を広げ 気儘に飛べ どこまでもゆけ",
+                      "100年先も憶えてるかな 知らねえけれど さよーならまたいつか!"
+                  ]
     },
     {
         "no":  214,
@@ -1295,9 +1336,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1314,9 +1355,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1333,9 +1374,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1345,6 +1386,8 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/iz18120581/",
+                           "/lyric/jb70905052/",
                            "/lyric/mi21092907/"
                        ]
     },
@@ -1355,9 +1398,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {
@@ -1374,9 +1417,9 @@
         "found":  false,
         "reason":  "utaten-no-match",
         "candidates":  [
+                           "/lyric/sz26070606/",
                            "/lyric/mi26072159/",
-                           "/lyric/mi26070707/",
-                           "/lyric/mi26051428/"
+                           "/lyric/mi26070707/"
                        ]
     },
     {

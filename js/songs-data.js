@@ -1693,6 +1693,231 @@
       sources: [
         { label: "歌ネット（歌词页）", url: "https://www.uta-net.com/song/286017/" }
       ]
+    },
+    {
+      id: "asunaru-bousou",
+      title: "明日なき暴走！クラウンピースを追い詰めろ",
+      romajiTitle: "Asu Naki Bousou! Clownpiece o Oitsumero",
+      artist: "IOSYS",
+      producer: "ARM（作曲）・山本椛（作詞）",
+      year: 2016,
+      project: "同人音乐",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "そーれ クラピーちゃん in フロリダ・マイアミ Go!!", zh: "冲啊，克拉比酱前往佛罗里达迈阿密！" },
+        { ja: "ビーチの視線を 独占ひとりじめ (Yeah)", zh: "海滩上的视线被我一人独占（耶）" },
+        { ja: "巫女だの 魔女だの お呼びじゃございません", zh: "什么巫女啊魔女啊，本小姐可不吃那一套" },
+        { ja: "あたいが砂浜クイーンのクラピーちゃん！", zh: "本小姐可是沙滩女王的克拉比酱！" }
+      ],
+      points: [
+        { ja: "お呼びじゃございません", zh: "可轮不到（这么称呼我）", note: "「お呼びでない」的礼貌说法，表示「没被叫到/不奉陪」，带点傲娇。", wordId: "hanasu" },
+        { ja: "独占ひとりじめ", zh: "一人独占", note: "ひとりじめ= 独占；把「独占」和「ひとりじめ」叠用加强语气。", wordId: "kawaii" },
+        { ja: "なるようになるわ Let it be", zh: "船到桥头自然直", note: "「なるようになる」= 顺其自然；英文 Let it be 与之呼应，是歌里的洒脱态度。", wordId: "shizuka" }
+      ],
+      words: ["umi", "kawaii", "tanoshii"],
+      sources: [
+        { label: "网易云音乐（日文原文+中文翻译）", url: "https://music.163.com/#/song?id=486785699" }
+      ]
+    },
+    {
+      id: "bright-wonderk",
+      title: "Bright",
+      romajiTitle: "Bright",
+      artist: "初音ミク",
+      producer: "Wonder-K（作詞・作曲・編曲）",
+      year: 2015,
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "乾いた空気が今 僕らを包み込んで", zh: "干燥的空气此刻将我们包围" },
+        { ja: "曇り空がすうっと晴れていく", zh: "阴天转瞬之间放晴起来" },
+        { ja: "ずっと迷い続けた僕に君はそっと 小さな魔法をくれた", zh: "你对一直迷茫的我，悄悄施展了一个小小的魔法" },
+        { ja: "降り注いだその光が焼きついていく いつになってもきっと消えはしないだろう", zh: "洒落的光芒铭刻于心，无论何时都一定不会消失吧" }
+      ],
+      points: [
+        { ja: "包み込んで", zh: "包裹、环抱", note: "包み込む（つつみこむ）= 完全包裹住；比「包む」更强调彻底。", wordId: "kokoro" },
+        { ja: "曇り空がすうっと晴れていく", zh: "阴天转瞬放晴", note: "晴れる（はれる）= 放晴；「すうっと」拟态词，形容一下子、轻快地。", wordId: "sora" },
+        { ja: "迷い続けた", zh: "一直迷茫", note: "迷う（まよう）= 迷惘；「〜続ける」= 持续做某事。", wordId: "yume" }
+      ],
+      words: ["sora", "yume", "kokoro"],
+      sources: [
+        { label: "网易云音乐（日文原文+中文翻译）", url: "https://music.163.com/#/song?id=32823081" },
+        { label: "Vocaloid 中文歌词维基", url: "https://w.atwiki.jp/vocaloidchly/pages/7029.html" }
+      ]
+    },
+    {
+      id: "mugen-hachi",
+      title: "∞",
+      romajiTitle: "Mugen",
+      artist: "HACHI",
+      producer: "海野水玉（作詞・作曲）",
+      year: 2026,
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "くだらない私の くだらない今日が またひとつ、重なり、死んでいく", zh: "无聊透顶的我，和无聊透顶的今日，又一次交叠，悄然死去" },
+        { ja: "大人はずるいねbaby", zh: "大人真是狡猾啊 baby" },
+        { ja: "終わらない まだ終わらない この意味のない 存在証明が", zh: "不会结束，还没有结束，这毫无意义的存在证明" },
+        { ja: "眠りたい もう眠りたい infinity life 君を遺して", zh: "好想睡，已经好想睡了，无限的人生，把你留在原地" }
+      ],
+      points: [
+        { ja: "くだらない", zh: "无聊、没价值", note: "「下らない」的惯用义= 毫无价值的；反复两次是自嘲的语气。", wordId: "sabishii" },
+        { ja: "ずるいね", zh: "真狡猾啊", note: "ずるい= 狡猾、耍滑头；这里是对「大人世界」的抱怨。", wordId: "hanasu" },
+        { ja: "存在証明", zh: "存在的证明", note: "存在（そんざい）= 存在；証明（しょうめい）= 证明。歌名 ∞ 与「终わらない」呼应。", wordId: "yume" }
+      ],
+      words: ["sabishii", "yume", "hanasu"],
+      sources: [
+        { label: "网易云音乐（日文原文+中文翻译）", url: "https://music.163.com/#/song?id=3344741596" },
+        { label: "萌娘百科（专辑信息）", url: "https://mzh.moegirl.org.cn/Revealia" }
+      ]
+    },
+    {
+      id: "boushi-o-kabutteru-sakana",
+      title: "帽子を被っている魚",
+      romajiTitle: "Boushi o Kabutteru Sakana",
+      artist: "重音テト",
+      producer: "ンバヂ（作詞・作曲）",
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "帽子を被っている魚 いろんな帽子被っている", zh: "戴帽子的鱼，总是戴着各种各样的帽子" },
+        { ja: "野球をしている魚は 野球帽を被っている", zh: "打棒球的鱼，戴着棒球帽" },
+        { ja: "夏を満喫している魚は 麦わら帽を被っている", zh: "享受夏日的鱼，戴着草帽" },
+        { ja: "何にもしてない時の魚は 何にも被っていない そういう時もある", zh: "什么都不做的鱼，便什么都不戴——也有那样的时候" }
+      ],
+      points: [
+        { ja: "帽子を被っている", zh: "戴着帽子", note: "被る（かぶる）= 戴（帽子等）；「〜ている」表示持续状态。", wordId: "kawaii" },
+        { ja: "夏を満喫している", zh: "尽情享受夏天", note: "満喫（まんきつ）= 饱尝、尽情享受；和歌名的可爱画面很搭。", wordId: "tanoshii" },
+        { ja: "何にもしてない時", zh: "什么都不做的时候", note: "何にも〜ない= 什么都不…；口语里「何にもしてない」省掉了「い」。", wordId: "shizuka" }
+      ],
+      words: ["kawaii", "tanoshii", "shizuka"],
+      sources: [
+        { label: "网易云音乐（日文原文+中文翻译）", url: "https://music.163.com/#/song?id=2650143287" }
+      ]
+    },
+    {
+      id: "kieyuke-mayoi-no-hate",
+      title: "消えてゆけ、迷いの果て",
+      romajiTitle: "Kieyuke, Mayoi no Hate",
+      artist: "音街ウナ（SV）",
+      producer: "namaniental（作詞・作曲）",
+      project: "VOCALOID",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "何も伝わらなくて また苦しい振りをして", zh: "无法传达任何心意，又装作痛苦的样子" },
+        { ja: "変わんないな しみったれた馬鹿みたいな毎日さ", zh: "一成不变呢，像吝啬鬼一样愚蠢的每一天" },
+        { ja: "何もいない水の中 届きやしない光など", zh: "在空无一物的水中，无法到达的光之类" },
+        { ja: "暗い海の底で 朝を待つと決めたの", zh: "在黑暗的海底，决定等待黎明" }
+      ],
+      points: [
+        { ja: "苦しい振りをして", zh: "装作痛苦的样子", note: "振り（ふり）= 假装；「苦しい振りをする」是故作难受的惯用说法。", wordId: "sabishii" },
+        { ja: "変わんないな", zh: "一成不变啊", note: "「変わらない」的粗口语音；句尾「な」是自言自语的感叹。", wordId: "kinou" },
+        { ja: "朝を待つと決めた", zh: "决定等待黎明", note: "決める（きめる）= 决定；「〜と決めた」带有下定决心的语气。", wordId: "ashita" }
+      ],
+      words: ["sabishii", "kinou", "ashita"],
+      sources: [
+        { label: "网易云音乐（日文原文+中文翻译）", url: "https://music.163.com/#/song?id=3336016677" }
+      ]
+    },
+    {
+      id: "shinde-shimatta-nodarouka",
+      title: "死んでしまったのだろうか",
+      romajiTitle: "Shinde Shimatta no Darouka",
+      artist: "花譜（cover）",
+      producer: "Guiano（作詞・作曲）",
+      year: 2021,
+      project: "神椿",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "きっと僕は死んでしまったんだ 食べるものにはまるで味がないみたいだ", zh: "我想，我一定是死了吧，吃什么都形同嚼蜡" },
+        { ja: "きっと僕は死んでしまったんだ 母親の愛をまるで感じないんだ", zh: "我一定是死了吧，连母亲的爱都感觉不到了" },
+        { ja: "流れる雲を眺め思い出す 季節に置いてきぼりな僕の心", zh: "出神地望着流云，想起被遗落在季节里的我的心" },
+        { ja: "深海に沈む船のように いつか忘れ去られてしまうのだ", zh: "像沉入深海的船，总有一天会被遗忘" }
+      ],
+      points: [
+        { ja: "死んでしまったんだ", zh: "已经死了啊", note: "「〜てしまう」表示事态完结/无奈；「んだ」给句子加上自我解释的语气。", wordId: "sabishii" },
+        { ja: "まるで味がない", zh: "简直没有味道", note: "まるで〜ない= 简直完全不…；与「みたいだ」连用表示比喻。", wordId: "taberu" },
+        { ja: "置いてきぼり", zh: "被丢下", note: "「置き去り」的强调说法；きぼり表「被遗留」。", wordId: "kokoro" }
+      ],
+      words: ["sabishii", "taberu", "kokoro"],
+      sources: [
+        { label: "网易云音乐（歌词，翻唱版）", url: "https://music.163.com/#/song?id=1898244487" }
+      ]
+    },
+    {
+      id: "otsukimi-kazoeuta",
+      title: "お月見数え唄",
+      romajiTitle: "Otsukimi Kazoeuta",
+      artist: "千夜（CV：佐藤聡美）",
+      producer: "《请问您今天要来点兔子吗？？》角色歌",
+      year: 2015,
+      project: "动漫歌曲",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "うさぎぴょんぴょこぴょんぴょこ 出ておいで", zh: "小白兔蹦蹦跳蹦蹦跳，快出来吧" },
+        { ja: "ぴょんぴょこぴょんぴょこ いくつかしら？", zh: "蹦蹦跳蹦蹦跳，一共多少次呢？" },
+        { ja: "ころころと ころころと 作りましょう", zh: "滚来滚去，滚来滚去，一起来做年糕吧" },
+        { ja: "ゆであげて 出来上がり 月見団子", zh: "放进热水里，做好了，月见团子" }
+      ],
+      points: [
+        { ja: "数え唄", zh: "数数歌", note: "数える（かぞえる）= 数数；唄（うた）= 歌。童谣式的数数歌。", wordId: "tanoshii" },
+        { ja: "ぴょんぴょこ", zh: "蹦蹦跳", note: "拟声拟态词，形容兔子轻快蹦跳的样子；和「ぴょん」相比更活泼。", wordId: "tanoshii" },
+        { ja: "月見団子", zh: "月见团子", note: "月見（つきみ）= 赏月；団子（だんご）= 团子。日本中秋赏月时会供奉月见团子。", wordId: "tsuki" }
+      ],
+      words: ["tsuki", "tanoshii", "taberu"],
+      sources: [
+        { label: "网易云音乐（日文原文+中文翻译）", url: "https://music.163.com/#/song?id=1391849655" }
+      ]
+    },
+    {
+      id: "natsutouro-hachi",
+      title: "夏灯篭",
+      romajiTitle: "Natsutouro",
+      artist: "HACHI",
+      producer: "海野水玉（作詞・作曲）",
+      year: 2022,
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "砂浜はさらり 夜の海は昏々と", zh: "沙滩沙沙作响，夜海幽深晦暗" },
+        { ja: "波間をすべる 夏燈り 灯篭よ", zh: "在波浪间滑行的夏之光，灯笼啊" },
+        { ja: "水平の向こうに 私は逝くか？ 貴方はいるか？", zh: "在水平线的另一头，我会离去吗？你在吗？" },
+        { ja: "もしもこの命 明日を迎えられず 吹き消えるように 瞳を瞑るとき 貴方のそばに", zh: "如果这条命等不到明天，像被吹灭一般闭上眼的时候——想待在你身边" }
+      ],
+      points: [
+        { ja: "砂浜はさらり", zh: "沙滩沙沙作响", note: "さらり= 沙沙、干爽的拟态词；砂浜（すなはま）= 沙滩。", wordId: "umi" },
+        { ja: "水平の向こう", zh: "水平线的那一头", note: "水平（すいへい）= 水平；「向こう」= 对面、那一头。", wordId: "sora" },
+        { ja: "もしもこの命 明日を迎えられず", zh: "如果这条命等不到明天", note: "命（いのち）= 生命；迎える（むかえる）= 迎接；「〜られず」= 无法…。", wordId: "inochi" }
+      ],
+      words: ["umi", "sora", "inochi", "natsu"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/mi22091049/" }
+      ]
+    },
+    {
+      id: "chiruchiru-michiru",
+      title: "散る散る満ちる",
+      romajiTitle: "Chiru Chiru Michiru",
+      artist: "伶（Washio Reina）",
+      producer: "小竹正人（作詞）・Hiroki Sagawa（作曲）",
+      year: 2021,
+      project: "J-POP",
+      lyricsStatus: "complete",
+      excerpt: [
+        { ja: "昔誰かが言ってた 「満月の光は 人の心を 狂わせる」", zh: "从前有人说过：「满月的光芒，会让人心疯狂」" },
+        { ja: "昔誰かが言ってた 「桜の木は脆い 傷をつけると 枯れてしまう」", zh: "从前有人说过：「樱树很脆弱，一旦受伤就会枯死」" },
+        { ja: "満月の下で 桜散る散る 情熱は満ちる", zh: "满月之下，樱花纷纷飘散，热情却不断满溢" },
+        { ja: "その優しさは 私を悲しくさせるだけです", zh: "那份温柔，只会让我更加悲伤" }
+      ],
+      points: [
+        { ja: "人の心を狂わせる", zh: "让人心疯狂", note: "狂う（くるう）= 发狂；「狂わせる」是其使役形，表示「使…疯狂」。", wordId: "kokoro" },
+        { ja: "傷をつける", zh: "弄伤、造成伤害", note: "傷（きず）= 伤；「傷をつける」= 留下伤痕，也比喻伤害感情。", wordId: "hana" },
+        { ja: "桜散る散る", zh: "樱花纷纷飘散", note: "歌名把「散る」重复，与「満ちる」对仗——凋零与满溢并存。", wordId: "hana" }
+      ],
+      words: ["hana", "tsuki", "kokoro"],
+      sources: [
+        { label: "UtaTen（歌词页）", url: "https://utaten.com/lyric/hw21113018/" }
+      ]
     }
   ];
 
