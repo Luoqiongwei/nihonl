@@ -29,19 +29,22 @@ export const songs = [
         "ja": "光って 光って",
         "zh": "闪耀吧、闪耀吧",
         "note": "光る（发光）的て形重复使用，表示动作反复并加以强调，是歌词里常见的强调手法。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "te-kei"
       },
       {
         "ja": "眠らない25時",
         "zh": "不眠的 25 点",
         "note": "眠らない是动词眠る的否定式作连体修饰；25時是剧中的「虚拟时间」——早已过了零点，却依然睡不着。",
-        "wordId": "nemuru"
+        "wordId": "nemuru",
+        "grammarId": "ren-tai"
       },
       {
         "ja": "消えたいと叫んだら「叶えたい」に気付いたよ",
         "zh": "当喊出「好想消失」时，才发觉其实是「好想实现」",
         "note": "「〜たい」表示愿望；気付く（察觉）是常用动词，这里与「叶えたい」（想实现愿望）形成反转，把绝望唱成了渴望。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "tai"
       }
     ],
     "words": [
@@ -88,19 +91,22 @@ export const songs = [
         "ja": "聞こえないフリ",
         "zh": "假装听不见",
         "note": "聞こえる（听得见）的否定＋フリ（装作…的样子）。「〜ふりをする」是常用表达，歌词里常把する省掉。",
-        "wordId": "kiku"
+        "wordId": "kiku",
+        "grammarId": "furi"
       },
       {
         "ja": "愛しはじめてしまった",
         "zh": "开始爱上（无法挽回）",
         "note": "「〜はじめる」表示开始，「〜てしまう」表示遗憾、无法挽回。两个语法叠用，把「迟来的心动」唱得很揪心。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "te-shimau"
       },
       {
         "ja": "想いがあふれていく",
         "zh": "思念不断满溢",
         "note": "想い（思い）=思念、心意；あふれる=满溢。整首歌都是「切ない」（揪心）的心情。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "te-iku"
       }
     ],
     "words": [
@@ -151,7 +157,8 @@ export const songs = [
         "ja": "行かないでよ 此処にいてよ",
         "zh": "别走啊，留在这里啊",
         "note": "「〜ないで」=请不要…；「いて」是いる的て形，よ是带感情的助词。请求、挽留时的经典句式。",
-        "wordId": "iku"
+        "wordId": "iku",
+        "grammarId": "nai-de"
       },
       {
         "ja": "僕を壊してよ",
@@ -163,13 +170,15 @@ export const songs = [
         "ja": "生きていると感じたい",
         "zh": "想感受到活着",
         "note": "「〜たい」表愿望；生きる=活着，感じる=感觉。句尾的の是口语化的语气，比はるか说「のです」更贴近日常。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "tai"
       },
       {
         "ja": "あと少しの命ならば",
         "zh": "如果只剩下一点点生命",
         "note": "ならば=如果…的话（书面语/歌词用语）；あと少し=再一点。假设＋愿望是歌词里很常见的句式。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "nara"
       }
     ],
     "words": [
@@ -216,19 +225,22 @@ export const songs = [
         "ja": "falling downしても hold outしてよ",
         "zh": "就算在坠落，也请撑住",
         "note": "「〜しても」=即使…也；falling down、hold out 都是英语外来语，用「する」动词化。日式英语混搭是 J-pop 歌词常态。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "te-mo"
       },
       {
         "ja": "愛されたいのに愛されない",
         "zh": "明明想被爱，却得不到爱",
         "note": "愛される=被爱（受身）；「〜たいのに」=明明想…却…，表达事与愿违的遗憾，是情歌高频句式。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "noni"
       },
       {
         "ja": "あなたに救われたいんだ",
         "zh": "我想被你拯救",
         "note": "救う=拯救，救われる=被拯救（受身）；「〜たいんだ」=想要…（んだ用于强调心情/理由）。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "passive"
       }
     ],
     "words": [
@@ -284,19 +296,22 @@ export const songs = [
         "ja": "風に抱かれ砂に溶け",
         "zh": "被风拥抱，溶入沙中",
         "note": "抱かれる=被拥抱（受身），溶ける=溶解。受身＋自然意象，是歌词里营造「无力又唯美」氛围的典型写法。",
-        "wordId": "kaze"
+        "wordId": "kaze",
+        "grammarId": "passive"
       },
       {
         "ja": "満たされるまでここに居よう",
         "zh": "在满足之前就留在这里吧",
         "note": "満たされる=被填满、得到满足；「〜まで」=直到…为止；「〜よう」=意志形，表示「…吧」。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "made"
       },
       {
         "ja": "痛みに似た足りないもの",
         "zh": "像疼痛一样、永远欠缺的东西",
         "note": "似た=相似的；足りない=不足的。用定语连用修饰名词，歌词里常用这种抽象留白。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "ren-tai"
       }
     ],
     "words": [
@@ -371,7 +386,8 @@ export const songs = [
         "ja": "後悔なんて一切無い",
         "zh": "后悔什么的，一点都没有",
         "note": "「なんて」有轻描淡写或列举的语气；「一切（いっさい）〜ない」= 丝毫也不。把后悔清零、只管向前，是这首歌的底色。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "nante"
       },
       {
         "ja": "希望は懲りない",
@@ -383,7 +399,8 @@ export const songs = [
         "ja": "此処を通じて君と出会えた / 君のお陰でより好きになれた",
         "zh": "经由这里与你相遇，托你的福，我变得更喜欢了",
         "note": "通じて=通过…（途径）；お陰で=托…的福，是表达感谢与归因的固定句型；「より＋形容词」= 更加。",
-        "wordId": "arigatou"
+        "wordId": "arigatou",
+        "grammarId": "o-kage-sei"
       },
       {
         "ja": "理想へ Dunk 理性無し Like a drunk",
@@ -444,7 +461,8 @@ export const songs = [
         "ja": "脈打つうちは",
         "zh": "在（心脏）跳动期间",
         "note": "脈打つ=（心脏）搏动；「〜うちは」表示在某个状态持续的期间内。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "uchi"
       },
       {
         "ja": "満喫し終わっている",
@@ -456,7 +474,8 @@ export const songs = [
         "ja": "生きる意味なんてそれでいいの",
         "zh": "活着的意义，这样就好",
         "note": "意味=意义；「なんて」轻描淡写地举例，否定严肃化。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "nante"
       }
     ],
     "words": [
@@ -507,13 +526,15 @@ export const songs = [
         "ja": "温めてあげるよ",
         "zh": "我来帮你暖暖",
         "note": "「〜てあげる」表示“为对方做…”，是授受动词的基本用法。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-ageru"
       },
       {
         "ja": "休んでみませんか",
         "zh": "要不要试着歇一歇",
         "note": "「〜てみませんか」= 要不要试着…，委婉提议的礼貌说法。",
-        "wordId": "nemuru"
+        "wordId": "nemuru",
+        "grammarId": "te-miru"
       }
     ],
     "words": [
@@ -561,7 +582,8 @@ export const songs = [
         "ja": "言っちゃ嫌",
         "zh": "说了可不行",
         "note": "「言っては嫌」的口语缩略（〜ちゃ＝〜ては），表示“如果那样做的话就讨厌/不行”。",
-        "wordId": "hanasu"
+        "wordId": "hanasu",
+        "grammarId": "te-shimau"
       },
       {
         "ja": "ダサい",
@@ -609,13 +631,15 @@ export const songs = [
         "ja": "届くから 叶うから",
         "zh": "会传达到的，会实现的",
         "note": "届く=传达、到达；叶う=（愿望）实现。两句连用强调希望。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "kara"
       },
       {
         "ja": "繋いだら 離さずに",
         "zh": "一旦牵上就不松开",
         "note": "「〜たら」= 一旦…；「離さずに」= 不松开地（ずに＝否定+伴随）。",
-        "wordId": "kiseki"
+        "wordId": "kiseki",
+        "grammarId": "tara"
       },
       {
         "ja": "ぎゅっと",
@@ -673,7 +697,8 @@ export const songs = [
         "ja": "上手く生きられない",
         "zh": "没法好好地活着",
         "note": "上手く=好好地；「生きられない」= 无法活下去（可能形否定）。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "potential"
       },
       {
         "ja": "からからから",
@@ -727,7 +752,8 @@ export const songs = [
         "ja": "僕なりの",
         "zh": "属于我自己的",
         "note": "「〜なり」表示“以自己的方式、属于自己的”。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "nari"
       },
       {
         "ja": "所詮",
@@ -772,7 +798,8 @@ export const songs = [
         "ja": "〜ではないんです",
         "zh": "并不是…（强调说明）",
         "note": "「ではない」＋「んです」构成强调解释的句式。",
-        "wordId": "sora"
+        "wordId": "sora",
+        "grammarId": "nanda"
       },
       {
         "ja": "無法地帯",
@@ -880,19 +907,22 @@ export const songs = [
         "ja": "出会ってよかった",
         "zh": "幸好遇见了",
         "note": "「〜てよかった」= 幸好…了，表达庆幸。",
-        "wordId": "kiseki"
+        "wordId": "kiseki",
+        "grammarId": "te-yokatta"
       },
       {
         "ja": "救われたことがある",
         "zh": "曾被拯救过",
         "note": "救われる=被拯救（受身）；「〜たことがある」= 曾经…过。",
-        "wordId": "arigatou"
+        "wordId": "arigatou",
+        "grammarId": "koto-ga-aru"
       },
       {
         "ja": "〜ないでくれ",
         "zh": "请不要…",
         "note": "「〜ないでくれ」是恳切请求“不要做某事”的说法。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "nai-de"
       }
     ],
     "words": [
@@ -945,7 +975,8 @@ export const songs = [
         "ja": "胸の奥につっかえて",
         "zh": "卡在心底深处",
         "note": "つっかえる=卡住、堵住；形容想说却说不出口。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-kei"
       }
     ],
     "words": [
@@ -1000,7 +1031,8 @@ export const songs = [
         "ja": "繰り返して連なる",
         "zh": "反复地连绵不绝",
         "note": "繰り返す=重复；連なる=接连不断。",
-        "wordId": "kiseki"
+        "wordId": "kiseki",
+        "grammarId": "te-kei"
       }
     ],
     "words": [
@@ -1041,19 +1073,22 @@ export const songs = [
         "ja": "溢れる程",
         "zh": "多到满溢的程度",
         "note": "溢れる=满溢；「〜程」= 到…的程度。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "hodo"
       },
       {
         "ja": "見上げたら",
         "zh": "一抬头看",
         "note": "見上げる=仰望；「〜たら」= 一…就…。",
-        "wordId": "sora"
+        "wordId": "sora",
+        "grammarId": "tara"
       },
       {
         "ja": "君に届く光",
         "zh": "传达给你的光",
         "note": "届く=传达、到达，是本曲的关键意象。",
-        "wordId": "kiseki"
+        "wordId": "kiseki",
+        "grammarId": "ren-tai"
       }
     ],
     "words": [
@@ -1094,7 +1129,8 @@ export const songs = [
         "ja": "振り切って飛び越して",
         "zh": "甩开并飞跃",
         "note": "振り切る=甩开、摆脱；飛び越す=飞越。连用形制造奔跑感。",
-        "wordId": "iku"
+        "wordId": "iku",
+        "grammarId": "te-kei"
       },
       {
         "ja": "幻想回廊",
@@ -1147,7 +1183,8 @@ export const songs = [
         "ja": "気づいて欲しくて",
         "zh": "好想（被谁）注意到",
         "note": "「〜てほしい」表示希望对方做某事；て形连用表原因。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-hoshii"
       },
       {
         "ja": "歩きまわる",
@@ -1159,7 +1196,8 @@ export const songs = [
         "ja": "夜空を仰いで",
         "zh": "仰望夜空",
         "note": "仰ぐ=仰望；夜空=夜晚的天空。",
-        "wordId": "sora"
+        "wordId": "sora",
+        "grammarId": "te-kei"
       }
     ],
     "words": [
@@ -1261,13 +1299,15 @@ export const songs = [
         "ja": "捨てて来た",
         "zh": "丢弃后离开",
         "note": "捨てる＋てくる，表示「丢下（它）来到这里」。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "te-kuru"
       },
       {
         "ja": "〜てしまう",
         "zh": "（无可挽回地）…了",
         "note": "表达遗憾、无法挽回的语气，情歌高频语法。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "te-shimau"
       }
     ],
     "words": [
@@ -1309,7 +1349,8 @@ export const songs = [
         "ja": "〜たら　きっと",
         "zh": "一…就一定…",
         "note": "「たら」表条件，「きっと」加强肯定，是期许未来时的常用句式。",
-        "wordId": "ashita"
+        "wordId": "ashita",
+        "grammarId": "tara"
       },
       {
         "ja": "彩る",
@@ -1369,13 +1410,15 @@ export const songs = [
         "ja": "仕舞い込んでいた",
         "zh": "一直收起来",
         "note": "仕舞い込む=收纳、藏起；过去进行时表持续状态。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-iru"
       },
       {
         "ja": "揺らいで",
         "zh": "动摇着",
         "note": "揺らぐ=摇摆、动摇，形容心情不定。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "te-kei"
       }
     ],
     "words": [
@@ -1417,7 +1460,8 @@ export const songs = [
         "ja": "着いたばかり",
         "zh": "刚到",
         "note": "「〜たばかり」= 刚刚做完…，强调时间很近。",
-        "wordId": "ohayou"
+        "wordId": "ohayou",
+        "grammarId": "bakari"
       },
       {
         "ja": "とりあえず",
@@ -1429,7 +1473,8 @@ export const songs = [
         "ja": "しよっか",
         "zh": "做…吧（邀约）",
         "note": "「しようか」的口语缩略，带轻松邀约的语气。",
-        "wordId": "asobu"
+        "wordId": "asobu",
+        "grammarId": "you-ishi"
       }
     ],
     "words": [
@@ -1530,13 +1575,15 @@ export const songs = [
         "ja": "赦してください",
         "zh": "请原谅我",
         "note": "赦す=宽恕；「〜てください」= 请（对方）做…。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "te-kudasai"
       },
       {
         "ja": "どうして泣いている",
         "zh": "为什么在哭",
         "note": "どうして=为什么；泣く=哭。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "te-iru"
       }
     ],
     "words": [
@@ -1590,7 +1637,8 @@ export const songs = [
         "ja": "ユレル　ユラレル",
         "zh": "摇曳、被摇曳",
         "note": "揺れる（摇曳）与其被动形的拟音变奏。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "passive"
       }
     ],
     "words": [
@@ -1691,7 +1739,8 @@ export const songs = [
         "ja": "〜たとしても",
         "zh": "即使…也",
         "note": "「終わったとしても」= 即使结束了也…，假设让步句式。",
-        "wordId": "kiseki"
+        "wordId": "kiseki",
+        "grammarId": "te-mo"
       },
       {
         "ja": "メメントモリ",
@@ -1737,7 +1786,8 @@ export const songs = [
         "ja": "〜てしまえ",
         "zh": "干脆…掉",
         "note": "「〜てしまう」的命令形，带「干脆放弃/忘掉」的语气。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "te-shimau"
       },
       {
         "ja": "重荷",
@@ -1749,7 +1799,8 @@ export const songs = [
         "ja": "生きる意味",
         "zh": "活着的意义",
         "note": "生きる＋意味，歌词里反复追问的主题。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "ren-tai"
       }
     ],
     "words": [
@@ -1791,7 +1842,8 @@ export const songs = [
         "ja": "奪われて",
         "zh": "被夺走",
         "note": "奪う（夺走）的受身（〜われる），「被…夺走」。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "passive"
       },
       {
         "ja": "ちょうだい",
@@ -1855,7 +1907,8 @@ export const songs = [
         "ja": "目醒めれば",
         "zh": "一醒来就…",
         "note": "目醒める=醒来；「〜れば」表条件。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "ba"
       }
     ],
     "words": [
@@ -1897,7 +1950,8 @@ export const songs = [
         "ja": "理屈抜きに",
         "zh": "抛开道理",
         "note": "「〜抜きに」= 抛开…地、不讲…地。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "nuki"
       },
       {
         "ja": "響く",
@@ -1908,7 +1962,8 @@ export const songs = [
       {
         "ja": "〜迄",
         "zh": "直到…",
-        "note": "まで的汉字写法，歌词中常见。"
+        "note": "まで的汉字写法，歌词中常见。",
+        "grammarId": "made"
       }
     ],
     "words": [
@@ -1949,7 +2004,8 @@ export const songs = [
         "ja": "確かなことだけは",
         "zh": "唯一确定的事",
         "note": "確か=确实的；「だけは」强调「唯有…」。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "dake"
       },
       {
         "ja": "サヨナラ",
@@ -2058,13 +2114,15 @@ export const songs = [
         "ja": "〜さえも",
         "zh": "连…都",
         "note": "「さえ」加强语气，表示「连…也不（能）」。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "sae-sura"
       },
       {
         "ja": "解らないまま",
         "zh": "不明白地（保持原状）",
         "note": "まま=维持现状；「不明白地走下去」。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "mama"
       },
       {
         "ja": "壊した",
@@ -2116,7 +2174,8 @@ export const songs = [
         "ja": "飴玉みたいに",
         "zh": "像糖果一样",
         "note": "飴玉=硬糖；「みたいに」= 像…一样（比喻）。飴（あめ）与雨（あめ）同音，可一起记。",
-        "wordId": "ame"
+        "wordId": "ame",
+        "grammarId": "mitai"
       },
       {
         "ja": "嫌いじゃない",
@@ -2163,7 +2222,8 @@ export const songs = [
         "ja": "〜だって〜だって",
         "zh": "就算…就算…",
         "note": "「だって」重复使用，表示列举并加强「即使如此」的语气。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "da-tte"
       },
       {
         "ja": "何だってんだ",
@@ -2216,13 +2276,15 @@ export const songs = [
         "ja": "もしも〜なら",
         "zh": "如果…的话",
         "note": "もしも强调假设；「〜なら」= 如果。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "nara"
       },
       {
         "ja": "〜たように",
         "zh": "就像…那样",
         "note": "「僕を救ったように」= 就像（你）拯救了我那样，表比喻。",
-        "wordId": "kiseki"
+        "wordId": "kiseki",
+        "grammarId": "you-ni"
       },
       {
         "ja": "勇気を出す",
@@ -2273,7 +2335,8 @@ export const songs = [
         "ja": "溢れてった",
         "zh": "溢了出来",
         "note": "溢れる的口语缩略（溢れていった），歌词里常见。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-iku"
       },
       {
         "ja": "弱音",
@@ -2332,13 +2395,15 @@ export const songs = [
         "ja": "〜なくたって",
         "zh": "就算不…",
         "note": "「なくても」的口语缩略，表让步。",
-        "wordId": "ashita"
+        "wordId": "ashita",
+        "grammarId": "te-mo"
       },
       {
         "ja": "虚空を舞ってる",
         "zh": "在虚空中飞舞",
         "note": "虚空=虚空；舞う=飞舞。",
-        "wordId": "sora"
+        "wordId": "sora",
+        "grammarId": "te-iru"
       }
     ],
     "words": [
@@ -2379,19 +2444,22 @@ export const songs = [
         "ja": "目覚めて",
         "zh": "醒来",
         "note": "目覚める=醒来、觉醒。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "te-kei"
       },
       {
         "ja": "離さないで",
         "zh": "不要放开",
         "note": "離す（放开）的否定＋て（不要…）。",
-        "wordId": "tomodachi"
+        "wordId": "tomodachi",
+        "grammarId": "nai-de"
       },
       {
         "ja": "かもね",
         "zh": "也许吧",
         "note": "「かもしれない」的口语，语气轻轻地带点不确定。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "kamoshirenai"
       }
     ],
     "words": [
@@ -2431,13 +2499,15 @@ export const songs = [
         "ja": "慣れてしまった",
         "zh": "已经习惯了",
         "note": "慣れる＋てしまう，带「不知不觉、无可奈何」的语感。",
-        "wordId": "natsukashii"
+        "wordId": "natsukashii",
+        "grammarId": "te-shimau"
       },
       {
         "ja": "いなくなるなら",
         "zh": "如果你会消失",
         "note": "いなくなる=不在、消失；「なら」= 如果。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "nara"
       },
       {
         "ja": "それでもいいや",
@@ -2490,13 +2560,15 @@ export const songs = [
         "ja": "〜になれたら良いのにな",
         "zh": "如果能…就好了",
         "note": "「なれたらいいな」的愿望句式，句尾な带感叹。",
-        "wordId": "taberu"
+        "wordId": "taberu",
+        "grammarId": "potential"
       },
       {
         "ja": "食べられない",
         "zh": "吃不下",
         "note": "食べる的可能形否定（不能吃）。",
-        "wordId": "taberu"
+        "wordId": "taberu",
+        "grammarId": "potential"
       }
     ],
     "words": [
@@ -2541,7 +2613,8 @@ export const songs = [
         "ja": "どこにも行きたくない",
         "zh": "哪里都不想去",
         "note": "どこにも＋否定，表示「哪儿也（不）…」。",
-        "wordId": "iku"
+        "wordId": "iku",
+        "grammarId": "tai"
       },
       {
         "ja": "思い出す",
@@ -2588,13 +2661,15 @@ export const songs = [
         "ja": "届かない理想",
         "zh": "够不着的理想",
         "note": "届かない=传达不到、够不着；理想=理想。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "ren-tai"
       },
       {
         "ja": "寄り添ってくれた",
         "zh": "陪伴着我",
         "note": "寄り添う=靠近、陪伴；「てくれる」表示对方为我做。",
-        "wordId": "tomodachi"
+        "wordId": "tomodachi",
+        "grammarId": "te-kureru"
       },
       {
         "ja": "まなざし",
@@ -2642,13 +2717,15 @@ export const songs = [
         "ja": "零れて零れて",
         "zh": "流了又流",
         "note": "零れる（洒落、溢出）重复使用，强调不停掉落。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "te-kei"
       },
       {
         "ja": "生きるのが辛い",
         "zh": "活着很痛苦",
         "note": "辛い=痛苦的；「のが」把动词短语名词化。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "no-ga"
       },
       {
         "ja": "人並みに",
@@ -2695,19 +2772,22 @@ export const songs = [
         "ja": "握りしめて",
         "zh": "紧紧握住",
         "note": "握る＋しめる（用力），强调握紧不放。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-kei"
       },
       {
         "ja": "辿っていた",
         "zh": "一路追寻着",
         "note": "辿る=沿着（路径）追寻，过去进行时。",
-        "wordId": "ashita"
+        "wordId": "ashita",
+        "grammarId": "te-iru"
       },
       {
         "ja": "〜すら",
         "zh": "连…都",
         "note": "「正しさすら溶けた」= 连正确都融化了，表极端强调。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "sae-sura"
       }
     ],
     "words": [
@@ -2754,13 +2834,15 @@ export const songs = [
         "ja": "いてくれるなら",
         "zh": "如果（你）在",
         "note": "いてくれる=（你）在（为我）；「なら」= 如果。",
-        "wordId": "tomodachi"
+        "wordId": "tomodachi",
+        "grammarId": "te-kureru"
       },
       {
         "ja": "助けてくれないか",
         "zh": "能帮帮我吗",
         "note": "「〜てくれないか」是恳求对方帮忙的说法。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-kureru"
       }
     ],
     "words": [
@@ -2806,13 +2888,15 @@ export const songs = [
         "ja": "歌を歌うのは 寂しいから",
         "zh": "唱歌是因为寂寞",
         "note": "「寂しい」= 寂寞；「〜のは〜から」解释行为的原因，开篇几段都是这个句式。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "kara"
       },
       {
         "ja": "明かりになったあなた",
         "zh": "化作光明的你",
         "note": "明かり= 光、灯火；「〜になる」表示变化。歌名里的「シリウス」（天狼星）正是夜空中最亮的星。",
-        "wordId": "hoshi"
+        "wordId": "hoshi",
+        "grammarId": "ni-naru"
       },
       {
         "ja": "心臓は点滅するかしら",
@@ -2870,13 +2954,15 @@ export const songs = [
         "ja": "人の目を気にして",
         "zh": "在意别人的眼光",
         "note": "目= 眼睛，也指目光；「気にする」= 在意、介意。",
-        "wordId": "miru"
+        "wordId": "miru",
+        "grammarId": "te-kei"
       },
       {
         "ja": "全部 親のせい",
         "zh": "全都是父母的错",
         "note": "「〜のせい」把原因归咎于…；与「〜のお陰」（多亏…）正好相反。",
-        "wordId": "okaasan"
+        "wordId": "okaasan",
+        "grammarId": "o-kage-sei"
       },
       {
         "ja": "奈落の底で歌え",
@@ -2933,13 +3019,15 @@ export const songs = [
         "ja": "もしも触れたものが全て",
         "zh": "如果所有触碰过的一切",
         "note": "もしも= 假如；「〜ならば」是「〜なら」的书面强调形式。",
-        "wordId": "utsukushii"
+        "wordId": "utsukushii",
+        "grammarId": "nara"
       },
       {
         "ja": "真っ白な鳥のように",
         "zh": "像纯白的鸟儿一样",
         "note": "真っ白（まっしろ）= 纯白；「〜のように」= 像…一样。",
-        "wordId": "sora"
+        "wordId": "sora",
+        "grammarId": "you-ni"
       },
       {
         "ja": "生まれ変わる罪",
@@ -2992,19 +3080,22 @@ export const songs = [
         "ja": "サヨナラは言わないでさ",
         "zh": "先不要说再见啊",
         "note": "サヨナラ= 再见；「言わないで」= 请不要说；句尾「さ」让请求显得随意又恳切。",
-        "wordId": "sayounara"
+        "wordId": "sayounara",
+        "grammarId": "nai-de"
       },
       {
         "ja": "吸ってはいてそれだけで良い",
         "zh": "吸气、呼气，这样就足够了",
         "note": "吸う/吐く= 吸/呼；「〜ては〜て」列举反复的动作；「それだけで良い」= 仅此就够。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-ha"
       },
       {
         "ja": "心に傘を差そう",
         "zh": "在心里撑起伞",
         "note": "傘（かさ）= 伞；「差す」= 撑（伞）。在心里撑伞，是防止心被淋湿的意象。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "you-ishi"
       }
     ],
     "words": [
@@ -3051,7 +3142,8 @@ export const songs = [
         "ja": "もしも全て投げ捨てられたら",
         "zh": "如果能把一切都舍弃的话",
         "note": "投げ捨てる= 扔掉、抛弃；「〜られたら」是可能的假定。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "potential"
       },
       {
         "ja": "酷いよ 酷いよ",
@@ -3063,7 +3155,8 @@ export const songs = [
         "ja": "僕の心臓は一つだけ",
         "zh": "我的心跳是独一无二的",
         "note": "心臓（しんぞう）= 心脏；「一つだけ」= 仅此一颗。标题「心做し」常被汉译为「心理作用」。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "dake"
       }
     ],
     "words": [
@@ -3114,7 +3207,8 @@ export const songs = [
         "ja": "排気口から香るラーメンの匂い",
         "zh": "排气口飘来拉面的香气",
         "note": "香る（かおる）= 飘香；「〜から香る」表示气味从某处飘来。",
-        "wordId": "ramen"
+        "wordId": "ramen",
+        "grammarId": "ren-tai"
       },
       {
         "ja": "大層な風景はない",
@@ -3177,7 +3271,8 @@ export const songs = [
         "ja": "繋がっていたい",
         "zh": "想（和某人）紧紧相连",
         "note": "繋がる（つながる）= 相连；「〜ていたい」表示希望持续保持那种状态。",
-        "wordId": "tomodachi"
+        "wordId": "tomodachi",
+        "grammarId": "tai"
       },
       {
         "ja": "昨日の僕らにおさらば",
@@ -3189,7 +3284,8 @@ export const songs = [
         "ja": "声 轟かせてくれ",
         "zh": "让声音轰鸣起来吧",
         "note": "轟く（とどろく）= 轰鸣、响彻；「〜てくれ」是带有力度的请求。",
-        "wordId": "kiku"
+        "wordId": "kiku",
+        "grammarId": "te-kureru"
       }
     ],
     "words": [
@@ -3240,13 +3336,15 @@ export const songs = [
         "ja": "散々淡々と暮らしていて",
         "zh": "狼狈又平淡地活着",
         "note": "散々（さんざん）= 狼狈、彻底；淡々（たんたん）= 淡然。两个拟态词叠出倦怠感。",
-        "wordId": "natsukashii"
+        "wordId": "natsukashii",
+        "grammarId": "te-iku"
       },
       {
         "ja": "さよならに慣れてしまってんだ",
         "zh": "已经习惯了告别",
         "note": "慣れる（なれる）= 习惯；「〜てしまう」带有无奈、无可挽回的语感。",
-        "wordId": "sayounara"
+        "wordId": "sayounara",
+        "grammarId": "te-shimau"
       },
       {
         "ja": "明日って何度言う？",
@@ -3299,13 +3397,15 @@ export const songs = [
         "ja": "好きって分かっちゃうな",
         "zh": "喜欢这件事会被看穿啊",
         "note": "「分かっちゃう」= 分かってしまう的口语，表示「（秘密）会暴露」。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-shimau"
       },
       {
         "ja": "落ち着かない僕",
         "zh": "无法平静的我",
         "note": "落ち着く（おちつく）= 镇定、平静；「落ち着かない」= 坐立不安。",
-        "wordId": "shizuka"
+        "wordId": "shizuka",
+        "grammarId": "ren-tai"
       },
       {
         "ja": "僕は君の隣で いいの",
@@ -3364,7 +3464,8 @@ export const songs = [
         "ja": "命の限り叫んで",
         "zh": "拼尽生命地呐喊",
         "note": "限り（かぎり）= 极限；「〜の限り」= 尽…所能。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "kagiri"
       },
       {
         "ja": "まだ温さが残る",
@@ -3427,13 +3528,15 @@ export const songs = [
         "ja": "思い出してばっかり",
         "zh": "光是在回忆",
         "note": "「〜てばっかり（ばかり）」= 总是、光是（做某事）。",
-        "wordId": "natsukashii"
+        "wordId": "natsukashii",
+        "grammarId": "bakari"
       },
       {
         "ja": "強がったあと一人泣く",
         "zh": "逞强之后独自哭泣",
         "note": "強がる（つよがる）= 逞强；「〜たあと」= 在…之后。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "maego"
       }
     ],
     "words": [
@@ -3484,19 +3587,22 @@ export const songs = [
         "ja": "ずぶ濡れのまんま",
         "zh": "浑身湿透的样子",
         "note": "ずぶ濡れ（ずぶぬれ）= 浑身湿透；「まんま」是「まま」的口语形式，表示维持原状。",
-        "wordId": "ame"
+        "wordId": "ame",
+        "grammarId": "mama"
       },
       {
         "ja": "夏が始まったばかり",
         "zh": "夏天才刚刚开始",
         "note": "「〜たばかり」= 刚刚做完某事；与后文的「のに」形成转折。",
-        "wordId": "natsukashii"
+        "wordId": "natsukashii",
+        "grammarId": "bakari"
       },
       {
         "ja": "連れてって",
         "zh": "带我走",
         "note": "連れて行く（つれていく）的口语缩略，= 带着（我）去。",
-        "wordId": "iku"
+        "wordId": "iku",
+        "grammarId": "te-iku"
       }
     ],
     "words": [
@@ -3543,19 +3649,22 @@ export const songs = [
         "ja": "食べなくちゃ",
         "zh": "不吃不行",
         "note": "食べなくては（いけない）的口语缩略，表示「不得不吃」。",
-        "wordId": "taberu"
+        "wordId": "taberu",
+        "grammarId": "nakucha"
       },
       {
         "ja": "忘れさせて？",
         "zh": "能让我忘掉吗？",
         "note": "忘れる的使役形忘れさせる= 让我忘记；疑问语气里带着乞求。",
-        "wordId": "natsukashii"
+        "wordId": "natsukashii",
+        "grammarId": "causative"
       },
       {
         "ja": "満たされない",
         "zh": "无法被满足",
         "note": "満たす（みたす）= 填满、满足；被动否定形式表示「再怎么也不够」。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "passive"
       }
     ],
     "words": [
@@ -3608,7 +3717,8 @@ export const songs = [
         "ja": "どこまでだっていつまでだって",
         "zh": "无论多远、无论多久",
         "note": "「〜だって」列举强调，表示「无论…都…」；两句连用加强跟随的决心。",
-        "wordId": "iku"
+        "wordId": "iku",
+        "grammarId": "da-tte"
       },
       {
         "ja": "綺麗が決め手",
@@ -3665,13 +3775,15 @@ export const songs = [
         "ja": "知らず知らず大人になった",
         "zh": "不知不觉间长大成人",
         "note": "知らず知らず（しらずしらず）= 不知不觉；重复「知らず」强调未经察觉。",
-        "wordId": "ashita"
+        "wordId": "ashita",
+        "grammarId": "ni-naru"
       },
       {
         "ja": "また会いましょう",
         "zh": "我们还会再见的",
         "note": "「また会う」+ ましょう的邀请/约定语气，比直接道别更温柔。",
-        "wordId": "sayounara"
+        "wordId": "sayounara",
+        "grammarId": "mashou"
       },
       {
         "ja": "気儘に飛べ",
@@ -3724,13 +3836,15 @@ export const songs = [
         "ja": "とても痛い痛がりたい",
         "zh": "好痛，却渴望着痛",
         "note": "痛がる（いたがる）= 觉得痛、表现出痛；标题把「痛い」和「痛がりたい」叠在一起，是这首歌的招牌文字游戏。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "tai"
       },
       {
         "ja": "キミに伝えたい",
         "zh": "想传达给你",
         "note": "伝える（つたえる）= 传达；「〜たい」表示愿望，反复出现在副歌。",
-        "wordId": "hanasu"
+        "wordId": "hanasu",
+        "grammarId": "tai"
       },
       {
         "ja": "胸のこの辺",
@@ -3793,13 +3907,15 @@ export const songs = [
         "ja": "生きていいの？",
         "zh": "可以活下去吗？",
         "note": "「〜ていい」表示被允许；疑问句里是自我怀疑的语气。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "te-ii"
       },
       {
         "ja": "花びら散る前に",
         "zh": "在花瓣飘散之前",
         "note": "花びら（はなびら）= 花瓣；散る（ちる）= 飘落；「〜前に」= 在…之前。",
-        "wordId": "hana"
+        "wordId": "hana",
+        "grammarId": "maego"
       }
     ],
     "words": [
@@ -3968,7 +4084,8 @@ export const songs = [
         "ja": "憂いを数えている",
         "zh": "数着忧愁",
         "note": "憂い（うれい）= 忧愁；「数える」在这里是把心事一件件清点的意象。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "te-iru"
       },
       {
         "ja": "連れ出して",
@@ -3980,7 +4097,8 @@ export const songs = [
         "ja": "空っぽになる心",
         "zh": "变得空空如也的心",
         "note": "空っぽ（からっぽ）= 空荡荡；和歌名「くうになる」（成为空）呼应。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "ni-naru"
       }
     ],
     "words": [
@@ -4027,19 +4145,22 @@ export const songs = [
         "ja": "死のうと思った",
         "zh": "想过要死",
         "note": "「〜（よ）うと思う」表示打算做某事；整句以「〜のは〜から」解释原因。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "you-ishi"
       },
       {
         "ja": "まるで昨日みたいだ",
         "zh": "简直就像昨天",
         "note": "まるで〜みたい= 简直像…一样；用于比喻的常见搭配。",
-        "wordId": "kinou"
+        "wordId": "kinou",
+        "grammarId": "mitai"
       },
       {
         "ja": "明日を変えるなら今日を変えなきゃ",
         "zh": "要改变明天的话，就必须改变今天",
         "note": "「〜なら」表条件；「〜なきゃ」= なければ（いけない）的口语缩略。",
-        "wordId": "ashita"
+        "wordId": "ashita",
+        "grammarId": "nakucha"
       }
     ],
     "words": [
@@ -4090,13 +4211,15 @@ export const songs = [
         "ja": "気づかないふり",
         "zh": "假装没察觉",
         "note": "ふり= 装作…的样子；「気づかないふりをする」是装傻的固定说法。",
-        "wordId": "miru"
+        "wordId": "miru",
+        "grammarId": "furi"
       },
       {
         "ja": "割れる心の音",
         "zh": "心碎的声音",
         "note": "割れる（われる）= 破裂；「心が割れる」比喻心碎。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "ren-tai"
       },
       {
         "ja": "どうしようもなく好き",
@@ -4161,7 +4284,8 @@ export const songs = [
         "ja": "シズクだけが僕の理由",
         "zh": "只有泪滴是我的理由",
         "note": "シズク即「雫」（しずく）= 水滴、泪滴；片假名写法让歌名更有意象感。",
-        "wordId": "ame"
+        "wordId": "ame",
+        "grammarId": "dake"
       }
     ],
     "words": [
@@ -4208,7 +4332,8 @@ export const songs = [
         "ja": "本音を探して",
         "zh": "寻找真心话",
         "note": "本音（ほんね）= 真实的心里话；与「建前」（场面话）相对。",
-        "wordId": "hanasu"
+        "wordId": "hanasu",
+        "grammarId": "te-kei"
       },
       {
         "ja": "勇気を奮う",
@@ -4267,7 +4392,8 @@ export const songs = [
         "ja": "いたはずなのに",
         "zh": "明明（刚才）还在的",
         "note": "「〜はずなのに」= 按理应该…却…，带着不解和失落。",
-        "wordId": "setsunai"
+        "wordId": "setsunai",
+        "grammarId": "hazu"
       },
       {
         "ja": "甘いせつなさ",
@@ -4279,7 +4405,8 @@ export const songs = [
         "ja": "うめつくして",
         "zh": "填满",
         "note": "埋め尽くす（うめつくす）= 完全填满；「アタマとココロ」= 头脑与心灵。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-kei"
       }
     ],
     "words": [
@@ -4326,19 +4453,22 @@ export const songs = [
         "ja": "繋ぐ讃歌",
         "zh": "相连的赞歌",
         "note": "讃歌（さんか）= 赞歌；「繋ぐ」= 连接，暗示人与人之间的共鸣。",
-        "wordId": "kiku"
+        "wordId": "kiku",
+        "grammarId": "ren-tai"
       },
       {
         "ja": "「こうあるべき」",
         "zh": "「理应如此」",
         "note": "べき= 应该（文语）；歌里批判被「应该怎样」的社会规训束缚。",
-        "wordId": "hanasu"
+        "wordId": "hanasu",
+        "grammarId": "beki"
       },
       {
         "ja": "夕立の後に rainbow",
         "zh": "阵雨之后是彩虹",
         "note": "夕立（ゆうだち）= 傍晚的骤雨；「〜の後に」= 在…之后。",
-        "wordId": "ame"
+        "wordId": "ame",
+        "grammarId": "maego"
       }
     ],
     "words": [
@@ -4389,19 +4519,22 @@ export const songs = [
         "ja": "手を伸ばしても届かない",
         "zh": "伸出手也够不到",
         "note": "届く（とどく）= 够到、到达；「〜ても〜ない」= 即使…也（不）…。",
-        "wordId": "yume"
+        "wordId": "yume",
+        "grammarId": "te-mo"
       },
       {
         "ja": "堕ちていってもかまわない",
         "zh": "坠落下去也没关系",
         "note": "堕ちる（おちる）= 坠落；「かまわない」= 无所谓、没关系。",
-        "wordId": "sora"
+        "wordId": "sora",
+        "grammarId": "te-iku"
       },
       {
         "ja": "あなたがいれば",
         "zh": "只要有你在",
         "note": "「いれば」是「いる」的假定形；「〜がいれば」= 只要有…在（就安心）。",
-        "wordId": "tomodachi"
+        "wordId": "tomodachi",
+        "grammarId": "ba"
       }
     ],
     "words": [
@@ -4460,7 +4593,8 @@ export const songs = [
         "ja": "なるようになるわ Let it be",
         "zh": "船到桥头自然直",
         "note": "「なるようになる」= 顺其自然；英文 Let it be 与之呼应，是歌里的洒脱态度。",
-        "wordId": "shizuka"
+        "wordId": "shizuka",
+        "grammarId": "ni-naru"
       }
     ],
     "words": [
@@ -4507,13 +4641,15 @@ export const songs = [
         "ja": "包み込んで",
         "zh": "包裹、环抱",
         "note": "包み込む（つつみこむ）= 完全包裹住；比「包む」更强调彻底。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "te-kei"
       },
       {
         "ja": "曇り空がすうっと晴れていく",
         "zh": "阴天转瞬放晴",
         "note": "晴れる（はれる）= 放晴；「すうっと」拟态词，形容一下子、轻快地。",
-        "wordId": "sora"
+        "wordId": "sora",
+        "grammarId": "te-iku"
       },
       {
         "ja": "迷い続けた",
@@ -4632,19 +4768,22 @@ export const songs = [
         "ja": "帽子を被っている",
         "zh": "戴着帽子",
         "note": "被る（かぶる）= 戴（帽子等）；「〜ている」表示持续状态。",
-        "wordId": "kawaii"
+        "wordId": "kawaii",
+        "grammarId": "te-iru"
       },
       {
         "ja": "夏を満喫している",
         "zh": "尽情享受夏天",
         "note": "満喫（まんきつ）= 饱尝、尽情享受；和歌名的可爱画面很搭。",
-        "wordId": "tanoshii"
+        "wordId": "tanoshii",
+        "grammarId": "te-iru"
       },
       {
         "ja": "何にもしてない時",
         "zh": "什么都不做的时候",
         "note": "何にも〜ない= 什么都不…；口语里「何にもしてない」省掉了「い」。",
-        "wordId": "shizuka"
+        "wordId": "shizuka",
+        "grammarId": "te-iru"
       }
     ],
     "words": [
@@ -4690,7 +4829,8 @@ export const songs = [
         "ja": "苦しい振りをして",
         "zh": "装作痛苦的样子",
         "note": "振り（ふり）= 假装；「苦しい振りをする」是故作难受的惯用说法。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "furi"
       },
       {
         "ja": "変わんないな",
@@ -4749,7 +4889,8 @@ export const songs = [
         "ja": "死んでしまったんだ",
         "zh": "已经死了啊",
         "note": "「〜てしまう」表示事态完结/无奈；「んだ」给句子加上自我解释的语气。",
-        "wordId": "sabishii"
+        "wordId": "sabishii",
+        "grammarId": "te-shimau"
       },
       {
         "ja": "まるで味がない",
@@ -4879,7 +5020,8 @@ export const songs = [
         "ja": "もしもこの命 明日を迎えられず",
         "zh": "如果这条命等不到明天",
         "note": "命（いのち）= 生命；迎える（むかえる）= 迎接；「〜られず」= 无法…。",
-        "wordId": "inochi"
+        "wordId": "inochi",
+        "grammarId": "zuni"
       }
     ],
     "words": [
@@ -4927,7 +5069,8 @@ export const songs = [
         "ja": "人の心を狂わせる",
         "zh": "让人心疯狂",
         "note": "狂う（くるう）= 发狂；「狂わせる」是其使役形，表示「使…疯狂」。",
-        "wordId": "kokoro"
+        "wordId": "kokoro",
+        "grammarId": "causative"
       },
       {
         "ja": "傷をつける",

@@ -452,6 +452,22 @@ input:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px r
   font-family: var(--serif);
 }
 
+/* ---------- 语法 ---------- */
+
+.grammar-card .g-pattern { font-family: var(--serif); font-size: 1.3rem; font-weight: 700; color: var(--indigo); margin-right: 0.5rem; }
+.grammar-card .c-tagline { font-family: var(--serif); color: var(--ink-soft); }
+.grammar-hero .g-pattern-big { font-family: var(--serif); font-size: clamp(1.6rem, 4vw, 2.1rem); color: var(--indigo); font-weight: 700; }
+.g-structure {
+  display: inline-block;
+  margin: 0.3rem 0 0.2rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  background: var(--paper-deep);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--accent);
+}
+
 /* ---------- 音楽 ---------- */
 
 .note {

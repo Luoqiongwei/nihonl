@@ -7,6 +7,8 @@ import vm from 'node:vm';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import grammar from '../data/grammar.js';
+import grammarMap from '../data/grammar-map.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -26,6 +28,15 @@ if (!data || !Array.isArray(data.songs)) {
   process.exit(1);
 }
 
+// 注入歌曲学习点 → 语法关联（grammarId）
+for (const s of data.songs) {
+  const map = grammarMap[s.id];
+  if (!map) continue;
+  for (const p of s.points || []) {
+    if (map[p.ja]) p.grammarId = map[p.ja];
+  }
+}
+
 const outDir = path.join(root, 'src', 'data');
 fs.mkdirSync(outDir, { recursive: true });
 
@@ -42,6 +53,7 @@ emit('words.js', 'words', data.words);
 emit('culture.js', 'culture', data.culture);
 emit('kana.js', 'kana', data.kana);
 emit('songs.js', 'songs', data.songs);
+emit('grammar.js', 'grammar', grammar);
 
 // 轻量歌曲索引：供首页等客户端场景选曲，不携带整份歌词
 const songsIndex = data.songs.map((s) => ({
@@ -61,8 +73,10 @@ import { words } from './words.js';
 import { culture } from './culture.js';
 import { kana } from './kana.js';
 import { songs } from './songs.js';
+import { grammar } from './grammar.js';
+import { songsIndex } from './songs-index.js';
 
-export { categories, words, culture, kana, songs };
+export { categories, words, culture, kana, songs, grammar, songsIndex };
 
 export function getWord(id) {
   return words.find((w) => w.id === id);
@@ -76,12 +90,20 @@ export function getSong(id) {
   return songs.find((s) => s.id === id);
 }
 
+export function getGrammar(id) {
+  return grammar.find((g) => g.id === id);
+}
+
 export function songsForWord(wordId) {
   return songs.filter(
     (s) =>
       (s.words || []).includes(wordId) ||
       (s.points || []).some((p) => p.wordId === wordId)
   );
+}
+
+export function songsForGrammar(grammarId) {
+  return songs.filter((s) => (s.points || []).some((p) => p.grammarId === grammarId));
 }
 
 export function songProjects() {

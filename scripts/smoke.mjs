@@ -5,7 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { words, culture, songs, getWord, getCulture, kana } from '../src/data/index.js';
+import { words, culture, songs, grammar, getWord, getCulture, getGrammar, kana } from '../src/data/index.js';
 import store from '../src/lib/store.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -27,10 +27,12 @@ function check(name, cond) {
 
 /* ---------- 数据完整性 ---------- */
 
-check('词汇条数 >= 40', words.length >= 40);
+check('词汇条数 >= 200', words.length >= 200);
 check('文化词条 >= 8', culture.length >= 8);
+check('语法条数 >= 30', grammar.length >= 30);
 check('词汇 id 唯一', new Set(words.map((w) => w.id)).size === words.length);
 check('文化 id 唯一', new Set(culture.map((c) => c.id)).size === culture.length);
+check('语法 id 唯一', new Set(grammar.map((g) => g.id)).size === grammar.length);
 check('歌曲条数 >= 5', songs.length >= 5);
 check('歌曲 id 唯一', new Set(songs.map((s) => s.id)).size === songs.length);
 for (const w of words) {
@@ -40,6 +42,9 @@ for (const w of words) {
 for (const c of culture) {
   check(`文化 ${c.id} 字段完整`, c.ja && c.zh && c.tagline && c.summary && Array.isArray(c.words));
   for (const wid of c.words) check(`文化 ${c.id} 关联词存在`, !!getWord(wid));
+}
+for (const g of grammar) {
+  check(`语法 ${g.id} 字段完整`, g.pattern && g.zh && g.level && g.structure && g.usage && g.example?.ja && g.example?.zh);
 }
 for (const s of songs) {
   check(`歌 ${s.id} 字段完整`, s.title && s.artist && s.sources?.length);
@@ -51,6 +56,7 @@ for (const s of songs) {
   for (const wid of s.words || []) check(`歌 ${s.id} 关联词存在`, !!getWord(wid));
   for (const p of s.points || []) {
     if (p.wordId) check(`歌 ${s.id} 学习点词存在`, !!getWord(p.wordId));
+    if (p.grammarId) check(`歌 ${s.id} 学习点语法存在`, !!getGrammar(p.grammarId));
   }
 }
 check('平假名清音 46 个', kana.hiragana.seion.length === 46);
@@ -118,7 +124,7 @@ const dist = path.join(root, 'dist');
 if (fs.existsSync(dist)) {
   const pages = [
     'index.html', 'kana/index.html', 'vocab/index.html', 'study/index.html',
-    'culture/index.html', 'music/index.html', 'stats/index.html'
+    'grammar/index.html', 'culture/index.html', 'music/index.html', 'stats/index.html'
   ];
   for (const p of pages) {
     check(`构建产物 ${p} 存在`, fs.existsSync(path.join(dist, p)));
@@ -126,6 +132,10 @@ if (fs.existsSync(dist)) {
   const detailDir = path.join(dist, 'music');
   if (fs.existsSync(detailDir)) {
     check('构建产物 music 详情页 >= 1', fs.readdirSync(detailDir).length >= 1);
+  }
+  const grammarDir = path.join(dist, 'grammar');
+  if (fs.existsSync(grammarDir)) {
+    check('构建产物 grammar 详情页 >= 30', fs.readdirSync(grammarDir).length >= 30);
   }
 }
 

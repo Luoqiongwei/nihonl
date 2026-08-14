@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { songs, getSong, getWord } from '../../data/index.js';
+import { songs, getSong, getWord, getGrammar } from '../../data/index.js';
 import { esc, link } from '../../lib/helpers.js';
 
 export function getStaticPaths() {
@@ -45,11 +45,13 @@ const words = (s.words || []).map((wid) => getWord(wid)).filter(Boolean);
         <h3>词汇与表达</h3>
         {s.points.map((p) => {
           const w = p.wordId ? getWord(p.wordId) : null;
+          const g = p.grammarId ? getGrammar(p.grammarId) : null;
           return (
             <div class="point-item">
               <div class="ja">{p.ja}<span class="muted" style="margin-left:0.5rem;font-weight:400">{p.zh}</span></div>
               <p class="note-text">{p.note}
                 {w && <a class="tag" href={link('vocab')}>关联词：{w.kana}</a>}
+                {g && <a class="tag" href={link(`grammar/${encodeURIComponent(g.id)}`)}>语法：{g.pattern}</a>}
               </p>
             </div>
           );

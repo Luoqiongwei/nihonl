@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import { grammar, songsForGrammar } from '../data/index.js';
+import { esc, link } from '../lib/helpers.js';
+
+const cards = grammar.map((g) => {
+  const songs = songsForGrammar(g.id);
+  return `
+    <a class="card culture-card grammar-card" href="${link(`grammar/${encodeURIComponent(g.id)}`)}">
+      <div>
+        <span class="g-pattern">${esc(g.pattern)}</span>
+        <span class="c-zh">${esc(g.zh)}</span>
+      </div>
+      <div class="c-tagline">${esc(g.structure)}</div>
+      <div class="c-meta">
+        <span class="tag">${esc(g.level)}</span>
+        <span class="tag ghost">${songs.length ? `出现在 ${songs.length} 首歌` : '基础语法'}</span>
+      </div>
+    </a>`;
+}).join('');
+---
+<Base title="语法 · NIHONL" active="grammar" description="入门语法：从歌词里学句式。">
+  <div class="page-head">
+    <span class="kicker">ぶんぽう</span>
+    <h1>语法小屋</h1>
+    <p class="lead">每一条语法都尽量配上一句站内歌词作例句——先听到它，再理解它。点击词条查看构成、讲解与出处歌曲。</p>
+  </div>
+  <div class="grid grid-2" set:html={cards}></div>
+</Base>

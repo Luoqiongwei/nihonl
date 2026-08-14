@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import { grammar, songsForGrammar } from '../../data/index.js';
+import { esc, link } from '../../lib/helpers.js';
+
+export function getStaticPaths() {
+  return grammar.map((g) => ({ params: { id: g.id } }));
+}
+
+const { id } = Astro.params;
+const g = grammar.find((x) => x.id === id);
+if (!g) {
+  return new Response(null, { status: 404 });
+}
+
+const songs = songsForGrammar(g.id);
+---
+<Base title={`${g.pattern} · NIHONL`} active="grammar">
+  <a class="back-link" href={link('grammar')}>← 返回语法列表</a>
+  <div class="card culture-hero grammar-hero">
+    <div class="g-pattern-big">{g.pattern}<span style="font-size:1.1rem;color:var(--ink-soft);margin-left:0.6rem">{g.zh}</span></div>
+    <div style="margin-top:0.5rem"><span class="tag">{g.level}</span></div>
+  </div>
+
+  <div class="card culture-body" style="margin-top:1rem">
+    <h3>构成</h3>
+    <div class="g-structure">{g.structure}</div>
+    <h3>怎么用</h3>
+    <p>{g.usage}</p>
+    <h3>歌词例句</h3>
+    <div class="example">
+      <div class="ja">{g.example.ja}</div>
+      <div class="muted">{g.example.zh}</div>
+    </div>
+    {g.note && <div class="mnemonic"><b>出处</b>　{g.note}</div>}
+
+    {songs.length > 0 && (
+      <>
+        <h3>出现在这些歌里</h3>
+        <p>
+          {songs.map((s) => <a class="tag gold" href={link(`music/${encodeURIComponent(s.id)}`)}>♪ {esc(s.title)}</a>)}
+        </p>
+      </>
+    )}
+  </div>
+</Base>
