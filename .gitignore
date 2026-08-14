@@ -3,6 +3,7 @@ data/*.html
 
 # Astro / Node
 node_modules/
+.pnpm-store/
 dist/
 .astro/
 npm-debug.log*
