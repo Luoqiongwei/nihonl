@@ -33,8 +33,9 @@ check('语法条数 >= 30', grammar.length >= 30);
 check('词汇 id 唯一', new Set(words.map((w) => w.id)).size === words.length);
 check('文化 id 唯一', new Set(culture.map((c) => c.id)).size === culture.length);
 check('语法 id 唯一', new Set(grammar.map((g) => g.id)).size === grammar.length);
-check('歌曲条数 >= 5', songs.length >= 5);
+check('歌曲条数 >= 140', songs.length >= 140);
 check('歌曲 id 唯一', new Set(songs.map((s) => s.id)).size === songs.length);
+check('歌曲歌词状态全部完成', songs.every((s) => s.lyricsStatus === 'complete'));
 for (const w of words) {
   check(`词 ${w.id} 字段完整`, w.kana && w.romaji && w.meaning && w.example?.ja && w.example?.zh && w.mnemonic);
   for (const cid of w.culture) check(`词 ${w.id} 文化标签存在`, !!getCulture(cid));
@@ -50,8 +51,9 @@ for (const s of songs) {
   check(`歌 ${s.id} 字段完整`, s.title && s.artist && s.sources?.length);
   check(`歌 ${s.id} 歌词状态合法`, s.lyricsStatus === 'complete' || s.lyricsStatus === 'missing');
   if (s.lyricsStatus === 'complete') {
-    check(`歌 ${s.id} 有歌词节选`, s.excerpt.length >= 2 && s.excerpt.every((e) => e.ja && e.zh));
-    check(`歌 ${s.id} 有学习点`, s.points.length >= 2 && s.points.every((p) => p.ja && p.zh && p.note));
+    check(`歌 ${s.id} 仅有 2–3 句歌词节选`, s.excerpt.length >= 2 && s.excerpt.length <= 3 && s.excerpt.every((e) => e.ja && e.zh));
+    check(`歌 ${s.id} 仅有 2–3 个学习点`, s.points.length >= 2 && s.points.length <= 3 && s.points.every((p) => p.ja && p.zh && p.note));
+    check(`歌 ${s.id} 未携带完整歌词字段`, !Object.keys(s).some((key) => /^(full_?lyrics|raw_?lyrics|lyrics)$/i.test(key)));
   }
   for (const wid of s.words || []) check(`歌 ${s.id} 关联词存在`, !!getWord(wid));
   for (const p of s.points || []) {

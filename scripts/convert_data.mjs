@@ -9,6 +9,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import grammar from '../data/grammar.js';
 import grammarMap from '../data/grammar-map.js';
+import { curatedSongAdditions } from '../data/curated-song-additions.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -26,6 +27,29 @@ const data = ctx.window.NihonlData;
 if (!data || !Array.isArray(data.songs)) {
   console.error('数据装载失败');
   process.exit(1);
+}
+
+// 自动检索链未命中的人工兜底条目。按 id 去重，避免重复运行或旧数据吸收后重复追加。
+const songIds = new Set(data.songs.map((s) => s.id));
+for (const song of curatedSongAdditions) {
+  if (!songIds.has(song.id)) {
+    data.songs.push(song);
+    songIds.add(song.id);
+  }
+}
+
+// 生产数据只保留教学必需的短节选；即使旧数据误带更多内容，也不写入网站构建数据。
+const publicLyricFields = new Set(['excerpt', 'points']);
+const forbiddenLyricFields = ['fullLyrics', 'full_lyrics', 'lyrics', 'rawLyrics', 'raw_lyrics'];
+for (const song of data.songs) {
+  song.excerpt = (song.excerpt || []).slice(0, 3);
+  song.points = (song.points || []).slice(0, 3);
+  for (const field of forbiddenLyricFields) delete song[field];
+  for (const field of Object.keys(song)) {
+    if (/lyric/i.test(field) && field !== 'lyricsStatus' && !publicLyricFields.has(field)) {
+      delete song[field];
+    }
+  }
 }
 
 // 注入歌曲学习点 → 语法关联（grammarId）

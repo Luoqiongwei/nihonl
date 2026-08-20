@@ -37,7 +37,7 @@ pnpm preview    # 预览构建产物
 - **词汇库**：内置 70+ 入门词条，含假名、例句、文化联想；支持搜索、分类与学习状态筛选
 - **背单词**：卡片式记忆 + 简易间隔复习（记忆度 0–5 级，忘记/模糊/记得/很熟四档评分）
 - **文化**：二次元文化（萌、推し、卡哇伊、若者言葉）与日本美学（物哀、侘寂、幽玄、間）词条，附关联词汇
-- **音楽**：J-POP / J-Rock / VOCALOID / 神椿 歌曲的歌词节选与词汇讲解（80+ 首）；只摘录数句用于学习，完整歌词链接到来源页
+- **音楽**：J-POP / J-Rock / VOCALOID / 神椿 歌曲的歌词节选与词汇讲解（140 首）；只摘录数句用于学习，并保留可复核来源链接
 - **进度**：学习量、掌握分布、近 14 天复习记录
 
 ## 目录结构
@@ -56,7 +56,7 @@ nihonl/
 │   └── lib/              # store.js（SRS）+ helpers.js（转义/朗读/链接）
 ├── data/
 │   ├── songlist.json     # 曲目清单解析结果
-│   ├── lyrics-*.json     # 歌词查证队列（断点续跑）
+│   ├── song-audit.json   # 不含歌词正文的筛选与来源审计
 │   └── legacy/           # 旧版数据源（js/data.js、js/songs-data.js），供 convert_data.mjs 参考
 ├── scripts/
 │   ├── convert_data.mjs  # 旧数据 → src/data 的转换器
@@ -67,11 +67,15 @@ nihonl/
 └── pnpm-workspace.yaml
 ```
 
+歌单标题的清洗、演唱语言判定和歌词来源优先级见 [`docs/lyrics-workflow.md`](docs/lyrics-workflow.md)。
+
+歌词查证生成的 HTML、`lyrics-*.json`、LRC 与 TTML 均为本地临时产物，已被 Git 忽略；确认 2–3 句教学节选和来源链接后应立即删除，不得进入生产数据库或部署包。
+
 ## 新增 / 修改内容
 
 - **词汇**：编辑 `src/data/words.js`（数组追加词条即可）。
 - **文化词条**：编辑 `src/data/culture.js`。
-- **歌曲**：编辑 `src/data/songs.js`（结构见文件顶部注释）。若要从旧版数据重新生成，先改 `data/legacy/` 下文件，再运行 `node scripts/convert_data.mjs`。
+- **歌曲**：历史条目编辑 `data/legacy/`；自动检索未命中的人工查证条目编辑 `data/curated-song-additions.js`，再运行 `node scripts/convert_data.mjs`。`src/data/songs.js` 是生成文件，不应直接修改。
 - **页面**：在 `src/pages/` 下新增 / 修改 `.astro` 文件；需要交互的页面把逻辑放在 `src/scripts/` 并由页面 `<script>` 引入（Astro 会按页面做代码分割）。
 
 ## 数据说明

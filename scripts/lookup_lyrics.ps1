@@ -1,8 +1,8 @@
 ﻿<#
 批量歌词查证 · 第一阶段：Vocaloid Lyrics Wiki（miraheze API）
 
-消费 data/songlist.json 中日文歌曲队列，逐首搜索并抓取歌词，
-结果（含候选行）写入 data/lyrics-found.json，可断点续跑。
+消费 data/songlist.json 中日文歌曲队列，逐首查证歌词来源。
+结果只保留来源元数据与最多 3 行语言核验样本，属于可随时删除的本地临时文件。
 （miraheze 的 Cloudflare 会拦截 Node/curl 的 TLS 指纹，因此本脚本用 PowerShell/.NET 请求）
 
 用法：
@@ -76,7 +76,7 @@ function Get-LyricLines([string]$wikitext) {
     $line = ($line -replace '\s{2,}', ' ').Trim()
     if ($line.Length -lt 2) { continue }
     $out.Add(($line -replace '\s{2,}', ' '))
-    if ($out.Count -ge 10) { break }
+    if ($out.Count -ge 3) { break }
   }
   return @($out)
 }
@@ -118,7 +118,7 @@ function Find-Lyrics([string]$title) {
           found = $true
           page = $best.title
           url = 'https://vocaloidlyrics.miraheze.org/wiki/' + ($best.title -replace ' ', '_')
-          lines = $lines
+          verificationSample = $lines
           candidates = @($scored | Select-Object -First 3 | ForEach-Object { $_.title })
         }
       }
@@ -169,7 +169,7 @@ foreach ($item in $items) {
     found = [bool]$r.found
     page = $(if ($r.ContainsKey('page')) { [string]$r.page } else { '' })
     url = $(if ($r.ContainsKey('url')) { [string]$r.url } else { '' })
-    lines = $(if ($r.ContainsKey('lines')) { $r.lines } else { @() })
+    verificationSample = $(if ($r.ContainsKey('verificationSample')) { $r.verificationSample } else { @() })
     reason = $(if ($r.ContainsKey('reason')) { [string]$r.reason } else { '' })
     candidates = $(if ($r.ContainsKey('candidates')) { $r.candidates } else { @() })
   }
@@ -177,7 +177,7 @@ foreach ($item in $items) {
   $sorted = @($results.Keys | Sort-Object) | ForEach-Object { $results[$_] }
   $sorted | ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 $outFile
   if ($r.found) {
-    Write-Host "  #$no [$($item.project)] $($item.title) → ✓ $($r.page)（$(@($r.lines).Count) 行）"
+    Write-Host "  #$no [$($item.project)] $($item.title) → ✓ $($r.page)（核验样本 $(@($r.verificationSample).Count) 行）"
   } else {
     Write-Host "  #$no [$($item.project)] $($item.title) → ✗ $($r.reason)"
   }

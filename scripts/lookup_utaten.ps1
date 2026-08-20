@@ -4,8 +4,8 @@
 miraheze 未收录的歌在此查证。流程：
   1) GET /lyric/search?title=<歌名> 解析出 /lyric/mi.../ 候选页
   2) 逐页抓取，用页面 <title> 与目标歌名做归一化匹配，取第一个匹配页
-  3) 提取 hiragana 区块歌词（去掉 <span class="rt"> 注音）
-结果写入 data/lyrics-fallback.json，可断点续跑。
+  3) 提取最多 3 行 hiragana 区块作为语言核验样本（去掉 <span class="rt"> 注音）
+结果写入可随时删除且被 Git 忽略的 data/lyrics-fallback.json。
 
 用法：
   powershell -NoProfile -ExecutionPolicy Bypass -File scripts/lookup_utaten.ps1
@@ -68,9 +68,9 @@ function Get-LyricLines([string]$html) {
     foreach ($line in ($t -split "`n")) {
       $line = $line.Trim()
       if ($line.Length -ge 2 -and $line -match '[\u3040-\u30ff]') { $out.Add($line) }
-      if ($out.Count -ge 10) { break }
+      if ($out.Count -ge 3) { break }
     }
-    if ($out.Count -ge 10) { break }
+    if ($out.Count -ge 3) { break }
   }
   return @($out)
 }
@@ -128,7 +128,7 @@ foreach ($item in $items) {
         if ($normTitle.Length -gt 0 -and ($pt.Contains($normTitle) -or $normTitle.Contains($pt))) {
           $lines = Get-LyricLines $html
           if ($lines.Count -gt 0) {
-            $picked = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $true; source = 'utaten'; page = "https://utaten.com$link"; lines = $lines }
+            $picked = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $true; source = 'utaten'; page = "https://utaten.com$link"; verificationSample = $lines }
             break
           }
         }
@@ -138,7 +138,7 @@ foreach ($item in $items) {
         Write-Host "  #$no [$($item.project)] $title → ✗ 候选页无匹配歌词"
       } else {
         $rec = $picked
-        Write-Host "  #$no [$($item.project)] $title → ✓ $($picked.page)（$(@($picked.lines).Count) 行）"
+        Write-Host "  #$no [$($item.project)] $title → ✓ $($picked.page)（核验样本 $(@($picked.verificationSample).Count) 行）"
       }
     }
   }

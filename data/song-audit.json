@@ -1,0 +1,3940 @@
+{
+  "generatedAt": "2026-08-20",
+  "source": "C:/Users/kjldp/Desktop/thinking/py/dynamic_analysis/titles.txt",
+  "workflow": "docs/lyrics-workflow.md",
+  "note": "状态是筛选审计，不是版权授权记录；未获授权时不归档整首第三方歌词。",
+  "summary": {
+    "total": 285,
+    "byStatus": {
+      "catalogued-duplicate": 3,
+      "catalogued-existing": 86,
+      "catalogued-manual-review": 53,
+      "excluded-chinese-candidate": 91,
+      "excluded-confirmed-non-japanese": 13,
+      "excluded-non-song": 11,
+      "excluded-or-unresolved-other": 17,
+      "unresolved-after-workflow": 11
+    }
+  },
+  "items": [
+    {
+      "no": 1,
+      "raw": "【初音ミクAppend】 カミノコトバ",
+      "parsedTitle": "カミノコトバ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "kami-no-kotoba",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "カミノコトバ (Kami no Kotoba)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/カミノコトバ_(Kami_no_Kotoba)"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "raw": "【官方投稿】合成するミライ / 初音ミク（Synthesize You）",
+      "parsedTitle": "合成するミライ / 初音ミク（Synthesize You）",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "gousei-suru-mirai",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/60449.html"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "raw": "【原创术力口】苍白雪 “请你别让我哭。”【诗岸/洛天依】",
+      "parsedTitle": "苍白雪 “请你别让我哭。”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 4,
+      "raw": "【洛天依原创】哭哭歌",
+      "parsedTitle": "哭哭歌",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 5,
+      "raw": "【原创PV】奈落 feat.里命【MikitoP】",
+      "parsedTitle": "奈落",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "naraku",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "VocaWiki（中日歌词）",
+          "url": "https://voca.wiki/奈落"
+        },
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（日文原文+中文翻译）",
+          "url": "https://music.163.com/#/song?id=2048604691"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "raw": "【星尘×海伊原创曲】Talking to the Rain『森罗万象Kaleido』专辑收录曲",
+      "parsedTitle": "Talking to the Rain『森罗万象Kaleido』专辑收录曲",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 7,
+      "raw": "【音阙诗听/王梓钰】四美系列收官——《羞花》",
+      "parsedTitle": "羞花",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 8,
+      "raw": "heat waves 日文版",
+      "parsedTitle": "heat waves 日文版",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "heat-waves-japanese-lime",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "官方音源",
+          "url": "https://www.youtube.com/watch?v=5jbjN0Ai9X4"
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "raw": "【maimai でらっくす】真空都市 / ナナツカゼ【11/7(金)登場！】",
+      "parsedTitle": "真空都市",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "shinkuu-toshi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "TuneCore Japan（官方歌词页）",
+          "url": "https://linkco.re/ZtCDfQ0D/songs/4024424/lyrics?lang=ja"
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "raw": "【BrownYOLO】原创「ダスト」feat.可不",
+      "parsedTitle": "ダスト",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 11,
+      "raw": "【豆沙×理想放逐/原创曲】「ギターと六月の花束（吉他与六月花）」 HB to 茶玖",
+      "parsedTitle": "ギターと六月の花束",
+      "heuristicLanguage": "mixed",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 12,
+      "raw": "【《恩怨消散再见面吧》供销社乐队】有些话还没说完 希望下次继续",
+      "parsedTitle": "有些话还没说完 希望下次继续",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 13,
+      "raw": "【初音ミクDark】angelite【narry】(搬运)",
+      "parsedTitle": "angelite",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "angelite",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Angelite",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Angelite"
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "raw": "【東方】明日なき暴走！クラウンピースを追い詰めろ【IOSYS】",
+      "parsedTitle": "明日なき暴走！クラウンピースを追い詰めろ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "asunaru-bousou",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（日文原文+中文翻译）",
+          "url": "https://music.163.com/#/song?id=486785699"
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "raw": "【本家投稿】 消えてゆけ、迷いの果て / 音街ウナSV【namaniental】",
+      "parsedTitle": "消えてゆけ、迷いの果て",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "kieyuke-mayoi-no-hate",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（日文原文+中文翻译）",
+          "url": "https://music.163.com/#/song?id=3336016677"
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "raw": "“仅仅向前方看去  一切都会好的吧”！Sea Of Stars",
+      "parsedTitle": "“仅仅向前方看去 一切都会好的吧”！Sea Of Stars",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "sea-of-stars-aozorafantasii",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "OTOTOY 官方商店页",
+          "url": "https://ototoy.jp/_/default/p/14032"
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "raw": "【东方栀子Nectar原创曲】『情痴』|“红线缚，情海难渡”【ACE Studio】",
+      "parsedTitle": "『情痴』|“红线缚，情海难渡”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 18,
+      "raw": "【告别作】“你逃向死亡，我逃向遗忘。”【诗岸原创】《春死诀》",
+      "parsedTitle": "春死诀",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 19,
+      "raw": "「光さす方へ。」【星尘2024诞生日/情绪摇滚】無限迷路【PV付】",
+      "parsedTitle": "無限迷路",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "中文 VOCALOID 原创，演唱为星尘",
+      "evidence": []
+    },
+    {
+      "no": 20,
+      "raw": "【赤羽原创曲】胚芽 | “唱吧、唱吧 幸福的咒语”",
+      "parsedTitle": "胚芽 | “唱吧、唱吧 幸福的咒语”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 21,
+      "raw": "【初音ミク】Bright【Wonder-K】",
+      "parsedTitle": "Bright",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "bright-wonderk",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（日文原文+中文翻译）",
+          "url": "https://music.163.com/#/song?id=32823081"
+        },
+        {
+          "type": "verified-source",
+          "label": "Vocaloid 中文歌词维基",
+          "url": "https://w.atwiki.jp/vocaloidchly/pages/7029.html"
+        }
+      ]
+    },
+    {
+      "no": 22,
+      "raw": "【洛天依原创曲】正传颂的未来【HB to 天依2025】",
+      "parsedTitle": "正传颂的未来",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 23,
+      "raw": "太阳是什么颜色【2026乐正绫官方生贺曲】",
+      "parsedTitle": "太阳是什么颜色",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 24,
+      "raw": "【乐正绫原创】只等春来报",
+      "parsedTitle": "只等春来报",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 25,
+      "raw": "【初音ミク】Light Falls【yuxuki waga】",
+      "parsedTitle": "Light Falls",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "light-falls",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Light Falls",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Light_Falls"
+        }
+      ]
+    },
+    {
+      "no": 26,
+      "raw": "L∧NNDØ - sasalasa",
+      "parsedTitle": "sasalasa",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "lando",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "TuneCore Japan / PetitLyrics",
+          "url": "https://petitlyrics.com/lyrics/3098536"
+        }
+      ]
+    },
+    {
+      "no": 27,
+      "raw": "【初音ミクDark】alternate【keeno】",
+      "parsedTitle": "alternate",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "alternate-keeno",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "入库（alternate）",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Alternate_(disambiguation)"
+        }
+      ]
+    },
+    {
+      "no": 28,
+      "raw": "milet「Parachute」",
+      "parsedTitle": "Parachute",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "parachute-milet",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "入库（Parachute）",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Parachute/YuniP"
+        }
+      ]
+    },
+    {
+      "no": 29,
+      "raw": "【初音ミク】「Little Traveler」PV【水彩】",
+      "parsedTitle": "Little Traveler",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "little-traveler",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Little traveler",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Little_traveler"
+        }
+      ]
+    },
+    {
+      "no": 30,
+      "raw": "【くろくも】☁余命3日少女",
+      "parsedTitle": "余命3日少女",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "yomei-mikka-shoujo",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "余命3日少女 (Yomei Mikka Shoujo)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/余命3日少女_(Yomei_Mikka_Shoujo)"
+        }
+      ]
+    },
+    {
+      "no": 31,
+      "raw": "【MV】Instant Love / La prière",
+      "parsedTitle": "Instant Love",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "instant-love-lapriere",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "La prière 官方作品页",
+          "url": "https://lapriere.jp/information/discographys/instant-love"
+        }
+      ]
+    },
+    {
+      "no": 32,
+      "raw": "× / 平葵",
+      "parsedTitle": "× / 平葵",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "x-taira-aoi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "TuneCore Japan",
+          "url": "https://linkco.re/8E099S89/songs/4134579/lyrics?lang=ja"
+        }
+      ]
+    },
+    {
+      "no": 33,
+      "raw": "【洛天依原创曲】空气凝结  - “消逝的花开的季节”",
+      "parsedTitle": "空气凝结 - “消逝的花开的季节”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 34,
+      "raw": "WHITE & BLUE",
+      "parsedTitle": "WHITE & BLUE",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 35,
+      "raw": "【初音未来情人节特供】——巧克力",
+      "parsedTitle": "巧克力",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 36,
+      "raw": "【洛天依原创/情绪摇滚】《空之下》PV",
+      "parsedTitle": "空之下",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 37,
+      "raw": "【花谱】#91 「それを世界と言うんだね/那称之为世界」原创歌曲",
+      "parsedTitle": "それを世界と言うんだね",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "sore-o-sekai-to-iundayne",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi21121309/"
+        }
+      ]
+    },
+    {
+      "no": 38,
+      "raw": "【初音ミクV4X】Telomere【regulus】",
+      "parsedTitle": "Telomere",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "telomere",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Telomere",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Telomere"
+        }
+      ]
+    },
+    {
+      "no": 39,
+      "raw": "【乐正绫原创】圣代【乐正绫九周年生贺】",
+      "parsedTitle": "圣代",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 40,
+      "raw": "【知声】我那被毁掉的人生【くつう_Kutsuu】",
+      "parsedTitle": "我那被毁掉的人生",
+      "heuristicLanguage": "mixed",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 41,
+      "raw": "【洛天依原创曲】你的心愿——她踏上了他曾梦过的旅程。",
+      "parsedTitle": "你的心愿——她踏上了他曾梦过的旅程。",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 42,
+      "raw": "STARTEND / 诗岸、ナースロボ＿タイプＴ【-物理】",
+      "parsedTitle": "诗岸、ナースロボ＿タイプＴ",
+      "heuristicLanguage": "mixed",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 43,
+      "raw": "【播放器样式】∞ / HACHI【原创曲中字】",
+      "parsedTitle": "∞",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "mugen-hachi",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（日文原文+中文翻译）",
+          "url": "https://music.163.com/#/song?id=3344741596"
+        },
+        {
+          "type": "verified-source",
+          "label": "萌娘百科（专辑信息）",
+          "url": "https://mzh.moegirl.org.cn/Revealia"
+        }
+      ]
+    },
+    {
+      "no": 44,
+      "raw": "【歌爱ユキ】falling down【201.】",
+      "parsedTitle": "falling down",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "falling-down",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Vocaloid Lyrics Wiki",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Falling_down/201"
+        },
+        {
+          "type": "verified-source",
+          "label": "VocaDB（单曲页）",
+          "url": "https://beta.vocadb.net/Al/36206"
+        }
+      ]
+    },
+    {
+      "no": 45,
+      "raw": "【星尘、乐正绫原创】雨边",
+      "parsedTitle": "雨边",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 46,
+      "raw": "【歌愛ユキ】鳳仙花【cillia】",
+      "parsedTitle": "鳳仙花",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "housenka",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "鳳仙花 (Housenka)/Weiße Schokolade",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/鳳仙花_(Housenka)/Weiße_Schokolade"
+        }
+      ]
+    },
+    {
+      "no": 47,
+      "raw": "MMM071-マジックナイト（feat.鏡音リン）",
+      "parsedTitle": "マジックナイト",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 48,
+      "raw": "【重音テト】帽子を被っている魚【ンバヂ】",
+      "parsedTitle": "帽子を被っている魚",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "boushi-o-kabutteru-sakana",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（日文原文+中文翻译）",
+          "url": "https://music.163.com/#/song?id=2650143287"
+        }
+      ]
+    },
+    {
+      "no": 49,
+      "raw": "花譜　#27 「そして花になる」【オリジナルMV】",
+      "parsedTitle": "そして花になる",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "soshite-hana-ni-naru",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/sa19120578/"
+        },
+        {
+          "type": "verified-source",
+          "label": "官方 MV（bilibili）",
+          "url": "https://www.bilibili.com/video/BV1Va411b7VU/"
+        }
+      ]
+    },
+    {
+      "no": 50,
+      "raw": "【重音テト/中译/搬运】Doomer【東京真中】",
+      "parsedTitle": "Doomer",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "doomer",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "ドゥーマー (Doomer)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/ドゥーマー_(Doomer)"
+        }
+      ]
+    },
+    {
+      "no": 51,
+      "raw": "【洛天依原创曲/MMD】❀限定花期❀【素问天依下凡】【生日快乐】",
+      "parsedTitle": "限定花期❀",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 52,
+      "raw": "【初音ミク】夏日透明【Twinfield】【中文CC字幕】",
+      "parsedTitle": "夏日透明",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "natsu-ni-toumei",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "萌娘百科（歌词与作品信息）",
+          "url": "https://moegirl.icu/%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%E8%99%9A%E6%8B%9F%E6%AD%8C%E6%89%8B%E6%BC%94%E5%94%B1%E6%AD%8C%E6%9B%B2/%E5%8E%9F%E5%88%9B%E6%AD%8C%E6%9B%B23"
+        }
+      ]
+    },
+    {
+      "no": 53,
+      "raw": "【星尘/海伊原创】海与光的边缘【2025虚拟歌手夏浪派对】",
+      "parsedTitle": "海与光的边缘",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 54,
+      "raw": "【洛天依原创曲】“我会每天和你说晚安。”《午夜格式化指南》【PoKeR】【3DPV付】",
+      "parsedTitle": "午夜格式化指南",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "标题明确标注洛天依中文原创曲",
+      "evidence": []
+    },
+    {
+      "no": 55,
+      "raw": "【洛天依原创/沉浸电音】当生命剩下无限循环",
+      "parsedTitle": "当生命剩下无限循环",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 56,
+      "raw": "【NS】「魔法少女的魔女审判 」原声集专辑",
+      "parsedTitle": "魔法少女的魔女审判",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 57,
+      "raw": "明透 Op.3 - ソラゴト / 虚言【原创歌曲MV】",
+      "parsedTitle": "ソラゴト",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-duplicate",
+      "songId": "soragoto",
+      "reason": "与站内已有曲目重复，不另建歌曲记录",
+      "evidence": []
+    },
+    {
+      "no": 58,
+      "raw": "【初音ミクV4X】Deep In The Night【regulus】",
+      "parsedTitle": "Deep In The Night",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "deep-in-the-night",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Deep In The Night",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Deep_In_The_Night"
+        }
+      ]
+    },
+    {
+      "no": 59,
+      "raw": "【Hi-Res】「アイノシズク」- KARAKURI 2039",
+      "parsedTitle": "アイノシズク",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "ainoshizuku",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/qk20022107/"
+        }
+      ]
+    },
+    {
+      "no": 60,
+      "raw": "PIKASONIC - ColorCode-F (feat. Felt)",
+      "parsedTitle": "ColorCode-F",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "colorcode-f",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "Shazam（歌词与作品信息）",
+          "url": "https://www.shazam.com/en-us/song/1587316998/colorcode-f-feat-felt"
+        }
+      ]
+    },
+    {
+      "no": 61,
+      "raw": "【洛天依·言和原创】起来！（我特么不想起床啊啊啊啊）（PV付）",
+      "parsedTitle": "起来！（我特么不想起床啊啊啊啊）",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 62,
+      "raw": "【春猿火】#24 《テラ/TERRA》 原创歌曲MV",
+      "parsedTitle": "テラ/TERRA",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-duplicate",
+      "songId": "terra",
+      "reason": "与站内已有曲目重复，不另建歌曲记录",
+      "evidence": []
+    },
+    {
+      "no": 63,
+      "raw": "「言和AI」小半 / ACE COVER",
+      "parsedTitle": "",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 64,
+      "raw": "【洛天依】乌有〖原创电音/EDM PROG〗",
+      "parsedTitle": "乌有〖原创电音/EDM PROG〗",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 65,
+      "raw": "【心华原创曲】心的痕迹【PV付】",
+      "parsedTitle": "心的痕迹",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 66,
+      "raw": "【中文CC字幕】【共20人】群青赞歌【2DMV／『剧场版世界计划』剧中版】",
+      "parsedTitle": "群青赞歌",
+      "heuristicLanguage": "jp",
+      "project": "SEKAI",
+      "status": "catalogued-existing",
+      "songId": "gunjo-sanka",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/nm21092701/"
+        },
+        {
+          "type": "verified-source",
+          "label": "MARUMARU（日文歌词）",
+          "url": "https://www.marumaru-x.com/japanese-song/play-lkrz5lq4re"
+        }
+      ]
+    },
+    {
+      "no": 67,
+      "raw": "雨部冷キザミ - Night chirps littlebird",
+      "parsedTitle": "雨部冷キザミ - Night chirps littlebird",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 68,
+      "raw": "【歌愛ユキ/诗岸】無/立入禁止",
+      "parsedTitle": "無/立入禁止",
+      "heuristicLanguage": "mixed",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "mu-tachiiri-kinshi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "作者 YouTube 投稿（歌词）",
+          "url": "https://www.youtube.com/watch?v=SOznQVt6hR0"
+        }
+      ]
+    },
+    {
+      "no": 69,
+      "raw": "ガランド (Airhead) 东云彰人 青柳冬弥 鏡音レン SEKAI ver. 【Project SEKAI】",
+      "parsedTitle": "ガランド (Airhead) 东云彰人 青柳冬弥 鏡音レン SEKAI",
+      "heuristicLanguage": "jp",
+      "project": "SEKAI",
+      "status": "catalogued-existing",
+      "songId": "airhead-garando",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "萌娘百科（中日歌词）",
+          "url": "https://zh.moegirl.tw/Airhead"
+        }
+      ]
+    },
+    {
+      "no": 70,
+      "raw": "「好听的日语音乐」- FROZEN QUALIA - 在処",
+      "parsedTitle": "好听的日语音乐",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-existing",
+      "songId": "arika",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "PetitLyrics（歌词页）",
+          "url": "https://petitlyrics.com/lyrics/3275949"
+        },
+        {
+          "type": "verified-source",
+          "label": "TuneCore Japan（专辑页）",
+          "url": "https://linkco.re/0vZTqNnM?lang=ja"
+        }
+      ]
+    },
+    {
+      "no": 71,
+      "raw": "【n-buna】神話の原点「拿不拿第一首术曲」【初音ミク】アリストラスト【オリジナル】",
+      "parsedTitle": "神話の原点",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "aristolast",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "PetitLyrics",
+          "url": "https://petitlyrics.com/lyrics/1194709"
+        }
+      ]
+    },
+    {
+      "no": 72,
+      "raw": "【诗岸】如同那个回不去的盛夏",
+      "parsedTitle": "如同那个回不去的盛夏",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 73,
+      "raw": "you are my curse",
+      "parsedTitle": "you are my curse",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 74,
+      "raw": "【诗岸】错",
+      "parsedTitle": "错",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 75,
+      "raw": "【初音ミク】Beautiful Day【Mwk】",
+      "parsedTitle": "Beautiful Day",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "beautiful-day",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Beautiful Day/Mwk",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Beautiful_Day/Mwk"
+        }
+      ]
+    },
+    {
+      "no": 76,
+      "raw": "【初音ミク】合成的未来【阿修】",
+      "parsedTitle": "合成的未来",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-duplicate",
+      "songId": "gousei-suru-mirai",
+      "reason": "与站内已有曲目重复，不另建歌曲记录",
+      "evidence": []
+    },
+    {
+      "no": 77,
+      "raw": "【春茶 & kobasolo】夏恋慕 中日字幕 1080p+",
+      "parsedTitle": "夏恋慕",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "natsurenbo",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "歌曲翻译（中日对照）",
+          "url": "https://gequfanyi.com/23721455"
+        }
+      ]
+    },
+    {
+      "no": 78,
+      "raw": "【诗岸原创】鬼臉",
+      "parsedTitle": "鬼臉",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 79,
+      "raw": "空の涙。",
+      "parsedTitle": "空の涙。",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 80,
+      "raw": "[中字] 中田ヤスタカ - ぴこぴこ東京 (feat. 眞白桃々)【中日字幕/RCN放送中心制作】",
+      "parsedTitle": "中田ヤスタカ - ぴこぴこ東京",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 81,
+      "raw": "【正式】【とあ】『13』【初音ミク】",
+      "parsedTitle": "『13』",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "juusan",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "『13』",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/『13』"
+        }
+      ]
+    },
+    {
+      "no": 82,
+      "raw": "ヒロイン (nakotanmaru ver.) /PIKASONIC",
+      "parsedTitle": "ヒロイン",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "heroine-pikasonic",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "TuneCore Japan",
+          "url": "https://linkco.re/Vx6QmSqX/songs/1831143/lyrics?lang=ja"
+        }
+      ]
+    },
+    {
+      "no": 83,
+      "raw": "【中文字幕】【25時、ナイトコードで。】そこに在る、光。（光芒，就在那里。）【2DMV／『世界计划 多彩舞台』剧场版主题原创曲】",
+      "parsedTitle": "そこに在る、光。",
+      "heuristicLanguage": "jp",
+      "project": "SEKAI",
+      "status": "catalogued-existing",
+      "songId": "soko-ni-aru-hikari",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "そこに在る、光。 (Soko ni Aru, Hikari.)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/そこに在る、光。_(Soko_ni_Aru,_Hikari.)"
+        }
+      ]
+    },
+    {
+      "no": 84,
+      "raw": "【裏命】永遠【香椎モイミ】",
+      "parsedTitle": "永遠",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "eien-kashii-moimi",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "萌娘百科（中日歌词）",
+          "url": "https://zh.moegirl.tw/永遠(Kashii_Moimi)"
+        }
+      ]
+    },
+    {
+      "no": 85,
+      "raw": "百分之一的爱 ／ すりぃ feat.初音ミク",
+      "parsedTitle": "百分之一的爱 ／ すりぃ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "one-hundredth-ai",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/37711.html"
+        }
+      ]
+    },
+    {
+      "no": 86,
+      "raw": "【乐正绫原创】我们会在阳光下再次相拥",
+      "parsedTitle": "我们会在阳光下再次相拥",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 87,
+      "raw": "【Official Music Video】エガクミライ（描绘未来）/ MyGO!!!!!【原创歌曲】",
+      "parsedTitle": "エガクミライ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "egakumirai",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/qa51158001/"
+        }
+      ]
+    },
+    {
+      "no": 88,
+      "raw": "【鏡音レン 鏡音リン】Where shall we go【めろくる】【授权转载】",
+      "parsedTitle": "Where shall we go",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "where-shall-we-go",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Where shall we go?",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Where_shall_we_go?"
+        }
+      ]
+    },
+    {
+      "no": 89,
+      "raw": "【原创音乐】《除夕》A-SOUL全新团曲MV【2022拜年纪单品】",
+      "parsedTitle": "除夕",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 90,
+      "raw": "【原创音乐】《超级敏感》A-SOUL全新团曲MV",
+      "parsedTitle": "超级敏感",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 91,
+      "raw": "【星界】エリカの憂い/埃里卡的哀愁【香椎モイミ】",
+      "parsedTitle": "エリカの憂い",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "erika-no-urei",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "エリカの憂い (Erica no Urei)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/エリカの憂い_(Erica_no_Urei)"
+        }
+      ]
+    },
+    {
+      "no": 92,
+      "raw": "【乐歌】✥塞壬之歌✥【原创编舞】生日作➢2p纯舞蹈版付",
+      "parsedTitle": "塞壬之歌✥ 生日作➢2p纯舞蹈版付",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 93,
+      "raw": "【洛天依原创】三秒之愿",
+      "parsedTitle": "三秒之愿",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 94,
+      "raw": "【α5·塔与少女系列曲】无重力少女【墨清弦】【霾AXIS】",
+      "parsedTitle": "无重力少女",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "墨清弦中文原创系列曲",
+      "evidence": []
+    },
+    {
+      "no": 95,
+      "raw": "【洛天依原创曲】愚弄者x愚弄者 （桑葚上的猴子）【一图pv付】",
+      "parsedTitle": "愚弄者x愚弄者",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 96,
+      "raw": "【先收藏、再聆听！】《黄河大合唱》完整版（国家大剧院2021年演出实况）",
+      "parsedTitle": "黄河大合唱",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 97,
+      "raw": "【空气凝，AlexYHX】彼岸【洛天依，言和，心华，乐正绫】",
+      "parsedTitle": "彼岸",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 98,
+      "raw": "【洛天依原创】举头三尺【pv付】【超语速系列】",
+      "parsedTitle": "举头三尺",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 99,
+      "raw": "4K HDR「CHEER UP! HEARTS UP!」(SHS 天海春香SSR special appeal) 【偶像大师百万现场 MLTD MV】",
+      "parsedTitle": "K",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "cheer-up-hearts-up",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/320883/"
+        }
+      ]
+    },
+    {
+      "no": 100,
+      "raw": "存在？生物【F.M.H-13】【洛天依诗岸原创】",
+      "parsedTitle": "存在？生物",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 101,
+      "raw": "【桃音モモ】　GPS　【ナカノは4番】",
+      "parsedTitle": "GPS",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "gps",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "GPS",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/GPS"
+        }
+      ]
+    },
+    {
+      "no": 102,
+      "raw": "【巡音ルカ】Sweet Time",
+      "parsedTitle": "Sweet Time",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "sweet-time-luka",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "入库（Sweet Time）",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/ポップキャンディスウィートタイム_(Pop_Candy_Sweet_Time)"
+        }
+      ]
+    },
+    {
+      "no": 103,
+      "raw": "【散る散る満ちる(散落飘零)】(Hi-Res|4k60帧) - 伶（鹫尾伶菜/Washio Reina）",
+      "parsedTitle": "散る散る満ちる(散落飘零)",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "chiruchiru-michiru",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/hw21113018/"
+        }
+      ]
+    },
+    {
+      "no": 104,
+      "raw": "在世界趋于毁灭（when the world verge to relic）【星尘infinity】[原创曲]",
+      "parsedTitle": "在世界趋于毁灭（when the world verge to relic）",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 105,
+      "raw": "【BanG Dream！】完整版MV【Ringing Bloom】",
+      "parsedTitle": "完整版",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "ringing-bloom",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/270944/"
+        }
+      ]
+    },
+    {
+      "no": 106,
+      "raw": "【徵羽摩柯AI原创曲】寄予你的歌【2024官方生贺曲】",
+      "parsedTitle": "寄予你的歌",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 107,
+      "raw": "逃 ❗️",
+      "parsedTitle": "逃 ❗️",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 108,
+      "raw": "【原创国风电音】千里邀月×乐正绫（超电出品）",
+      "parsedTitle": "千里邀月×乐正绫",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 109,
+      "raw": "【中日字幕/はるな。】我想死去的今天或许是别人渴望活下去的明天/私が死にたかった今日は誰かが生きたかった明日らしい - feat. 初音ミク & 海恋",
+      "parsedTitle": "私が死にたかった今日は誰かが生きたかった明日らしい",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "shinitakatta-kyou",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "PetitLyrics",
+          "url": "https://petitlyrics.com/lyrics/3828970"
+        }
+      ]
+    },
+    {
+      "no": 110,
+      "raw": "【2017元宵】【心华乐正绫洛天依言和原创】镜花水月【砖厂浪人/幻月音乐团】",
+      "parsedTitle": "镜花水月",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "心华、乐正绫、洛天依、言和中文原创",
+      "evidence": []
+    },
+    {
+      "no": 111,
+      "raw": "【Underverse OST】Overwrite[String Quintet Remix]",
+      "parsedTitle": "Overwrite",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 112,
+      "raw": "【花谱】死んでしまったのだろうか(2nd.ver)/已经死掉了",
+      "parsedTitle": "死んでしまったのだろうか(2nd.ver)",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "shinde-shimatta-nodarouka",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（歌词，翻唱版）",
+          "url": "https://music.163.com/#/song?id=1898244487"
+        }
+      ]
+    },
+    {
+      "no": 113,
+      "raw": "【中日字幕/謎J】オーバーキル！/Over kill！ - feat.鏡音リン",
+      "parsedTitle": "オーバーキル！/Over kill！",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "overkill-nazoj",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/59888.html"
+        }
+      ]
+    },
+    {
+      "no": 114,
+      "raw": "【中文字幕】バスタイムプラネタリウム(星象浴)/HACHI【Official MV/4K】",
+      "parsedTitle": "バスタイムプラネタリウム",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "bathtime-planetarium",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi22091047/"
+        }
+      ]
+    },
+    {
+      "no": 115,
+      "raw": "SPLIT / 裂 feat. 重音テトSV & 初音ミク",
+      "parsedTitle": "裂",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "split-danzi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "作者 YouTube 投稿（歌词）",
+          "url": "https://www.youtube.com/watch?v=Fo5Tje4wYg8"
+        }
+      ]
+    },
+    {
+      "no": 116,
+      "raw": "【洛天依，乐正绫原创曲】泡沫舞厅【KoiNs】——我们都幻想爬上通天塔",
+      "parsedTitle": "泡沫舞厅 ——我们都幻想爬上通天塔",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "标题明确标注洛天依、乐正绫中文原创曲",
+      "evidence": []
+    },
+    {
+      "no": 117,
+      "raw": "用葱卡贝拉打开像神一样呐",
+      "parsedTitle": "用葱卡贝拉打开像神一样呐",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "kamippoi-na",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/45336.html"
+        }
+      ]
+    },
+    {
+      "no": 118,
+      "raw": "【乐正绫原创•十周年生贺】山路从此不遥远",
+      "parsedTitle": "山路从此不遥远",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 119,
+      "raw": "【重音テト】小小的我【マサラダ】",
+      "parsedTitle": "小小的我",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "chicchana-watashi",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi23081033/"
+        }
+      ]
+    },
+    {
+      "no": 120,
+      "raw": "【洛天依×乐正绫】挚【电子原创/PV付/轩辕同人社】",
+      "parsedTitle": "挚",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 121,
+      "raw": "【洛天依/原创摇滚】于是我举起了枪",
+      "parsedTitle": "于是我举起了枪",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 122,
+      "raw": "【乐正绫原创】Bird Cage【UtopiA】【Coin原创音乐工作室】",
+      "parsedTitle": "Bird Cage",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "标题明确标注乐正绫原创，检索结果为中文歌词",
+      "evidence": []
+    },
+    {
+      "no": 123,
+      "raw": "【原创曲】星之旅【乐正绫/付PV】",
+      "parsedTitle": "星之旅",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 124,
+      "raw": "【洛天依/乐正绫原创】她的歌【PV付】",
+      "parsedTitle": "她的歌",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 125,
+      "raw": "【 GUMI/堀江晶太/MV/中译版】白鼠希冀/ラットホープ/Rat Hope（BY：kemu）",
+      "parsedTitle": "ラットホープ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "rat-hope",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "ラットホープ (Rat Hope)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/ラットホープ_(Rat_Hope)"
+        }
+      ]
+    },
+    {
+      "no": 126,
+      "raw": "夏天还不算开始/洛天依",
+      "parsedTitle": "夏天还不算开始",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 127,
+      "raw": "【言和Ft.星尘原创】票根【Kevinz/渊鲤/Funi】",
+      "parsedTitle": "票根",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "言和与星尘中文原创",
+      "evidence": []
+    },
+    {
+      "no": 128,
+      "raw": "【IA】Uz【Orangestar】【授权转载】",
+      "parsedTitle": "Uz",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "uz",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UZ",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/UZ"
+        }
+      ]
+    },
+    {
+      "no": 129,
+      "raw": "【SoundHorizon】射殺戀人之日【320k高音質】",
+      "parsedTitle": "射殺戀人之日",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "koibito-o-uchiotoshita-hi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/103057/"
+        }
+      ]
+    },
+    {
+      "no": 130,
+      "raw": "【初音未來Dark】心拍数♯0822【蝶蝶P】",
+      "parsedTitle": "心拍数♯0822",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "shinpakusuu0822",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "心拍数♯0822 (Shinpakusuu♯0822)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/心拍数♯0822_(Shinpakusuu♯0822)"
+        }
+      ]
+    },
+    {
+      "no": 131,
+      "raw": "好轻盈的声音 感觉自己飞的好高好高 要摘到星星了！宙でおやすみ（在天空晚安）",
+      "parsedTitle": "好轻盈的声音 感觉自己飞的好高好高 要摘到星星了！宙でおやすみ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "chuu-de-oyasumi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "Aiobahn 官方 Bandcamp",
+          "url": "https://aiobahn.bandcamp.com/album/feat"
+        }
+      ]
+    },
+    {
+      "no": 132,
+      "raw": "【洛天依原创】月亮的价格是九镑十五便士",
+      "parsedTitle": "月亮的价格是九镑十五便士",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 133,
+      "raw": "《请问您今天要来点兔子吗？》千夜角色歌第2期(生日系列)(お月見数え唄/赏月的数数歌)（中/日文字幕）",
+      "parsedTitle": "请问您今天要来点兔子吗？",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "otsukimi-kazoeuta",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（日文原文+中文翻译）",
+          "url": "https://music.163.com/#/song?id=1391849655"
+        }
+      ]
+    },
+    {
+      "no": 134,
+      "raw": "Aiobahn/YUC'e - 永久の宴",
+      "parsedTitle": "YUC'e - 永久の宴",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "towa-no-utage",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "YUC’e 官方作品页",
+          "url": "https://yyucee.wixsite.com/yuce/works"
+        }
+      ]
+    },
+    {
+      "no": 135,
+      "raw": "【中文字幕】HoneyComeBear - 十夏の花 (Official Music Video) 10.夏天的十日之花",
+      "parsedTitle": "十夏の花 (Official Music Video) 10.夏天的十日之花",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "toka-no-hana",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "PetitLyrics",
+          "url": "https://petitlyrics.com/lyrics/3025552"
+        }
+      ]
+    },
+    {
+      "no": 136,
+      "raw": "【花谱】あるふぁYOU/Alpha YOU",
+      "parsedTitle": "あるふぁYOU",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "alpha-you",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/ym23031023/"
+        },
+        {
+          "type": "verified-source",
+          "label": "官方 MV（bilibili 中文字幕）",
+          "url": "https://www.bilibili.com/video/BV1Lk4y147a6/"
+        }
+      ]
+    },
+    {
+      "no": 137,
+      "raw": "【洛天依言和AI原创曲】《未命名》——“前路看不到尽头 回忆被刻意做旧”丨《未Ⅰ》【洛言】",
+      "parsedTitle": "未命名",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 138,
+      "raw": "Toge（Vo:あよ）/森羅万象 【Music Video】",
+      "parsedTitle": "Toge",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "toge-shinra",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "拾音人音乐网（中日歌词）",
+          "url": "https://www.shiyinren.net/song/1126329.html"
+        },
+        {
+          "type": "verified-source",
+          "label": "官方 MV（bilibili）",
+          "url": "https://www.bilibili.com/video/BV1Wr4y1y7qk/"
+        }
+      ]
+    },
+    {
+      "no": 139,
+      "raw": "春を待つ / Islet feat.倚水",
+      "parsedTitle": "春を待つ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "haru-o-matsu",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi22032220/"
+        }
+      ]
+    },
+    {
+      "no": 140,
+      "raw": "【电音】Aiobahn - 過ぎゆく日と君へ (feat. nayuta)",
+      "parsedTitle": "過ぎゆく日と君へ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "sugiyuku-hi-to-kimi-e",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "作者官方 YouTube 投稿（歌词）",
+          "url": "https://www.youtube.com/watch?v=n5Jv-FFhfDU"
+        }
+      ]
+    },
+    {
+      "no": 141,
+      "raw": "【洛天依&言和原创曲】沐雨",
+      "parsedTitle": "沐雨",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 142,
+      "raw": "【GUMI・初音ミク・巡音ルカ】在庭園中。【acane_madder】",
+      "parsedTitle": "在庭園中。",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "teien-nite",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "VOCALOID 中文歌词 Wiki",
+          "url": "https://w.atwiki.jp/vocaloidchly/pages/4774.html"
+        }
+      ]
+    },
+    {
+      "no": 143,
+      "raw": "【*Luna feat.ねんね】メタフィクション (Metafiction)",
+      "parsedTitle": "メタフィクション (Metafiction)",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "metafiction",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "メタフィクション (Metafiction)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/メタフィクション_(Metafiction)"
+        }
+      ]
+    },
+    {
+      "no": 144,
+      "raw": "天球(そら)のMúsica（Musica Caelestis）（TV动画「BanG Dream! Ave Mujica」#13 插曲）",
+      "parsedTitle": "天球(そら)のMúsica（Musica Caelestis）",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "tenkyuu-no-musica",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "J-Lyric",
+          "url": "https://j-lyric.net/artist/a0651f8/l064740.html"
+        }
+      ]
+    },
+    {
+      "no": 145,
+      "raw": "【Hi-res】Memento Mori爱沐尔角色曲「Étoile」",
+      "parsedTitle": "Memento Mori爱沐尔角色曲",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "etoile-mementomori",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "UtaTen",
+          "url": "https://utaten.com/lyric/mi24120454/"
+        }
+      ]
+    },
+    {
+      "no": 146,
+      "raw": "【Fine Day】【メメントモリ(memento mori)】4K HDR",
+      "parsedTitle": "メメントモリ(memento mori)",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "memento-mori",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "メメントモリ (MementoMori)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/メメントモリ_(MementoMori)"
+        }
+      ]
+    },
+    {
+      "no": 147,
+      "raw": "KizunaAI「かもね」（也许吧）Official Music Video",
+      "parsedTitle": "かもね",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "kamone",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi25021834/"
+        }
+      ]
+    },
+    {
+      "no": 148,
+      "raw": "【洛天依原创】镜的绮想【洛天依11周年诞生祭】【静夜社】",
+      "parsedTitle": "镜的绮想",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 149,
+      "raw": "枝垂桜 - Anna",
+      "parsedTitle": "枝垂桜 - Anna",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "shidarezakura-anna",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/302253/"
+        }
+      ]
+    },
+    {
+      "no": 150,
+      "raw": "【中文字幕】花铗镜- paradøx【MV】",
+      "parsedTitle": "花铗镜- paradøx",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "paradox-hanakyo",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "官方 MV",
+          "url": "https://www.youtube.com/watch?v=uQ0r3pXPYFE"
+        }
+      ]
+    },
+    {
+      "no": 151,
+      "raw": "【ナツノセ】新曲「透明な、あまりにも透明な」",
+      "parsedTitle": "透明な、あまりにも透明な",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "toumei-na",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi24021537/"
+        }
+      ]
+    },
+    {
+      "no": 152,
+      "raw": "「ナツノセ」ほうれん草にバンバンジー feat.冬【MV】",
+      "parsedTitle": "ほうれん草にバンバンジー",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "hourensou-ni-bangbangji",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi24021531/"
+        }
+      ]
+    },
+    {
+      "no": 153,
+      "raw": "【初音ミク】amaryllis「Luna & Liz. & Guiano & tama」@狗粉丝字幕组",
+      "parsedTitle": "amaryllis",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "amaryllis",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Amaryllis/Guiano",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Amaryllis/Guiano"
+        }
+      ]
+    },
+    {
+      "no": 154,
+      "raw": "「ナツノセ」アノマリー　feat.沖石",
+      "parsedTitle": "アノマリー",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "anomaly",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi22103149/"
+        }
+      ]
+    },
+    {
+      "no": 155,
+      "raw": "夢遊 · tayori",
+      "parsedTitle": "夢遊 · tayori",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "muyuu-tayori",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "JOOX（歌词页）",
+          "url": "https://www.joox.com/hk/single/GCap7dIKk4ilmRsSaCR9XQ%3D%3D"
+        }
+      ]
+    },
+    {
+      "no": 156,
+      "raw": "tayori-ユートピア/Utopia",
+      "parsedTitle": "ユートピア",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "utopia-tayori",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/380479/"
+        }
+      ]
+    },
+    {
+      "no": 157,
+      "raw": "【洛天依原创】-独行·Travel Alone-【PV付】",
+      "parsedTitle": "独行·Travel Alone",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 158,
+      "raw": "【中文字幕】八月の蛍(八月萤火)/HACHI",
+      "parsedTitle": "八月の蛍",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "hachigatsu-no-hotaru",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "PetitLyrics",
+          "url": "https://petitlyrics.com/lyrics/3034043"
+        }
+      ]
+    },
+    {
+      "no": 159,
+      "raw": "【乐正绫原创】吹梦落空山  |“曲过浮生叹，归来是少年”",
+      "parsedTitle": "吹梦落空山 |“曲过浮生叹，归来是少年”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 160,
+      "raw": "【中文还原字幕】まなざし(眸光) / HACHI 【Official MV】",
+      "parsedTitle": "まなざし",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "manazashi",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi25041547/"
+        }
+      ]
+    },
+    {
+      "no": 161,
+      "raw": "【11th】夏灯篭(晚夏流灯)/HACHI【Official MV】",
+      "parsedTitle": "夏灯篭",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "natsutouro-hachi",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi22091049/"
+        }
+      ]
+    },
+    {
+      "no": 162,
+      "raw": "【洛天依原创曲】夜行者们【原创PV付】【闹闹丶】",
+      "parsedTitle": "夜行者们",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 163,
+      "raw": "【2nd】Rainy proof / HACHI 【Official MV】",
+      "parsedTitle": "Rainy proof",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "rainy-proof",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "Cifra Club（歌词）",
+          "url": "https://www.cifraclub.com/hachi/rainy-proof/letra/"
+        }
+      ]
+    },
+    {
+      "no": 164,
+      "raw": "【可不･結月ゆかり】已经死掉了【椎乃味醂】【中文CC字幕】",
+      "parsedTitle": "已经死掉了",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "shindeshimattanda",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi22042526/"
+        },
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（原曲）",
+          "url": "https://music.163.com/#/song?id=1944863562"
+        }
+      ]
+    },
+    {
+      "no": 165,
+      "raw": "【心华原创】冻夏【PV付】",
+      "parsedTitle": "冻夏",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 166,
+      "raw": "【异世界情绪】#10《シリウスの心臓/天狼星的心脏》",
+      "parsedTitle": "シリウスの心臓/天狼星的心脏",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "siriusu-no-shinzou",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "amll-ttml-db Issue #235（网易云中日逐行歌词）",
+          "url": "https://github.com/amll-dev/amll-ttml-db/issues/235"
+        },
+        {
+          "type": "verified-source",
+          "label": "萌娘百科（歌曲信息）",
+          "url": "https://zh.moegirl.tw/シリウスの心臓"
+        }
+      ]
+    },
+    {
+      "no": 167,
+      "raw": "【音街ウナ】初恋日記【香椎モイミ】",
+      "parsedTitle": "初恋日記",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "hatsukoi-nikki",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi22092031/"
+        },
+        {
+          "type": "verified-source",
+          "label": "VocaWiki（歌曲信息）",
+          "url": "https://voca.wiki/初恋日記"
+        }
+      ]
+    },
+    {
+      "no": 168,
+      "raw": "【4K60帧/Hires无损音质】甘美な無法/甜蜜的无理取闹 - 理芽【Live ver./中文字幕】",
+      "parsedTitle": "甘美な無法",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "kanbi-na-muhou",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "甘美な無法 (Kanbi na Muhou)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/甘美な無法_(Kanbi_na_Muhou)"
+        }
+      ]
+    },
+    {
+      "no": 169,
+      "raw": "Toa - Stained Nocturne - ft.镜音铃, 初音未来",
+      "parsedTitle": "Stained Nocturne",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "stained-nocturne",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "ステンドノクターン (Stained Nocturne)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/ステンドノクターン_(Stained_Nocturne)"
+        }
+      ]
+    },
+    {
+      "no": 170,
+      "raw": "「HiRes」あの夏が飽和する（feat.花谱）- カンザキイオリ （96Khz高保真无损音频）",
+      "parsedTitle": "あの夏が飽和する",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "ano-natsu-ga-houwasuru",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/ma19051710/"
+        }
+      ]
+    },
+    {
+      "no": 171,
+      "raw": "【鏡音レン・リン】那个夏日已然饱和。【カンザキイオリ】",
+      "parsedTitle": "那个夏日已然饱和。",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "ano-natsu-ga-houwasuru",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/ma19051710/"
+        }
+      ]
+    },
+    {
+      "no": 172,
+      "raw": "水星 · Orangestar【feat.IA】",
+      "parsedTitle": "水星 · Orangestar",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "suisei-orangestar",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/222354/"
+        }
+      ]
+    },
+    {
+      "no": 173,
+      "raw": "【初音未来】カラバコにアイ【MIMI】",
+      "parsedTitle": "カラバコにアイ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "karabako-ni-ai",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "カラバコにアイ (Karabako ni Ai)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/カラバコにアイ_(Karabako_ni_Ai)"
+        }
+      ]
+    },
+    {
+      "no": 174,
+      "raw": "【初音ミク】スリークイーンズ ～吸血女王伝～【いーえるP】",
+      "parsedTitle": "スリークイーンズ ～吸血女王伝～",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "three-queens",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/14035.html"
+        }
+      ]
+    },
+    {
+      "no": 175,
+      "raw": "【初音ミクEnglish】Propaganda!【Crusher-P】",
+      "parsedTitle": "Propaganda!",
+      "heuristicLanguage": "jp",
+      "reviewedLanguage": "en",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "标题明确标注初音ミク English，歌词为英语",
+      "evidence": []
+    },
+    {
+      "no": 176,
+      "raw": "【重音テト】 禁断の理は絶望の吐息の中に【いーえるP】",
+      "parsedTitle": "禁断の理は絶望の吐息の中に",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "kindan-no-kotowari",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "禁断の理は絶望の吐息の中に (Kindan no Kotowari wa Zetsubou no Toiki no Naka ni)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/禁断の理は絶望の吐息の中に_(Kindan_no_Kotowari_wa_Zetsubou_no_Toiki_no_Naka_ni)"
+        }
+      ]
+    },
+    {
+      "no": 177,
+      "raw": "【正式】【とあ】恋爱的才能【初音ミク】",
+      "parsedTitle": "恋爱的才能",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "koi-no-sainou",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/30921.html"
+        }
+      ]
+    },
+    {
+      "no": 178,
+      "raw": "my sweet HDD -chip tune edit.- (feat. Kagamine Rin 【含cc字幕】",
+      "parsedTitle": "my sweet HDD -chip tune edit.",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 179,
+      "raw": "「鏡音RIN」 Ur-Style 「DATEKEN」PV",
+      "parsedTitle": "Ur-Style",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "ur-style",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Ur-Style",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Ur-Style"
+        }
+      ]
+    },
+    {
+      "no": 180,
+      "raw": "【洛天依原创 】被嘲讽者的复仇",
+      "parsedTitle": "被嘲讽者的复仇",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 181,
+      "raw": "【可不】不要说再见【MIMI】【授权转载】",
+      "parsedTitle": "不要说再见",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "sayonara-wa-iwanai-de-sa",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "萌娘百科（中日歌词）",
+          "url": "https://zh.moegirl.tw/不要说再见"
+        }
+      ]
+    },
+    {
+      "no": 182,
+      "raw": "【初音ミク＆可不】フィオーレ【MIMI】",
+      "parsedTitle": "フィオーレ",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "fiore",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi23083145/"
+        }
+      ]
+    },
+    {
+      "no": 183,
+      "raw": "【洛天依原创】平庸者的自白",
+      "parsedTitle": "平庸者的自白",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 184,
+      "raw": "【中日字幕/MIMI】解答 - feat.わん子",
+      "parsedTitle": "解答",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "kaitou-mimi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "作者官方 YouTube 投稿（歌词）",
+          "url": "https://www.youtube.com/watch?v=ZiUwbmrMiAY"
+        }
+      ]
+    },
+    {
+      "no": 185,
+      "raw": "【洛天依AI乐正绫V5原创】巷花【致终会长大的朋友与曾经莽撞的自己】",
+      "parsedTitle": "巷花",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 186,
+      "raw": "プリズムキューブ-立方棱镜",
+      "parsedTitle": "プリズムキューブ-立方棱镜",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "prism-cube",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "Vocaloid Lyrics Wiki",
+          "url": "https://vocaloidlyrics.fandom.com/wiki/%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96_(Prism_Cube)"
+        }
+      ]
+    },
+    {
+      "no": 187,
+      "raw": "【极致电音】【初音未来10th】Wisp X,初音ミク - Alone",
+      "parsedTitle": "Wisp X,初音ミク - Alone",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 188,
+      "raw": "可不 / 食虫植物 / 自调Cover",
+      "parsedTitle": "/ 食虫植物 / 自调",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "shokuchuu-shokubutsu",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "萌娘百科（中日歌词）",
+          "url": "https://zh.moegirl.tw/食虫植物(歌曲)"
+        }
+      ]
+    },
+    {
+      "no": 189,
+      "raw": "【洛天依原创曲】我属于火山口【PV付/洛卷卷·黑洛】",
+      "parsedTitle": "我属于火山口",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 190,
+      "raw": "「歌声软件」林籁 & 韵泉 x Synthesizer V AI《闪烁最美的光》2023 Ver. 中文童声歌声测试曲「专业人声软音源」",
+      "parsedTitle": "闪烁最美的光",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 191,
+      "raw": "【闇音レンリ】回避暧昧【ポリスピカデリー】",
+      "parsedTitle": "回避暧昧",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "aimaisa-kaihi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "UtaTen",
+          "url": "https://utaten.com/lyric/xc17112202/"
+        }
+      ]
+    },
+    {
+      "no": 192,
+      "raw": "Orangestar - 超次元愛歌",
+      "parsedTitle": "超次元愛歌",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "choujigen-aika",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "超次元愛歌 (Choujigen Aika)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/超次元愛歌_(Choujigen_Aika)"
+        }
+      ]
+    },
+    {
+      "no": 193,
+      "raw": "【Yunomi】インドア系ならトラックメイカー【MV】",
+      "parsedTitle": "インドア系ならトラックメイカー",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "indoor-kei-trackmaker",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/327064/"
+        }
+      ]
+    },
+    {
+      "no": 194,
+      "raw": "【とらこかお】讯息接收器诶？【初音ミク】",
+      "parsedTitle": "讯息接收器诶？",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 195,
+      "raw": "【初音ミク】僕らのつづき",
+      "parsedTitle": "僕らのつづき",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "bokura-no-tsuzuki",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/19794.html"
+        }
+      ]
+    },
+    {
+      "no": 196,
+      "raw": "【重音テト】沒有反省，也沒有後悔【青谷】",
+      "parsedTitle": "沒有反省，也沒有後悔",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "hansei-koukai-nashi",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "UtaTen",
+          "url": "https://utaten.com/lyric/rq20100707/"
+        }
+      ]
+    },
+    {
+      "no": 197,
+      "raw": "ディープスタリア・エニグマティカ / UTAUcover",
+      "parsedTitle": "ディープスタリア・エニグマティカ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "deepstaria-enigmatica",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "官方 MV",
+          "url": "https://www.youtube.com/watch?v=cCGDnCkNzow"
+        }
+      ]
+    },
+    {
+      "no": 198,
+      "raw": "【中日双语完整版|Girls Band Cry】无刺有刺新曲「最期の禱り」（最后的祈祷）",
+      "parsedTitle": "最期の禱り",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "saigo-no-inori",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi25110706/"
+        }
+      ]
+    },
+    {
+      "no": 199,
+      "raw": "【日推歌单】“这是真的是真的真实的吗”《本当だよ》",
+      "parsedTitle": "本当だよ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "hontou-dayo",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi24060438/"
+        }
+      ]
+    },
+    {
+      "no": 200,
+      "raw": "【初音ミク＆可不】妄想哀歌【MIMI】【授权转载】",
+      "parsedTitle": "妄想哀歌",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "mousou-aika",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "妄想哀歌 (Mousou Aika)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/妄想哀歌_(Mousou_Aika)"
+        }
+      ]
+    },
+    {
+      "no": 201,
+      "raw": "【ニコカラ】白猫海賊船 - 日南結里 feat. Yunomi",
+      "parsedTitle": "白猫海賊船 - 日南結里",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "shironeko-kaizokusen",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "Lyrhub（歌词）",
+          "url": "https://lyrhub.com/track/Yunomi-feat-%E6%97%A5%E5%8D%97%E7%B5%90%E9%87%8C/%E7%99%BD%E7%8C%AB%E6%B5%B7%E8%B3%8A%E8%88%B9"
+        }
+      ]
+    },
+    {
+      "no": 202,
+      "raw": "【星尘原创】彼方【乌龟Sui】【PV付】",
+      "parsedTitle": "彼方",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 203,
+      "raw": "【Clesss】SIMON",
+      "parsedTitle": "SIMON",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "unresolved-after-workflow",
+      "reason": "日语候选，但三轮自动检索与本次人工查证均不足以安全摘录",
+      "evidence": []
+    },
+    {
+      "no": 204,
+      "raw": "綿飴(季節P)—桜色キャンバス（vocal：结月ゆかり、IA、初音ミク）",
+      "parsedTitle": "綿飴(季節P)—桜色キャンバス",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "sakurairo-canvas",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "JOYSOUND",
+          "url": "https://www.joysound.com/web/search/song/407772"
+        }
+      ]
+    },
+    {
+      "no": 205,
+      "raw": "东方音乐推荐：メイドノココロハ アヤツリドール (Maid heart is a puppet)",
+      "parsedTitle": "メイドノココロハ アヤツリドール (Maid heart is a puppet)",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "maid-no-kokoroha",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi24021551/"
+        },
+        {
+          "type": "verified-source",
+          "label": "Touhou Wiki（英文翻译）",
+          "url": "https://en.touhouwiki.net/wiki/%E3%83%A1%E3%82%A4%E3%83%89%E3%83%8E%E3%82%B3%E3%82%B3%E3%83%AD%E3%83%8F_%E3%82%A2%E3%83%A4%E3%83%84%E3%83%AA%E3%83%89%E3%83%BC%E3%83%AB"
+        }
+      ]
+    },
+    {
+      "no": 206,
+      "raw": "【鎖那】【中文字幕】オオカミと少女  狼与少女",
+      "parsedTitle": "オオカミと少女 狼与少女",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "ookami-to-shoujo",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "J-Lyric",
+          "url": "https://j-lyric.net/artist/a000000/l0431b8.html"
+        }
+      ]
+    },
+    {
+      "no": 207,
+      "raw": "【洛天依原创】镜面交换【Sya】",
+      "parsedTitle": "镜面交换",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "标题明确标注洛天依原创，检索结果为中文歌词",
+      "evidence": []
+    },
+    {
+      "no": 208,
+      "raw": "赤羽原创电音（平凡的世界昨天和你）Synthesizer V原创曲 （附走带纯音乐版本）",
+      "parsedTitle": "赤羽原创电音（平凡的世界昨天和你）Synthesizer V原创曲",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 209,
+      "raw": "开口心动！「彼女は旅に出る」1207冰龙生日纪念曲",
+      "parsedTitle": "彼女は旅に出る",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "kanojo-wa-tabi-ni-deru",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "J-Lyric",
+          "url": "https://j-lyric.net/artist/a05d6c1/l0431b5.html"
+        }
+      ]
+    },
+    {
+      "no": 210,
+      "raw": "“我不要你走，我不想放手。”【翻唱/如果这就是爱情】",
+      "parsedTitle": "“我不要你走，我不想放手。”",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 211,
+      "raw": "【洛天依原创曲】再声 Recall【2024官方十二周年生贺曲】",
+      "parsedTitle": "再声 Recall",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 212,
+      "raw": "【洛天依AI原创】因你而盛开的花【手书pv/HB to COP】",
+      "parsedTitle": "因你而盛开的花",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 213,
+      "raw": "【米津玄师】さよーならまたいつか Hi-Res 中日字幕",
+      "parsedTitle": "さよーならまたいつか",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "sayonara-mata-itsuka",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/hw24011801/"
+        }
+      ]
+    },
+    {
+      "no": 214,
+      "raw": "【初音】戯言Speaker",
+      "parsedTitle": "戯言Speaker",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "tawagoto-speaker",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "UtaTen",
+          "url": "https://utaten.com/lyric/jb51209086/"
+        }
+      ]
+    },
+    {
+      "no": 215,
+      "raw": "零ノ花 / flower , 足立レイ",
+      "parsedTitle": "零ノ花",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "rei-no-hana",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "零ノ花 (Rei no Hana)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/零ノ花_(Rei_no_Hana)"
+        }
+      ]
+    },
+    {
+      "no": 216,
+      "raw": "【 初音ミク 】大切な人たちへ【 傘村トータ 】",
+      "parsedTitle": "大切な人たちへ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "taisetsu-na-hitotachi-e",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "大切な人たちへ (Taisetsu na Hitotachi e)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/大切な人たちへ_(Taisetsu_na_Hitotachi_e)"
+        }
+      ]
+    },
+    {
+      "no": 217,
+      "raw": "Alice in 冷凍庫 / Orangestar feat.IA 「授权搬运」",
+      "parsedTitle": "Alice in 冷凍庫",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "alice-in-reitouko",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Alice in 冷凍庫 (Alice in Reitouko)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Alice_in_冷凍庫_(Alice_in_Reitouko)"
+        }
+      ]
+    },
+    {
+      "no": 218,
+      "raw": "【Guiano feat. 理芽】舞【MV】",
+      "parsedTitle": "舞",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "mai-guiano",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "巴哈姆特创作大厅（kiru 中日歌词）",
+          "url": "https://gamer.kfc.gold/creationDetail.php?sn=5406363"
+        }
+      ]
+    },
+    {
+      "no": 219,
+      "raw": "【Album XFD】冬のライラ (Lyra of Winter)/ *Luna & Liz. & Guiano & いいづか",
+      "parsedTitle": "冬のライラ (Lyra of Winter)",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 220,
+      "raw": "【Ado】 桜日和とタイムマシン / 樱日和与时间机器 with 初音未来",
+      "parsedTitle": "桜日和とタイムマシン",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "sakurabiyori-to-timemachine",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "桜日和とタイムマシン (Sakurabiyori to Time Machine)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/桜日和とタイムマシン_(Sakurabiyori_to_Time_Machine)"
+        }
+      ]
+    },
+    {
+      "no": 221,
+      "raw": "【Ado】踊 (Odo)/起舞",
+      "parsedTitle": "踊 (Odo)/起舞",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "odo-ado",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/301298/"
+        }
+      ]
+    },
+    {
+      "no": 222,
+      "raw": "“但我讨厌摇滚乐”/洛天依原创",
+      "parsedTitle": "“但我讨厌摇滚乐”/洛天依原创",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 223,
+      "raw": "【初音ミク ＆ 可不】成为空【MIMI】",
+      "parsedTitle": "成为空",
+      "heuristicLanguage": "jp",
+      "project": "神椿",
+      "status": "catalogued-existing",
+      "songId": "kuu-ni-naru",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/mi22011815/"
+        }
+      ]
+    },
+    {
+      "no": 224,
+      "raw": "【洛天依原创】平行线",
+      "parsedTitle": "平行线",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 225,
+      "raw": "【プロセカ】とても痛い痛がりたい 朝比奈まふゆ、初音ミク、東雲絵名 ver.",
+      "parsedTitle": "とても痛い痛がりたい 朝比奈まふゆ、初音ミク、東雲絵名",
+      "heuristicLanguage": "jp",
+      "project": "SEKAI",
+      "status": "catalogued-existing",
+      "songId": "totemo-itai-itagaritai",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/jb51304120/"
+        },
+        {
+          "type": "verified-source",
+          "label": "Vocaloid 中文歌词维基（中文翻译）",
+          "url": "https://w.atwiki.jp/vocaloidchly/pages/4071.html"
+        }
+      ]
+    },
+    {
+      "no": 226,
+      "raw": "《横冲直撞 我们的城市》",
+      "parsedTitle": "横冲直撞 我们的城市",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 227,
+      "raw": "“救世主华丽登场！”《シヴァ》丨日推歌单",
+      "parsedTitle": "シヴァ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "shiva-heaven-burns-red",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "TuneCore Japan",
+          "url": "https://linkco.re/Ty8RFb36/songs/2222293/lyrics?lang=ja"
+        }
+      ]
+    },
+    {
+      "no": 228,
+      "raw": "ハレハレヤ / flower",
+      "parsedTitle": "ハレハレヤ",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "harehareya",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "ハレハレヤ (Harehare Ya)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/ハレハレヤ_(Harehare_Ya)"
+        }
+      ]
+    },
+    {
+      "no": 229,
+      "raw": "【洛天依原创】为了你唱下去【PV付】【HB to 天依】",
+      "parsedTitle": "为了你唱下去",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 230,
+      "raw": "【心华乐正绫】渺小的producer【原创曲pv付·Sodatune】",
+      "parsedTitle": "渺小的producer",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "心华、乐正绫中文原创",
+      "evidence": []
+    },
+    {
+      "no": 231,
+      "raw": "【洛天依原创曲】一点一点【异托邦LOVETOPIA】",
+      "parsedTitle": "一点一点",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 232,
+      "raw": "【GUMI】心理作用【蝶々P】",
+      "parsedTitle": "心理作用",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "kokorogoshi",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "萌娘百科（中日歌词）",
+          "url": "https://zh.moegirl.tw/心做し"
+        },
+        {
+          "type": "verified-source",
+          "label": "网易云音乐（原曲）",
+          "url": "https://music.163.com/#/song?id=28370757"
+        }
+      ]
+    },
+    {
+      "no": 233,
+      "raw": "【MV】茶太 -团子大家族  CLANNAD ED 中日字幕",
+      "parsedTitle": "茶太 -团子大家族 CLANNAD ED",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "dango-daikazoku",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "歌ネット",
+          "url": "https://www.uta-net.com/song/58613/"
+        }
+      ]
+    },
+    {
+      "no": 234,
+      "raw": "【游戏化】哭泣少女乐队 Girls Band Cry 手机游戏制作决定【MCE汉化组】",
+      "parsedTitle": "哭泣少女乐队 Girls Band Cry 手机游戏制作决定",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 235,
+      "raw": "【言和】我从人间走过（倘若某天我也悄无声息，死在了无人关注的角落里）【我从人间走过】",
+      "parsedTitle": "我从人间走过",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 236,
+      "raw": "【葱包】はいよろこんで☆乐意效劳",
+      "parsedTitle": "はいよろこんで☆乐意效劳",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-manual-review",
+      "songId": "hai-yorokonde",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "官方 MV",
+          "url": "https://www.youtube.com/watch?v=jzi6RNVEOtA"
+        }
+      ]
+    },
+    {
+      "no": 237,
+      "raw": "【洛天依原创曲】女装少年",
+      "parsedTitle": "女装少年",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 238,
+      "raw": "【洛天依原创曲】又一个夜晚【十二周年官方生贺曲舞台版】",
+      "parsedTitle": "又一个夜晚",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 239,
+      "raw": "冠世一战【2019拜年祭单品】",
+      "parsedTitle": "冠世一战",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 240,
+      "raw": "【忘川风华录·刘秀】拜云台【乐正绫原创】 “二十八宿列阵扶圣明，汉家再兴！”",
+      "parsedTitle": "拜云台 “二十八宿列阵扶圣明，汉家再兴！”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 241,
+      "raw": "“在你眼中我是谁，你想我代替谁。”【翻唱/谁】",
+      "parsedTitle": "“在你眼中我是谁，你想我代替谁。”",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 242,
+      "raw": "“相思若好不了只能怪我找不到解药。”【翻唱/那么骄傲】",
+      "parsedTitle": "“相思若好不了只能怪我找不到解药。”",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 243,
+      "raw": "【墨清弦AI原创曲】绝对占有【2024官方生贺曲】",
+      "parsedTitle": "绝对占有",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 244,
+      "raw": "【乐正绫/洛天依】夜蝶【百合向】【溱绫/ACE】【翻唱曲/pv付】",
+      "parsedTitle": "夜蝶",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 245,
+      "raw": "【洛天依原创】淋完这场雨就忘记你吧😭😭😭",
+      "parsedTitle": "淋完这场雨就忘记你吧😭😭😭",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 246,
+      "raw": "洛天依，言和原创《普通DISCO》",
+      "parsedTitle": "普通DISCO",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 247,
+      "raw": "大哉乾元【2024拜年纪单品】",
+      "parsedTitle": "大哉乾元",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 248,
+      "raw": "洛天依，言和原创《乾中和》【ilem六周年投稿祭单品】",
+      "parsedTitle": "乾中和",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "洛天依、言和中文原创",
+      "evidence": []
+    },
+    {
+      "no": 249,
+      "raw": "【忘川风华录·墨子】墨隐侠声【乐正龙牙原创】 “赴火蹈刃去 纵死不折腰”",
+      "parsedTitle": "墨隐侠声 “赴火蹈刃去 纵死不折腰”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 250,
+      "raw": "【初音ミク】Damnation【Mwk 】",
+      "parsedTitle": "Damnation",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "damnation",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "Damnation",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/Damnation"
+        }
+      ]
+    },
+    {
+      "no": 251,
+      "raw": "洛天依X索尼音乐原创EP单曲《登陆宇宙》MV首发【冰火秋日游】",
+      "parsedTitle": "登陆宇宙",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 252,
+      "raw": "初音未来 Happy 16th Birthday ‐Dear Creators‐ Trailer",
+      "parsedTitle": "初音未来 Happy 16th Birthday ‐Dear Creators‐ Trailer",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 253,
+      "raw": "来吧，献上你的“爱”《二十三》【洛天依11周年生日会】",
+      "parsedTitle": "二十三",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 254,
+      "raw": "【洛天依原创曲】月华舞【2023官方生贺曲】",
+      "parsedTitle": "月华舞",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 255,
+      "raw": "【言和原创曲】听我一言【2023言和十周年官方生贺曲】",
+      "parsedTitle": "听我一言",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 256,
+      "raw": "【洛天依古风原创曲】权御天下【原创PV付】",
+      "parsedTitle": "权御天下",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 257,
+      "raw": "墨清弦五周年纪念EP《梦舞心弦》试听PV",
+      "parsedTitle": "梦舞心弦",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 258,
+      "raw": "【徵羽摩柯原创曲】凌晨五点半【PV付】",
+      "parsedTitle": "凌晨五点半",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 259,
+      "raw": "【星火行动】朝汐【洛天依原创曲】【神华社】",
+      "parsedTitle": "朝汐",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 260,
+      "raw": "为高考应援！15位虚拟歌姬合唱《和你一样》，一起去全力以赴追逐我们的梦想吧！",
+      "parsedTitle": "和你一样",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 261,
+      "raw": "【洛天依】中华少女•终 2.0【原创曲PV付】",
+      "parsedTitle": "中华少女•终 2.0",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 262,
+      "raw": "【转载MMD/珐露珊】拼凑的断音",
+      "parsedTitle": "拼凑的断音",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "catalogued-manual-review",
+      "songId": "tsugihagi-staccato",
+      "reason": "人工核对演唱语言、曲名、作者和歌词来源后收录",
+      "evidence": [
+        {
+          "type": "manual-source",
+          "label": "初音ミク Wiki",
+          "url": "https://w.atwiki.jp/hmiku/pages/29529.html"
+        }
+      ]
+    },
+    {
+      "no": 263,
+      "raw": "Vsinger全员新专《喧闹世界》试听PV",
+      "parsedTitle": "喧闹世界",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 264,
+      "raw": "【洛天依ai】天方夜谭漫游指南【异域风原创曲】",
+      "parsedTitle": "天方夜谭漫游指南",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 265,
+      "raw": "【泠鸢×嘉然】合作单曲《我们快出发》元气上线（欢迎二创）",
+      "parsedTitle": "我们快出发",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 266,
+      "raw": "【言和原创曲】心音盒【2022官方生贺曲】",
+      "parsedTitle": "心音盒",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 267,
+      "raw": "【翻唱】キャットラビング 【神楽七奈】",
+      "parsedTitle": "キャットラビング",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "cat-loving",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "キャットラビング (Cat Loving)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/キャットラビング_(Cat_Loving)"
+        }
+      ]
+    },
+    {
+      "no": 268,
+      "raw": "【乐正绫原创】艳兽【2022乐正绫七周年生贺】",
+      "parsedTitle": "艳兽",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 269,
+      "raw": "【初音ミク】Darling Dance【かいりきベア】",
+      "parsedTitle": "Darling Dance",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "darling-dance",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "ダーリンダンス (Darling Dance)",
+          "url": "https://vocaloidlyrics.miraheze.org/wiki/ダーリンダンス_(Darling_Dance)"
+        }
+      ]
+    },
+    {
+      "no": 270,
+      "raw": "【洛天依原创曲】别害怕了 - “等待花开”",
+      "parsedTitle": "别害怕了 - “等待花开”",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 271,
+      "raw": "【乐正绫原创曲】未知旅行FM【2022官方生贺曲】",
+      "parsedTitle": "未知旅行FM",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 272,
+      "raw": "【鹿乃】翻唱《曾经我也想过一了百了》",
+      "parsedTitle": "曾经我也想过一了百了",
+      "heuristicLanguage": "jp",
+      "project": "VOCALOID/术力口",
+      "status": "catalogued-existing",
+      "songId": "bokuga-shinou-to-omotta",
+      "reason": "与站内既有歌曲标题或人工登记的译名匹配",
+      "evidence": [
+        {
+          "type": "verified-source",
+          "label": "UtaTen（歌词页）",
+          "url": "https://utaten.com/lyric/jb71308139/"
+        },
+        {
+          "type": "verified-source",
+          "label": "豆瓣乐评（中文翻译）",
+          "url": "https://music.douban.com/review/7593383/"
+        }
+      ]
+    },
+    {
+      "no": 273,
+      "raw": "洛天依，原创《勾指起誓》",
+      "parsedTitle": "勾指起誓",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 274,
+      "raw": "【洛天依】2021.7.12洛天依生日会",
+      "parsedTitle": ".7.12洛天依生日会",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 275,
+      "raw": "【言和原创曲】折光【2021官方生贺曲】",
+      "parsedTitle": "折光",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 276,
+      "raw": "与洛天依的《美好生活上买单吧》，就差你了",
+      "parsedTitle": "美好生活上买单吧",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 277,
+      "raw": "【洛天依·言和原创曲】双向幸福【PV付/周黑亚】",
+      "parsedTitle": "双向幸福",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "洛天依、言和中文原创",
+      "evidence": []
+    },
+    {
+      "no": 278,
+      "raw": "【Vsinger】2021BW会场限定应援专辑《Color Flow》试听PV",
+      "parsedTitle": "Color Flow",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-non-song",
+      "reason": "标题解析器判定为专辑、活动、预告或试听等非单曲项目",
+      "evidence": []
+    },
+    {
+      "no": 279,
+      "raw": "【中V全员/原创毕业歌/催泪警告】那个班级",
+      "parsedTitle": "那个班级",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 280,
+      "raw": "坠落之章·三",
+      "parsedTitle": "坠落之章·三",
+      "heuristicLanguage": "other",
+      "project": "其他",
+      "status": "excluded-or-unresolved-other",
+      "reason": "缺少足够的日语演唱证据，可能是其他语言、纯音乐或格式噪声",
+      "evidence": []
+    },
+    {
+      "no": 281,
+      "raw": "乐正绫 原创《傲娇系男孩的告白日》（专辑《绫》收录）",
+      "parsedTitle": "傲娇系男孩的告白日",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 282,
+      "raw": "【言和原创曲/双向系列角色歌】正向欺骗【PV付/周黑亚】",
+      "parsedTitle": "正向欺骗",
+      "heuristicLanguage": "mixed",
+      "reviewedLanguage": "zh",
+      "project": "VOCALOID/术力口",
+      "status": "excluded-confirmed-non-japanese",
+      "reason": "言和中文原创",
+      "evidence": []
+    },
+    {
+      "no": 283,
+      "raw": "洛天依 原创《保卫罗德岛》",
+      "parsedTitle": "保卫罗德岛",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 284,
+      "raw": "【2016拜年祭单品】九九八十一【乐正绫 feat.洛天依】",
+      "parsedTitle": "九九八十一",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    },
+    {
+      "no": 285,
+      "raw": "【游九州】赤壁沧浪曲-洛天依原创曲",
+      "parsedTitle": "赤壁沧浪曲-洛天依原创曲",
+      "heuristicLanguage": "zh",
+      "project": "中V",
+      "status": "excluded-chinese-candidate",
+      "reason": "标题和演唱者规则指向中文歌曲，未进入日语歌词栏",
+      "evidence": []
+    }
+  ]
+}

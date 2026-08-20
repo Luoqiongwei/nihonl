@@ -1,5 +1,11 @@
-# 抓取歌词页的临时 HTML（断点/核对用，不入库）
+# 歌词查证的临时产物（仅限本地短期核对，不入库）
 data/*.html
+data/lyrics-*.json
+data/*.lrc
+data/*.ttml
+data/*-ttml.txt
+data/*-raw.*
+data/*-response.*
 
 # Astro / Node
 node_modules/

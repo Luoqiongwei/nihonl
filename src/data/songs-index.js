@@ -53,7 +53,7 @@ export const songsIndex = [
     "artist": "FROZEN QUALIA",
     "year": 2019,
     "project": "同人音乐",
-    "lyricsStatus": "missing"
+    "lyricsStatus": "complete"
   },
   {
     "id": "terra",
@@ -782,6 +782,483 @@ export const songsIndex = [
     "artist": "伶（Washio Reina）",
     "year": 2021,
     "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "gousei-suru-mirai",
+    "title": "合成するミライ",
+    "romajiTitle": "Gousei Suru Mirai",
+    "artist": "初音ミク",
+    "year": 2024,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "shinkuu-toshi",
+    "title": "真空都市",
+    "romajiTitle": "Shinkuu Toshi",
+    "artist": "ナナツカゼ",
+    "year": 2025,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "lando",
+    "title": "L∧NNDØ",
+    "romajiTitle": "Lando",
+    "artist": "sasalasa / sasakure.UK / lasah",
+    "year": 2022,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "natsu-ni-toumei",
+    "title": "夏に透明",
+    "romajiTitle": "Natsu ni Toumei",
+    "artist": "初音ミク",
+    "year": 2025,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "colorcode-f",
+    "title": "ColorCode-F",
+    "romajiTitle": "ColorCode-F",
+    "artist": "PIKASONIC feat. Felt",
+    "year": 2021,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "mu-tachiiri-kinshi",
+    "title": "無",
+    "romajiTitle": "Mu",
+    "artist": "歌愛ユキ / 詩岸",
+    "year": 2023,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "aristolast",
+    "title": "アリストラスト",
+    "romajiTitle": "Aristolast",
+    "artist": "初音ミク",
+    "year": 2012,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "shinitakatta-kyou",
+    "title": "私が死にたかった今日は誰かが生きたかった明日らしい",
+    "romajiTitle": "Watashi ga Shinitakatta Kyou wa Dareka ga Ikitakatta Ashita Rashii",
+    "artist": "はるな。feat. 海恋",
+    "year": 2025,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "overkill-nazoj",
+    "title": "オーバーキル！",
+    "romajiTitle": "Overkill!",
+    "artist": "鏡音リン",
+    "year": 2023,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "split-danzi",
+    "title": "SPLIT",
+    "romajiTitle": "Split",
+    "artist": "重音テトSV / 初音ミク",
+    "year": 2025,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "toka-no-hana",
+    "title": "十夏の花",
+    "romajiTitle": "Toka no Hana",
+    "artist": "HoneyComeBear",
+    "year": 2021,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "sugiyuku-hi-to-kimi-e",
+    "title": "過ぎゆく日と君へ",
+    "romajiTitle": "Sugiyuku Hi to Kimi e",
+    "artist": "Aiobahn feat. nayuta",
+    "year": 2018,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "teien-nite",
+    "title": "庭園にて。",
+    "romajiTitle": "Teien nite",
+    "artist": "GUMI / 初音ミク / 巡音ルカ",
+    "year": 2011,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "tenkyuu-no-musica",
+    "title": "天球のMúsica",
+    "romajiTitle": "Tenkyuu no Musica",
+    "artist": "Ave Mujica",
+    "year": 2025,
+    "project": "动漫歌曲",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "shidarezakura-anna",
+    "title": "枝垂桜",
+    "romajiTitle": "Shidarezakura",
+    "artist": "Anna",
+    "year": 2021,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "muyuu-tayori",
+    "title": "夢遊",
+    "romajiTitle": "Muyuu",
+    "artist": "tayori",
+    "year": 2024,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "hachigatsu-no-hotaru",
+    "title": "八月の蛍",
+    "romajiTitle": "Hachigatsu no Hotaru",
+    "artist": "HACHI",
+    "year": 2021,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "rainy-proof",
+    "title": "Rainy proof",
+    "romajiTitle": "Rainy proof",
+    "artist": "HACHI",
+    "year": 2020,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "suisei-orangestar",
+    "title": "水星",
+    "romajiTitle": "Suisei",
+    "artist": "Orangestar feat. IA",
+    "year": 2017,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "kaitou-mimi",
+    "title": "解答",
+    "romajiTitle": "Kaitou",
+    "artist": "MIMI feat. わん子",
+    "year": 2024,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "prism-cube",
+    "title": "プリズムキューブ",
+    "romajiTitle": "Prism Cube",
+    "artist": "初音ミク",
+    "year": 2011,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "aimaisa-kaihi",
+    "title": "曖昧さ回避",
+    "romajiTitle": "Aimaisa Kaihi",
+    "artist": "闇音レンリ",
+    "year": 2017,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "indoor-kei-trackmaker",
+    "title": "インドア系ならトラックメイカー",
+    "romajiTitle": "Indoor Kei Nara Trackmaker",
+    "artist": "Yunomi feat. nicamoq",
+    "year": 2018,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "bokura-no-tsuzuki",
+    "title": "僕らのつづき",
+    "romajiTitle": "Bokura no Tsuzuki",
+    "artist": "初音ミクAppend",
+    "year": 2011,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "shironeko-kaizokusen",
+    "title": "白猫海賊船",
+    "romajiTitle": "Shironeko Kaizokusen",
+    "artist": "Yunomi feat. 日南結里",
+    "year": 2019,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "sakurairo-canvas",
+    "title": "桜色キャンバス",
+    "romajiTitle": "Sakurairo Canvas",
+    "artist": "IA / 初音ミク / 結月ゆかり",
+    "year": null,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "ookami-to-shoujo",
+    "title": "オオカミと少女",
+    "romajiTitle": "Ookami to Shoujo",
+    "artist": "鎖那",
+    "year": 2017,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "tawagoto-speaker",
+    "title": "戯言スピーカー",
+    "romajiTitle": "Tawagoto Speaker",
+    "artist": "初音ミクAppend",
+    "year": 2011,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "odo-ado",
+    "title": "踊",
+    "romajiTitle": "Odo",
+    "artist": "Ado",
+    "year": 2021,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "hai-yorokonde",
+    "title": "はいよろこんで",
+    "romajiTitle": "Hai Yorokonde",
+    "artist": "こっちのけんと",
+    "year": 2024,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "ringing-bloom",
+    "title": "Ringing Bloom",
+    "romajiTitle": "Ringing Bloom",
+    "artist": "Roselia",
+    "year": 2019,
+    "project": "动漫歌曲",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "dango-daikazoku",
+    "title": "だんご大家族",
+    "romajiTitle": "Dango Daikazoku",
+    "artist": "茶太",
+    "year": 2007,
+    "project": "动漫歌曲",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "tsugihagi-staccato",
+    "title": "ツギハギスタッカート",
+    "romajiTitle": "Tsugihagi Staccato",
+    "artist": "初音ミク",
+    "year": 2014,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "one-hundredth-ai",
+    "title": "1/100のアイ",
+    "romajiTitle": "Hyaku-bun no Ichi no Ai",
+    "artist": "初音ミク",
+    "year": 2018,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "chuu-de-oyasumi",
+    "title": "宙でおやすみ",
+    "romajiTitle": "Chuu de Oyasumi",
+    "artist": "Aiobahn feat. 長瀬有花",
+    "year": 2023,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "towa-no-utage",
+    "title": "永久の宴",
+    "romajiTitle": "Towa no Utage",
+    "artist": "Aiobahn feat. YUC’e",
+    "year": 2016,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "paradox-hanakyo",
+    "title": "paradøx",
+    "romajiTitle": "Paradox",
+    "artist": "花鋏キョウ",
+    "year": 2019,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "three-queens",
+    "title": "スリークイーンズ ～吸血女王伝～",
+    "romajiTitle": "Three Queens: Kyuuketsu Joouden",
+    "artist": "初音ミク / 鏡音リン / 巡音ルカ / KAITO",
+    "year": 2011,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "koi-no-sainou",
+    "title": "恋の才能",
+    "romajiTitle": "Koi no Sainou",
+    "artist": "初音ミクAppend Dark",
+    "year": 2014,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "hansei-koukai-nashi",
+    "title": "反省はしていない、そして後悔もしていない。",
+    "romajiTitle": "Hansei wa Shiteinai, Soshite Koukai mo Shiteinai",
+    "artist": "重音テト",
+    "year": null,
+    "project": "UTAU",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "deepstaria-enigmatica",
+    "title": "ディープスタリア・エニグマティカ",
+    "romajiTitle": "Deepstaria Enigmatica",
+    "artist": "flower",
+    "year": 2021,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "instant-love-lapriere",
+    "title": "Instant Love",
+    "romajiTitle": "Instant Love",
+    "artist": "La prière",
+    "year": 2021,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "heroine-pikasonic",
+    "title": "ヒロイン",
+    "romajiTitle": "Heroine",
+    "artist": "PIKASONIC / nakotanmaru",
+    "year": 2022,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "kanojo-wa-tabi-ni-deru",
+    "title": "彼女は旅に出る",
+    "romajiTitle": "Kanojo wa Tabi ni Deru",
+    "artist": "鎖那",
+    "year": null,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "utopia-tayori",
+    "title": "ユートピア",
+    "romajiTitle": "Utopia",
+    "artist": "tayori",
+    "year": 2024,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "shiva-heaven-burns-red",
+    "title": "シヴァ",
+    "romajiTitle": "Shiva",
+    "artist": "やなぎなぎ",
+    "year": 2023,
+    "project": "游戏歌曲",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "x-taira-aoi",
+    "title": "x",
+    "romajiTitle": "X",
+    "artist": "平葵",
+    "year": 2025,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "cheer-up-hearts-up",
+    "title": "CHEER UP! HEARTS UP!",
+    "romajiTitle": "Cheer Up! Hearts Up!",
+    "artist": "望月杏奈 / 矢吹可奈 / 天海春香 / ジュリア",
+    "year": 2022,
+    "project": "游戏歌曲",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "koibito-o-uchiotoshita-hi",
+    "title": "恋人を射ち堕とした日",
+    "romajiTitle": "Koibito o Uchiotoshita Hi",
+    "artist": "Sound Horizon",
+    "year": 2004,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "kamippoi-na",
+    "title": "神っぽいな",
+    "romajiTitle": "Kamippoi na",
+    "artist": "初音ミク",
+    "year": 2021,
+    "project": "VOCALOID",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "heat-waves-japanese-lime",
+    "title": "Heat Waves (Japanese Version)",
+    "romajiTitle": "Heat Waves (Japanese Version)",
+    "artist": "Lime",
+    "year": 2022,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "sea-of-stars-aozorafantasii",
+    "title": "Sea Of Stars",
+    "romajiTitle": "Sea of Stars",
+    "artist": "aozorafantasii",
+    "year": 2010,
+    "project": "J-POP",
+    "lyricsStatus": "complete"
+  },
+  {
+    "id": "etoile-mementomori",
+    "title": "Étoile",
+    "romajiTitle": "Etoile",
+    "artist": "霜月はるか",
+    "year": 2023,
+    "project": "游戏歌曲",
     "lyricsStatus": "complete"
   }
 ];

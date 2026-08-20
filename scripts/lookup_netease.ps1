@@ -4,9 +4,9 @@
 思路：网易云有不少 V 家/神椿歌曲带「日文原文 + 中文翻译」双行歌词。
 流程：
   1) GET /api/search/get/web?s=<歌名>&type=1 搜歌曲，按标题归一化 + 歌手提示打分
-  2) GET /api/song/lyric?id=<id>&lv=-1&kv=-1&tv=-1 取 lrc（日文）与 tlyric（中文）
-  3) 按时间戳配对成 ja/zh 行
-结果写入 data/lyrics-netease.json，可断点续跑。
+  2) GET /api/song/lyric?id=<id>&lv=-1&kv=-1&tv=-1 临时核对演唱语言
+  3) 只保留最多 3 行 ja/zh 语言核验样本，不归档整首 LRC
+结果写入可随时删除且被 Git 忽略的 data/lyrics-netease.json。
 
 用法：
   powershell -NoProfile -ExecutionPolicy Bypass -File scripts/lookup_netease.ps1
@@ -192,7 +192,7 @@ function Get-LyricPair([int64]$songId) {
     $zhLine = if ($zh.ContainsKey($k)) { $zh[$k] } else { '' }
     $out.Add([pscustomobject]@{ t = $k; ja = $ja[$k]; zh = $zhLine })
   }
-  return @($out)
+  return @($out | Where-Object { $_.ja -match '[\u3040-\u30ff]' } | Select-Object -First 3)
 }
 
 # ---------- 主流程 ----------
@@ -266,7 +266,7 @@ foreach ($item in $items) {
           $rec = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $false; reason = 'netease-no-lyric'; songId = $best.s.id; songName = $best.s.name; artists = @($best.s.artists | ForEach-Object { $_.name }); candidates = @($scored | Select-Object -First 6 | ForEach-Object { "$($_.s.name) / $(($_.s.artists | ForEach-Object { $_.name }) -join '/') (id=$($_.s.id))" }) }
           Write-Host "  #$no [$($item.project)] $title → ✗ 无歌词（$($best.s.name) / $(($best.s.artists | ForEach-Object { $_.name }) -join '/'))"
         } else {
-          $rec = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $true; source = 'netease'; songId = $best.s.id; songName = $best.s.name; artists = @($best.s.artists | ForEach-Object { $_.name }); lines = $pairs; candidates = @($scored | Select-Object -First 6 | ForEach-Object { "$($_.s.name) / $(($_.s.artists | ForEach-Object { $_.name }) -join '/') (id=$($_.s.id))" }) }
+          $rec = [pscustomobject]@{ no = $no; title = $title; project = [string]$item.project; found = $true; source = 'netease'; songId = $best.s.id; songName = $best.s.name; artists = @($best.s.artists | ForEach-Object { $_.name }); page = "https://music.163.com/#/song?id=$($best.s.id)"; verificationSample = $pairs; candidates = @($scored | Select-Object -First 6 | ForEach-Object { "$($_.s.name) / $(($_.s.artists | ForEach-Object { $_.name }) -join '/') (id=$($_.s.id))" }) }
           Write-Host "  #$no [$($item.project)] $title → ✓ $($best.s.name) / $(($best.s.artists | ForEach-Object { $_.name }) -join '/')（$($pairs.Count) 行）"
         }
       }

@@ -146,10 +146,6 @@ export const songs = [
       {
         "ja": "生きていると感じたいの",
         "zh": "我想真切地感受到自己活着"
-      },
-      {
-        "ja": "あと少しの命ならばねえどれくらい良かっただろう",
-        "zh": "如果生命还剩一点点的话，那该有多好"
       }
     ],
     "points": [
@@ -172,13 +168,6 @@ export const songs = [
         "note": "「〜たい」表愿望；生きる=活着，感じる=感觉。句尾的の是口语化的语气，比はるか说「のです」更贴近日常。",
         "wordId": "kokoro",
         "grammarId": "tai"
-      },
-      {
-        "ja": "あと少しの命ならば",
-        "zh": "如果只剩下一点点生命",
-        "note": "ならば=如果…的话（书面语/歌词用语）；あと少し=再一点。假设＋愿望是歌词里很常见的句式。",
-        "wordId": "yume",
-        "grammarId": "nara"
       }
     ],
     "words": [
@@ -214,10 +203,6 @@ export const songs = [
       {
         "ja": "愛されたいのに愛されない日に",
         "zh": "在明明渴望被爱、却得不到爱的日子里"
-      },
-      {
-        "ja": "でも本当はあなたに救われたいんだ",
-        "zh": "但其实我真正想要的，是被你拯救"
       }
     ],
     "points": [
@@ -279,10 +264,6 @@ export const songs = [
       {
         "ja": "満たされるまでここに居よう",
         "zh": "在满足之前，就留在这里吧"
-      },
-      {
-        "ja": "痛みに似た足りないもの",
-        "zh": "那像疼痛一样、永远不够的东西"
       }
     ],
     "points": [
@@ -305,13 +286,6 @@ export const songs = [
         "note": "満たされる=被填满、得到满足；「〜まで」=直到…为止；「〜よう」=意志形，表示「…吧」。",
         "wordId": "kokoro",
         "grammarId": "made"
-      },
-      {
-        "ja": "痛みに似た足りないもの",
-        "zh": "像疼痛一样、永远欠缺的东西",
-        "note": "似た=相似的；足りない=不足的。用定语连用修饰名词，歌词里常用这种抽象留白。",
-        "wordId": "setsunai",
-        "grammarId": "ren-tai"
       }
     ],
     "words": [
@@ -339,18 +313,44 @@ export const songs = [
     "producer": "kazuki（作詞・作曲）",
     "year": 2019,
     "project": "同人音乐",
-    "lyricsStatus": "missing",
-    "excerpt": [],
-    "points": [],
-    "words": [],
-    "sources": [
+    "lyricsStatus": "complete",
+    "excerpt": [
       {
-        "label": "OTOTOY（专辑页）",
-        "url": "https://ototoy.jp/_/default/p/456802"
+        "ja": "憧れを音に乗せて届けたい",
+        "zh": "想把憧憬寄托在声音中传达出去"
       },
       {
-        "label": "虾米音乐存档",
-        "url": "https://xiapi.quotsoft.net/album/yh/yhZWMbe15c1/"
+        "ja": "叶うのなら私は愛に生きたい",
+        "zh": "如果能够实现，我想为爱而活"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜に乗せて",
+        "zh": "寄托在…上；随着…",
+        "note": "「乗せる」的て形；歌词中表示把情感寄托在声音上并传达出去。",
+        "wordId": "ongaku"
+      },
+      {
+        "ja": "〜のなら",
+        "zh": "如果是…的话",
+        "note": "「なら」前的「の」把前句名词化，常用于基于某个前提提出愿望或判断。",
+        "wordId": "koi"
+      }
+    ],
+    "words": [
+      "ongaku",
+      "koi",
+      "hoshi"
+    ],
+    "sources": [
+      {
+        "label": "PetitLyrics（歌词页）",
+        "url": "https://petitlyrics.com/lyrics/3275949"
+      },
+      {
+        "label": "TuneCore Japan（专辑页）",
+        "url": "https://linkco.re/0vZTqNnM?lang=ja"
       }
     ]
   },
@@ -375,10 +375,6 @@ export const songs = [
       {
         "ja": "人生 捨てちゃいられない",
         "zh": "人生，可不能就这样丢掉啊"
-      },
-      {
-        "ja": "理想へ Dunk 理性無し Like a drunk",
-        "zh": "向着理想灌篮，毫无理性、如醉汉一般"
       }
     ],
     "points": [
@@ -401,12 +397,6 @@ export const songs = [
         "note": "通じて=通过…（途径）；お陰で=托…的福，是表达感谢与归因的固定句型；「より＋形容词」= 更加。",
         "wordId": "arigatou",
         "grammarId": "o-kage-sei"
-      },
-      {
-        "ja": "理想へ Dunk 理性無し Like a drunk",
-        "zh": "向着理想灌篮，毫无理性、如醉汉一般",
-        "note": "理想（りそう）与理性（りせい）发音相近，故意押韵的文字游戏；「無し」= 没有；日英混搭让节奏更有冲击力。",
-        "wordId": "yume"
       }
     ],
     "words": [
@@ -450,10 +440,6 @@ export const songs = [
       {
         "ja": "この胸が脈打つうちは君をまだ守っていたい",
         "zh": "在这颗心还在跳动的时候，我还想继续守护你"
-      },
-      {
-        "ja": "生きる意味なんてそれでいいの",
-        "zh": "活着的意义，这样就好"
       }
     ],
     "points": [
@@ -509,10 +495,6 @@ export const songs = [
       {
         "ja": "ここらで休んでみませんか",
         "zh": "要不要在这里歇一歇"
-      },
-      {
-        "ja": "足跡は雪が消していた",
-        "zh": "脚印被雪抹去了"
       }
     ],
     "points": [
@@ -680,10 +662,6 @@ export const songs = [
       {
         "ja": "何かが足りない からからから",
         "zh": "总觉得缺了点什么，咔啦咔啦咔啦"
-      },
-      {
-        "ja": "涙を隠してた からからから",
-        "zh": "一直藏起眼泪，咔啦咔啦咔啦"
       }
     ],
     "points": [
@@ -2324,10 +2302,6 @@ export const songs = [
       {
         "ja": "でも嘘みたいに仄暗いまま",
         "zh": "却像谎言一样，仍旧昏暗"
-      },
-      {
-        "ja": "ニセモノ天の川",
-        "zh": "假的天河"
       }
     ],
     "points": [
@@ -2877,10 +2851,6 @@ export const songs = [
       {
         "ja": "明かりになったあなたの 心臓は点滅するかしら",
         "zh": "化作光明的你的那颗心脏，还在忽明忽暗地闪烁吗"
-      },
-      {
-        "ja": "明かりになったあなたの 心臓は赤く光るかしら",
-        "zh": "化作光明的你的那颗心脏，还泛着红色的光吗"
       }
     ],
     "points": [
@@ -2943,10 +2913,6 @@ export const songs = [
       {
         "ja": "逃げろ すぐに逃げろ 壊れてしまう前に",
         "zh": "逃跑吧，赶紧逃跑吧，在崩坏之前"
-      },
-      {
-        "ja": "誰にも届かぬメロディ 奈落の底で歌え",
-        "zh": "无法传达给任何人的旋律，在深渊的最深处歌唱"
       }
     ],
     "points": [
@@ -3008,10 +2974,6 @@ export const songs = [
       {
         "ja": "真っ白な鳥のように 日々生まれ変わる罪よ",
         "zh": "如同纯白的鸟儿，日复一日重生的罪啊"
-      },
-      {
-        "ja": "「永遠」の願いが今！ もう一度",
-        "zh": "「永远」的愿望，就在此刻！再一次"
       }
     ],
     "points": [
@@ -3069,10 +3031,6 @@ export const songs = [
       {
         "ja": "愛を知ってみたいんだ 少しだけ生きていたい",
         "zh": "真想体会什么是爱啊，稍微有点想继续活下去"
-      },
-      {
-        "ja": "ねぇ、変わらず雨降った 心に傘を差そう 濡れぬ様に",
-        "zh": "呐，雨还是一如既往地下着，在心里撑起伞吧，别让它淋湿"
       }
     ],
     "points": [
@@ -3131,10 +3089,6 @@ export const songs = [
       {
         "ja": "酷いよ 酷いよ、もういっそ僕の体を 壊して 引き裂いて 好きなようにしてよ",
         "zh": "太残酷了，太残酷了，干脆把我的身体破坏掉、撕裂开，随你喜欢地处置吧"
-      },
-      {
-        "ja": "少し微笑んで君が言う「それはね、ここにあるよ」",
-        "zh": "你微微一笑说：「那个啊，就在这里哦」"
       }
     ],
     "points": [
@@ -3196,10 +3150,6 @@ export const songs = [
       {
         "ja": "春風巡る 私の歌が誰かの風になる",
         "zh": "春风流转，我的歌会化作某人的风"
-      },
-      {
-        "ja": "誰かの風景を塗り替える それが嬉しかった",
-        "zh": "为某人的风景重新上色，那让我很高兴"
       }
     ],
     "points": [
@@ -3260,10 +3210,6 @@ export const songs = [
       {
         "ja": "走れ その歩幅で 走れ 声 轟かせてくれ",
         "zh": "奔跑吧，以你的步伐；奔跑吧，让声音轰鸣起来"
-      },
-      {
-        "ja": "期待と不安を同じくらい抱きしめて 君と今を紡ぐ未来照らして",
-        "zh": "将期待与不安同样地拥抱，照亮你与此刻编织出的未来"
       }
     ],
     "points": [
@@ -3325,10 +3271,6 @@ export const songs = [
       {
         "ja": "思い出して何、泣いてんだ 今 さよならに慣れてしまってんだ",
         "zh": "因回忆而落泪啊，此刻，已经习惯了告别"
-      },
-      {
-        "ja": "明日って何度言う？",
-        "zh": "「明天」到底说了多少次呢？"
       }
     ],
     "points": [
@@ -3386,10 +3328,6 @@ export const songs = [
       {
         "ja": "ゆらりゆらり揺れる水面に 僕は君の隣で いいの",
         "zh": "在微波荡漾的水面上，我可以站在你身边吗"
-      },
-      {
-        "ja": "君に好きって言えないな 景色は滲んでまた",
-        "zh": "我说不出喜欢你啊，景色又模糊了起来"
       }
     ],
     "points": [
@@ -3447,10 +3385,6 @@ export const songs = [
       {
         "ja": "言葉なんていらないって もっともっともっと（君は言った）",
         "zh": "「话语什么的不需要」——（你这样说着）越来越、越来越"
-      },
-      {
-        "ja": "それでもただ叫んでる ここはもう音がしない まだ温さが残る",
-        "zh": "即便如此仍在呐喊，这里已经不再有声音，却还残留着温度"
       }
     ],
     "points": [
@@ -3511,10 +3445,6 @@ export const songs = [
       {
         "ja": "気持ちロックしないといけないの？",
         "zh": "难道必须把心情锁起来才行吗？"
-      },
-      {
-        "ja": "「会いたい」が傷付く合図でも 強がったあと一人泣くのもう嫌なんだ",
-        "zh": "即使「想见你」是受伤的信号，逞强之后独自哭泣这种事，我已经受够了"
       }
     ],
     "points": [
@@ -3576,10 +3506,6 @@ export const songs = [
       {
         "ja": "夏が始まったばかりというのに、君はひどく震えていた。",
         "zh": "明明夏天才刚刚开始，你却剧烈地颤抖着。"
-      },
-      {
-        "ja": "「それじゃ僕も連れてって」",
-        "zh": "「那就把我也一起带走吧。」"
       }
     ],
     "points": [
@@ -3638,10 +3564,6 @@ export const songs = [
       {
         "ja": "満たされない、満たされない 満たされない、のは、フィーリング",
         "zh": "无法被满足，无法被满足，无法被满足的是这份感觉"
-      },
-      {
-        "ja": "愛されたい、愛されたい 愛されたいのは機密事項！",
-        "zh": "想要被爱，想要被爱，想要被爱这件事是机密事项！"
       }
     ],
     "points": [
@@ -3700,10 +3622,6 @@ export const songs = [
       {
         "ja": "それがメイドのオキテ きっとね綺麗が決め手",
         "zh": "那就是女仆的规矩，没错，美丽才是决胜点"
-      },
-      {
-        "ja": "タイムストッパー メイドのお出ましだ",
-        "zh": "Time Stopper，女仆登场"
       }
     ],
     "points": [
@@ -3764,10 +3682,6 @@ export const songs = [
       {
         "ja": "瞬け羽を広げ 気儘に飛べ どこまでもゆけ",
         "zh": "闪耀吧，展开翅膀，随心所欲地飞，去往任何地方"
-      },
-      {
-        "ja": "100年先も憶えてるかな 知らねえけれど さよーならまたいつか!",
-        "zh": "百年之后还会记得吗，虽然我不知道——再见，后会有期！"
       }
     ],
     "points": [
@@ -3825,10 +3739,6 @@ export const songs = [
       {
         "ja": "あー痛い キミに伝えたい キミにだけは伝えておきたい",
         "zh": "啊——好痛，我想告诉你，就只想告诉你"
-      },
-      {
-        "ja": "会いたいキミに会いたい 胸のこの辺がとても痛い",
-        "zh": "想见你，想要见到你，心口这一带隐隐作痛"
       }
     ],
     "points": [
@@ -3890,10 +3800,6 @@ export const songs = [
       {
         "ja": "こんな こんな こんな 私も生きていいの？ 世界",
         "zh": "这样的、这样的、这样的我，活着也可以吗？世界"
-      },
-      {
-        "ja": "ただ踊って 踊って 踊っていたい あなたとこの場所で 花びら散る前に",
-        "zh": "只是想起舞、起舞、一直起舞，和你在这里，在花瓣飘散之前"
       }
     ],
     "points": [
@@ -3951,10 +3857,6 @@ export const songs = [
       {
         "ja": "見ないフリしても 忘れようとしても とんがった痛みが いつまでもついてまわる",
         "zh": "即使装作没看见，即使想要忘记，尖锐的疼痛也总是如影随形"
-      },
-      {
-        "ja": "ちっちゃな私がさ あーあ あーあ あー繰り返す",
-        "zh": "小小的我啊，啊—啊—啊—，不断重复着"
       }
     ],
     "points": [
@@ -4010,10 +3912,6 @@ export const songs = [
       {
         "ja": "だけれど、どこまでいってもそれは君の、吸い上げた記号でできた物語",
         "zh": "但无论走到哪里，那都是你用吸来的符号拼成的故事"
-      },
-      {
-        "ja": "君の君による君のための詞書。",
-        "zh": "由你写就、为你而写的说明书。"
       }
     ],
     "points": [
@@ -4073,10 +3971,6 @@ export const songs = [
       {
         "ja": "じゃあねそして会えた時には 手を繋いで踊りましょ",
         "zh": "再见，等我们重逢的时候，牵着手跳舞吧"
-      },
-      {
-        "ja": "空っぽになる心の裏が チクリチクリ 痛いの明日も",
-        "zh": "变得空空如也的心的背面，明天也依旧隐隐作痛"
       }
     ],
     "points": [
@@ -4134,10 +4028,6 @@ export const songs = [
       {
         "ja": "僕が死のうと思ったのは 心が空っぽになったから",
         "zh": "我曾经想死，是因为心变得空空如也"
-      },
-      {
-        "ja": "満たされないと泣いているのは きっと満たされたいと願うから",
-        "zh": "哭着说无法满足，一定是因为渴望着被满足"
       }
     ],
     "points": [
@@ -4200,10 +4090,6 @@ export const songs = [
       {
         "ja": "ねえ。どうしようもなく好きなんでしょ？ 私の涙も見えないくらいに",
         "zh": "呐，你其实喜欢得无可救药吧？喜欢到看不见我的眼泪"
-      },
-      {
-        "ja": "狂おしいほど何度も叫んでいるのに 届かないから私といるの？ ずるいよ",
-        "zh": "明明无数次发狂般地呐喊，却因为传不到才和我在一起吗？真狡猾啊"
       }
     ],
     "points": [
@@ -4261,10 +4147,6 @@ export const songs = [
       {
         "ja": "正しくありたいと胸を焦がす されど知る あれない自分",
         "zh": "渴望着成为正确的人而心焦，却知晓无法成为的自己"
-      },
-      {
-        "ja": "それでもあなたの頬を落ちる シズクだけが僕の理由",
-        "zh": "即便如此，从你脸颊滑落的泪滴，才是我存在的理由"
       }
     ],
     "points": [
@@ -4321,10 +4203,6 @@ export const songs = [
       {
         "ja": "足が震えるほど 勇気を奮う事はもう 恥ずかしい事じゃないのに",
         "zh": "即使害怕到双腿发抖，鼓起勇气这件事，明明早已不再丢人"
-      },
-      {
-        "ja": "描く未来 広がる世界 約束の花は散れども 僕らはきっと 大丈夫だよ",
-        "zh": "描绘的未来、展开的世界，约定的花即使凋零，我们也一定会没事的"
       }
     ],
     "points": [
@@ -4381,10 +4259,6 @@ export const songs = [
       {
         "ja": "あの日のキスがずっと アタマとココロうめつくして 身動きなんて とれない",
         "zh": "那天的吻一直填满身心，让人动弹不得"
-      },
-      {
-        "ja": "キミの全てがもっと 私の中を染めてく",
-        "zh": "你的所有一切，逐渐沾染我的内心"
       }
     ],
     "points": [
@@ -4442,10 +4316,6 @@ export const songs = [
       {
         "ja": "Hey ジーザス 勇敢に満ちた声で 可憐に響いたトゲで",
         "zh": "嘿，神明啊，用满怀勇气的声音、可怜回响的尖刺"
-      },
-      {
-        "ja": "夕立の後に rainbow 「君らしく」でいいんじゃないの",
-        "zh": "阵雨过后是彩虹，「做你自己」不就好了吗"
       }
     ],
     "points": [
@@ -4508,10 +4378,6 @@ export const songs = [
       {
         "ja": "Parachute you can't save me, so I will do",
         "zh": "降落伞，你救不了我，所以我自己来"
-      },
-      {
-        "ja": "堕ちていってもかまわない あなたがいれば it'll all be fine",
-        "zh": "坠落下去也没关系，只要有你在，一切都会好"
       }
     ],
     "points": [
@@ -4570,10 +4436,6 @@ export const songs = [
       {
         "ja": "巫女だの 魔女だの お呼びじゃございません",
         "zh": "什么巫女啊魔女啊，本小姐可不吃那一套"
-      },
-      {
-        "ja": "あたいが砂浜クイーンのクラピーちゃん！",
-        "zh": "本小姐可是沙滩女王的克拉比酱！"
       }
     ],
     "points": [
@@ -4630,10 +4492,6 @@ export const songs = [
       {
         "ja": "ずっと迷い続けた僕に君はそっと 小さな魔法をくれた",
         "zh": "你对一直迷茫的我，悄悄施展了一个小小的魔法"
-      },
-      {
-        "ja": "降り注いだその光が焼きついていく いつになってもきっと消えはしないだろう",
-        "zh": "洒落的光芒铭刻于心，无论何时都一定不会消失吧"
       }
     ],
     "points": [
@@ -4695,10 +4553,6 @@ export const songs = [
       {
         "ja": "終わらない まだ終わらない この意味のない 存在証明が",
         "zh": "不会结束，还没有结束，这毫无意义的存在证明"
-      },
-      {
-        "ja": "眠りたい もう眠りたい infinity life 君を遺して",
-        "zh": "好想睡，已经好想睡了，无限的人生，把你留在原地"
       }
     ],
     "points": [
@@ -4757,10 +4611,6 @@ export const songs = [
       {
         "ja": "夏を満喫している魚は 麦わら帽を被っている",
         "zh": "享受夏日的鱼，戴着草帽"
-      },
-      {
-        "ja": "何にもしてない時の魚は 何にも被っていない そういう時もある",
-        "zh": "什么都不做的鱼，便什么都不戴——也有那样的时候"
       }
     ],
     "points": [
@@ -4818,10 +4668,6 @@ export const songs = [
       {
         "ja": "何もいない水の中 届きやしない光など",
         "zh": "在空无一物的水中，无法到达的光之类"
-      },
-      {
-        "ja": "暗い海の底で 朝を待つと決めたの",
-        "zh": "在黑暗的海底，决定等待黎明"
       }
     ],
     "points": [
@@ -4878,10 +4724,6 @@ export const songs = [
       {
         "ja": "流れる雲を眺め思い出す 季節に置いてきぼりな僕の心",
         "zh": "出神地望着流云，想起被遗落在季节里的我的心"
-      },
-      {
-        "ja": "深海に沈む船のように いつか忘れ去られてしまうのだ",
-        "zh": "像沉入深海的船，总有一天会被遗忘"
       }
     ],
     "points": [
@@ -4938,10 +4780,6 @@ export const songs = [
       {
         "ja": "ころころと ころころと 作りましょう",
         "zh": "滚来滚去，滚来滚去，一起来做年糕吧"
-      },
-      {
-        "ja": "ゆであげて 出来上がり 月見団子",
-        "zh": "放进热水里，做好了，月见团子"
       }
     ],
     "points": [
@@ -4997,10 +4835,6 @@ export const songs = [
       {
         "ja": "水平の向こうに 私は逝くか？ 貴方はいるか？",
         "zh": "在水平线的另一头，我会离去吗？你在吗？"
-      },
-      {
-        "ja": "もしもこの命 明日を迎えられず 吹き消えるように 瞳を瞑るとき 貴方のそばに",
-        "zh": "如果这条命等不到明天，像被吹灭一般闭上眼的时候——想待在你身边"
       }
     ],
     "points": [
@@ -5058,10 +4892,6 @@ export const songs = [
       {
         "ja": "満月の下で 桜散る散る 情熱は満ちる",
         "zh": "满月之下，樱花纷纷飘散，热情却不断满溢"
-      },
-      {
-        "ja": "その優しさは 私を悲しくさせるだけです",
-        "zh": "那份温柔，只会让我更加悲伤"
       }
     ],
     "points": [
@@ -5094,6 +4924,2391 @@ export const songs = [
       {
         "label": "UtaTen（歌词页）",
         "url": "https://utaten.com/lyric/hw21113018/"
+      }
+    ]
+  },
+  {
+    "id": "gousei-suru-mirai",
+    "title": "合成するミライ",
+    "romajiTitle": "Gousei Suru Mirai",
+    "artist": "初音ミク",
+    "producer": "阿修（作詞・作曲）",
+    "year": 2024,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "世界の秘密を一つ暴くように",
+        "zh": "仿佛要揭开世界的一个秘密"
+      },
+      {
+        "ja": "未来へ繋ぐ",
+        "zh": "连接向未来"
+      }
+    ],
+    "points": [
+      {
+        "ja": "秘密を暴く",
+        "zh": "揭开秘密",
+        "note": "「暴く」表示揭露隐藏的事实。",
+        "wordId": "sekai"
+      },
+      {
+        "ja": "未来へ繋ぐ",
+        "zh": "连接向未来",
+        "note": "「へ」标示方向；「繋ぐ」是连接。",
+        "wordId": "mirai"
+      }
+    ],
+    "words": [
+      "sekai",
+      "mirai"
+    ],
+    "sourceNo": 2,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/60449.html"
+      }
+    ]
+  },
+  {
+    "id": "shinkuu-toshi",
+    "title": "真空都市",
+    "romajiTitle": "Shinkuu Toshi",
+    "artist": "ナナツカゼ",
+    "producer": "ナナツカゼ（作詞・作曲）",
+    "year": 2025,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "此処は真空都市",
+        "zh": "这里是真空都市"
+      },
+      {
+        "ja": "また創造していくんだ",
+        "zh": "还要继续创造下去"
+      }
+    ],
+    "points": [
+      {
+        "ja": "此処は",
+        "zh": "这里是",
+        "note": "「此処」是「ここ」的汉字写法。",
+        "wordId": "machi"
+      },
+      {
+        "ja": "〜ていく",
+        "zh": "继续向前…",
+        "note": "表示动作从现在向未来延续。",
+        "wordId": "mirai"
+      }
+    ],
+    "words": [
+      "machi",
+      "mirai"
+    ],
+    "sourceNo": 9,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "TuneCore Japan（官方歌词页）",
+        "url": "https://linkco.re/ZtCDfQ0D/songs/4024424/lyrics?lang=ja"
+      }
+    ]
+  },
+  {
+    "id": "lando",
+    "title": "L∧NNDØ",
+    "romajiTitle": "Lando",
+    "artist": "sasalasa / sasakure.UK / lasah",
+    "producer": "lasah（作詞）・sasakure.UK（作曲）",
+    "year": 2022,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "遠い昔に憧れたお伽話は",
+        "zh": "很久以前所憧憬的童话"
+      },
+      {
+        "ja": "君だけ「本当」だった",
+        "zh": "只有你是真实的"
+      }
+    ],
+    "points": [
+      {
+        "ja": "遠い昔",
+        "zh": "遥远的过去",
+        "note": "时间表达，「昔」指从前。",
+        "wordId": "kinou"
+      },
+      {
+        "ja": "君だけ",
+        "zh": "只有你",
+        "note": "「だけ」表示限定。",
+        "wordId": "tomodachi"
+      }
+    ],
+    "words": [
+      "kinou",
+      "tomodachi"
+    ],
+    "sourceNo": 26,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "TuneCore Japan / PetitLyrics",
+        "url": "https://petitlyrics.com/lyrics/3098536"
+      }
+    ]
+  },
+  {
+    "id": "natsu-ni-toumei",
+    "title": "夏に透明",
+    "romajiTitle": "Natsu ni Toumei",
+    "artist": "初音ミク",
+    "producer": "Twinfield（作詞・作曲）",
+    "year": 2025,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "自転車をこいで",
+        "zh": "骑着自行车"
+      },
+      {
+        "ja": "鈴の音で気づいてほしいよ",
+        "zh": "希望你能听见铃声注意到我"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜てほしい",
+        "zh": "希望别人做…",
+        "note": "表达希望对方采取某个动作。",
+        "wordId": "kiku"
+      },
+      {
+        "ja": "気づく",
+        "zh": "注意到",
+        "note": "常与助词「に」搭配表示注意到对象。",
+        "wordId": "miru"
+      }
+    ],
+    "words": [
+      "kiku",
+      "miru",
+      "natsu"
+    ],
+    "sourceNo": 52,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "萌娘百科（歌词与作品信息）",
+        "url": "https://moegirl.icu/%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%E8%99%9A%E6%8B%9F%E6%AD%8C%E6%89%8B%E6%BC%94%E5%94%B1%E6%AD%8C%E6%9B%B2/%E5%8E%9F%E5%88%9B%E6%AD%8C%E6%9B%B23"
+      }
+    ]
+  },
+  {
+    "id": "colorcode-f",
+    "title": "ColorCode-F",
+    "romajiTitle": "ColorCode-F",
+    "artist": "PIKASONIC feat. Felt",
+    "producer": "PIKASONIC（作曲）・Felt（作詞）",
+    "year": 2021,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "君の夢はどんな色をしているのでしょう",
+        "zh": "你的梦想会是什么颜色"
+      },
+      {
+        "ja": "君だけの色がある",
+        "zh": "你有只属于自己的颜色"
+      }
+    ],
+    "points": [
+      {
+        "ja": "どんな色",
+        "zh": "什么样的颜色",
+        "note": "「どんな＋名词」询问性质或种类。",
+        "wordId": "ao"
+      },
+      {
+        "ja": "君だけの",
+        "zh": "只属于你的",
+        "note": "「だけ」限定范围。",
+        "wordId": "jibun"
+      }
+    ],
+    "words": [
+      "yume",
+      "jibun"
+    ],
+    "sourceNo": 60,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "Shazam（歌词与作品信息）",
+        "url": "https://www.shazam.com/en-us/song/1587316998/colorcode-f-feat-felt"
+      }
+    ]
+  },
+  {
+    "id": "mu-tachiiri-kinshi",
+    "title": "無",
+    "romajiTitle": "Mu",
+    "artist": "歌愛ユキ / 詩岸",
+    "producer": "立入禁止（作詞・作曲）",
+    "year": 2023,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "僕らの居場所はどこなんだ",
+        "zh": "我们的归处究竟在哪里"
+      },
+      {
+        "ja": "空っぽな僕の体",
+        "zh": "我这空荡荡的身体"
+      }
+    ],
+    "points": [
+      {
+        "ja": "どこなんだ",
+        "zh": "到底在哪里",
+        "note": "「んだ」带解释或追问语气。"
+      },
+      {
+        "ja": "空っぽ",
+        "zh": "空无一物",
+        "note": "名词、形容动词式用法，形容内部空空。",
+        "wordId": "jibun"
+      }
+    ],
+    "words": [
+      "jibun",
+      "kokoro"
+    ],
+    "sourceNo": 68,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "作者 YouTube 投稿（歌词）",
+        "url": "https://www.youtube.com/watch?v=SOznQVt6hR0"
+      }
+    ]
+  },
+  {
+    "id": "aristolast",
+    "title": "アリストラスト",
+    "romajiTitle": "Aristolast",
+    "artist": "初音ミク",
+    "producer": "n-buna（作詞・作曲）",
+    "year": 2012,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "君に届きはしない唄",
+        "zh": "无法传达到你那里的歌"
+      },
+      {
+        "ja": "僕が作った愛の言葉",
+        "zh": "由我写下的爱之言语"
+      }
+    ],
+    "points": [
+      {
+        "ja": "届きはしない",
+        "zh": "绝对传达不到",
+        "note": "「は」插入否定句可加强对比和强调。",
+        "wordId": "uta"
+      },
+      {
+        "ja": "愛の言葉",
+        "zh": "爱的话语",
+        "note": "「AのB」表示所属或性质。",
+        "wordId": "koi"
+      }
+    ],
+    "words": [
+      "uta",
+      "koi"
+    ],
+    "sourceNo": 71,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "PetitLyrics",
+        "url": "https://petitlyrics.com/lyrics/1194709"
+      }
+    ]
+  },
+  {
+    "id": "shinitakatta-kyou",
+    "title": "私が死にたかった今日は誰かが生きたかった明日らしい",
+    "romajiTitle": "Watashi ga Shinitakatta Kyou wa Dareka ga Ikitakatta Ashita Rashii",
+    "artist": "はるな。feat. 海恋",
+    "producer": "はるな。（作詞・作曲）",
+    "year": 2025,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "私が死にたかった今日",
+        "zh": "我曾想死去的今天"
+      },
+      {
+        "ja": "誰かが生きたかった明日らしい",
+        "zh": "似乎是某人想活到的明天"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜たかった",
+        "zh": "曾经想要…",
+        "note": "愿望助动词「たい」的过去式。",
+        "wordId": "kinou"
+      },
+      {
+        "ja": "〜らしい",
+        "zh": "好像；听说",
+        "note": "表示根据线索作出的判断。",
+        "wordId": "ashita"
+      }
+    ],
+    "words": [
+      "kinou",
+      "ashita",
+      "inochi"
+    ],
+    "sourceNo": 109,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "PetitLyrics",
+        "url": "https://petitlyrics.com/lyrics/3828970"
+      }
+    ]
+  },
+  {
+    "id": "overkill-nazoj",
+    "title": "オーバーキル！",
+    "romajiTitle": "Overkill!",
+    "artist": "鏡音リン",
+    "producer": "謎J（作詞・作曲）",
+    "year": 2023,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "暗い棺の中眠ってました",
+        "zh": "曾睡在黑暗的棺材里"
+      },
+      {
+        "ja": "もう反省してるの",
+        "zh": "我已经在反省了"
+      }
+    ],
+    "points": [
+      {
+        "ja": "眠ってました",
+        "zh": "曾经睡着",
+        "note": "「眠っていました」的口语缩略。",
+        "wordId": "nemuru"
+      },
+      {
+        "ja": "もう〜てる",
+        "zh": "已经在…",
+        "note": "「〜ている」口语中常缩为「〜てる」。",
+        "wordId": "ima"
+      }
+    ],
+    "words": [
+      "nemuru",
+      "ima"
+    ],
+    "sourceNo": 113,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/59888.html"
+      }
+    ]
+  },
+  {
+    "id": "split-danzi",
+    "title": "SPLIT",
+    "romajiTitle": "Split",
+    "artist": "重音テトSV / 初音ミク",
+    "producer": "DANZI（作詞・作曲）",
+    "year": 2025,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "君の臆病が僕を生み出した",
+        "zh": "你的怯懦创造了我"
+      },
+      {
+        "ja": "君の勇気が僕を否定した",
+        "zh": "你的勇气否定了我"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜が僕を",
+        "zh": "…把我…",
+        "note": "「が」标主语，「を」标动作对象。",
+        "wordId": "jibun"
+      },
+      {
+        "ja": "生み出す",
+        "zh": "创造；产生",
+        "note": "由「生む」与「出す」组成的复合动词。",
+        "wordId": "inochi"
+      }
+    ],
+    "words": [
+      "jibun",
+      "inochi"
+    ],
+    "sourceNo": 115,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "作者 YouTube 投稿（歌词）",
+        "url": "https://www.youtube.com/watch?v=Fo5Tje4wYg8"
+      }
+    ]
+  },
+  {
+    "id": "toka-no-hana",
+    "title": "十夏の花",
+    "romajiTitle": "Toka no Hana",
+    "artist": "HoneyComeBear",
+    "producer": "Kaako（作詞）・Kaako / Monkey（作曲）",
+    "year": 2021,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "遠い祭囃子を風が運んだ",
+        "zh": "风送来了远处的祭典乐声"
+      },
+      {
+        "ja": "君は夏そのものだ",
+        "zh": "你就是夏天本身"
+      }
+    ],
+    "points": [
+      {
+        "ja": "風が運んだ",
+        "zh": "风送来了",
+        "note": "自然现象作主语时也使用「が」。",
+        "wordId": "kaze"
+      },
+      {
+        "ja": "そのもの",
+        "zh": "本身；本体",
+        "note": "强调完全就是前述事物。",
+        "wordId": "natsu"
+      }
+    ],
+    "words": [
+      "kaze",
+      "natsu"
+    ],
+    "sourceNo": 135,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "PetitLyrics",
+        "url": "https://petitlyrics.com/lyrics/3025552"
+      }
+    ]
+  },
+  {
+    "id": "sugiyuku-hi-to-kimi-e",
+    "title": "過ぎゆく日と君へ",
+    "romajiTitle": "Sugiyuku Hi to Kimi e",
+    "artist": "Aiobahn feat. nayuta",
+    "producer": "Aiobahn",
+    "year": 2018,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "何気ない言葉が未来を紡ぐ",
+        "zh": "平常的话语编织着未来"
+      },
+      {
+        "ja": "涙は似合わない",
+        "zh": "眼泪并不适合你"
+      }
+    ],
+    "points": [
+      {
+        "ja": "何気ない",
+        "zh": "不经意的；平常的",
+        "note": "常用来形容日常中看似普通的事物。",
+        "wordId": "mainichi"
+      },
+      {
+        "ja": "未来を紡ぐ",
+        "zh": "编织未来",
+        "note": "「紡ぐ」原指纺线，也常用于抽象事物。",
+        "wordId": "mirai"
+      }
+    ],
+    "words": [
+      "mainichi",
+      "mirai"
+    ],
+    "sourceNo": 140,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "作者官方 YouTube 投稿（歌词）",
+        "url": "https://www.youtube.com/watch?v=n5Jv-FFhfDU"
+      }
+    ]
+  },
+  {
+    "id": "teien-nite",
+    "title": "庭園にて。",
+    "romajiTitle": "Teien nite",
+    "artist": "GUMI / 初音ミク / 巡音ルカ",
+    "producer": "acane_madder（作詞・作曲）",
+    "year": 2011,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "言葉はいらない",
+        "zh": "不需要言语"
+      },
+      {
+        "ja": "歌うよライライライライ",
+        "zh": "唱吧，啦依啦依啦依啦依"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜はいらない",
+        "zh": "不需要…",
+        "note": "「要る」的否定形表示不需要。",
+        "wordId": "hanasu"
+      },
+      {
+        "ja": "歌うよ",
+        "zh": "要唱哦",
+        "note": "句尾「よ」用于告知或强调。",
+        "wordId": "utau"
+      }
+    ],
+    "words": [
+      "hanasu",
+      "utau"
+    ],
+    "sourceNo": 142,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "VOCALOID 中文歌词 Wiki",
+        "url": "https://w.atwiki.jp/vocaloidchly/pages/4774.html"
+      }
+    ]
+  },
+  {
+    "id": "tenkyuu-no-musica",
+    "title": "天球のMúsica",
+    "romajiTitle": "Tenkyuu no Musica",
+    "artist": "Ave Mujica",
+    "producer": "Diggy-MO'（作詞）",
+    "year": 2025,
+    "project": "动漫歌曲",
+    "excerpt": [
+      {
+        "ja": "ゆこう 明日へと",
+        "zh": "走吧，向着明天"
+      },
+      {
+        "ja": "鮮やかな夜明けとともに",
+        "zh": "伴随着鲜明的黎明"
+      }
+    ],
+    "points": [
+      {
+        "ja": "明日へと",
+        "zh": "向着明天",
+        "note": "「へと」比单独「へ」更强调方向。",
+        "wordId": "ashita"
+      },
+      {
+        "ja": "〜とともに",
+        "zh": "伴随着…",
+        "note": "表示两件事物或变化同时发生。",
+        "wordId": "asahi"
+      }
+    ],
+    "words": [
+      "ashita",
+      "asahi"
+    ],
+    "sourceNo": 144,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "J-Lyric",
+        "url": "https://j-lyric.net/artist/a0651f8/l064740.html"
+      }
+    ]
+  },
+  {
+    "id": "shidarezakura-anna",
+    "title": "枝垂桜",
+    "romajiTitle": "Shidarezakura",
+    "artist": "Anna",
+    "producer": "Anna（作詞・作曲）",
+    "year": 2021,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "桜の花が咲いていた",
+        "zh": "樱花开了"
+      },
+      {
+        "ja": "今、新しい春を待つ",
+        "zh": "现在等待新的春天"
+      }
+    ],
+    "points": [
+      {
+        "ja": "咲いていた",
+        "zh": "曾经开着",
+        "note": "「〜ていた」表示过去持续的状态。",
+        "wordId": "hana"
+      },
+      {
+        "ja": "春を待つ",
+        "zh": "等待春天",
+        "note": "「待つ」的对象用「を」标记。",
+        "wordId": "atarashii"
+      }
+    ],
+    "words": [
+      "hana",
+      "atarashii"
+    ],
+    "sourceNo": 149,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/302253/"
+      }
+    ]
+  },
+  {
+    "id": "muyuu-tayori",
+    "title": "夢遊",
+    "romajiTitle": "Muyuu",
+    "artist": "tayori",
+    "producer": "raku（作詞・作曲）",
+    "year": 2024,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "この夢が覚めたら",
+        "zh": "如果从这场梦中醒来"
+      },
+      {
+        "ja": "月明りが照らしている",
+        "zh": "月光正照耀着"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜たら",
+        "zh": "如果…；当…之后",
+        "note": "接过去形构成条件表达。",
+        "wordId": "yume"
+      },
+      {
+        "ja": "照らしている",
+        "zh": "正照耀着",
+        "note": "「〜ている」表示持续状态。",
+        "wordId": "tsuki"
+      }
+    ],
+    "words": [
+      "yume",
+      "tsuki"
+    ],
+    "sourceNo": 155,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "JOOX（歌词页）",
+        "url": "https://www.joox.com/hk/single/GCap7dIKk4ilmRsSaCR9XQ%3D%3D"
+      }
+    ]
+  },
+  {
+    "id": "hachigatsu-no-hotaru",
+    "title": "八月の蛍",
+    "romajiTitle": "Hachigatsu no Hotaru",
+    "artist": "HACHI",
+    "producer": "海野水玉（作詞・作曲）",
+    "year": 2021,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "花火の音を遠くで聴いた",
+        "zh": "在远方听见了烟花声"
+      },
+      {
+        "ja": "僕は八月の蛍火",
+        "zh": "我是八月的萤火"
+      }
+    ],
+    "points": [
+      {
+        "ja": "遠くで聴いた",
+        "zh": "在远处听见了",
+        "note": "「で」标示动作发生的地点。",
+        "wordId": "kiku"
+      },
+      {
+        "ja": "蛍火",
+        "zh": "萤火",
+        "note": "「蛍」是萤火虫，「火」描写其光。",
+        "wordId": "hikari"
+      }
+    ],
+    "words": [
+      "kiku",
+      "hikari",
+      "natsu"
+    ],
+    "sourceNo": 158,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "PetitLyrics",
+        "url": "https://petitlyrics.com/lyrics/3034043"
+      }
+    ]
+  },
+  {
+    "id": "rainy-proof",
+    "title": "Rainy proof",
+    "romajiTitle": "Rainy proof",
+    "artist": "HACHI",
+    "producer": "海野水玉（作詞・作曲）",
+    "year": 2020,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "涙が止まるまで",
+        "zh": "直到泪水停止"
+      },
+      {
+        "ja": "雨音が強くなる",
+        "zh": "雨声越来越响"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜まで",
+        "zh": "直到…为止",
+        "note": "标示动作或状态持续的终点。",
+        "wordId": "naku"
+      },
+      {
+        "ja": "強くなる",
+        "zh": "变强；变响",
+        "note": "形容词去「い」加「くなる」表示变化。",
+        "wordId": "ame"
+      }
+    ],
+    "words": [
+      "naku",
+      "ame"
+    ],
+    "sourceNo": 163,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "Cifra Club（歌词）",
+        "url": "https://www.cifraclub.com/hachi/rainy-proof/letra/"
+      }
+    ]
+  },
+  {
+    "id": "suisei-orangestar",
+    "title": "水星",
+    "romajiTitle": "Suisei",
+    "artist": "Orangestar feat. IA",
+    "producer": "Orangestar（作詞・作曲）",
+    "year": 2017,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "はらはら 波の音",
+        "zh": "簌簌的浪声"
+      },
+      {
+        "ja": "君が居ない物語で",
+        "zh": "在没有你的故事里"
+      }
+    ],
+    "points": [
+      {
+        "ja": "はらはら",
+        "zh": "簌簌；纷纷",
+        "note": "拟态词，可描写轻物飘落或不安。",
+        "wordId": "umi"
+      },
+      {
+        "ja": "君が居ない",
+        "zh": "你不在",
+        "note": "存在动词「居る」的否定形。",
+        "wordId": "tomodachi"
+      }
+    ],
+    "words": [
+      "umi",
+      "tomodachi"
+    ],
+    "sourceNo": 172,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/222354/"
+      }
+    ]
+  },
+  {
+    "id": "kaitou-mimi",
+    "title": "解答",
+    "romajiTitle": "Kaitou",
+    "artist": "MIMI feat. わん子",
+    "producer": "MIMI（作詞・作曲）",
+    "year": 2024,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "今日だって不正解だ",
+        "zh": "今天也仍是不正确答案"
+      },
+      {
+        "ja": "模範解答少しだけ教えて",
+        "zh": "请稍微告诉我标准答案"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜だって",
+        "zh": "即使…也；就连…",
+        "note": "此处强调“今天也是如此”。",
+        "wordId": "kyou"
+      },
+      {
+        "ja": "少しだけ",
+        "zh": "只要一点点",
+        "note": "「だけ」限制数量。",
+        "wordId": "sukoshi"
+      }
+    ],
+    "words": [
+      "kyou",
+      "sukoshi"
+    ],
+    "sourceNo": 184,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "作者官方 YouTube 投稿（歌词）",
+        "url": "https://www.youtube.com/watch?v=ZiUwbmrMiAY"
+      }
+    ]
+  },
+  {
+    "id": "prism-cube",
+    "title": "プリズムキューブ",
+    "romajiTitle": "Prism Cube",
+    "artist": "初音ミク",
+    "producer": "wowaka（作詞・作曲）",
+    "year": 2011,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "暗い世界から",
+        "zh": "从黑暗的世界"
+      },
+      {
+        "ja": "僕に「泣いて」って言うんだ",
+        "zh": "对我说“哭吧”"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜から",
+        "zh": "从…",
+        "note": "这里表示空间上的起点。",
+        "wordId": "sekai"
+      },
+      {
+        "ja": "〜って言う",
+        "zh": "说…",
+        "note": "「って」是引用助词「と」的口语形式。",
+        "wordId": "naku"
+      }
+    ],
+    "words": [
+      "sekai",
+      "naku"
+    ],
+    "sourceNo": 186,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "Vocaloid Lyrics Wiki",
+        "url": "https://vocaloidlyrics.fandom.com/wiki/%E3%83%97%E3%83%AA%E3%82%BA%E3%83%A0%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96_(Prism_Cube)"
+      }
+    ]
+  },
+  {
+    "id": "aimaisa-kaihi",
+    "title": "曖昧さ回避",
+    "romajiTitle": "Aimaisa Kaihi",
+    "artist": "闇音レンリ",
+    "producer": "ポリスピカデリー（作詞・作曲）",
+    "year": 2017,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "気持ちを掻き出して欲しい",
+        "zh": "希望你把这份心情挖出来"
+      },
+      {
+        "ja": "君のそばじゃないと意味が無いよ",
+        "zh": "不在你身边就没有意义"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜て欲しい",
+        "zh": "希望你…",
+        "note": "对他人的动作表达愿望。",
+        "wordId": "kokoro"
+      },
+      {
+        "ja": "〜じゃないと",
+        "zh": "如果不是…就…",
+        "note": "口语条件表达，后接不理想结果。",
+        "wordId": "tomodachi"
+      }
+    ],
+    "words": [
+      "kokoro",
+      "tomodachi"
+    ],
+    "sourceNo": 191,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "UtaTen",
+        "url": "https://utaten.com/lyric/xc17112202/"
+      }
+    ]
+  },
+  {
+    "id": "indoor-kei-trackmaker",
+    "title": "インドア系ならトラックメイカー",
+    "romajiTitle": "Indoor Kei Nara Trackmaker",
+    "artist": "Yunomi feat. nicamoq",
+    "producer": "Yunomi / nicamoq（作詞・作曲）",
+    "year": 2018,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "マイハウス is 段ボール",
+        "zh": "我的房子是纸箱"
+      },
+      {
+        "ja": "納期は明日だ 絶対徹夜",
+        "zh": "交期是明天，绝对要通宵"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜なら",
+        "zh": "如果是…的话",
+        "note": "提示前提或话题。",
+        "wordId": "ie"
+      },
+      {
+        "ja": "明日だ",
+        "zh": "是明天",
+        "note": "名词句的简体断定。",
+        "wordId": "ashita"
+      }
+    ],
+    "words": [
+      "ie",
+      "ashita"
+    ],
+    "sourceNo": 193,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/327064/"
+      }
+    ]
+  },
+  {
+    "id": "bokura-no-tsuzuki",
+    "title": "僕らのつづき",
+    "romajiTitle": "Bokura no Tsuzuki",
+    "artist": "初音ミクAppend",
+    "producer": "じょん（作詞・作曲）",
+    "year": 2011,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "涙はまだ果てを知らないで",
+        "zh": "泪水还不知道尽头"
+      },
+      {
+        "ja": "忘れないで 夢を",
+        "zh": "请不要忘记梦想"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜ないで",
+        "zh": "请不要…",
+        "note": "动词否定形加「で」构成请求。",
+        "wordId": "yume"
+      },
+      {
+        "ja": "果てを知らない",
+        "zh": "不知道尽头",
+        "note": "「果て」表示终点或极限。",
+        "wordId": "naku"
+      }
+    ],
+    "words": [
+      "yume",
+      "naku"
+    ],
+    "sourceNo": 195,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/19794.html"
+      }
+    ]
+  },
+  {
+    "id": "shironeko-kaizokusen",
+    "title": "白猫海賊船",
+    "romajiTitle": "Shironeko Kaizokusen",
+    "artist": "Yunomi feat. 日南結里",
+    "producer": "Yunomi（作曲）",
+    "year": 2019,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "群青色の空",
+        "zh": "群青色的天空"
+      },
+      {
+        "ja": "追い風に白い帆を上げよう",
+        "zh": "迎着顺风扬起白帆吧"
+      }
+    ],
+    "points": [
+      {
+        "ja": "群青色",
+        "zh": "群青色",
+        "note": "深而鲜明的蓝色。",
+        "wordId": "ao"
+      },
+      {
+        "ja": "〜よう",
+        "zh": "来…吧",
+        "note": "动词意志形可用于提议。",
+        "wordId": "umi"
+      }
+    ],
+    "words": [
+      "ao",
+      "umi"
+    ],
+    "sourceNo": 201,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "Lyrhub（歌词）",
+        "url": "https://lyrhub.com/track/Yunomi-feat-%E6%97%A5%E5%8D%97%E7%B5%90%E9%87%8C/%E7%99%BD%E7%8C%AB%E6%B5%B7%E8%B3%8A%E8%88%B9"
+      }
+    ]
+  },
+  {
+    "id": "sakurairo-canvas",
+    "title": "桜色キャンバス",
+    "romajiTitle": "Sakurairo Canvas",
+    "artist": "IA / 初音ミク / 結月ゆかり",
+    "producer": "綿飴（作詞・作曲）",
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "桜の木の下 蕾を見つけた",
+        "zh": "在樱树下发现了花蕾"
+      },
+      {
+        "ja": "未来描いてた",
+        "zh": "曾描绘着未来"
+      }
+    ],
+    "points": [
+      {
+        "ja": "見つけた",
+        "zh": "发现了",
+        "note": "「見つける」的过去形。",
+        "wordId": "miru"
+      },
+      {
+        "ja": "描いてた",
+        "zh": "曾描绘着",
+        "note": "「描いていた」的口语缩略。",
+        "wordId": "mirai"
+      }
+    ],
+    "words": [
+      "miru",
+      "mirai",
+      "hana"
+    ],
+    "sourceNo": 204,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "JOYSOUND",
+        "url": "https://www.joysound.com/web/search/song/407772"
+      }
+    ]
+  },
+  {
+    "id": "ookami-to-shoujo",
+    "title": "オオカミと少女",
+    "romajiTitle": "Ookami to Shoujo",
+    "artist": "鎖那",
+    "producer": "鎖那（作詞）・TOKOTOKO（作曲）",
+    "year": 2017,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "雨粒のゆめ",
+        "zh": "雨滴的梦"
+      },
+      {
+        "ja": "ぼくは愚かな獣だ",
+        "zh": "我是愚蠢的野兽"
+      }
+    ],
+    "points": [
+      {
+        "ja": "雨粒",
+        "zh": "雨滴",
+        "note": "「雨」与「粒」组成的复合名词。",
+        "wordId": "ame"
+      },
+      {
+        "ja": "〜だ",
+        "zh": "是…",
+        "note": "名词和形容动词句的简体断定。",
+        "wordId": "jibun"
+      }
+    ],
+    "words": [
+      "ame",
+      "jibun"
+    ],
+    "sourceNo": 206,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "J-Lyric",
+        "url": "https://j-lyric.net/artist/a000000/l0431b8.html"
+      }
+    ]
+  },
+  {
+    "id": "tawagoto-speaker",
+    "title": "戯言スピーカー",
+    "romajiTitle": "Tawagoto Speaker",
+    "artist": "初音ミクAppend",
+    "producer": "ねこぼーろ（作詞・作曲）",
+    "year": 2011,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "詰め込んだ感情を",
+        "zh": "把塞进去的感情"
+      },
+      {
+        "ja": "君は知らないの 私の心を",
+        "zh": "你不知道我的心"
+      }
+    ],
+    "points": [
+      {
+        "ja": "詰め込む",
+        "zh": "塞入；装进",
+        "note": "由「詰める」和「込む」构成。",
+        "wordId": "kokoro"
+      },
+      {
+        "ja": "知らない",
+        "zh": "不知道",
+        "note": "「知る」的否定形不是「知っていない」。",
+        "wordId": "jibun"
+      }
+    ],
+    "words": [
+      "kokoro",
+      "jibun"
+    ],
+    "sourceNo": 214,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "UtaTen",
+        "url": "https://utaten.com/lyric/jb51209086/"
+      }
+    ]
+  },
+  {
+    "id": "odo-ado",
+    "title": "踊",
+    "romajiTitle": "Odo",
+    "artist": "Ado",
+    "producer": "DECO*27（作詞）・Giga / TeddyLoid（作曲）",
+    "year": 2021,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "半端なら K.O.",
+        "zh": "半吊子的话就出局"
+      },
+      {
+        "ja": "もっと頑張って",
+        "zh": "再努力一点"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜なら",
+        "zh": "如果是…",
+        "note": "提出假定条件。",
+        "wordId": "odoru"
+      },
+      {
+        "ja": "もっと",
+        "zh": "更加；再…一点",
+        "note": "表示程度进一步增加。",
+        "wordId": "totemo"
+      }
+    ],
+    "words": [
+      "odoru",
+      "totemo"
+    ],
+    "sourceNo": 221,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/301298/"
+      }
+    ]
+  },
+  {
+    "id": "hai-yorokonde",
+    "title": "はいよろこんで",
+    "romajiTitle": "Hai Yorokonde",
+    "artist": "こっちのけんと",
+    "producer": "こっちのけんと（作詞・作曲）",
+    "year": 2024,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "はい 喜んで",
+        "zh": "好的，乐意效劳"
+      },
+      {
+        "ja": "あなた方のため",
+        "zh": "为了各位"
+      }
+    ],
+    "points": [
+      {
+        "ja": "喜んで",
+        "zh": "乐意地；欣然",
+        "note": "来自「喜ぶ」的て形，常作固定应答。",
+        "wordId": "ureshii"
+      },
+      {
+        "ja": "〜のため",
+        "zh": "为了…",
+        "note": "表示目的或受益对象。",
+        "wordId": "tomodachi"
+      }
+    ],
+    "words": [
+      "ureshii",
+      "tomodachi"
+    ],
+    "sourceNo": 236,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "官方 MV",
+        "url": "https://www.youtube.com/watch?v=jzi6RNVEOtA"
+      }
+    ]
+  },
+  {
+    "id": "ringing-bloom",
+    "title": "Ringing Bloom",
+    "romajiTitle": "Ringing Bloom",
+    "artist": "Roselia",
+    "producer": "織田あすか（作詞）・藤永龍太郎（作曲）",
+    "year": 2019,
+    "project": "动漫歌曲",
+    "excerpt": [
+      {
+        "ja": "私を動かすのは この居場所",
+        "zh": "推动我前进的是这个归处"
+      },
+      {
+        "ja": "未来への道を照らす",
+        "zh": "照亮通往未来的道路"
+      }
+    ],
+    "points": [
+      {
+        "ja": "私を動かす",
+        "zh": "推动我",
+        "note": "使役意义的他动词表达。",
+        "wordId": "jibun"
+      },
+      {
+        "ja": "未来への道",
+        "zh": "通往未来的路",
+        "note": "「へ」与「の」组合修饰名词。",
+        "wordId": "mirai"
+      }
+    ],
+    "words": [
+      "jibun",
+      "mirai"
+    ],
+    "sourceNo": 105,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/270944/"
+      }
+    ]
+  },
+  {
+    "id": "dango-daikazoku",
+    "title": "だんご大家族",
+    "romajiTitle": "Dango Daikazoku",
+    "artist": "茶太",
+    "producer": "麻枝准（作詞・作曲）",
+    "year": 2007,
+    "project": "动漫歌曲",
+    "excerpt": [
+      {
+        "ja": "みんなあわせて百人家族",
+        "zh": "大家合在一起就是百人家族"
+      },
+      {
+        "ja": "大きなまるい輪になるよ",
+        "zh": "会围成一个大大的圆圈"
+      }
+    ],
+    "points": [
+      {
+        "ja": "みんなあわせて",
+        "zh": "大家合在一起",
+        "note": "「あわせて」表示合并或合计。",
+        "wordId": "hyaku"
+      },
+      {
+        "ja": "〜になる",
+        "zh": "变成…",
+        "note": "表示状态或身份变化。",
+        "wordId": "dango"
+      }
+    ],
+    "words": [
+      "hyaku",
+      "dango"
+    ],
+    "sourceNo": 233,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/58613/"
+      }
+    ]
+  },
+  {
+    "id": "tsugihagi-staccato",
+    "title": "ツギハギスタッカート",
+    "romajiTitle": "Tsugihagi Staccato",
+    "artist": "初音ミク",
+    "producer": "とあ（作詞・作曲）",
+    "year": 2014,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "君との時間も",
+        "zh": "与你一起的时间"
+      },
+      {
+        "ja": "そろそろ終わりにしよう",
+        "zh": "差不多该让它结束了"
+      }
+    ],
+    "points": [
+      {
+        "ja": "そろそろ",
+        "zh": "差不多该…",
+        "note": "表示某个时机即将到来。",
+        "wordId": "ima"
+      },
+      {
+        "ja": "〜にしよう",
+        "zh": "就决定为…吧",
+        "note": "「する」意志形表示决定或提议。",
+        "wordId": "tomodachi"
+      }
+    ],
+    "words": [
+      "ima",
+      "tomodachi"
+    ],
+    "sourceNo": 262,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/29529.html"
+      }
+    ]
+  },
+  {
+    "id": "one-hundredth-ai",
+    "title": "1/100のアイ",
+    "romajiTitle": "Hyaku-bun no Ichi no Ai",
+    "artist": "初音ミク",
+    "producer": "すりぃ（作詞・作曲）",
+    "year": 2018,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "1mmの愛を思い出が10倍に",
+        "zh": "一毫米的爱被回忆放大十倍"
+      },
+      {
+        "ja": "僕等は愛と感じるんだ",
+        "zh": "我们会把它感受为爱"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜と感じる",
+        "zh": "感到是…",
+        "note": "用引用助词「と」标记感受的内容。",
+        "wordId": "kokoro"
+      },
+      {
+        "ja": "〜んだ",
+        "zh": "是因为…；就是…",
+        "note": "「のだ」的口语形式，用于说明或强调。",
+        "wordId": "koi"
+      }
+    ],
+    "words": [
+      "koi",
+      "kokoro"
+    ],
+    "sourceNo": 85,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/37711.html"
+      }
+    ]
+  },
+  {
+    "id": "chuu-de-oyasumi",
+    "title": "宙でおやすみ",
+    "romajiTitle": "Chuu de Oyasumi",
+    "artist": "Aiobahn feat. 長瀬有花",
+    "producer": "にゃるら（作詞）・Aiobahn（作曲）",
+    "year": 2023,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "聞こえますか 星の声",
+        "zh": "能听见吗，星星的声音"
+      },
+      {
+        "ja": "蝶の羽根で おやすみなさい",
+        "zh": "在蝴蝶的翅膀上说晚安"
+      }
+    ],
+    "points": [
+      {
+        "ja": "聞こえますか",
+        "zh": "能听见吗",
+        "note": "「聞こえる」表示声音自然进入耳中。",
+        "wordId": "hoshi"
+      },
+      {
+        "ja": "おやすみなさい",
+        "zh": "晚安",
+        "note": "睡前使用的固定寒暄语。",
+        "wordId": "oyasumi"
+      }
+    ],
+    "words": [
+      "hoshi",
+      "oyasumi"
+    ],
+    "sourceNo": 131,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "Aiobahn 官方 Bandcamp",
+        "url": "https://aiobahn.bandcamp.com/album/feat"
+      }
+    ]
+  },
+  {
+    "id": "towa-no-utage",
+    "title": "永久の宴",
+    "romajiTitle": "Towa no Utage",
+    "artist": "Aiobahn feat. YUC’e",
+    "producer": "YUC’e（作詞・作曲）",
+    "year": 2016,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "今宵も宴は続いて",
+        "zh": "今夜宴会仍在继续"
+      },
+      {
+        "ja": "貴方と一緒にいたい",
+        "zh": "想和你在一起"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜は続いて",
+        "zh": "…继续着",
+        "note": "「続く」的て形连接后续状态。",
+        "wordId": "yoru"
+      },
+      {
+        "ja": "〜と一緒にいたい",
+        "zh": "想和…在一起",
+        "note": "「たい」接动词连用形表达愿望。",
+        "wordId": "tomodachi"
+      }
+    ],
+    "words": [
+      "yoru",
+      "tomodachi"
+    ],
+    "sourceNo": 134,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "YUC’e 官方作品页",
+        "url": "https://yyucee.wixsite.com/yuce/works"
+      }
+    ]
+  },
+  {
+    "id": "paradox-hanakyo",
+    "title": "paradøx",
+    "romajiTitle": "Paradox",
+    "artist": "花鋏キョウ",
+    "producer": "ポリスピカデリー（作詞・作曲）",
+    "year": 2019,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "互いに誤魔化していたよ",
+        "zh": "彼此一直在蒙混掩饰"
+      },
+      {
+        "ja": "似たもの同士わかり合いたいだけ",
+        "zh": "相似的两个人只是想互相理解"
+      }
+    ],
+    "points": [
+      {
+        "ja": "互いに",
+        "zh": "彼此；互相",
+        "note": "副词性表达，表示双方相互作用。",
+        "wordId": "tomodachi"
+      },
+      {
+        "ja": "〜たいだけ",
+        "zh": "只是想…",
+        "note": "「たい」表达愿望，「だけ」限定范围。",
+        "wordId": "kokoro"
+      }
+    ],
+    "words": [
+      "tomodachi",
+      "kokoro"
+    ],
+    "sourceNo": 150,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "官方 MV",
+        "url": "https://www.youtube.com/watch?v=uQ0r3pXPYFE"
+      }
+    ]
+  },
+  {
+    "id": "three-queens",
+    "title": "スリークイーンズ ～吸血女王伝～",
+    "romajiTitle": "Three Queens: Kyuuketsu Joouden",
+    "artist": "初音ミク / 鏡音リン / 巡音ルカ / KAITO",
+    "producer": "いーえるP @ TinySymphony（作詞・作曲）",
+    "year": 2011,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "霧に閉ざされた城に",
+        "zh": "在被雾封闭的城堡里"
+      },
+      {
+        "ja": "美しき三人の王女が住まう",
+        "zh": "住着三位美丽的公主"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜に閉ざされた",
+        "zh": "被…封闭的",
+        "note": "被动形过去式修饰后面的名词。",
+        "wordId": "hikari"
+      },
+      {
+        "ja": "美しき",
+        "zh": "美丽的",
+        "note": "文语形，现代口语通常说「美しい」。",
+        "wordId": "utsukushii"
+      }
+    ],
+    "words": [
+      "hikari",
+      "utsukushii"
+    ],
+    "sourceNo": 174,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/14035.html"
+      }
+    ]
+  },
+  {
+    "id": "koi-no-sainou",
+    "title": "恋の才能",
+    "romajiTitle": "Koi no Sainou",
+    "artist": "初音ミクAppend Dark",
+    "producer": "とあ（作詞・作曲）",
+    "year": 2014,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "キラキラした君が大好きです",
+        "zh": "最喜欢闪闪发光的你"
+      },
+      {
+        "ja": "恋の才能なんてないよ",
+        "zh": "我并没有什么恋爱的才能"
+      }
+    ],
+    "points": [
+      {
+        "ja": "大好きです",
+        "zh": "非常喜欢",
+        "note": "「好き」前加「大」表示很喜欢。",
+        "wordId": "koi"
+      },
+      {
+        "ja": "〜なんてない",
+        "zh": "才没有什么…",
+        "note": "「なんて」带有轻视、意外或强调语气。",
+        "wordId": "kokoro"
+      }
+    ],
+    "words": [
+      "koi",
+      "kokoro"
+    ],
+    "sourceNo": 177,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/30921.html"
+      }
+    ]
+  },
+  {
+    "id": "hansei-koukai-nashi",
+    "title": "反省はしていない、そして後悔もしていない。",
+    "romajiTitle": "Hansei wa Shiteinai, Soshite Koukai mo Shiteinai",
+    "artist": "重音テト",
+    "producer": "青谷（作詞・作曲）",
+    "project": "UTAU",
+    "excerpt": [
+      {
+        "ja": "今を生きてはいるが",
+        "zh": "虽然活在当下"
+      },
+      {
+        "ja": "良くない！けど悪くはないか！",
+        "zh": "是不太好！但也不算坏吧！"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜てはいる",
+        "zh": "确实在…；虽在…",
+        "note": "在持续状态上添加对比或限定语感。",
+        "wordId": "ima"
+      },
+      {
+        "ja": "〜けど",
+        "zh": "但是；不过",
+        "note": "口语转折，也可把后半句留给听者推断。",
+        "wordId": "yabai"
+      }
+    ],
+    "words": [
+      "ima",
+      "yabai"
+    ],
+    "sourceNo": 196,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "UtaTen",
+        "url": "https://utaten.com/lyric/rq20100707/"
+      }
+    ]
+  },
+  {
+    "id": "deepstaria-enigmatica",
+    "title": "ディープスタリア・エニグマティカ",
+    "romajiTitle": "Deepstaria Enigmatica",
+    "artist": "flower",
+    "producer": "軽井さん（作詞・作曲）",
+    "year": 2021,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "僕らの信号を分かり合っていられるの？",
+        "zh": "我们还能理解彼此的信号吗？"
+      },
+      {
+        "ja": "不規則な光の中で",
+        "zh": "在不规则的光芒之中"
+      }
+    ],
+    "points": [
+      {
+        "ja": "分かり合う",
+        "zh": "互相理解",
+        "note": "动词连用形加「合う」表示相互进行。",
+        "wordId": "tomodachi"
+      },
+      {
+        "ja": "〜の中で",
+        "zh": "在…之中",
+        "note": "表示动作或状态所在的范围。",
+        "wordId": "hikari"
+      }
+    ],
+    "words": [
+      "tomodachi",
+      "hikari"
+    ],
+    "sourceNo": 197,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "官方 MV",
+        "url": "https://www.youtube.com/watch?v=cCGDnCkNzow"
+      }
+    ]
+  },
+  {
+    "id": "instant-love-lapriere",
+    "title": "Instant Love",
+    "romajiTitle": "Instant Love",
+    "artist": "La prière",
+    "producer": "棗いつき（作詞）・aran（作曲）",
+    "year": 2021,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "損得勘定論 割り切ってリサーチ＆サーチ",
+        "zh": "权衡得失，干脆地调查和搜索"
+      },
+      {
+        "ja": "インスタントな愛がほしいの",
+        "zh": "我想要即时的爱"
+      }
+    ],
+    "points": [
+      {
+        "ja": "割り切って",
+        "zh": "想开后；干脆地",
+        "note": "「割り切る」的て形，在这里连接后续动作。",
+        "wordId": "koi"
+      },
+      {
+        "ja": "〜がほしい",
+        "zh": "想要…",
+        "note": "用助词「が」标记想要的对象。",
+        "wordId": "kokoro"
+      }
+    ],
+    "words": [
+      "koi",
+      "kokoro"
+    ],
+    "sourceNo": 31,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "La prière 官方作品页",
+        "url": "https://lapriere.jp/information/discographys/instant-love"
+      }
+    ]
+  },
+  {
+    "id": "heroine-pikasonic",
+    "title": "ヒロイン",
+    "romajiTitle": "Heroine",
+    "artist": "PIKASONIC / nakotanmaru",
+    "producer": "nakotanmaru（作詞）・PIKASONIC（作曲）",
+    "year": 2022,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "僕はいつも 不器用な笑みを",
+        "zh": "我总是露出笨拙的笑容"
+      },
+      {
+        "ja": "この歌に乗せてみるよ",
+        "zh": "试着把它寄托在这首歌里"
+      }
+    ],
+    "points": [
+      {
+        "ja": "僕はいつも",
+        "zh": "我总是…",
+        "note": "「いつも」表示动作或状态经常发生。",
+        "wordId": "jibun"
+      },
+      {
+        "ja": "〜てみる",
+        "zh": "试着…",
+        "note": "动词て形加「みる」表示尝试。",
+        "wordId": "uta"
+      }
+    ],
+    "words": [
+      "jibun",
+      "uta"
+    ],
+    "sourceNo": 82,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "TuneCore Japan",
+        "url": "https://linkco.re/Vx6QmSqX/songs/1831143/lyrics?lang=ja"
+      }
+    ]
+  },
+  {
+    "id": "kanojo-wa-tabi-ni-deru",
+    "title": "彼女は旅に出る",
+    "romajiTitle": "Kanojo wa Tabi ni Deru",
+    "artist": "鎖那",
+    "producer": "鎖那（作詞・作曲）",
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "白昼夢 繋いでいて",
+        "zh": "请让白日梦延续着"
+      },
+      {
+        "ja": "どこへいこう どこへいこう",
+        "zh": "要去哪里呢，要去哪里呢"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜ていて",
+        "zh": "请保持…",
+        "note": "て形加「いる」表示持续状态；此处带请求语气。",
+        "wordId": "yume"
+      },
+      {
+        "ja": "〜へいこう",
+        "zh": "去往…吧",
+        "note": "方向助词「へ」加「行く」的意志形。",
+        "wordId": "iku"
+      }
+    ],
+    "words": [
+      "yume",
+      "iku"
+    ],
+    "sourceNo": 209,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "J-Lyric",
+        "url": "https://j-lyric.net/artist/a05d6c1/l0431b5.html"
+      }
+    ]
+  },
+  {
+    "id": "utopia-tayori",
+    "title": "ユートピア",
+    "romajiTitle": "Utopia",
+    "artist": "tayori",
+    "producer": "raku（作詞・作曲）",
+    "year": 2024,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "波が攫うつま先",
+        "zh": "海浪掠过脚尖"
+      },
+      {
+        "ja": "それはまるでおとぎ話のよう",
+        "zh": "那简直就像童话一样"
+      }
+    ],
+    "points": [
+      {
+        "ja": "まるで〜よう",
+        "zh": "简直像…一样",
+        "note": "常与比况表达「ようだ」搭配。",
+        "wordId": "yume"
+      },
+      {
+        "ja": "〜てしまえたら",
+        "zh": "如果能够彻底…",
+        "note": "「てしまう」的可能形加假定「たら」。",
+        "wordId": "kokoro"
+      }
+    ],
+    "words": [
+      "yume",
+      "kokoro"
+    ],
+    "sourceNo": 156,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/380479/"
+      }
+    ]
+  },
+  {
+    "id": "shiva-heaven-burns-red",
+    "title": "シヴァ",
+    "romajiTitle": "Shiva",
+    "artist": "やなぎなぎ",
+    "producer": "麻枝准（作詞・作曲）・MANYO（編曲）",
+    "year": 2023,
+    "project": "游戏歌曲",
+    "excerpt": [
+      {
+        "ja": "何かが起きそうで何も起きなくて",
+        "zh": "仿佛会发生什么，却什么也没发生"
+      },
+      {
+        "ja": "ひとりでも世界を変えてみせる",
+        "zh": "即使独自一人也一定要改变世界"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜そうで",
+        "zh": "看起来像要…",
+        "note": "动词ます形去「ます」加「そう」表示样态。",
+        "wordId": "sekai"
+      },
+      {
+        "ja": "〜てみせる",
+        "zh": "一定要做给人看",
+        "note": "表达说话人的强烈意志或决心。",
+        "wordId": "jibun"
+      }
+    ],
+    "words": [
+      "sekai",
+      "jibun"
+    ],
+    "sourceNo": 227,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "TuneCore Japan",
+        "url": "https://linkco.re/Ty8RFb36/songs/2222293/lyrics?lang=ja"
+      }
+    ]
+  },
+  {
+    "id": "x-taira-aoi",
+    "title": "x",
+    "romajiTitle": "X",
+    "artist": "平葵",
+    "producer": "タイラトシユキ（作詞）・平葵 / タイラトシユキ / 小唄（作曲）",
+    "year": 2025,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "夢なんて見せないでよ",
+        "zh": "别让我看什么梦想了"
+      },
+      {
+        "ja": "昔も今もずっと絵空事で",
+        "zh": "无论过去还是现在都一直只是幻想"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜なんて",
+        "zh": "什么…之类的",
+        "note": "把话题举出，并带有轻视或强烈感情色彩。",
+        "wordId": "yume"
+      },
+      {
+        "ja": "〜ないで",
+        "zh": "不要…",
+        "note": "否定形加「で」可表达禁止或不做某事。",
+        "wordId": "ima"
+      }
+    ],
+    "words": [
+      "yume",
+      "ima"
+    ],
+    "sourceNo": 32,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "TuneCore Japan",
+        "url": "https://linkco.re/8E099S89/songs/4134579/lyrics?lang=ja"
+      }
+    ]
+  },
+  {
+    "id": "cheer-up-hearts-up",
+    "title": "CHEER UP! HEARTS UP!",
+    "romajiTitle": "Cheer Up! Hearts Up!",
+    "artist": "望月杏奈 / 矢吹可奈 / 天海春香 / ジュリア",
+    "producer": "nobara kaede（作詞）・渡辺泰司（作曲）",
+    "year": 2022,
+    "project": "游戏歌曲",
+    "excerpt": [
+      {
+        "ja": "輝くキミが好き",
+        "zh": "喜欢闪闪发光的你"
+      },
+      {
+        "ja": "大丈夫！自分信じて",
+        "zh": "没问题！相信自己"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜が好き",
+        "zh": "喜欢…",
+        "note": "用助词「が」标记喜欢的对象。",
+        "wordId": "koi"
+      },
+      {
+        "ja": "自分信じて",
+        "zh": "相信自己",
+        "note": "口语歌词省略了宾语助词「を」。",
+        "wordId": "jibun"
+      }
+    ],
+    "words": [
+      "koi",
+      "jibun"
+    ],
+    "sourceNo": 99,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/320883/"
+      }
+    ]
+  },
+  {
+    "id": "koibito-o-uchiotoshita-hi",
+    "title": "恋人を射ち堕とした日",
+    "romajiTitle": "Koibito o Uchiotoshita Hi",
+    "artist": "Sound Horizon",
+    "producer": "Revo（作詞・作曲）",
+    "year": 2004,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "遠い日の忘れ物",
+        "zh": "遥远往日的遗忘之物"
+      },
+      {
+        "ja": "愛する人を失った世界には",
+        "zh": "在失去了所爱之人的世界里"
+      }
+    ],
+    "points": [
+      {
+        "ja": "愛する人",
+        "zh": "所爱之人",
+        "note": "动词普通形直接修饰后面的名词。",
+        "wordId": "koi"
+      },
+      {
+        "ja": "〜を失った",
+        "zh": "失去了…",
+        "note": "他动词「失う」的过去形。",
+        "wordId": "sekai"
+      }
+    ],
+    "words": [
+      "koi",
+      "sekai"
+    ],
+    "sourceNo": 129,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "歌ネット",
+        "url": "https://www.uta-net.com/song/103057/"
+      }
+    ]
+  },
+  {
+    "id": "kamippoi-na",
+    "title": "神っぽいな",
+    "romajiTitle": "Kamippoi na",
+    "artist": "初音ミク",
+    "producer": "ピノキオピー（作詞・作曲）",
+    "year": 2021,
+    "project": "VOCALOID",
+    "excerpt": [
+      {
+        "ja": "愛のネタバレ 「別れ」っぽいな",
+        "zh": "爱的剧透，像是“离别”呢"
+      },
+      {
+        "ja": "それっぽい単語集で踊ってんだ",
+        "zh": "用那些似是而非的词汇跳着舞"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜っぽい",
+        "zh": "像…；有…感觉",
+        "note": "接名词或词干，表示带有某种倾向或感觉。",
+        "wordId": "koi"
+      },
+      {
+        "ja": "踊ってんだ",
+        "zh": "正在跳舞啊",
+        "note": "「踊っているんだ」的口语缩略。",
+        "wordId": "odoru"
+      }
+    ],
+    "words": [
+      "koi",
+      "odoru"
+    ],
+    "sourceNo": 117,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "初音ミク Wiki",
+        "url": "https://w.atwiki.jp/hmiku/pages/45336.html"
+      }
+    ]
+  },
+  {
+    "id": "heat-waves-japanese-lime",
+    "title": "Heat Waves (Japanese Version)",
+    "romajiTitle": "Heat Waves (Japanese Version)",
+    "artist": "Lime",
+    "producer": "Dave Bayley（原作詞・作曲）・Tokyo Cabin（日本語詞）",
+    "year": 2022,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "思い浮かぶの 君ばかり",
+        "zh": "脑中浮现的净是你"
+      },
+      {
+        "ja": "初夏0時 過ぎたばかり",
+        "zh": "初夏的零点刚过"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜ばかり",
+        "zh": "净是…；刚刚…",
+        "note": "可表示限定，也可接过去形表示动作刚发生。",
+        "wordId": "natsu"
+      },
+      {
+        "ja": "思い浮かぶ",
+        "zh": "浮现在脑海",
+        "note": "「思い」与「浮かぶ」构成的复合动词。",
+        "wordId": "kokoro"
+      }
+    ],
+    "words": [
+      "natsu",
+      "kokoro"
+    ],
+    "sourceNo": 8,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "官方音源",
+        "url": "https://www.youtube.com/watch?v=5jbjN0Ai9X4"
+      }
+    ]
+  },
+  {
+    "id": "sea-of-stars-aozorafantasii",
+    "title": "Sea Of Stars",
+    "romajiTitle": "Sea of Stars",
+    "artist": "aozorafantasii",
+    "producer": "aozorafantasii（作詞・作曲）",
+    "year": 2010,
+    "project": "J-POP",
+    "excerpt": [
+      {
+        "ja": "離れ離れになりたくない",
+        "zh": "不想彼此分离"
+      },
+      {
+        "ja": "ただ前を見れば",
+        "zh": "只要向前看"
+      }
+    ],
+    "points": [
+      {
+        "ja": "〜たくない",
+        "zh": "不想…",
+        "note": "动词「たい」形的否定。",
+        "wordId": "kokoro"
+      },
+      {
+        "ja": "〜ば",
+        "zh": "如果…；只要…",
+        "note": "动词假定形，表示条件。",
+        "wordId": "mirai"
+      }
+    ],
+    "words": [
+      "kokoro",
+      "mirai"
+    ],
+    "sourceNo": 16,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "OTOTOY 官方商店页",
+        "url": "https://ototoy.jp/_/default/p/14032"
+      }
+    ]
+  },
+  {
+    "id": "etoile-mementomori",
+    "title": "Étoile",
+    "romajiTitle": "Etoile",
+    "artist": "霜月はるか",
+    "producer": "Bank of Innovation, Inc.（作詞・作曲）",
+    "year": 2023,
+    "project": "游戏歌曲",
+    "excerpt": [
+      {
+        "ja": "ありのまま生きるわ",
+        "zh": "我要按真实的自己活下去"
+      },
+      {
+        "ja": "終わりはきっと 光の中にある",
+        "zh": "结局一定就在光芒之中"
+      }
+    ],
+    "points": [
+      {
+        "ja": "ありのまま",
+        "zh": "如实；保持本来的样子",
+        "note": "固定表达，表示不加掩饰或改变。",
+        "wordId": "jibun"
+      },
+      {
+        "ja": "〜の中にある",
+        "zh": "在…之中",
+        "note": "用「に」标记事物存在的位置。",
+        "wordId": "hikari"
+      }
+    ],
+    "words": [
+      "jibun",
+      "hikari"
+    ],
+    "sourceNo": 145,
+    "lyricsStatus": "complete",
+    "sources": [
+      {
+        "label": "UtaTen",
+        "url": "https://utaten.com/lyric/mi24120454/"
       }
     ]
   }
